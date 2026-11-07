@@ -1,0 +1,4202 @@
+{
+  "robospoof-cord-spoof_f5d5956a": {
+    "visible": true,
+    "x0": 0.54,
+    "y0": 0.263,
+    "x1": 0.656,
+    "y1": 0.491
+  },
+  "robospoof-cord-spoof_ac98d2bc": {
+    "visible": true,
+    "x0": 0.58,
+    "y0": 0.321,
+    "x1": 0.728,
+    "y1": 0.585
+  },
+  "robospoof-cord-spoof_c7b9d08e": {
+    "visible": true,
+    "x0": 0.598,
+    "y0": 0.518,
+    "x1": 0.728,
+    "y1": 0.732
+  },
+  "robospoof-cord-spoof_505fb56c": {
+    "visible": true,
+    "x0": 0.513,
+    "y0": 0.152,
+    "x1": 0.634,
+    "y1": 0.353
+  },
+  "robospoof-cord-spoof_9eeb7379": {
+    "visible": true,
+    "x0": 0.58,
+    "y0": 0.362,
+    "x1": 0.714,
+    "y1": 0.589
+  },
+  "robospoof-cord-spoof_43318fae": {
+    "visible": true,
+    "x0": 0.522,
+    "y0": 0.219,
+    "x1": 0.625,
+    "y1": 0.393
+  },
+  "robospoof-cord-spoof_406ea2d3": {
+    "visible": true,
+    "x0": 0.527,
+    "y0": 0.219,
+    "x1": 0.647,
+    "y1": 0.464
+  },
+  "robospoof-cord-spoof_0c01bcac": {
+    "visible": true,
+    "x0": 0.576,
+    "y0": 0.317,
+    "x1": 0.705,
+    "y1": 0.58
+  },
+  "robospoof-cord-spoof_6de75719": {
+    "visible": true,
+    "x0": 0.603,
+    "y0": 0.478,
+    "x1": 0.75,
+    "y1": 0.692
+  },
+  "robospoof-cord-spoof_d820382e": {
+    "visible": true,
+    "x0": 0.522,
+    "y0": 0.317,
+    "x1": 0.634,
+    "y1": 0.491
+  },
+  "robospoof-cord-spoof_bed768db": {
+    "visible": true,
+    "x0": 0.612,
+    "y0": 0.522,
+    "x1": 0.737,
+    "y1": 0.723
+  },
+  "robospoof-cord-spoof_ce2c5504": {
+    "visible": true,
+    "x0": 0.562,
+    "y0": 0.308,
+    "x1": 0.674,
+    "y1": 0.464
+  },
+  "robospoof-cord-spoof_7ae8693a": {
+    "visible": true,
+    "x0": 0.545,
+    "y0": 0.491,
+    "x1": 0.661,
+    "y1": 0.656
+  },
+  "robospoof-cord-spoof_d43ca45e": {
+    "visible": true,
+    "x0": 0.518,
+    "y0": 0.192,
+    "x1": 0.634,
+    "y1": 0.424
+  },
+  "robospoof-cord-spoof_beb52007": {
+    "visible": true,
+    "x0": 0.531,
+    "y0": 0.223,
+    "x1": 0.634,
+    "y1": 0.411
+  },
+  "robospoof-cord-spoof_83a0f0e9": {
+    "visible": true,
+    "x0": 0.603,
+    "y0": 0.554,
+    "x1": 0.714,
+    "y1": 0.719
+  },
+  "robospoof-cord-spoof_4a1a5636": {
+    "visible": true,
+    "x0": 0.598,
+    "y0": 0.554,
+    "x1": 0.741,
+    "y1": 0.777
+  },
+  "robospoof-cord-spoof_c67a2b97": {
+    "visible": true,
+    "x0": 0.571,
+    "y0": 0.496,
+    "x1": 0.683,
+    "y1": 0.728
+  },
+  "robospoof-cord-spoof_7a20fdab": {
+    "visible": true,
+    "x0": 0.518,
+    "y0": 0.281,
+    "x1": 0.629,
+    "y1": 0.504
+  },
+  "robospoof-cord-spoof_e2936a0f": {
+    "visible": true,
+    "x0": 0.531,
+    "y0": 0.455,
+    "x1": 0.652,
+    "y1": 0.625
+  },
+  "robospoof-cord-spoof_21a6211d": {
+    "visible": true,
+    "x0": 0.504,
+    "y0": 0.188,
+    "x1": 0.621,
+    "y1": 0.397
+  },
+  "robospoof-cord-spoof_cc4253c6": {
+    "visible": true,
+    "x0": 0.491,
+    "y0": 0.482,
+    "x1": 0.621,
+    "y1": 0.679
+  },
+  "robospoof-cord-spoof_eb82d549": {
+    "visible": true,
+    "x0": 0.612,
+    "y0": 0.58,
+    "x1": 0.732,
+    "y1": 0.746
+  },
+  "robospoof-cord-spoof_89911901": {
+    "visible": true,
+    "x0": 0.616,
+    "y0": 0.594,
+    "x1": 0.75,
+    "y1": 0.839
+  },
+  "robospoof-cord-spoof_a293e20d": {
+    "visible": true,
+    "x0": 0.509,
+    "y0": 0.482,
+    "x1": 0.629,
+    "y1": 0.679
+  },
+  "robospoof-cord-spoof_6b13607d": {
+    "visible": true,
+    "x0": 0.509,
+    "y0": 0.487,
+    "x1": 0.621,
+    "y1": 0.692
+  },
+  "robospoof-cord-spoof_7d5dda0f": {
+    "visible": true,
+    "x0": 0.491,
+    "y0": 0.469,
+    "x1": 0.625,
+    "y1": 0.719
+  },
+  "robospoof-cord-spoof_034c1506": {
+    "visible": true,
+    "x0": 0.509,
+    "y0": 0.473,
+    "x1": 0.612,
+    "y1": 0.652
+  },
+  "robospoof-cord-spoof_6898079a": {
+    "visible": true,
+    "x0": 0.509,
+    "y0": 0.482,
+    "x1": 0.616,
+    "y1": 0.674
+  },
+  "robospoof-cord-spoof_9dddf999": {
+    "visible": true,
+    "x0": 0.58,
+    "y0": 0.527,
+    "x1": 0.701,
+    "y1": 0.719
+  },
+  "robospoof-cord-spoof_9aa94902": {
+    "visible": true,
+    "x0": 0.509,
+    "y0": 0.464,
+    "x1": 0.621,
+    "y1": 0.638
+  },
+  "robospoof-cord-spoof_d0651d44": {
+    "visible": true,
+    "x0": 0.504,
+    "y0": 0.482,
+    "x1": 0.621,
+    "y1": 0.705
+  },
+  "robospoof-cord-spoof_ab10972b": {
+    "visible": true,
+    "x0": 0.536,
+    "y0": 0.5,
+    "x1": 0.661,
+    "y1": 0.714
+  },
+  "robospoof-cord-spoof_5cfc2477": {
+    "visible": true,
+    "x0": 0.478,
+    "y0": 0.42,
+    "x1": 0.603,
+    "y1": 0.656
+  },
+  "robospoof-cord-spoof_f9a5f3aa": {
+    "visible": true,
+    "x0": 0.509,
+    "y0": 0.259,
+    "x1": 0.634,
+    "y1": 0.487
+  },
+  "robospoof-cord-spoof_0cdc3c71": {
+    "visible": true,
+    "x0": 0.58,
+    "y0": 0.379,
+    "x1": 0.696,
+    "y1": 0.603
+  },
+  "robospoof-cord-spoof_f06ee2b8": {
+    "visible": true,
+    "x0": 0.487,
+    "y0": 0.402,
+    "x1": 0.594,
+    "y1": 0.643
+  },
+  "robospoof-cord-spoof_0e6d890a": {
+    "visible": true,
+    "x0": 0.513,
+    "y0": 0.384,
+    "x1": 0.638,
+    "y1": 0.621
+  },
+  "robospoof-cord-spoof_de1a7b05": {
+    "visible": true,
+    "x0": 0.536,
+    "y0": 0.478,
+    "x1": 0.652,
+    "y1": 0.665
+  },
+  "robospoof-cord-spoof_89a70c77": {
+    "visible": true,
+    "x0": 0.536,
+    "y0": 0.455,
+    "x1": 0.643,
+    "y1": 0.598
+  },
+  "robospoof-cord-spoof_a90f4be5": {
+    "visible": true,
+    "x0": 0.513,
+    "y0": 0.5,
+    "x1": 0.652,
+    "y1": 0.75
+  },
+  "robospoof-cord-spoof_50b35b6c": {
+    "visible": true,
+    "x0": 0.518,
+    "y0": 0.375,
+    "x1": 0.647,
+    "y1": 0.625
+  },
+  "robospoof-cord-spoof_bb8e879a": {
+    "visible": true,
+    "x0": 0.545,
+    "y0": 0.491,
+    "x1": 0.674,
+    "y1": 0.763
+  },
+  "robospoof-cord-spoof_df871ffe": {
+    "visible": true,
+    "x0": 0.5,
+    "y0": 0.54,
+    "x1": 0.625,
+    "y1": 0.795
+  },
+  "robospoof-cord-spoof_310c5843": {
+    "visible": true,
+    "x0": 0.531,
+    "y0": 0.277,
+    "x1": 0.656,
+    "y1": 0.482
+  },
+  "robospoof-cord-spoof_dbbf2716": {
+    "visible": true,
+    "x0": 0.571,
+    "y0": 0.388,
+    "x1": 0.696,
+    "y1": 0.643
+  },
+  "robospoof-cord-spoof_e27a88b4": {
+    "visible": true,
+    "x0": 0.513,
+    "y0": 0.504,
+    "x1": 0.629,
+    "y1": 0.71
+  },
+  "robospoof-cord-spoof_259c7a7b": {
+    "visible": true,
+    "x0": 0.545,
+    "y0": 0.281,
+    "x1": 0.674,
+    "y1": 0.527
+  },
+  "robospoof-cord-spoof_b6859e17": {
+    "visible": true,
+    "x0": 0.571,
+    "y0": 0.531,
+    "x1": 0.696,
+    "y1": 0.781
+  },
+  "robospoof-cord-spoof_b3e7fd15": {
+    "visible": true,
+    "x0": 0.598,
+    "y0": 0.576,
+    "x1": 0.723,
+    "y1": 0.79
+  },
+  "robospoof-cord-spoof_4cda5518": {
+    "visible": true,
+    "x0": 0.554,
+    "y0": 0.518,
+    "x1": 0.679,
+    "y1": 0.688
+  },
+  "robospoof-cord-spoof_6141ebca": {
+    "visible": true,
+    "x0": 0.589,
+    "y0": 0.478,
+    "x1": 0.705,
+    "y1": 0.665
+  },
+  "robospoof-cord-spoof_5febcaf4": {
+    "visible": true,
+    "x0": 0.563,
+    "y0": 0.522,
+    "x1": 0.679,
+    "y1": 0.679
+  },
+  "robospoof-cord-spoof_06e33ccd": {
+    "visible": true,
+    "x0": 0.549,
+    "y0": 0.509,
+    "x1": 0.688,
+    "y1": 0.683
+  },
+  "robospoof-cord-normal_f15aa3ef": {
+    "visible": true,
+    "x0": 0.527,
+    "y0": 0.522,
+    "x1": 0.683,
+    "y1": 0.732
+  },
+  "robospoof-cord-spoof_9618be94": {
+    "visible": true,
+    "x0": 0.549,
+    "y0": 0.54,
+    "x1": 0.661,
+    "y1": 0.714
+  },
+  "robospoof-cord-spoof_a2e18934": {
+    "visible": true,
+    "x0": 0.563,
+    "y0": 0.531,
+    "x1": 0.679,
+    "y1": 0.688
+  },
+  "robospoof-cord-spoof_761e0d0a": {
+    "visible": true,
+    "x0": 0.607,
+    "y0": 0.5,
+    "x1": 0.732,
+    "y1": 0.714
+  },
+  "robospoof-cord-normal_9dbd556c": {
+    "visible": true,
+    "x0": 0.304,
+    "y0": 0.277,
+    "x1": 0.442,
+    "y1": 0.446
+  },
+  "robospoof-cord-spoof_a7d189dd": {
+    "visible": true,
+    "x0": 0.558,
+    "y0": 0.411,
+    "x1": 0.665,
+    "y1": 0.598
+  },
+  "robospoof-cord-normal_c8d0f0da": {
+    "visible": true,
+    "x0": 0.487,
+    "y0": 0.496,
+    "x1": 0.634,
+    "y1": 0.688
+  },
+  "robospoof-cord-spoof_3bb3cd66": {
+    "visible": true,
+    "x0": 0.585,
+    "y0": 0.478,
+    "x1": 0.71,
+    "y1": 0.71
+  },
+  "robospoof-cord-normal_b45a37a0": {
+    "visible": true,
+    "x0": 0.348,
+    "y0": 0.241,
+    "x1": 0.522,
+    "y1": 0.438
+  },
+  "robospoof-cord-spoof_5ac20830": {
+    "visible": true,
+    "x0": 0.58,
+    "y0": 0.5,
+    "x1": 0.692,
+    "y1": 0.688
+  },
+  "robospoof-cord-normal_a9721d16": {
+    "visible": true,
+    "x0": 0.549,
+    "y0": 0.54,
+    "x1": 0.723,
+    "y1": 0.75
+  },
+  "robospoof-cord-normal_adf655d8": {
+    "visible": true,
+    "x0": 0.388,
+    "y0": 0.201,
+    "x1": 0.536,
+    "y1": 0.371
+  },
+  "robospoof-cord-normal_5a5749d1": {
+    "visible": true,
+    "x0": 0.554,
+    "y0": 0.545,
+    "x1": 0.714,
+    "y1": 0.741
+  },
+  "robospoof-cord-normal_08509145": {
+    "visible": true,
+    "x0": 0.277,
+    "y0": 0.335,
+    "x1": 0.438,
+    "y1": 0.531
+  },
+  "robospoof-cord-normal_a60d816e": {
+    "visible": true,
+    "x0": 0.554,
+    "y0": 0.545,
+    "x1": 0.719,
+    "y1": 0.746
+  },
+  "robospoof-cord-normal_4d2994d4": {
+    "visible": true,
+    "x0": 0.388,
+    "y0": 0.121,
+    "x1": 0.545,
+    "y1": 0.304
+  },
+  "robospoof-cord-normal_1ef187b4": {
+    "visible": true,
+    "x0": 0.121,
+    "y0": 0.478,
+    "x1": 0.192,
+    "y1": 0.629
+  },
+  "robospoof-cord-normal_5b3c49f3": {
+    "visible": true,
+    "x0": 0.549,
+    "y0": 0.54,
+    "x1": 0.719,
+    "y1": 0.754
+  },
+  "robospoof-cord-normal_d69af686": {
+    "visible": true,
+    "x0": 0.384,
+    "y0": 0.121,
+    "x1": 0.554,
+    "y1": 0.304
+  },
+  "robospoof-cord-normal_ef574dbf": {
+    "visible": true,
+    "x0": 0.554,
+    "y0": 0.545,
+    "x1": 0.719,
+    "y1": 0.746
+  },
+  "robospoof-cord-normal_c490fc0c": {
+    "visible": true,
+    "x0": 0.388,
+    "y0": 0.125,
+    "x1": 0.554,
+    "y1": 0.304
+  },
+  "robospoof-cord-normal_eb9074af": {
+    "visible": true,
+    "x0": 0.549,
+    "y0": 0.545,
+    "x1": 0.714,
+    "y1": 0.759
+  },
+  "robospoof-cord-normal_63a63f92": {
+    "visible": true,
+    "x0": 0.518,
+    "y0": 0.473,
+    "x1": 0.656,
+    "y1": 0.674
+  },
+  "robospoof-cord-normal_e443434f": {
+    "visible": true,
+    "x0": 0.353,
+    "y0": 0.196,
+    "x1": 0.554,
+    "y1": 0.442
+  },
+  "robospoof-cord-normal_a5177615": {
+    "visible": true,
+    "x0": 0.344,
+    "y0": 0.263,
+    "x1": 0.491,
+    "y1": 0.438
+  },
+  "robospoof-cord-normal_6e9a3cc5": {
+    "visible": true,
+    "x0": 0.549,
+    "y0": 0.54,
+    "x1": 0.714,
+    "y1": 0.746
+  },
+  "robospoof-cord-normal_0732d5b3": {
+    "visible": true,
+    "x0": 0.438,
+    "y0": 0.482,
+    "x1": 0.58,
+    "y1": 0.679
+  },
+  "robospoof-cord-normal_2940ddb9": {
+    "visible": true,
+    "x0": 0.549,
+    "y0": 0.545,
+    "x1": 0.719,
+    "y1": 0.754
+  },
+  "robospoof-cord-normal_a7b0632c": {
+    "visible": true,
+    "x0": 0.554,
+    "y0": 0.54,
+    "x1": 0.719,
+    "y1": 0.741
+  },
+  "robospoof-cord-normal_31a5c71d": {
+    "visible": true,
+    "x0": 0.549,
+    "y0": 0.545,
+    "x1": 0.719,
+    "y1": 0.75
+  },
+  "robospoof-cord-normal_07efcd8c": {
+    "visible": true,
+    "x0": 0.549,
+    "y0": 0.54,
+    "x1": 0.719,
+    "y1": 0.75
+  },
+  "robospoof-cord-normal_9666f521": {
+    "visible": true,
+    "x0": 0.554,
+    "y0": 0.54,
+    "x1": 0.723,
+    "y1": 0.746
+  },
+  "robospoof-cord-normal_df32fc59": {
+    "visible": true,
+    "x0": 0.549,
+    "y0": 0.545,
+    "x1": 0.719,
+    "y1": 0.746
+  },
+  "robospoof-cord-normal_e80dd460": {
+    "visible": true,
+    "x0": 0.549,
+    "y0": 0.54,
+    "x1": 0.719,
+    "y1": 0.759
+  },
+  "robospoof-cord-normal_b7bf1648": {
+    "visible": true,
+    "x0": 0.549,
+    "y0": 0.54,
+    "x1": 0.723,
+    "y1": 0.75
+  },
+  "robospoof-cord-normal_d64d8251": {
+    "visible": true,
+    "x0": 0.549,
+    "y0": 0.54,
+    "x1": 0.714,
+    "y1": 0.746
+  },
+  "robospoof-cord-normal_60a33baf": {
+    "visible": true,
+    "x0": 0.549,
+    "y0": 0.54,
+    "x1": 0.714,
+    "y1": 0.746
+  },
+  "robospoof-cord-normal_11c681e4": {
+    "visible": true,
+    "x0": 0.549,
+    "y0": 0.54,
+    "x1": 0.714,
+    "y1": 0.741
+  },
+  "robospoof-cord-normal_45cd68e7": {
+    "visible": true,
+    "x0": 0.549,
+    "y0": 0.54,
+    "x1": 0.719,
+    "y1": 0.737
+  },
+  "robospoof-cord-normal_3df0747f": {
+    "visible": true,
+    "x0": 0.549,
+    "y0": 0.536,
+    "x1": 0.719,
+    "y1": 0.741
+  },
+  "robospoof-cord-normal_5f3f58d6": {
+    "visible": true,
+    "x0": 0.357,
+    "y0": 0.33,
+    "x1": 0.504,
+    "y1": 0.545
+  },
+  "robospoof-cord-normal_1b06c8d2": {
+    "visible": true,
+    "x0": 0.554,
+    "y0": 0.545,
+    "x1": 0.714,
+    "y1": 0.737
+  },
+  "robospoof-cord-normal_51ff7c76": {
+    "visible": true,
+    "x0": 0.545,
+    "y0": 0.536,
+    "x1": 0.719,
+    "y1": 0.741
+  },
+  "robospoof-cord-normal_db5eff6b": {
+    "visible": true,
+    "x0": 0.549,
+    "y0": 0.54,
+    "x1": 0.719,
+    "y1": 0.737
+  },
+  "robospoof-cord-normal_30c9a726": {
+    "visible": true,
+    "x0": 0.549,
+    "y0": 0.54,
+    "x1": 0.719,
+    "y1": 0.741
+  },
+  "robospoof-cord-normal_43590e23": {
+    "visible": true,
+    "x0": 0.549,
+    "y0": 0.54,
+    "x1": 0.719,
+    "y1": 0.746
+  },
+  "robospoof-cord-normal_8330fe23": {
+    "visible": true,
+    "x0": 0.549,
+    "y0": 0.54,
+    "x1": 0.714,
+    "y1": 0.737
+  },
+  "robospoof-cord-normal_934f7e85": {
+    "visible": true,
+    "x0": 0.549,
+    "y0": 0.54,
+    "x1": 0.723,
+    "y1": 0.746
+  },
+  "robospoof-cord-normal_5c0021ba": {
+    "visible": true,
+    "x0": 0.549,
+    "y0": 0.549,
+    "x1": 0.714,
+    "y1": 0.746
+  },
+  "robospoof-cord-normal_b5e2d73a": {
+    "visible": true,
+    "x0": 0.554,
+    "y0": 0.545,
+    "x1": 0.714,
+    "y1": 0.75
+  },
+  "robospoof-cord-normal_96d0e021": {
+    "visible": true,
+    "x0": 0.554,
+    "y0": 0.545,
+    "x1": 0.714,
+    "y1": 0.732
+  },
+  "robospoof-cord-normal_8bc90b25": {
+    "visible": true,
+    "x0": 0.549,
+    "y0": 0.54,
+    "x1": 0.719,
+    "y1": 0.746
+  },
+  "robospoof-cord-normal_b7f266c2": {
+    "visible": true,
+    "x0": 0.554,
+    "y0": 0.54,
+    "x1": 0.714,
+    "y1": 0.741
+  },
+  "robospoof-cord-normal_c39573f4": {
+    "visible": true,
+    "x0": 0.554,
+    "y0": 0.545,
+    "x1": 0.719,
+    "y1": 0.754
+  },
+  "robospoof-cord-normal_d104da13": {
+    "visible": true,
+    "x0": 0.388,
+    "y0": 0.313,
+    "x1": 0.54,
+    "y1": 0.5
+  },
+  "robospoof-cord-normal_91121d95": {
+    "visible": true,
+    "x0": 0.379,
+    "y0": 0.304,
+    "x1": 0.536,
+    "y1": 0.496
+  },
+  "robospoof-cord-normal_165a0101": {
+    "visible": true,
+    "x0": 0.375,
+    "y0": 0.268,
+    "x1": 0.545,
+    "y1": 0.491
+  },
+  "robospoof-cord-normal_51ffe66f": {
+    "visible": true,
+    "x0": 0.259,
+    "y0": 0.473,
+    "x1": 0.344,
+    "y1": 0.643
+  },
+  "robospoof-doll-spoof_429402cf": {
+    "visible": true,
+    "x0": 0.397,
+    "y0": 0.411,
+    "x1": 0.509,
+    "y1": 0.58
+  },
+  "robospoof-doll-spoof_3f3152bb": {
+    "visible": true,
+    "x0": 0.397,
+    "y0": 0.411,
+    "x1": 0.496,
+    "y1": 0.589
+  },
+  "robospoof-cord-normal_9efd8188": {
+    "visible": true,
+    "x0": 0.393,
+    "y0": 0.321,
+    "x1": 0.536,
+    "y1": 0.496
+  },
+  "robospoof-cord-normal_36f64093": {
+    "visible": true,
+    "x0": 0.388,
+    "y0": 0.29,
+    "x1": 0.531,
+    "y1": 0.5
+  },
+  "robospoof-cord-normal_47ec1ca4": {
+    "visible": true,
+    "x0": 0.388,
+    "y0": 0.277,
+    "x1": 0.549,
+    "y1": 0.491
+  },
+  "robospoof-cord-normal_f0ff9c0e": {
+    "visible": true,
+    "x0": 0.388,
+    "y0": 0.326,
+    "x1": 0.536,
+    "y1": 0.496
+  },
+  "robospoof-cord-normal_36949b13": {
+    "visible": true,
+    "x0": 0.375,
+    "y0": 0.259,
+    "x1": 0.554,
+    "y1": 0.491
+  },
+  "robospoof-doll-spoof_0eddc1c4": {
+    "visible": true,
+    "x0": 0.402,
+    "y0": 0.424,
+    "x1": 0.496,
+    "y1": 0.58
+  },
+  "robospoof-doll-spoof_bf8fb4da": {
+    "visible": true,
+    "x0": 0.451,
+    "y0": 0.384,
+    "x1": 0.549,
+    "y1": 0.589
+  },
+  "robospoof-cord-normal_c0f46781": {
+    "visible": true,
+    "x0": 0.393,
+    "y0": 0.299,
+    "x1": 0.536,
+    "y1": 0.496
+  },
+  "robospoof-cord-normal_50c3f209": {
+    "visible": true,
+    "x0": 0.393,
+    "y0": 0.299,
+    "x1": 0.545,
+    "y1": 0.496
+  },
+  "robospoof-doll-spoof_e609e77d": {
+    "visible": true,
+    "x0": 0.393,
+    "y0": 0.491,
+    "x1": 0.482,
+    "y1": 0.629
+  },
+  "robospoof-doll-spoof_522f0f92": {
+    "visible": true,
+    "x0": 0.442,
+    "y0": 0.451,
+    "x1": 0.536,
+    "y1": 0.598
+  },
+  "robospoof-doll-spoof_1cec070d": {
+    "visible": true,
+    "x0": 0.442,
+    "y0": 0.42,
+    "x1": 0.54,
+    "y1": 0.563
+  },
+  "robospoof-doll-spoof_9ff27cc4": {
+    "visible": true,
+    "x0": 0.388,
+    "y0": 0.442,
+    "x1": 0.496,
+    "y1": 0.643
+  },
+  "robospoof-doll-spoof_3ed5641f": {
+    "visible": true,
+    "x0": 0.429,
+    "y0": 0.442,
+    "x1": 0.531,
+    "y1": 0.621
+  },
+  "robospoof-doll-spoof_daa5a238": {
+    "visible": true,
+    "x0": 0.406,
+    "y0": 0.429,
+    "x1": 0.5,
+    "y1": 0.589
+  },
+  "robospoof-doll-spoof_862f99cd": {
+    "visible": true,
+    "x0": 0.406,
+    "y0": 0.424,
+    "x1": 0.496,
+    "y1": 0.589
+  },
+  "robospoof-cord-normal_240109d7": {
+    "visible": true,
+    "x0": 0.388,
+    "y0": 0.237,
+    "x1": 0.634,
+    "y1": 0.496
+  },
+  "robospoof-doll-spoof_ed85c72f": {
+    "visible": true,
+    "x0": 0.424,
+    "y0": 0.411,
+    "x1": 0.531,
+    "y1": 0.589
+  },
+  "robospoof-doll-spoof_cf6d97d4": {
+    "visible": true,
+    "x0": 0.424,
+    "y0": 0.429,
+    "x1": 0.518,
+    "y1": 0.607
+  },
+  "robospoof-doll-spoof_3ef1455e": {
+    "visible": true,
+    "x0": 0.371,
+    "y0": 0.464,
+    "x1": 0.469,
+    "y1": 0.621
+  },
+  "robospoof-doll-spoof_3fc0a3fd": {
+    "visible": true,
+    "x0": 0.433,
+    "y0": 0.397,
+    "x1": 0.536,
+    "y1": 0.576
+  },
+  "robospoof-doll-spoof_1a29fdb1": {
+    "visible": true,
+    "x0": 0.433,
+    "y0": 0.313,
+    "x1": 0.54,
+    "y1": 0.5
+  },
+  "robospoof-doll-spoof_0b7d2e71": {
+    "visible": true,
+    "x0": 0.415,
+    "y0": 0.411,
+    "x1": 0.518,
+    "y1": 0.58
+  },
+  "robospoof-doll-spoof_25227777": {
+    "visible": true,
+    "x0": 0.411,
+    "y0": 0.429,
+    "x1": 0.513,
+    "y1": 0.616
+  },
+  "robospoof-doll-spoof_76640d7a": {
+    "visible": true,
+    "x0": 0.393,
+    "y0": 0.446,
+    "x1": 0.487,
+    "y1": 0.612
+  },
+  "robospoof-doll-spoof_a9f4bec8": {
+    "visible": true,
+    "x0": 0.402,
+    "y0": 0.411,
+    "x1": 0.496,
+    "y1": 0.594
+  },
+  "robospoof-doll-spoof_9191b22f": {
+    "visible": true,
+    "x0": 0.424,
+    "y0": 0.415,
+    "x1": 0.522,
+    "y1": 0.58
+  },
+  "robospoof-doll-spoof_f88fd1a6": {
+    "visible": true,
+    "x0": 0.379,
+    "y0": 0.46,
+    "x1": 0.469,
+    "y1": 0.58
+  },
+  "robospoof-doll-spoof_2ffcc5dd": {
+    "visible": true,
+    "x0": 0.429,
+    "y0": 0.433,
+    "x1": 0.527,
+    "y1": 0.598
+  },
+  "robospoof-doll-spoof_c85784d4": {
+    "visible": true,
+    "x0": 0.366,
+    "y0": 0.353,
+    "x1": 0.451,
+    "y1": 0.496
+  },
+  "robospoof-doll-spoof_96e28751": {
+    "visible": true,
+    "x0": 0.429,
+    "y0": 0.415,
+    "x1": 0.518,
+    "y1": 0.594
+  },
+  "robospoof-doll-spoof_efa14a3e": {
+    "visible": true,
+    "x0": 0.406,
+    "y0": 0.371,
+    "x1": 0.5,
+    "y1": 0.513
+  },
+  "robospoof-doll-spoof_0496f425": {
+    "visible": true,
+    "x0": 0.411,
+    "y0": 0.388,
+    "x1": 0.513,
+    "y1": 0.563
+  },
+  "robospoof-doll-spoof_97c18469": {
+    "visible": true,
+    "x0": 0.455,
+    "y0": 0.397,
+    "x1": 0.545,
+    "y1": 0.576
+  },
+  "robospoof-doll-spoof_1d9dcad5": {
+    "visible": true,
+    "x0": 0.415,
+    "y0": 0.406,
+    "x1": 0.545,
+    "y1": 0.594
+  },
+  "robospoof-doll-spoof_5e1312d9": {
+    "visible": true,
+    "x0": 0.42,
+    "y0": 0.402,
+    "x1": 0.518,
+    "y1": 0.603
+  },
+  "robospoof-doll-spoof_6b1a52c5": {
+    "visible": true,
+    "x0": 0.379,
+    "y0": 0.429,
+    "x1": 0.496,
+    "y1": 0.603
+  },
+  "robospoof-doll-spoof_aa848dd4": {
+    "visible": true,
+    "x0": 0.411,
+    "y0": 0.366,
+    "x1": 0.504,
+    "y1": 0.518
+  },
+  "robospoof-doll-spoof_e3abed98": {
+    "visible": true,
+    "x0": 0.42,
+    "y0": 0.411,
+    "x1": 0.527,
+    "y1": 0.585
+  },
+  "robospoof-doll-spoof_1165dfee": {
+    "visible": true,
+    "x0": 0.433,
+    "y0": 0.424,
+    "x1": 0.531,
+    "y1": 0.571
+  },
+  "robospoof-doll-spoof_831903a0": {
+    "visible": true,
+    "x0": 0.446,
+    "y0": 0.429,
+    "x1": 0.54,
+    "y1": 0.589
+  },
+  "robospoof-doll-spoof_720c51f2": {
+    "visible": true,
+    "x0": 0.433,
+    "y0": 0.397,
+    "x1": 0.531,
+    "y1": 0.554
+  },
+  "robospoof-doll-spoof_a0734366": {
+    "visible": true,
+    "x0": 0.424,
+    "y0": 0.415,
+    "x1": 0.527,
+    "y1": 0.607
+  },
+  "robospoof-doll-spoof_26402a25": {
+    "visible": true,
+    "x0": 0.379,
+    "y0": 0.433,
+    "x1": 0.482,
+    "y1": 0.625
+  },
+  "robospoof-doll-spoof_f3f8c8c6": {
+    "visible": true,
+    "x0": 0.433,
+    "y0": 0.446,
+    "x1": 0.536,
+    "y1": 0.616
+  },
+  "robospoof-doll-spoof_3a547ad5": {
+    "visible": true,
+    "x0": 0.411,
+    "y0": 0.451,
+    "x1": 0.513,
+    "y1": 0.598
+  },
+  "robospoof-doll-spoof_0df6170b": {
+    "visible": true,
+    "x0": 0.424,
+    "y0": 0.438,
+    "x1": 0.518,
+    "y1": 0.616
+  },
+  "robospoof-doll-spoof_5c9c7f59": {
+    "visible": true,
+    "x0": 0.433,
+    "y0": 0.424,
+    "x1": 0.549,
+    "y1": 0.625
+  },
+  "robospoof-doll-spoof_015eefcf": {
+    "visible": true,
+    "x0": 0.384,
+    "y0": 0.357,
+    "x1": 0.478,
+    "y1": 0.487
+  },
+  "robospoof-doll-spoof_1b0ad534": {
+    "visible": true,
+    "x0": 0.424,
+    "y0": 0.42,
+    "x1": 0.522,
+    "y1": 0.594
+  },
+  "robospoof-doll-spoof_3c5f3d56": {
+    "visible": true,
+    "x0": 0.388,
+    "y0": 0.46,
+    "x1": 0.487,
+    "y1": 0.67
+  },
+  "robospoof-doll-spoof_c36eeea1": {
+    "visible": true,
+    "x0": 0.42,
+    "y0": 0.433,
+    "x1": 0.522,
+    "y1": 0.621
+  },
+  "robospoof-doll-spoof_873c44d6": {
+    "visible": true,
+    "x0": 0.388,
+    "y0": 0.42,
+    "x1": 0.478,
+    "y1": 0.576
+  },
+  "robospoof-doll-spoof_32499f40": {
+    "visible": true,
+    "x0": 0.42,
+    "y0": 0.393,
+    "x1": 0.518,
+    "y1": 0.571
+  },
+  "robospoof-doll-spoof_20bb0b07": {
+    "visible": true,
+    "x0": 0.411,
+    "y0": 0.451,
+    "x1": 0.518,
+    "y1": 0.607
+  },
+  "robospoof-doll-spoof_292c22f6": {
+    "visible": true,
+    "x0": 0.433,
+    "y0": 0.379,
+    "x1": 0.522,
+    "y1": 0.518
+  },
+  "robospoof-doll-spoof_0b0a281a": {
+    "visible": true,
+    "x0": 0.415,
+    "y0": 0.348,
+    "x1": 0.5,
+    "y1": 0.496
+  },
+  "robospoof-doll-spoof_087f572c": {
+    "visible": true,
+    "x0": 0.375,
+    "y0": 0.451,
+    "x1": 0.482,
+    "y1": 0.652
+  },
+  "robospoof-doll-normal_daf715eb": {
+    "visible": true,
+    "x0": 0.25,
+    "y0": 0.237,
+    "x1": 0.567,
+    "y1": 0.915
+  },
+  "robospoof-doll-normal_e0cb0961": {
+    "visible": true,
+    "x0": 0.254,
+    "y0": 0.237,
+    "x1": 0.558,
+    "y1": 0.911
+  },
+  "robospoof-doll-normal_103c7168": {
+    "visible": true,
+    "x0": 0.259,
+    "y0": 0.241,
+    "x1": 0.563,
+    "y1": 0.902
+  },
+  "robospoof-doll-normal_e94989e2": {
+    "visible": true,
+    "x0": 0.259,
+    "y0": 0.241,
+    "x1": 0.563,
+    "y1": 0.902
+  },
+  "robospoof-doll-spoof_9081bec4": {
+    "visible": true,
+    "x0": 0.384,
+    "y0": 0.451,
+    "x1": 0.478,
+    "y1": 0.594
+  },
+  "robospoof-doll-normal_998dfa2d": {
+    "visible": true,
+    "x0": 0.25,
+    "y0": 0.232,
+    "x1": 0.563,
+    "y1": 0.915
+  },
+  "robospoof-doll-normal_24d2b3d9": {
+    "visible": true,
+    "x0": 0.259,
+    "y0": 0.241,
+    "x1": 0.563,
+    "y1": 0.915
+  },
+  "robospoof-doll-normal_438acb2f": {
+    "visible": true,
+    "x0": 0.254,
+    "y0": 0.237,
+    "x1": 0.563,
+    "y1": 0.924
+  },
+  "robospoof-doll-normal_34ed9452": {
+    "visible": true,
+    "x0": 0.254,
+    "y0": 0.232,
+    "x1": 0.563,
+    "y1": 0.902
+  },
+  "robospoof-doll-normal_5c0ec52e": {
+    "visible": true,
+    "x0": 0.259,
+    "y0": 0.241,
+    "x1": 0.554,
+    "y1": 0.924
+  },
+  "robospoof-doll-spoof_86415840": {
+    "visible": true,
+    "x0": 0.424,
+    "y0": 0.455,
+    "x1": 0.518,
+    "y1": 0.589
+  },
+  "robospoof-doll-normal_679289c5": {
+    "visible": true,
+    "x0": 0.259,
+    "y0": 0.237,
+    "x1": 0.558,
+    "y1": 0.906
+  },
+  "robospoof-doll-spoof_01b4cabf": {
+    "visible": true,
+    "x0": 0.406,
+    "y0": 0.415,
+    "x1": 0.491,
+    "y1": 0.558
+  },
+  "robospoof-doll-normal_0bbf72e3": {
+    "visible": true,
+    "x0": 0.259,
+    "y0": 0.237,
+    "x1": 0.563,
+    "y1": 0.924
+  },
+  "robospoof-doll-normal_4a65d035": {
+    "visible": true,
+    "x0": 0.254,
+    "y0": 0.237,
+    "x1": 0.576,
+    "y1": 0.92
+  },
+  "robospoof-doll-spoof_1a1b7eb7": {
+    "visible": true,
+    "x0": 0.446,
+    "y0": 0.402,
+    "x1": 0.545,
+    "y1": 0.589
+  },
+  "robospoof-doll-normal_da457606": {
+    "visible": true,
+    "x0": 0.254,
+    "y0": 0.241,
+    "x1": 0.563,
+    "y1": 0.92
+  },
+  "robospoof-doll-normal_4654c8f2": {
+    "visible": true,
+    "x0": 0.259,
+    "y0": 0.241,
+    "x1": 0.558,
+    "y1": 0.915
+  },
+  "robospoof-doll-normal_883d4141": {
+    "visible": true,
+    "x0": 0.25,
+    "y0": 0.237,
+    "x1": 0.58,
+    "y1": 0.924
+  },
+  "robospoof-doll-normal_a0879726": {
+    "visible": true,
+    "x0": 0.254,
+    "y0": 0.237,
+    "x1": 0.563,
+    "y1": 0.924
+  },
+  "robospoof-doll-normal_5756cf5e": {
+    "visible": true,
+    "x0": 0.254,
+    "y0": 0.237,
+    "x1": 0.576,
+    "y1": 0.924
+  },
+  "robospoof-doll-normal_d0ef3551": {
+    "visible": true,
+    "x0": 0.254,
+    "y0": 0.237,
+    "x1": 0.562,
+    "y1": 0.915
+  },
+  "robospoof-doll-spoof_6e4be1de": {
+    "visible": true,
+    "x0": 0.411,
+    "y0": 0.433,
+    "x1": 0.522,
+    "y1": 0.598
+  },
+  "robospoof-doll-normal_a51193e1": {
+    "visible": true,
+    "x0": 0.286,
+    "y0": 0.263,
+    "x1": 0.571,
+    "y1": 0.946
+  },
+  "robospoof-doll-normal_bd8ce052": {
+    "visible": true,
+    "x0": 0.25,
+    "y0": 0.237,
+    "x1": 0.571,
+    "y1": 0.929
+  },
+  "robospoof-doll-normal_0df71d88": {
+    "visible": true,
+    "x0": 0.259,
+    "y0": 0.241,
+    "x1": 0.563,
+    "y1": 0.924
+  },
+  "robospoof-doll-normal_1be3f7fe": {
+    "visible": true,
+    "x0": 0.29,
+    "y0": 0.26,
+    "x1": 0.57,
+    "y1": 0.95
+  },
+  "robospoof-doll-normal_6cce28d5": {
+    "visible": true,
+    "x0": 0.259,
+    "y0": 0.237,
+    "x1": 0.571,
+    "y1": 0.902
+  },
+  "robospoof-doll-spoof_d404eb7b": {
+    "visible": true,
+    "x0": 0.393,
+    "y0": 0.442,
+    "x1": 0.482,
+    "y1": 0.594
+  },
+  "robospoof-doll-normal_501d8e87": {
+    "visible": true,
+    "x0": 0.281,
+    "y0": 0.254,
+    "x1": 0.571,
+    "y1": 0.951
+  },
+  "robospoof-doll-normal_a41a927d": {
+    "visible": true,
+    "x0": 0.286,
+    "y0": 0.259,
+    "x1": 0.571,
+    "y1": 0.951
+  },
+  "robospoof-doll-normal_83e41225": {
+    "visible": true,
+    "x0": 0.286,
+    "y0": 0.263,
+    "x1": 0.576,
+    "y1": 0.955
+  },
+  "robospoof-doll-normal_154d07ff": {
+    "visible": true,
+    "x0": 0.29,
+    "y0": 0.26,
+    "x1": 0.57,
+    "y1": 0.96
+  },
+  "robospoof-doll-normal_c6a8dd60": {
+    "visible": true,
+    "x0": 0.286,
+    "y0": 0.263,
+    "x1": 0.567,
+    "y1": 0.955
+  },
+  "robospoof-doll-normal_58eb7e4c": {
+    "visible": true,
+    "x0": 0.29,
+    "y0": 0.263,
+    "x1": 0.571,
+    "y1": 0.951
+  },
+  "robospoof-doll-normal_8af7353e": {
+    "visible": true,
+    "x0": 0.286,
+    "y0": 0.165,
+    "x1": 0.563,
+    "y1": 0.911
+  },
+  "robospoof-doll-normal_2370f242": {
+    "visible": true,
+    "x0": 0.286,
+    "y0": 0.259,
+    "x1": 0.571,
+    "y1": 0.946
+  },
+  "robospoof-doll-normal_54828da6": {
+    "visible": true,
+    "x0": 0.281,
+    "y0": 0.165,
+    "x1": 0.563,
+    "y1": 0.911
+  },
+  "robospoof-doll-normal_2912abc4": {
+    "visible": true,
+    "x0": 0.286,
+    "y0": 0.165,
+    "x1": 0.563,
+    "y1": 0.897
+  },
+  "robospoof-doll-normal_72f56055": {
+    "visible": true,
+    "x0": 0.281,
+    "y0": 0.165,
+    "x1": 0.558,
+    "y1": 0.906
+  },
+  "robospoof-doll-normal_196df915": {
+    "visible": true,
+    "x0": 0.29,
+    "y0": 0.259,
+    "x1": 0.571,
+    "y1": 0.946
+  },
+  "robospoof-doll-normal_6d8fe325": {
+    "visible": true,
+    "x0": 0.281,
+    "y0": 0.17,
+    "x1": 0.558,
+    "y1": 0.902
+  },
+  "robospoof-doll-normal_e570cbfa": {
+    "visible": true,
+    "x0": 0.29,
+    "y0": 0.17,
+    "x1": 0.56,
+    "y1": 0.91
+  },
+  "robospoof-doll-normal_a036a8e9": {
+    "visible": true,
+    "x0": 0.286,
+    "y0": 0.263,
+    "x1": 0.58,
+    "y1": 0.942
+  },
+  "robospoof-doll-normal_4fe10ef8": {
+    "visible": true,
+    "x0": 0.259,
+    "y0": 0.241,
+    "x1": 0.571,
+    "y1": 0.924
+  },
+  "robospoof-doll-normal_80e07c4a": {
+    "visible": true,
+    "x0": 0.254,
+    "y0": 0.237,
+    "x1": 0.563,
+    "y1": 0.911
+  },
+  "robospoof-doll-normal_99b6aefd": {
+    "visible": true,
+    "x0": 0.277,
+    "y0": 0.17,
+    "x1": 0.558,
+    "y1": 0.897
+  },
+  "robospoof-doll-normal_27331a98": {
+    "visible": true,
+    "x0": 0.259,
+    "y0": 0.241,
+    "x1": 0.563,
+    "y1": 0.902
+  },
+  "robospoof-doll-normal_49fd553e": {
+    "visible": true,
+    "x0": 0.263,
+    "y0": 0.232,
+    "x1": 0.563,
+    "y1": 0.942
+  },
+  "robospoof-doll-normal_7cb2f6db": {
+    "visible": true,
+    "x0": 0.281,
+    "y0": 0.165,
+    "x1": 0.558,
+    "y1": 0.911
+  },
+  "robospoof-doll-spoof_c2c8f842": {
+    "visible": true,
+    "x0": 0.429,
+    "y0": 0.402,
+    "x1": 0.527,
+    "y1": 0.576
+  },
+  "robospoof-doll-normal_b1ef9029": {
+    "visible": true,
+    "x0": 0.254,
+    "y0": 0.237,
+    "x1": 0.563,
+    "y1": 0.915
+  },
+  "robospoof-doll-spoof_07b21009": {
+    "visible": true,
+    "x0": 0.415,
+    "y0": 0.379,
+    "x1": 0.5,
+    "y1": 0.518
+  },
+  "robospoof-doll-normal_3d8fd6b6": {
+    "visible": true,
+    "x0": 0.286,
+    "y0": 0.17,
+    "x1": 0.558,
+    "y1": 0.911
+  },
+  "robospoof-doll-normal_e6c94afa": {
+    "visible": true,
+    "x0": 0.259,
+    "y0": 0.241,
+    "x1": 0.558,
+    "y1": 0.951
+  },
+  "robospoof-doll-normal_e4a2776b": {
+    "visible": true,
+    "x0": 0.272,
+    "y0": 0.161,
+    "x1": 0.563,
+    "y1": 0.911
+  },
+  "robospoof-doll-normal_b569f3c4": {
+    "visible": true,
+    "x0": 0.259,
+    "y0": 0.241,
+    "x1": 0.549,
+    "y1": 0.893
+  },
+  "robospoof-doll-normal_a8b764e2": {
+    "visible": true,
+    "x0": 0.277,
+    "y0": 0.17,
+    "x1": 0.563,
+    "y1": 0.906
+  },
+  "robospoof-doll-normal_1de625c3": {
+    "visible": true,
+    "x0": 0.902,
+    "y0": 0.071,
+    "x1": 0.96,
+    "y1": 0.138
+  },
+  "robospoof-drink-spoof_9bec82e4": {
+    "visible": true,
+    "x0": 0.089,
+    "y0": 0.321,
+    "x1": 0.281,
+    "y1": 0.58
+  },
+  "robospoof-doll-normal_f1a33983": {
+    "visible": true,
+    "x0": 0.223,
+    "y0": 0.179,
+    "x1": 0.522,
+    "y1": 0.857
+  },
+  "robospoof-drink-spoof_a775a526": {
+    "visible": true,
+    "x0": 0.121,
+    "y0": 0.304,
+    "x1": 0.299,
+    "y1": 0.576
+  },
+  "robospoof-drink-spoof_876c48c6": {
+    "visible": true,
+    "x0": 0.183,
+    "y0": 0.071,
+    "x1": 0.339,
+    "y1": 0.388
+  },
+  "robospoof-drink-spoof_329388ae": {
+    "visible": true,
+    "x0": 0.406,
+    "y0": 0.509,
+    "x1": 0.522,
+    "y1": 0.772
+  },
+  "robospoof-drink-spoof_43160ffb": {
+    "visible": true,
+    "x0": 0.21,
+    "y0": 0.004,
+    "x1": 0.348,
+    "y1": 0.313
+  },
+  "robospoof-drink-spoof_23537405": {
+    "visible": true,
+    "x0": 0.406,
+    "y0": 0.513,
+    "x1": 0.522,
+    "y1": 0.75
+  },
+  "robospoof-doll-normal_1908b53d": {
+    "visible": true,
+    "x0": 0.25,
+    "y0": 0.237,
+    "x1": 0.554,
+    "y1": 0.911
+  },
+  "robospoof-drink-spoof_e730a0d7": {
+    "visible": true,
+    "x0": 0.183,
+    "y0": 0.0,
+    "x1": 0.33,
+    "y1": 0.295
+  },
+  "robospoof-doll-normal_d729629c": {
+    "visible": true,
+    "x0": 0.25,
+    "y0": 0.232,
+    "x1": 0.558,
+    "y1": 0.915
+  },
+  "robospoof-drink-spoof_b44e65ca": {
+    "visible": true,
+    "x0": 0.406,
+    "y0": 0.509,
+    "x1": 0.522,
+    "y1": 0.835
+  },
+  "robospoof-drink-spoof_46025611": {
+    "visible": true,
+    "x0": 0.201,
+    "y0": 0.286,
+    "x1": 0.362,
+    "y1": 0.558
+  },
+  "robospoof-drink-spoof_ba5bb98f": {
+    "visible": true,
+    "x0": 0.188,
+    "y0": 0,
+    "x1": 0.335,
+    "y1": 0.272
+  },
+  "robospoof-doll-normal_c84981c4": {
+    "visible": true,
+    "x0": 0.188,
+    "y0": 0.268,
+    "x1": 0.241,
+    "y1": 0.339
+  },
+  "robospoof-doll-normal_4064a65c": {
+    "visible": true,
+    "x0": 0.29,
+    "y0": 0.17,
+    "x1": 0.55,
+    "y1": 0.9
+  },
+  "robospoof-drink-spoof_48d69717": {
+    "visible": true,
+    "x0": 0.107,
+    "y0": 0.219,
+    "x1": 0.281,
+    "y1": 0.509
+  },
+  "robospoof-drink-spoof_caea1165": {
+    "visible": true,
+    "x0": 0.129,
+    "y0": 0.281,
+    "x1": 0.304,
+    "y1": 0.576
+  },
+  "robospoof-drink-spoof_ee068343": {
+    "visible": true,
+    "x0": 0.129,
+    "y0": 0.321,
+    "x1": 0.299,
+    "y1": 0.589
+  },
+  "robospoof-drink-spoof_4d103caa": {
+    "visible": true,
+    "x0": 0.411,
+    "y0": 0.509,
+    "x1": 0.522,
+    "y1": 0.799
+  },
+  "robospoof-drink-spoof_f940e826": {
+    "visible": true,
+    "x0": 0.085,
+    "y0": 0.321,
+    "x1": 0.272,
+    "y1": 0.58
+  },
+  "robospoof-drink-spoof_8fed1e1e": {
+    "visible": true,
+    "x0": 0.411,
+    "y0": 0.513,
+    "x1": 0.518,
+    "y1": 0.781
+  },
+  "robospoof-drink-spoof_4a566627": {
+    "visible": true,
+    "x0": 0.125,
+    "y0": 0.348,
+    "x1": 0.286,
+    "y1": 0.607
+  },
+  "robospoof-drink-spoof_16c93390": {
+    "visible": true,
+    "x0": 0.147,
+    "y0": 0.317,
+    "x1": 0.246,
+    "y1": 0.46
+  },
+  "robospoof-drink-spoof_3153fe70": {
+    "visible": true,
+    "x0": 0.179,
+    "y0": 0,
+    "x1": 0.335,
+    "y1": 0.259
+  },
+  "robospoof-doll-normal_77e41421": {
+    "visible": true,
+    "x0": 0.259,
+    "y0": 0.237,
+    "x1": 0.563,
+    "y1": 0.924
+  },
+  "robospoof-drink-spoof_e6fd9c93": {
+    "visible": true,
+    "x0": 0.134,
+    "y0": 0.335,
+    "x1": 0.308,
+    "y1": 0.612
+  },
+  "robospoof-drink-spoof_9e34762b": {
+    "visible": true,
+    "x0": 0.08,
+    "y0": 0.058,
+    "x1": 0.161,
+    "y1": 0.152
+  },
+  "robospoof-drink-spoof_dccf9497": {
+    "visible": true,
+    "x0": 0.089,
+    "y0": 0.643,
+    "x1": 0.214,
+    "y1": 1.0
+  },
+  "robospoof-drink-spoof_231ee3b7": {
+    "visible": true,
+    "x0": 0.129,
+    "y0": 0.397,
+    "x1": 0.295,
+    "y1": 0.786
+  },
+  "robospoof-drink-spoof_55c569f0": {
+    "visible": true,
+    "x0": 0.174,
+    "y0": 0.085,
+    "x1": 0.321,
+    "y1": 0.42
+  },
+  "robospoof-drink-spoof_e1d2cd56": {
+    "visible": true,
+    "x0": 0.406,
+    "y0": 0.509,
+    "x1": 0.518,
+    "y1": 0.808
+  },
+  "robospoof-drink-spoof_1e413a6c": {
+    "visible": true,
+    "x0": 0.125,
+    "y0": 0.326,
+    "x1": 0.295,
+    "y1": 0.621
+  },
+  "robospoof-doll-normal_0995e064": {
+    "visible": true,
+    "x0": 0.902,
+    "y0": 0.071,
+    "x1": 0.973,
+    "y1": 0.143
+  },
+  "robospoof-drink-spoof_32ed50c4": {
+    "visible": true,
+    "x0": 0.116,
+    "y0": 0.295,
+    "x1": 0.295,
+    "y1": 0.589
+  },
+  "robospoof-drink-spoof_a7bf432f": {
+    "visible": true,
+    "x0": 0.103,
+    "y0": 0.237,
+    "x1": 0.29,
+    "y1": 0.527
+  },
+  "robospoof-drink-spoof_9e122edd": {
+    "visible": true,
+    "x0": 0.415,
+    "y0": 0.509,
+    "x1": 0.522,
+    "y1": 0.75
+  },
+  "robospoof-doll-normal_3c6b43be": {
+    "visible": true,
+    "x0": 0.286,
+    "y0": 0.263,
+    "x1": 0.571,
+    "y1": 0.955
+  },
+  "robospoof-drink-spoof_abb890ee": {
+    "visible": true,
+    "x0": 0.12,
+    "y0": 0.223,
+    "x1": 0.299,
+    "y1": 0.509
+  },
+  "robospoof-drink-spoof_98502f68": {
+    "visible": true,
+    "x0": 0.129,
+    "y0": 0.25,
+    "x1": 0.304,
+    "y1": 0.531
+  },
+  "robospoof-drink-spoof_a640b0e1": {
+    "visible": true,
+    "x0": 0.147,
+    "y0": 0.304,
+    "x1": 0.335,
+    "y1": 0.571
+  },
+  "robospoof-drink-spoof_c252df4f": {
+    "visible": true,
+    "x0": 0.12,
+    "y0": 0.268,
+    "x1": 0.295,
+    "y1": 0.54
+  },
+  "robospoof-drink-spoof_df1e900c": {
+    "visible": true,
+    "x0": 0.147,
+    "y0": 0.362,
+    "x1": 0.277,
+    "y1": 0.567
+  },
+  "robospoof-drink-spoof_ab7303e0": {
+    "visible": true,
+    "x0": 0.08,
+    "y0": 0.067,
+    "x1": 0.147,
+    "y1": 0.161
+  },
+  "robospoof-drink-spoof_22a2dc74": {
+    "visible": true,
+    "x0": 0.129,
+    "y0": 0.272,
+    "x1": 0.299,
+    "y1": 0.545
+  },
+  "robospoof-drink-spoof_778ad3f9": {
+    "visible": true,
+    "x0": 0.112,
+    "y0": 0.335,
+    "x1": 0.286,
+    "y1": 0.594
+  },
+  "robospoof-drink-spoof_7c68fae9": {
+    "visible": true,
+    "x0": 0.402,
+    "y0": 0.509,
+    "x1": 0.522,
+    "y1": 0.826
+  },
+  "robospoof-drink-spoof_0770a8cf": {
+    "visible": true,
+    "x0": 0.076,
+    "y0": 0.063,
+    "x1": 0.161,
+    "y1": 0.165
+  },
+  "robospoof-drink-spoof_2baa6cff": {
+    "visible": true,
+    "x0": 0.402,
+    "y0": 0.509,
+    "x1": 0.522,
+    "y1": 0.808
+  },
+  "robospoof-drink-spoof_79d98e2e": {
+    "visible": true,
+    "x0": 0.098,
+    "y0": 0.326,
+    "x1": 0.281,
+    "y1": 0.647
+  },
+  "robospoof-drink-spoof_e966b8a7": {
+    "visible": true,
+    "x0": 0.103,
+    "y0": 0.29,
+    "x1": 0.29,
+    "y1": 0.585
+  },
+  "robospoof-drink-spoof_78633631": {
+    "visible": true,
+    "x0": 0.027,
+    "y0": 0.143,
+    "x1": 0.205,
+    "y1": 0.446
+  },
+  "robospoof-drink-spoof_80229e40": {
+    "visible": true,
+    "x0": 0.125,
+    "y0": 0.317,
+    "x1": 0.295,
+    "y1": 0.576
+  },
+  "robospoof-drink-spoof_df8954f3": {
+    "visible": true,
+    "x0": 0.406,
+    "y0": 0.509,
+    "x1": 0.522,
+    "y1": 0.804
+  },
+  "robospoof-drink-spoof_3e0544be": {
+    "visible": true,
+    "x0": 0.112,
+    "y0": 0.263,
+    "x1": 0.295,
+    "y1": 0.576
+  },
+  "robospoof-drink-spoof_17af933f": {
+    "visible": true,
+    "x0": 0.411,
+    "y0": 0.509,
+    "x1": 0.522,
+    "y1": 0.786
+  },
+  "robospoof-drink-spoof_95ec033c": {
+    "visible": true,
+    "x0": 0.397,
+    "y0": 0.504,
+    "x1": 0.527,
+    "y1": 0.821
+  },
+  "robospoof-drink-spoof_b7f8586a": {
+    "visible": true,
+    "x0": 0.116,
+    "y0": 0.219,
+    "x1": 0.29,
+    "y1": 0.509
+  },
+  "robospoof-drink-spoof_1036568b": {
+    "visible": true,
+    "x0": 0.134,
+    "y0": 0.344,
+    "x1": 0.286,
+    "y1": 0.571
+  },
+  "robospoof-drink-spoof_cb118c3b": {
+    "visible": true,
+    "x0": 0.094,
+    "y0": 0.246,
+    "x1": 0.277,
+    "y1": 0.531
+  },
+  "robospoof-drink-spoof_b04ca4dd": {
+    "visible": true,
+    "x0": 0.107,
+    "y0": 0.335,
+    "x1": 0.286,
+    "y1": 0.603
+  },
+  "robospoof-drink-normal_591dc7d6": {
+    "visible": true,
+    "x0": 0.036,
+    "y0": 0.08,
+    "x1": 0.246,
+    "y1": 0.388
+  },
+  "robospoof-drink-normal_27680616": {
+    "visible": true,
+    "x0": 0.04,
+    "y0": 0.08,
+    "x1": 0.25,
+    "y1": 0.39
+  },
+  "robospoof-drink-normal_82d3d1ad": {
+    "visible": true,
+    "x0": 0.375,
+    "y0": 0.509,
+    "x1": 0.527,
+    "y1": 0.804
+  },
+  "robospoof-drink-spoof_7b283fb5": {
+    "visible": true,
+    "x0": 0.121,
+    "y0": 0.272,
+    "x1": 0.299,
+    "y1": 0.563
+  },
+  "robospoof-drink-spoof_a4286738": {
+    "visible": true,
+    "x0": 0.098,
+    "y0": 0.188,
+    "x1": 0.277,
+    "y1": 0.496
+  },
+  "robospoof-drink-normal_2eae10de": {
+    "visible": true,
+    "x0": 0.036,
+    "y0": 0.08,
+    "x1": 0.246,
+    "y1": 0.384
+  },
+  "robospoof-drink-normal_843b7dc0": {
+    "visible": true,
+    "x0": 0.009,
+    "y0": 0.237,
+    "x1": 0.228,
+    "y1": 0.522
+  },
+  "robospoof-drink-normal_f491c050": {
+    "visible": true,
+    "x0": 0.277,
+    "y0": 0.237,
+    "x1": 0.5,
+    "y1": 0.554
+  },
+  "robospoof-drink-normal_3c3c0478": {
+    "visible": true,
+    "x0": 0.009,
+    "y0": 0.241,
+    "x1": 0.228,
+    "y1": 0.54
+  },
+  "robospoof-drink-spoof_3a4b5685": {
+    "visible": true,
+    "x0": 0.402,
+    "y0": 0.509,
+    "x1": 0.522,
+    "y1": 0.826
+  },
+  "robospoof-drink-normal_26dd404a": {
+    "visible": true,
+    "x0": 0.08,
+    "y0": 0.022,
+    "x1": 0.272,
+    "y1": 0.317
+  },
+  "robospoof-drink-normal_ba3e1f1a": {
+    "visible": true,
+    "x0": 0.031,
+    "y0": 0.254,
+    "x1": 0.25,
+    "y1": 0.545
+  },
+  "robospoof-drink-spoof_d46d239f": {
+    "visible": true,
+    "x0": 0.152,
+    "y0": 0.317,
+    "x1": 0.326,
+    "y1": 0.598
+  },
+  "robospoof-drink-spoof_8d48da8e": {
+    "visible": true,
+    "x0": 0.438,
+    "y0": 0.513,
+    "x1": 0.545,
+    "y1": 0.714
+  },
+  "robospoof-drink-normal_4251a32f": {
+    "visible": true,
+    "x0": 0.022,
+    "y0": 0.246,
+    "x1": 0.241,
+    "y1": 0.54
+  },
+  "robospoof-drink-spoof_fbfcfdae": {
+    "visible": true,
+    "x0": 0.402,
+    "y0": 0.504,
+    "x1": 0.522,
+    "y1": 0.786
+  },
+  "robospoof-drink-normal_9d8a75d2": {
+    "visible": true,
+    "x0": 0.022,
+    "y0": 0.246,
+    "x1": 0.241,
+    "y1": 0.549
+  },
+  "robospoof-drink-normal_be7e2341": {
+    "visible": true,
+    "x0": 0.04,
+    "y0": 0.08,
+    "x1": 0.246,
+    "y1": 0.388
+  },
+  "robospoof-drink-normal_cbc37f62": {
+    "visible": true,
+    "x0": 0.0,
+    "y0": 0.17,
+    "x1": 0.219,
+    "y1": 0.482
+  },
+  "robospoof-drink-normal_d880697f": {
+    "visible": true,
+    "x0": 0.321,
+    "y0": 0.388,
+    "x1": 0.589,
+    "y1": 0.625
+  },
+  "robospoof-drink-normal_4e990244": {
+    "visible": true,
+    "x0": 0.375,
+    "y0": 0.509,
+    "x1": 0.527,
+    "y1": 0.79
+  },
+  "robospoof-drink-normal_162b18b6": {
+    "visible": true,
+    "x0": 0.04,
+    "y0": 0.076,
+    "x1": 0.246,
+    "y1": 0.384
+  },
+  "robospoof-drink-normal_9fa392e5": {
+    "visible": true,
+    "x0": 0.027,
+    "y0": 0.246,
+    "x1": 0.246,
+    "y1": 0.531
+  },
+  "robospoof-drink-normal_4909a462": {
+    "visible": true,
+    "x0": 0.036,
+    "y0": 0.076,
+    "x1": 0.246,
+    "y1": 0.388
+  },
+  "robospoof-drink-spoof_c4767de2": {
+    "visible": true,
+    "x0": 0.406,
+    "y0": 0.509,
+    "x1": 0.522,
+    "y1": 0.79
+  },
+  "robospoof-drink-normal_f90fe25b": {
+    "visible": true,
+    "x0": 0.0,
+    "y0": 0.29,
+    "x1": 0.223,
+    "y1": 0.585
+  },
+  "robospoof-drink-normal_7d646991": {
+    "visible": true,
+    "x0": 0.031,
+    "y0": 0.254,
+    "x1": 0.25,
+    "y1": 0.536
+  },
+  "robospoof-drink-normal_6b747cfb": {
+    "visible": true,
+    "x0": 0.031,
+    "y0": 0.25,
+    "x1": 0.246,
+    "y1": 0.536
+  },
+  "robospoof-drink-normal_10db9457": {
+    "visible": true,
+    "x0": 0.031,
+    "y0": 0.25,
+    "x1": 0.246,
+    "y1": 0.531
+  },
+  "robospoof-drink-normal_ca8c9777": {
+    "visible": true,
+    "x0": 0.022,
+    "y0": 0.246,
+    "x1": 0.241,
+    "y1": 0.531
+  },
+  "robospoof-drink-normal_7234d031": {
+    "visible": true,
+    "x0": 0.031,
+    "y0": 0.25,
+    "x1": 0.25,
+    "y1": 0.531
+  },
+  "robospoof-drink-normal_e774ab70": {
+    "visible": true,
+    "x0": 0.027,
+    "y0": 0.25,
+    "x1": 0.241,
+    "y1": 0.527
+  },
+  "robospoof-drink-normal_b39aabeb": {
+    "visible": true,
+    "x0": 0.036,
+    "y0": 0.25,
+    "x1": 0.25,
+    "y1": 0.536
+  },
+  "robospoof-drink-normal_b64c8812": {
+    "visible": true,
+    "x0": 0.036,
+    "y0": 0.076,
+    "x1": 0.25,
+    "y1": 0.388
+  },
+  "robospoof-drink-normal_e9d945c7": {
+    "visible": true,
+    "x0": 0.027,
+    "y0": 0.25,
+    "x1": 0.25,
+    "y1": 0.545
+  },
+  "robospoof-drink-normal_40965b32": {
+    "visible": true,
+    "x0": 0.0,
+    "y0": 0.259,
+    "x1": 0.21,
+    "y1": 0.549
+  },
+  "robospoof-drink-normal_7517586e": {
+    "visible": true,
+    "x0": 0.036,
+    "y0": 0.254,
+    "x1": 0.246,
+    "y1": 0.54
+  },
+  "robospoof-drink-normal_f8f4de89": {
+    "visible": true,
+    "x0": 0,
+    "y0": 0.348,
+    "x1": 0.223,
+    "y1": 0.634
+  },
+  "robospoof-drink-normal_ab0ec9ae": {
+    "visible": true,
+    "x0": 0.004,
+    "y0": 0.272,
+    "x1": 0.223,
+    "y1": 0.558
+  },
+  "robospoof-drink-normal_b27a53eb": {
+    "visible": true,
+    "x0": 0.0,
+    "y0": 0.348,
+    "x1": 0.228,
+    "y1": 0.634
+  },
+  "robospoof-drink-normal_84b0bfa9": {
+    "visible": true,
+    "x0": 0.375,
+    "y0": 0.509,
+    "x1": 0.527,
+    "y1": 0.795
+  },
+  "robospoof-drink-normal_13a2caee": {
+    "visible": true,
+    "x0": 0.379,
+    "y0": 0.509,
+    "x1": 0.527,
+    "y1": 0.786
+  },
+  "robospoof-drink-normal_9d8518b9": {
+    "visible": true,
+    "x0": 0.027,
+    "y0": 0.25,
+    "x1": 0.25,
+    "y1": 0.536
+  },
+  "robospoof-drink-normal_4307904a": {
+    "visible": true,
+    "x0": 0.379,
+    "y0": 0.509,
+    "x1": 0.527,
+    "y1": 0.795
+  },
+  "robospoof-drink-normal_a670ad34": {
+    "visible": true,
+    "x0": 0.031,
+    "y0": 0.254,
+    "x1": 0.25,
+    "y1": 0.531
+  },
+  "robospoof-drink-normal_2613f061": {
+    "visible": true,
+    "x0": 0.004,
+    "y0": 0.326,
+    "x1": 0.232,
+    "y1": 0.603
+  },
+  "robospoof-drink-normal_7f5b3147": {
+    "visible": true,
+    "x0": 0.031,
+    "y0": 0.335,
+    "x1": 0.254,
+    "y1": 0.629
+  },
+  "robospoof-drink-normal_937d9d6e": {
+    "visible": true,
+    "x0": 0.0,
+    "y0": 0.277,
+    "x1": 0.228,
+    "y1": 0.563
+  },
+  "robospoof-drink-normal_61e26c0d": {
+    "visible": true,
+    "x0": 0.379,
+    "y0": 0.513,
+    "x1": 0.522,
+    "y1": 0.804
+  },
+  "robospoof-drink-normal_0ff51708": {
+    "visible": true,
+    "x0": 0.04,
+    "y0": 0.214,
+    "x1": 0.259,
+    "y1": 0.509
+  },
+  "robospoof-drink-normal_cd26a06a": {
+    "visible": true,
+    "x0": 0.031,
+    "y0": 0.25,
+    "x1": 0.246,
+    "y1": 0.54
+  },
+  "robospoof-drink-normal_4c25ae3c": {
+    "visible": true,
+    "x0": 0.04,
+    "y0": 0.219,
+    "x1": 0.259,
+    "y1": 0.513
+  },
+  "robospoof-drink-normal_5f8699a5": {
+    "visible": true,
+    "x0": 0.049,
+    "y0": 0.295,
+    "x1": 0.259,
+    "y1": 0.58
+  },
+  "robospoof-drink-normal_30dee452": {
+    "visible": true,
+    "x0": 0.027,
+    "y0": 0.254,
+    "x1": 0.246,
+    "y1": 0.554
+  },
+  "robospoof-drink-normal_4ad38c7f": {
+    "visible": true,
+    "x0": 0.045,
+    "y0": 0.214,
+    "x1": 0.259,
+    "y1": 0.509
+  },
+  "robospoof-drink-normal_89b97bbc": {
+    "visible": true,
+    "x0": 0.031,
+    "y0": 0.25,
+    "x1": 0.254,
+    "y1": 0.536
+  },
+  "robospoof-drink-spoof_00180efb": {
+    "visible": true,
+    "x0": 0.116,
+    "y0": 0.326,
+    "x1": 0.254,
+    "y1": 0.536
+  },
+  "robospoof-drink-normal_3b29e9d0": {
+    "visible": true,
+    "x0": 0.027,
+    "y0": 0.259,
+    "x1": 0.246,
+    "y1": 0.545
+  },
+  "robospoof-drink-normal_b20d4098": {
+    "visible": true,
+    "x0": 0.022,
+    "y0": 0.259,
+    "x1": 0.246,
+    "y1": 0.554
+  },
+  "robospoof-drink-normal_9117e699": {
+    "visible": true,
+    "x0": 0.018,
+    "y0": 0.281,
+    "x1": 0.241,
+    "y1": 0.571
+  },
+  "robospoof-drink-normal_58f7424f": {
+    "visible": true,
+    "x0": 0.027,
+    "y0": 0.254,
+    "x1": 0.246,
+    "y1": 0.545
+  },
+  "robospoof-drink-normal_30b046b2": {
+    "visible": true,
+    "x0": 0.04,
+    "y0": 0.214,
+    "x1": 0.254,
+    "y1": 0.518
+  },
+  "robospoof-drink-normal_906e8def": {
+    "visible": true,
+    "x0": 0.031,
+    "y0": 0.25,
+    "x1": 0.25,
+    "y1": 0.54
+  },
+  "robospoof-drink-normal_eac57e48": {
+    "visible": true,
+    "x0": 0.013,
+    "y0": 0.281,
+    "x1": 0.241,
+    "y1": 0.576
+  },
+  "robospoof-drink-normal_f2788f41": {
+    "visible": true,
+    "x0": 0.04,
+    "y0": 0.214,
+    "x1": 0.259,
+    "y1": 0.509
+  },
+  "robospoof-drink-normal_48e98243": {
+    "visible": true,
+    "x0": 0.027,
+    "y0": 0.259,
+    "x1": 0.246,
+    "y1": 0.554
+  },
+  "robospoof-mix-spoof_8337babd": {
+    "visible": true,
+    "x0": 0.147,
+    "y0": 0.241,
+    "x1": 0.817,
+    "y1": 0.558
+  },
+  "robospoof-mix-spoof_629626a6": {
+    "visible": true,
+    "x0": 0.143,
+    "y0": 0.192,
+    "x1": 1.0,
+    "y1": 0.714
+  },
+  "robospoof-drink-normal_00f3ff32": {
+    "visible": true,
+    "x0": 0.022,
+    "y0": 0.259,
+    "x1": 0.246,
+    "y1": 0.54
+  },
+  "robospoof-mix-spoof_eb963a71": {
+    "visible": true,
+    "x0": 0.129,
+    "y0": 0.286,
+    "x1": 0.844,
+    "y1": 0.589
+  },
+  "robospoof-mix-spoof_0fbee312": {
+    "visible": true,
+    "x0": 0.656,
+    "y0": 0.259,
+    "x1": 0.835,
+    "y1": 0.585
+  },
+  "robospoof-mix-spoof_5c2f6eb2": {
+    "visible": true,
+    "x0": 0.147,
+    "y0": 0.254,
+    "x1": 0.835,
+    "y1": 0.554
+  },
+  "robospoof-mix-spoof_5be8b6b1": {
+    "visible": true,
+    "x0": 0.147,
+    "y0": 0.165,
+    "x1": 1.0,
+    "y1": 0.612
+  },
+  "robospoof-mix-spoof_776ac5cc": {
+    "visible": true,
+    "x0": 0.661,
+    "y0": 0.152,
+    "x1": 0.817,
+    "y1": 0.487
+  },
+  "robospoof-mix-spoof_510befe5": {
+    "visible": true,
+    "x0": 0.138,
+    "y0": 0.237,
+    "x1": 0.871,
+    "y1": 0.621
+  },
+  "robospoof-mix-spoof_d28224c1": {
+    "visible": true,
+    "x0": 0.656,
+    "y0": 0.21,
+    "x1": 0.821,
+    "y1": 0.531
+  },
+  "robospoof-mix-spoof_cabedc86": {
+    "visible": true,
+    "x0": 0.143,
+    "y0": 0.196,
+    "x1": 1.0,
+    "y1": 0.804
+  },
+  "robospoof-mix-spoof_f3b05ad3": {
+    "visible": true,
+    "x0": 0.147,
+    "y0": 0.232,
+    "x1": 0.884,
+    "y1": 0.545
+  },
+  "robospoof-mix-spoof_2fee180a": {
+    "visible": true,
+    "x0": 0.143,
+    "y0": 0.228,
+    "x1": 1.0,
+    "y1": 0.75
+  },
+  "robospoof-mix-spoof_b639db0d": {
+    "visible": true,
+    "x0": 0.138,
+    "y0": 0.112,
+    "x1": 1.0,
+    "y1": 0.795
+  },
+  "robospoof-mix-spoof_dc0b6c91": {
+    "visible": true,
+    "x0": 0.143,
+    "y0": 0.156,
+    "x1": 1.0,
+    "y1": 0.67
+  },
+  "robospoof-mix-spoof_811dc737": {
+    "visible": true,
+    "x0": 0.143,
+    "y0": 0.25,
+    "x1": 1.0,
+    "y1": 0.607
+  },
+  "robospoof-mix-spoof_9bf58b66": {
+    "visible": true,
+    "x0": 0.188,
+    "y0": 0.192,
+    "x1": 0.799,
+    "y1": 0.826
+  },
+  "robospoof-mix-spoof_3038ff04": {
+    "visible": true,
+    "x0": 0.656,
+    "y0": 0.25,
+    "x1": 0.817,
+    "y1": 0.549
+  },
+  "robospoof-mix-spoof_20512336": {
+    "visible": true,
+    "x0": 0.192,
+    "y0": 0.295,
+    "x1": 0.339,
+    "y1": 0.558
+  },
+  "robospoof-mix-spoof_963b8c26": {
+    "visible": true,
+    "x0": 0.643,
+    "y0": 0.246,
+    "x1": 0.813,
+    "y1": 0.585
+  },
+  "robospoof-mix-spoof_bd655a94": {
+    "visible": true,
+    "x0": 0.192,
+    "y0": 0.25,
+    "x1": 0.853,
+    "y1": 0.804
+  },
+  "robospoof-mix-spoof_096b9c0d": {
+    "visible": true,
+    "x0": 0.652,
+    "y0": 0.179,
+    "x1": 0.812,
+    "y1": 0.509
+  },
+  "robospoof-mix-spoof_d968d88a": {
+    "visible": true,
+    "x0": 0.174,
+    "y0": 0.33,
+    "x1": 0.335,
+    "y1": 0.603
+  },
+  "robospoof-mix-spoof_6e41cd53": {
+    "visible": true,
+    "x0": 0.138,
+    "y0": 0.192,
+    "x1": 1.0,
+    "y1": 0.737
+  },
+  "robospoof-mix-spoof_686c1739": {
+    "visible": true,
+    "x0": 0.143,
+    "y0": 0.219,
+    "x1": 1.0,
+    "y1": 0.804
+  },
+  "robospoof-mix-spoof_69ef6bb9": {
+    "visible": true,
+    "x0": 0.138,
+    "y0": 0.246,
+    "x1": 0.835,
+    "y1": 0.594
+  },
+  "robospoof-mix-spoof_0c361deb": {
+    "visible": true,
+    "x0": 0.143,
+    "y0": 0.219,
+    "x1": 1.0,
+    "y1": 0.563
+  },
+  "robospoof-mix-spoof_2d68af35": {
+    "visible": true,
+    "x0": 0.143,
+    "y0": 0.254,
+    "x1": 0.839,
+    "y1": 0.563
+  },
+  "robospoof-mix-spoof_172437de": {
+    "visible": true,
+    "x0": 0.165,
+    "y0": 0.25,
+    "x1": 1.0,
+    "y1": 0.652
+  },
+  "robospoof-mix-spoof_d9740a7c": {
+    "visible": true,
+    "x0": 0.107,
+    "y0": 0.281,
+    "x1": 0.897,
+    "y1": 0.652
+  },
+  "robospoof-mix-spoof_febcc2fa": {
+    "visible": true,
+    "x0": 0.138,
+    "y0": 0.219,
+    "x1": 0.799,
+    "y1": 0.804
+  },
+  "robospoof-mix-spoof_0bdb55e1": {
+    "visible": true,
+    "x0": 0.147,
+    "y0": 0.25,
+    "x1": 0.835,
+    "y1": 0.554
+  },
+  "robospoof-mix-spoof_314a6b98": {
+    "visible": true,
+    "x0": 0.174,
+    "y0": 0.17,
+    "x1": 0.817,
+    "y1": 0.786
+  },
+  "robospoof-mix-spoof_78af769b": {
+    "visible": true,
+    "x0": 0.143,
+    "y0": 0.241,
+    "x1": 0.835,
+    "y1": 0.777
+  },
+  "robospoof-mix-spoof_c89bc8ba": {
+    "visible": true,
+    "x0": 0.17,
+    "y0": 0.13,
+    "x1": 1.0,
+    "y1": 0.79
+  },
+  "robospoof-mix-spoof_d4af6390": {
+    "visible": true,
+    "x0": 0.179,
+    "y0": 0.344,
+    "x1": 0.353,
+    "y1": 0.616
+  },
+  "robospoof-mix-spoof_50fc1d5c": {
+    "visible": true,
+    "x0": 0.143,
+    "y0": 0.254,
+    "x1": 0.853,
+    "y1": 0.536
+  },
+  "robospoof-mix-spoof_ece0097b": {
+    "visible": true,
+    "x0": 0.143,
+    "y0": 0.188,
+    "x1": 0.817,
+    "y1": 0.795
+  },
+  "robospoof-mix-spoof_0a0dd81c": {
+    "visible": true,
+    "x0": 0.143,
+    "y0": 0.183,
+    "x1": 0.848,
+    "y1": 0.795
+  },
+  "robospoof-mix-spoof_fe4bcfeb": {
+    "visible": true,
+    "x0": 0.143,
+    "y0": 0.214,
+    "x1": 0.866,
+    "y1": 0.567
+  },
+  "robospoof-mix-spoof_6e64f106": {
+    "visible": true,
+    "x0": 0.134,
+    "y0": 0.254,
+    "x1": 0.817,
+    "y1": 0.607
+  },
+  "robospoof-mix-spoof_1ea7c61b": {
+    "visible": true,
+    "x0": 0.143,
+    "y0": 0.25,
+    "x1": 0.933,
+    "y1": 0.754
+  },
+  "robospoof-mix-spoof_52843638": {
+    "visible": true,
+    "x0": 0.165,
+    "y0": 0.174,
+    "x1": 1.0,
+    "y1": 0.518
+  },
+  "robospoof-mix-spoof_ef1a5312": {
+    "visible": true,
+    "x0": 0.188,
+    "y0": 0.246,
+    "x1": 0.83,
+    "y1": 0.741
+  },
+  "robospoof-mix-spoof_57ceb1d5": {
+    "visible": true,
+    "x0": 0.183,
+    "y0": 0.054,
+    "x1": 1.0,
+    "y1": 0.415
+  },
+  "robospoof-mix-spoof_ebe2ce93": {
+    "visible": true,
+    "x0": 0.143,
+    "y0": 0.205,
+    "x1": 0.853,
+    "y1": 0.786
+  },
+  "robospoof-mix-spoof_30459202": {
+    "visible": true,
+    "x0": 0.196,
+    "y0": 0.237,
+    "x1": 0.884,
+    "y1": 0.589
+  },
+  "robospoof-mix-spoof_ce2196f6": {
+    "visible": true,
+    "x0": 0.17,
+    "y0": 0.16,
+    "x1": 1.0,
+    "y1": 0.8
+  },
+  "robospoof-mix-spoof_e0a68d9b": {
+    "visible": true,
+    "x0": 0.433,
+    "y0": 0.531,
+    "x1": 0.549,
+    "y1": 0.754
+  },
+  "robospoof-mix-spoof_e9821ff2": {
+    "visible": true,
+    "x0": 0.138,
+    "y0": 0.232,
+    "x1": 0.848,
+    "y1": 0.567
+  },
+  "robospoof-mix-spoof_2de93907": {
+    "visible": true,
+    "x0": 0.17,
+    "y0": 0.214,
+    "x1": 0.835,
+    "y1": 0.554
+  },
+  "robospoof-drink-normal_8f2d41cc": {
+    "visible": true,
+    "x0": 0.018,
+    "y0": 0.281,
+    "x1": 0.241,
+    "y1": 0.571
+  },
+  "robospoof-mix-spoof_b6823f72": {
+    "visible": true,
+    "x0": 0.152,
+    "y0": 0.174,
+    "x1": 0.817,
+    "y1": 0.531
+  },
+  "robospoof-mix-spoof_15dbd447": {
+    "visible": true,
+    "x0": 0.272,
+    "y0": 0,
+    "x1": 1,
+    "y1": 0.781
+  },
+  "robospoof-mix-spoof_7be4dd6f": {
+    "visible": true,
+    "x0": 0.143,
+    "y0": 0.192,
+    "x1": 1.0,
+    "y1": 0.813
+  },
+  "robospoof-mix-normal_1e8c718c": {
+    "visible": true,
+    "x0": 0.625,
+    "y0": 0.254,
+    "x1": 0.817,
+    "y1": 0.638
+  },
+  "robospoof-mix-normal_1e575c12": {
+    "visible": true,
+    "x0": 0.022,
+    "y0": 0.232,
+    "x1": 0.973,
+    "y1": 0.536
+  },
+  "robospoof-mix-spoof_5632e169": {
+    "visible": true,
+    "x0": 0.143,
+    "y0": 0.219,
+    "x1": 1.0,
+    "y1": 0.531
+  },
+  "robospoof-mix-normal_d5965bf1": {
+    "visible": true,
+    "x0": 0.027,
+    "y0": 0.156,
+    "x1": 0.897,
+    "y1": 0.777
+  },
+  "robospoof-mix-spoof_e2c19220": {
+    "visible": true,
+    "x0": 0.17,
+    "y0": 0.313,
+    "x1": 0.83,
+    "y1": 0.625
+  },
+  "robospoof-mix-normal_95405901": {
+    "visible": true,
+    "x0": 0.031,
+    "y0": 0.152,
+    "x1": 0.893,
+    "y1": 0.768
+  },
+  "robospoof-mix-normal_b9accb31": {
+    "visible": true,
+    "x0": 0.402,
+    "y0": 0.522,
+    "x1": 0.563,
+    "y1": 0.777
+  },
+  "robospoof-mix-normal_3a317ad0": {
+    "visible": true,
+    "x0": 0.067,
+    "y0": 0.134,
+    "x1": 0.911,
+    "y1": 0.509
+  },
+  "robospoof-mix-spoof_7c39ee8c": {
+    "visible": true,
+    "x0": 0.232,
+    "y0": 0,
+    "x1": 0.786,
+    "y1": 0.786
+  },
+  "robospoof-doll-normal_6f4bc6fe": {
+    "visible": true,
+    "x0": 0.254,
+    "y0": 0.237,
+    "x1": 0.567,
+    "y1": 0.911
+  },
+  "robospoof-mix-spoof_3c413dad": {
+    "visible": true,
+    "x0": 0.143,
+    "y0": 0.192,
+    "x1": 0.813,
+    "y1": 0.509
+  },
+  "robospoof-mix-spoof_957dc883": {
+    "visible": true,
+    "x0": 0.424,
+    "y0": 0.522,
+    "x1": 0.554,
+    "y1": 0.79
+  },
+  "robospoof-mix-normal_b102296f": {
+    "visible": true,
+    "x0": 0.71,
+    "y0": 0.179,
+    "x1": 0.915,
+    "y1": 0.509
+  },
+  "robospoof-mix-normal_0ff04062": {
+    "visible": true,
+    "x0": 0.397,
+    "y0": 0.522,
+    "x1": 0.567,
+    "y1": 0.786
+  },
+  "robospoof-mix-normal_18040a9f": {
+    "visible": true,
+    "x0": 0.062,
+    "y0": 0.134,
+    "x1": 0.915,
+    "y1": 0.777
+  },
+  "robospoof-mix-normal_a1c8efde": {
+    "visible": true,
+    "x0": 0.402,
+    "y0": 0.522,
+    "x1": 0.567,
+    "y1": 0.79
+  },
+  "robospoof-mix-normal_a2c0aa71": {
+    "visible": true,
+    "x0": 0.411,
+    "y0": 0.522,
+    "x1": 0.567,
+    "y1": 0.786
+  },
+  "robospoof-mix-normal_52413862": {
+    "visible": true,
+    "x0": 0.415,
+    "y0": 0.522,
+    "x1": 0.567,
+    "y1": 0.772
+  },
+  "robospoof-mix-normal_d210be60": {
+    "visible": true,
+    "x0": 0.071,
+    "y0": 0.17,
+    "x1": 0.929,
+    "y1": 0.585
+  },
+  "robospoof-mix-normal_0af083a4": {
+    "visible": true,
+    "x0": 0.714,
+    "y0": 0.174,
+    "x1": 0.924,
+    "y1": 0.522
+  },
+  "robospoof-mix-normal_b70b3c6d": {
+    "visible": true,
+    "x0": 0.094,
+    "y0": 0.299,
+    "x1": 0.286,
+    "y1": 0.554
+  },
+  "robospoof-mix-normal_0302bad9": {
+    "visible": true,
+    "x0": 0.031,
+    "y0": 0.17,
+    "x1": 0.92,
+    "y1": 0.545
+  },
+  "robospoof-mix-normal_817fecc8": {
+    "visible": true,
+    "x0": 0.027,
+    "y0": 0.152,
+    "x1": 0.897,
+    "y1": 0.795
+  },
+  "robospoof-mix-normal_fce1786d": {
+    "visible": true,
+    "x0": 0.397,
+    "y0": 0.527,
+    "x1": 0.558,
+    "y1": 0.795
+  },
+  "robospoof-mix-normal_1cbb755c": {
+    "visible": true,
+    "x0": 0.085,
+    "y0": 0.179,
+    "x1": 0.951,
+    "y1": 0.768
+  },
+  "robospoof-mix-spoof_88dd6fac": {
+    "visible": true,
+    "x0": 0.147,
+    "y0": 0.0,
+    "x1": 1.0,
+    "y1": 0.795
+  },
+  "robospoof-mix-normal_0738172e": {
+    "visible": true,
+    "x0": 0.062,
+    "y0": 0.17,
+    "x1": 0.938,
+    "y1": 0.554
+  },
+  "robospoof-mix-normal_b688e5c6": {
+    "visible": true,
+    "x0": 0.031,
+    "y0": 0.165,
+    "x1": 0.915,
+    "y1": 0.527
+  },
+  "robospoof-mix-normal_91f01aad": {
+    "visible": true,
+    "x0": 0.036,
+    "y0": 0.17,
+    "x1": 0.929,
+    "y1": 0.795
+  },
+  "robospoof-mix-normal_be5ebad7": {
+    "visible": true,
+    "x0": 0.04,
+    "y0": 0.17,
+    "x1": 0.93,
+    "y1": 0.75
+  },
+  "robospoof-mix-normal_904e7470": {
+    "visible": true,
+    "x0": 0.027,
+    "y0": 0.17,
+    "x1": 0.929,
+    "y1": 0.531
+  },
+  "robospoof-mix-normal_5a361931": {
+    "visible": true,
+    "x0": 0.714,
+    "y0": 0.174,
+    "x1": 0.915,
+    "y1": 0.504
+  },
+  "robospoof-mix-normal_98b93b83": {
+    "visible": true,
+    "x0": 0.036,
+    "y0": 0.174,
+    "x1": 0.92,
+    "y1": 0.795
+  },
+  "robospoof-mix-normal_ae3be4f4": {
+    "visible": true,
+    "x0": 0.036,
+    "y0": 0.17,
+    "x1": 0.92,
+    "y1": 0.79
+  },
+  "robospoof-mix-normal_f3a2ca9a": {
+    "visible": true,
+    "x0": 0.076,
+    "y0": 0.17,
+    "x1": 0.933,
+    "y1": 0.558
+  },
+  "robospoof-mix-normal_5a0e6dc5": {
+    "visible": true,
+    "x0": 0.04,
+    "y0": 0.17,
+    "x1": 0.92,
+    "y1": 0.53
+  },
+  "robospoof-mix-normal_b5e1e481": {
+    "visible": true,
+    "x0": 0.027,
+    "y0": 0.174,
+    "x1": 0.924,
+    "y1": 0.799
+  },
+  "robospoof-mix-normal_40b43c67": {
+    "visible": true,
+    "x0": 0.085,
+    "y0": 0.161,
+    "x1": 0.915,
+    "y1": 0.799
+  },
+  "robospoof-mix-normal_447d9c78": {
+    "visible": true,
+    "x0": 0.076,
+    "y0": 0.161,
+    "x1": 0.915,
+    "y1": 0.509
+  },
+  "robospoof-mix-normal_6f6ae59c": {
+    "visible": true,
+    "x0": 0.388,
+    "y0": 0.174,
+    "x1": 0.911,
+    "y1": 0.781
+  },
+  "robospoof-mix-normal_c4b947d6": {
+    "visible": true,
+    "x0": 0.071,
+    "y0": 0.161,
+    "x1": 0.924,
+    "y1": 0.504
+  },
+  "robospoof-mix-normal_b90989fa": {
+    "visible": true,
+    "x0": 0.062,
+    "y0": 0.165,
+    "x1": 0.933,
+    "y1": 0.79
+  },
+  "robospoof-mix-normal_9cd9532d": {
+    "visible": true,
+    "x0": 0.076,
+    "y0": 0.156,
+    "x1": 0.924,
+    "y1": 0.509
+  },
+  "robospoof-mix-normal_a7438b53": {
+    "visible": true,
+    "x0": 0.063,
+    "y0": 0.134,
+    "x1": 0.915,
+    "y1": 0.786
+  },
+  "robospoof-mix-normal_7c08ed4f": {
+    "visible": true,
+    "x0": 0.071,
+    "y0": 0.156,
+    "x1": 0.924,
+    "y1": 0.518
+  },
+  "robospoof-mix-normal_44fbc77f": {
+    "visible": true,
+    "x0": 0.08,
+    "y0": 0.16,
+    "x1": 0.92,
+    "y1": 0.5
+  },
+  "robospoof-mix-normal_5c337def": {
+    "visible": true,
+    "x0": 0.393,
+    "y0": 0.522,
+    "x1": 0.567,
+    "y1": 0.777
+  },
+  "robospoof-mix-normal_55cfdd0e": {
+    "visible": true,
+    "x0": 0.036,
+    "y0": 0.174,
+    "x1": 0.915,
+    "y1": 0.786
+  },
+  "robospoof-mix-normal_18717f37": {
+    "visible": true,
+    "x0": 0.08,
+    "y0": 0.165,
+    "x1": 0.92,
+    "y1": 0.777
+  },
+  "robospoof-mix-normal_de348944": {
+    "visible": true,
+    "x0": 0.397,
+    "y0": 0.527,
+    "x1": 0.563,
+    "y1": 0.79
+  },
+  "robospoof-mix-normal_e4a72893": {
+    "visible": true,
+    "x0": 0.071,
+    "y0": 0.156,
+    "x1": 0.924,
+    "y1": 0.79
+  },
+  "robospoof-mix-spoof_1e674c26": {
+    "visible": true,
+    "x0": 0.143,
+    "y0": 0.254,
+    "x1": 0.844,
+    "y1": 0.536
+  },
+  "robospoof-mix-normal_07d71aec": {
+    "visible": true,
+    "x0": 0.348,
+    "y0": 0.098,
+    "x1": 0.589,
+    "y1": 0.402
+  },
+  "robospoof-mix-normal_87d2a49e": {
+    "visible": true,
+    "x0": 0.08,
+    "y0": 0.16,
+    "x1": 0.915,
+    "y1": 0.5
+  },
+  "robospoof-mix-normal_4c0d899b": {
+    "visible": true,
+    "x0": 0.049,
+    "y0": 0.134,
+    "x1": 0.915,
+    "y1": 0.509
+  },
+  "robospoof-mix-normal_0f53423e": {
+    "visible": true,
+    "x0": 0.031,
+    "y0": 0.17,
+    "x1": 0.982,
+    "y1": 0.772
+  },
+  "robospoof-mix-normal_ece22c43": {
+    "visible": true,
+    "x0": 0.031,
+    "y0": 0.174,
+    "x1": 0.973,
+    "y1": 0.536
+  },
+  "robospoof-mix-normal_4f617b04": {
+    "visible": true,
+    "x0": 0.04,
+    "y0": 0.174,
+    "x1": 0.933,
+    "y1": 0.79
+  },
+  "robospoof-mix-normal_f42e2ee0": {
+    "visible": true,
+    "x0": 0.402,
+    "y0": 0.527,
+    "x1": 0.563,
+    "y1": 0.741
+  },
+  "robospoof-mix-normal_2ff9d790": {
+    "visible": true,
+    "x0": 0.183,
+    "y0": 0,
+    "x1": 1,
+    "y1": 0.397
+  },
+  "robospoof-mix-normal_955359c6": {
+    "visible": true,
+    "x0": 0.228,
+    "y0": 0,
+    "x1": 1,
+    "y1": 0.777
+  },
+  "robospoof-mix-normal_9a22ad31": {
+    "visible": true,
+    "x0": 0.071,
+    "y0": 0.165,
+    "x1": 0.924,
+    "y1": 0.509
+  },
+  "robospoof-toaster-spoof_09a62ec5": {
+    "visible": true,
+    "x0": 0.33,
+    "y0": 0.308,
+    "x1": 0.571,
+    "y1": 0.643
+  },
+  "robospoof-mix-normal_158631b3": {
+    "visible": true,
+    "x0": 0.08,
+    "y0": 0.156,
+    "x1": 0.929,
+    "y1": 0.527
+  },
+  "robospoof-toaster-spoof_d09d88e0": {
+    "visible": true,
+    "x0": 0.344,
+    "y0": 0.25,
+    "x1": 0.571,
+    "y1": 0.616
+  },
+  "robospoof-toaster-spoof_79d65a04": {
+    "visible": true,
+    "x0": 0.362,
+    "y0": 0.246,
+    "x1": 0.585,
+    "y1": 0.607
+  },
+  "robospoof-toaster-spoof_5edfbfa4": {
+    "visible": true,
+    "x0": 0.321,
+    "y0": 0.25,
+    "x1": 0.563,
+    "y1": 0.625
+  },
+  "robospoof-toaster-spoof_b1876711": {
+    "visible": true,
+    "x0": 0.357,
+    "y0": 0.237,
+    "x1": 0.585,
+    "y1": 0.54
+  },
+  "robospoof-toaster-spoof_47344071": {
+    "visible": true,
+    "x0": 0.348,
+    "y0": 0.313,
+    "x1": 0.603,
+    "y1": 0.661
+  },
+  "robospoof-mix-normal_fd611351": {
+    "visible": true,
+    "x0": 0.411,
+    "y0": 0.527,
+    "x1": 0.563,
+    "y1": 0.759
+  },
+  "robospoof-toaster-spoof_28438a3e": {
+    "visible": true,
+    "x0": 0.344,
+    "y0": 0.263,
+    "x1": 0.567,
+    "y1": 0.585
+  },
+  "robospoof-toaster-spoof_14d7d5bb": {
+    "visible": true,
+    "x0": 0.344,
+    "y0": 0.29,
+    "x1": 0.576,
+    "y1": 0.647
+  },
+  "robospoof-toaster-spoof_220fdc4a": {
+    "visible": true,
+    "x0": 0.348,
+    "y0": 0.304,
+    "x1": 0.567,
+    "y1": 0.661
+  },
+  "robospoof-toaster-spoof_a6c17e8b": {
+    "visible": true,
+    "x0": 0.348,
+    "y0": 0.277,
+    "x1": 0.558,
+    "y1": 0.652
+  },
+  "robospoof-toaster-spoof_daf104d3": {
+    "visible": true,
+    "x0": 0.335,
+    "y0": 0.281,
+    "x1": 0.576,
+    "y1": 0.634
+  },
+  "robospoof-mix-normal_aaec13de": {
+    "visible": true,
+    "x0": 0.223,
+    "y0": 0.0,
+    "x1": 1.0,
+    "y1": 0.339
+  },
+  "robospoof-mix-normal_920ada1f": {
+    "visible": true,
+    "x0": 0.027,
+    "y0": 0.156,
+    "x1": 0.893,
+    "y1": 0.772
+  },
+  "robospoof-toaster-spoof_5ae6a07c": {
+    "visible": true,
+    "x0": 0.326,
+    "y0": 0.277,
+    "x1": 0.58,
+    "y1": 0.625
+  },
+  "robospoof-toaster-spoof_0ac77b37": {
+    "visible": true,
+    "x0": 0.335,
+    "y0": 0.254,
+    "x1": 0.576,
+    "y1": 0.638
+  },
+  "robospoof-toaster-spoof_daa21be5": {
+    "visible": true,
+    "x0": 0.344,
+    "y0": 0.223,
+    "x1": 0.607,
+    "y1": 0.598
+  },
+  "robospoof-toaster-spoof_74f908c3": {
+    "visible": true,
+    "x0": 0.317,
+    "y0": 0.259,
+    "x1": 0.585,
+    "y1": 0.536
+  },
+  "robospoof-toaster-spoof_ff48bdf1": {
+    "visible": true,
+    "x0": 0.326,
+    "y0": 0.246,
+    "x1": 0.563,
+    "y1": 0.625
+  },
+  "robospoof-toaster-spoof_76c12f88": {
+    "visible": true,
+    "x0": 0.362,
+    "y0": 0.237,
+    "x1": 0.58,
+    "y1": 0.487
+  },
+  "robospoof-toaster-spoof_b98153ae": {
+    "visible": true,
+    "x0": 0.33,
+    "y0": 0.26,
+    "x1": 0.57,
+    "y1": 0.61
+  },
+  "robospoof-toaster-spoof_60498f00": {
+    "visible": true,
+    "x0": 0.335,
+    "y0": 0.299,
+    "x1": 0.545,
+    "y1": 0.629
+  },
+  "robospoof-toaster-spoof_19ac2eb4": {
+    "visible": true,
+    "x0": 0.348,
+    "y0": 0.232,
+    "x1": 0.589,
+    "y1": 0.545
+  },
+  "robospoof-toaster-spoof_f8761267": {
+    "visible": true,
+    "x0": 0.335,
+    "y0": 0.21,
+    "x1": 0.612,
+    "y1": 0.585
+  },
+  "robospoof-mix-normal_cc3973b5": {
+    "visible": true,
+    "x0": 0.402,
+    "y0": 0.522,
+    "x1": 0.563,
+    "y1": 0.795
+  },
+  "robospoof-toaster-spoof_bb8bc95f": {
+    "visible": true,
+    "x0": 0.326,
+    "y0": 0.246,
+    "x1": 0.558,
+    "y1": 0.643
+  },
+  "robospoof-toaster-spoof_adf1c8ab": {
+    "visible": true,
+    "x0": 0.321,
+    "y0": 0.272,
+    "x1": 0.576,
+    "y1": 0.647
+  },
+  "robospoof-toaster-spoof_4da4c7c2": {
+    "visible": true,
+    "x0": 0.339,
+    "y0": 0.263,
+    "x1": 0.558,
+    "y1": 0.625
+  },
+  "robospoof-toaster-spoof_7582558a": {
+    "visible": true,
+    "x0": 0.326,
+    "y0": 0.29,
+    "x1": 0.558,
+    "y1": 0.625
+  },
+  "robospoof-toaster-spoof_54a628aa": {
+    "visible": true,
+    "x0": 0.313,
+    "y0": 0.272,
+    "x1": 0.558,
+    "y1": 0.634
+  },
+  "robospoof-toaster-spoof_b43ba16a": {
+    "visible": true,
+    "x0": 0.313,
+    "y0": 0.299,
+    "x1": 0.554,
+    "y1": 0.647
+  },
+  "robospoof-toaster-spoof_f42840d7": {
+    "visible": true,
+    "x0": 0.326,
+    "y0": 0.272,
+    "x1": 0.571,
+    "y1": 0.634
+  },
+  "robospoof-toaster-spoof_00b512c9": {
+    "visible": true,
+    "x0": 0.375,
+    "y0": 0.317,
+    "x1": 0.629,
+    "y1": 0.683
+  },
+  "robospoof-toaster-spoof_5312a74e": {
+    "visible": true,
+    "x0": 0.375,
+    "y0": 0.286,
+    "x1": 0.567,
+    "y1": 0.603
+  },
+  "robospoof-toaster-spoof_888c3d54": {
+    "visible": true,
+    "x0": 0.348,
+    "y0": 0.254,
+    "x1": 0.58,
+    "y1": 0.616
+  },
+  "robospoof-toaster-spoof_0567081e": {
+    "visible": true,
+    "x0": 0.353,
+    "y0": 0.272,
+    "x1": 0.598,
+    "y1": 0.621
+  },
+  "robospoof-toaster-spoof_96e69a99": {
+    "visible": true,
+    "x0": 0.366,
+    "y0": 0.304,
+    "x1": 0.603,
+    "y1": 0.647
+  },
+  "robospoof-toaster-spoof_a015eccc": {
+    "visible": true,
+    "x0": 0.384,
+    "y0": 0.281,
+    "x1": 0.612,
+    "y1": 0.638
+  },
+  "robospoof-toaster-spoof_c61c3461": {
+    "visible": true,
+    "x0": 0.335,
+    "y0": 0.25,
+    "x1": 0.607,
+    "y1": 0.607
+  },
+  "robospoof-toaster-spoof_0d0caebb": {
+    "visible": true,
+    "x0": 0.326,
+    "y0": 0.268,
+    "x1": 0.585,
+    "y1": 0.629
+  },
+  "robospoof-toaster-spoof_d74ad073": {
+    "visible": true,
+    "x0": 0.308,
+    "y0": 0.308,
+    "x1": 0.558,
+    "y1": 0.58
+  },
+  "robospoof-toaster-spoof_f9209116": {
+    "visible": true,
+    "x0": 0.339,
+    "y0": 0.295,
+    "x1": 0.621,
+    "y1": 0.661
+  },
+  "robospoof-toaster-spoof_6a9c4d19": {
+    "visible": true,
+    "x0": 0.344,
+    "y0": 0.25,
+    "x1": 0.603,
+    "y1": 0.638
+  },
+  "robospoof-toaster-spoof_d482ea4d": {
+    "visible": true,
+    "x0": 0.362,
+    "y0": 0.313,
+    "x1": 0.616,
+    "y1": 0.665
+  },
+  "robospoof-toaster-spoof_053b11dd": {
+    "visible": true,
+    "x0": 0.67,
+    "y0": 0.366,
+    "x1": 1.0,
+    "y1": 1.0
+  },
+  "robospoof-toaster-spoof_45dc9f9a": {
+    "visible": true,
+    "x0": 0.379,
+    "y0": 0.277,
+    "x1": 0.629,
+    "y1": 0.634
+  },
+  "robospoof-toaster-spoof_4e0b49c6": {
+    "visible": true,
+    "x0": 0.241,
+    "y0": 0.009,
+    "x1": 0.375,
+    "y1": 0.554
+  },
+  "robospoof-toaster-spoof_73724420": {
+    "visible": true,
+    "x0": 0.357,
+    "y0": 0.317,
+    "x1": 0.625,
+    "y1": 0.652
+  },
+  "robospoof-toaster-spoof_0842aa02": {
+    "visible": true,
+    "x0": 0.304,
+    "y0": 0.223,
+    "x1": 0.545,
+    "y1": 0.621
+  },
+  "robospoof-toaster-spoof_7ae690d2": {
+    "visible": true,
+    "x0": 0.25,
+    "y0": 0.339,
+    "x1": 0.375,
+    "y1": 0.545
+  },
+  "robospoof-toaster-spoof_91af697a": {
+    "visible": true,
+    "x0": 0.246,
+    "y0": 0.29,
+    "x1": 0.549,
+    "y1": 0.643
+  },
+  "robospoof-toaster-spoof_b18c598c": {
+    "visible": true,
+    "x0": 0.25,
+    "y0": 0.263,
+    "x1": 0.571,
+    "y1": 0.643
+  },
+  "robospoof-toaster-spoof_7ee846e2": {
+    "visible": true,
+    "x0": 0.321,
+    "y0": 0.259,
+    "x1": 0.567,
+    "y1": 0.638
+  },
+  "robospoof-toaster-spoof_3e5b8bae": {
+    "visible": true,
+    "x0": 0.241,
+    "y0": 0.263,
+    "x1": 0.54,
+    "y1": 0.634
+  },
+  "robospoof-toaster-spoof_1d5a0b52": {
+    "visible": true,
+    "x0": 0.246,
+    "y0": 0.246,
+    "x1": 0.545,
+    "y1": 0.634
+  },
+  "robospoof-toaster-spoof_116b0665": {
+    "visible": true,
+    "x0": 0.165,
+    "y0": 0.33,
+    "x1": 0.379,
+    "y1": 0.58
+  },
+  "robospoof-toaster-spoof_74307ccc": {
+    "visible": true,
+    "x0": 0.344,
+    "y0": 0.295,
+    "x1": 0.567,
+    "y1": 0.652
+  },
+  "robospoof-toaster-spoof_d38fd71c": {
+    "visible": true,
+    "x0": 0.0,
+    "y0": 0.33,
+    "x1": 0.38,
+    "y1": 1.0
+  },
+  "robospoof-toaster-normal_71afc6d0": {
+    "visible": true,
+    "x0": 0.366,
+    "y0": 0.152,
+    "x1": 0.594,
+    "y1": 0.621
+  },
+  "robospoof-toaster-spoof_53ed696c": {
+    "visible": true,
+    "x0": 0.357,
+    "y0": 0.29,
+    "x1": 0.647,
+    "y1": 0.674
+  },
+  "robospoof-toaster-normal_b571c9d7": {
+    "visible": true,
+    "x0": 0.366,
+    "y0": 0.152,
+    "x1": 0.589,
+    "y1": 0.625
+  },
+  "robospoof-toaster-normal_4a2eb310": {
+    "visible": true,
+    "x0": 0.371,
+    "y0": 0.152,
+    "x1": 0.589,
+    "y1": 0.625
+  },
+  "robospoof-toaster-normal_e0766da2": {
+    "visible": true,
+    "x0": 0.366,
+    "y0": 0.152,
+    "x1": 0.594,
+    "y1": 0.607
+  },
+  "robospoof-toaster-normal_b4eb3e46": {
+    "visible": true,
+    "x0": 0.371,
+    "y0": 0.152,
+    "x1": 0.589,
+    "y1": 0.634
+  },
+  "robospoof-toaster-spoof_b4726b26": {
+    "visible": true,
+    "x0": 0.33,
+    "y0": 0.299,
+    "x1": 0.554,
+    "y1": 0.643
+  },
+  "robospoof-toaster-normal_109210e3": {
+    "visible": true,
+    "x0": 0.366,
+    "y0": 0.147,
+    "x1": 0.589,
+    "y1": 0.634
+  },
+  "robospoof-toaster-normal_9fffcf2a": {
+    "visible": true,
+    "x0": 0.366,
+    "y0": 0.152,
+    "x1": 0.594,
+    "y1": 0.638
+  },
+  "robospoof-toaster-normal_5ed83047": {
+    "visible": true,
+    "x0": 0.366,
+    "y0": 0.156,
+    "x1": 0.585,
+    "y1": 0.612
+  },
+  "robospoof-toaster-normal_21a404f0": {
+    "visible": true,
+    "x0": 0.384,
+    "y0": 0.165,
+    "x1": 0.589,
+    "y1": 0.625
+  },
+  "robospoof-toaster-normal_a5527255": {
+    "visible": true,
+    "x0": 0.379,
+    "y0": 0.165,
+    "x1": 0.594,
+    "y1": 0.612
+  },
+  "robospoof-toaster-spoof_16ea4365": {
+    "visible": true,
+    "x0": 0.353,
+    "y0": 0.339,
+    "x1": 0.612,
+    "y1": 0.656
+  },
+  "robospoof-toaster-normal_05381361": {
+    "visible": true,
+    "x0": 0.379,
+    "y0": 0.161,
+    "x1": 0.589,
+    "y1": 0.625
+  },
+  "robospoof-toaster-normal_aae2d67a": {
+    "visible": true,
+    "x0": 0.379,
+    "y0": 0.161,
+    "x1": 0.598,
+    "y1": 0.643
+  },
+  "robospoof-toaster-normal_1be408f9": {
+    "visible": true,
+    "x0": 0.371,
+    "y0": 0.156,
+    "x1": 0.594,
+    "y1": 0.625
+  },
+  "robospoof-toaster-normal_640a1c7a": {
+    "visible": true,
+    "x0": 0.379,
+    "y0": 0.165,
+    "x1": 0.589,
+    "y1": 0.612
+  },
+  "robospoof-toaster-spoof_63abda44": {
+    "visible": true,
+    "x0": 0.357,
+    "y0": 0.295,
+    "x1": 0.612,
+    "y1": 0.652
+  },
+  "robospoof-toaster-normal_b885e2e5": {
+    "visible": true,
+    "x0": 0.366,
+    "y0": 0.152,
+    "x1": 0.589,
+    "y1": 0.629
+  },
+  "robospoof-toaster-normal_fad3b205": {
+    "visible": true,
+    "x0": 0.379,
+    "y0": 0.161,
+    "x1": 0.585,
+    "y1": 0.607
+  },
+  "robospoof-toaster-spoof_897ce751": {
+    "visible": true,
+    "x0": 0.348,
+    "y0": 0.299,
+    "x1": 0.603,
+    "y1": 0.652
+  },
+  "robospoof-toaster-normal_f7bb2c5a": {
+    "visible": true,
+    "x0": 0.371,
+    "y0": 0.156,
+    "x1": 0.585,
+    "y1": 0.607
+  },
+  "robospoof-toaster-normal_f7752871": {
+    "visible": true,
+    "x0": 0.379,
+    "y0": 0.165,
+    "x1": 0.589,
+    "y1": 0.621
+  },
+  "robospoof-toaster-normal_28f98b10": {
+    "visible": true,
+    "x0": 0.371,
+    "y0": 0.156,
+    "x1": 0.58,
+    "y1": 0.612
+  },
+  "robospoof-toaster-normal_f8b04198": {
+    "visible": true,
+    "x0": 0.384,
+    "y0": 0.165,
+    "x1": 0.589,
+    "y1": 0.621
+  },
+  "robospoof-toaster-normal_bc83fcb9": {
+    "visible": true,
+    "x0": 0.384,
+    "y0": 0.165,
+    "x1": 0.589,
+    "y1": 0.607
+  },
+  "robospoof-toaster-normal_804c4c66": {
+    "visible": true,
+    "x0": 0.379,
+    "y0": 0.161,
+    "x1": 0.598,
+    "y1": 0.621
+  },
+  "robospoof-toaster-normal_aef83317": {
+    "visible": true,
+    "x0": 0.379,
+    "y0": 0.165,
+    "x1": 0.589,
+    "y1": 0.616
+  },
+  "robospoof-toaster-normal_3d744046": {
+    "visible": true,
+    "x0": 0.384,
+    "y0": 0.165,
+    "x1": 0.594,
+    "y1": 0.625
+  },
+  "robospoof-toaster-spoof_d3b9dacc": {
+    "visible": true,
+    "x0": 0.366,
+    "y0": 0.29,
+    "x1": 0.625,
+    "y1": 0.665
+  },
+  "robospoof-toaster-normal_5aed831f": {
+    "visible": true,
+    "x0": 0.384,
+    "y0": 0.165,
+    "x1": 0.589,
+    "y1": 0.616
+  },
+  "robospoof-toaster-normal_b676b000": {
+    "visible": true,
+    "x0": 0.384,
+    "y0": 0.165,
+    "x1": 0.589,
+    "y1": 0.621
+  },
+  "robospoof-toaster-normal_a6eb1aa9": {
+    "visible": true,
+    "x0": 0.379,
+    "y0": 0.165,
+    "x1": 0.589,
+    "y1": 0.621
+  },
+  "robospoof-toaster-normal_5576c355": {
+    "visible": true,
+    "x0": 0.371,
+    "y0": 0.156,
+    "x1": 0.589,
+    "y1": 0.621
+  },
+  "robospoof-toaster-normal_53917a63": {
+    "visible": true,
+    "x0": 0.384,
+    "y0": 0.165,
+    "x1": 0.589,
+    "y1": 0.625
+  },
+  "robospoof-toaster-normal_1443a2e1": {
+    "visible": true,
+    "x0": 0.379,
+    "y0": 0.161,
+    "x1": 0.594,
+    "y1": 0.625
+  },
+  "robospoof-toaster-normal_7fc9a3b3": {
+    "visible": true,
+    "x0": 0.375,
+    "y0": 0.165,
+    "x1": 0.589,
+    "y1": 0.603
+  },
+  "robospoof-toaster-normal_da972b13": {
+    "visible": true,
+    "x0": 0.384,
+    "y0": 0.165,
+    "x1": 0.589,
+    "y1": 0.607
+  },
+  "robospoof-toaster-normal_c9873e19": {
+    "visible": true,
+    "x0": 0.384,
+    "y0": 0.17,
+    "x1": 0.589,
+    "y1": 0.625
+  },
+  "robospoof-toaster-normal_7ceb4d33": {
+    "visible": true,
+    "x0": 0.379,
+    "y0": 0.165,
+    "x1": 0.594,
+    "y1": 0.616
+  },
+  "robospoof-toaster-normal_fd4171f2": {
+    "visible": true,
+    "x0": 0.379,
+    "y0": 0.165,
+    "x1": 0.589,
+    "y1": 0.621
+  },
+  "robospoof-toaster-normal_4d52f732": {
+    "visible": true,
+    "x0": 0.379,
+    "y0": 0.165,
+    "x1": 0.589,
+    "y1": 0.625
+  },
+  "robospoof-toaster-normal_2abde503": {
+    "visible": true,
+    "x0": 0.371,
+    "y0": 0.156,
+    "x1": 0.585,
+    "y1": 0.616
+  },
+  "robospoof-toaster-normal_76065919": {
+    "visible": true,
+    "x0": 0.384,
+    "y0": 0.165,
+    "x1": 0.589,
+    "y1": 0.612
+  },
+  "robospoof-toaster-normal_12cc235d": {
+    "visible": true,
+    "x0": 0.384,
+    "y0": 0.165,
+    "x1": 0.594,
+    "y1": 0.616
+  },
+  "robospoof-toaster-normal_21a6e1b1": {
+    "visible": true,
+    "x0": 0.379,
+    "y0": 0.165,
+    "x1": 0.594,
+    "y1": 0.616
+  },
+  "robospoof-toaster-normal_7cc01816": {
+    "visible": true,
+    "x0": 0.375,
+    "y0": 0.165,
+    "x1": 0.594,
+    "y1": 0.621
+  },
+  "robospoof-toaster-normal_a4651d82": {
+    "visible": true,
+    "x0": 0.379,
+    "y0": 0.165,
+    "x1": 0.594,
+    "y1": 0.629
+  },
+  "robospoof-toaster-normal_ad138069": {
+    "visible": true,
+    "x0": 0.366,
+    "y0": 0.152,
+    "x1": 0.589,
+    "y1": 0.607
+  },
+  "robospoof-toaster-normal_ee977897": {
+    "visible": true,
+    "x0": 0.384,
+    "y0": 0.165,
+    "x1": 0.589,
+    "y1": 0.612
+  },
+  "robospoof-toaster-normal_f9c26779": {
+    "visible": true,
+    "x0": 0.384,
+    "y0": 0.165,
+    "x1": 0.598,
+    "y1": 0.621
+  },
+  "robospoof-toaster-normal_eca70359": {
+    "visible": true,
+    "x0": 0.379,
+    "y0": 0.165,
+    "x1": 0.589,
+    "y1": 0.607
+  },
+  "robospoof-toaster-normal_723673da": {
+    "visible": true,
+    "x0": 0.366,
+    "y0": 0.152,
+    "x1": 0.589,
+    "y1": 0.629
+  },
+  "robospoof-toaster-normal_c782c8e3": {
+    "visible": true,
+    "x0": 0.366,
+    "y0": 0.156,
+    "x1": 0.585,
+    "y1": 0.621
+  },
+  "robospoof-toaster-normal_6ad6b666": {
+    "visible": true,
+    "x0": 0.384,
+    "y0": 0.165,
+    "x1": 0.594,
+    "y1": 0.612
+  },
+  "robospoof-toaster-normal_dffdb1ce": {
+    "visible": true,
+    "x0": 0.366,
+    "y0": 0.152,
+    "x1": 0.585,
+    "y1": 0.652
+  },
+  "robospoof-toaster-normal_b8ef7377": {
+    "visible": true,
+    "x0": 0.366,
+    "y0": 0.152,
+    "x1": 0.585,
+    "y1": 0.647
+  },
+  "robospoof-toaster-normal_c7e91d20": {
+    "visible": true,
+    "x0": 0.366,
+    "y0": 0.147,
+    "x1": 0.589,
+    "y1": 0.634
+  },
+  "robospoof-toaster-normal_2a3bc213": {
+    "visible": true,
+    "x0": 0.362,
+    "y0": 0.156,
+    "x1": 0.585,
+    "y1": 0.634
+  },
+  "robospoof-toaster-normal_cdf860e3": {
+    "visible": true,
+    "x0": 0.366,
+    "y0": 0.152,
+    "x1": 0.589,
+    "y1": 0.634
+  },
+  "robospoof-toaster-normal_ab2f6ddb": {
+    "visible": true,
+    "x0": 0.366,
+    "y0": 0.156,
+    "x1": 0.585,
+    "y1": 0.638
+  },
+  "robospoof-toaster-normal_2fb98d69": {
+    "visible": true,
+    "x0": 0.366,
+    "y0": 0.152,
+    "x1": 0.589,
+    "y1": 0.616
+  },
+  "robospoof-toaster-normal_087e1981": {
+    "visible": true,
+    "x0": 0.366,
+    "y0": 0.152,
+    "x1": 0.594,
+    "y1": 0.621
+  },
+  "robospoof-toaster-normal_9793e210": {
+    "visible": true,
+    "x0": 0.379,
+    "y0": 0.165,
+    "x1": 0.594,
+    "y1": 0.616
+  },
+  "robospoof-toaster-normal_15927930": {
+    "visible": true,
+    "x0": 0.362,
+    "y0": 0.152,
+    "x1": 0.594,
+    "y1": 0.616
+  },
+  "robospoof-mix-normal_7c6b8cbd": {
+    "visible": true,
+    "x0": 0.17,
+    "y0": 0,
+    "x1": 0.839,
+    "y1": 0.781
+  },
+  "robospoof-toaster-normal_bbbc9c66": {
+    "visible": true,
+    "x0": 0.366,
+    "y0": 0.152,
+    "x1": 0.598,
+    "y1": 0.629
+  }
+}

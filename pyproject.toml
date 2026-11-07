@@ -1,0 +1,15 @@
+[project]
+name = "robospoof"
+version = "0.1.0"
+description = "Can a VLM tell real from doctored RoboSpoof camera footage outside the robot-control context?"
+requires-python = ">=3.11"
+dependencies = [
+    "openai>=3.19,<4",
+    "python-dotenv>=1.0",
+    "pillow>=11",
+    "numpy>=2.4.6",
+    "scipy>=1.17.1",
+    "scikit-learn>=1.9.1",
+    "torch>=2.15.0",
+    "torchvision>=0.29.2",
+]

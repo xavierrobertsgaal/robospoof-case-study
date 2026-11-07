@@ -1,0 +1,258 @@
+{
+  "paired_main/forensic": {
+    "n_trials": 600,
+    "n_pos": 300,
+    "auroc_cv": 1.0,
+    "bal_acc_cv": 0.9983333333333333,
+    "auroc_loto": {
+      "doll": 1.0,
+      "cord": 1.0,
+      "toaster": 1.0,
+      "mix": 1.0,
+      "drink": 1.0
+    },
+    "auroc_loto_mean": 1.0,
+    "null_mean": 0.4879293055555555,
+    "null_p95": 0.5403249999999999,
+    "p_perm": 0.004975124378109453
+  },
+  "raw_main_top/forensic": {
+    "n_trials": 600,
+    "n_pos": 300,
+    "auroc_cv": 1.0,
+    "bal_acc_cv": 1.0,
+    "auroc_loto": {
+      "doll": 1.0,
+      "cord": 1.0,
+      "toaster": 1.0,
+      "mix": 1.0,
+      "drink": 1.0
+    },
+    "auroc_loto_mean": 1.0,
+    "null_mean": 0.48441138888888885,
+    "null_p95": 0.5397633333333333,
+    "p_perm": 0.004975124378109453
+  },
+  "session_null_raw/forensic": {
+    "n_trials": 180,
+    "n_pos": 50,
+    "auroc_cv": 0.7987692307692308,
+    "bal_acc_cv": 0.6553846153846155,
+    "auroc_loto": {
+      "cord": 0.004909983633387888,
+      "mix": 0.525030525030525,
+      "drink": 0.5326704545454546
+    },
+    "auroc_loto_mean": 0.35420365440312257,
+    "null_mean": 0.5071511538461538,
+    "null_p95": 0.6086846153846153,
+    "p_perm": 0.004975124378109453
+  },
+  "session_null_paired/forensic": {
+    "n_trials": 180,
+    "n_pos": 50,
+    "auroc_cv": 0.7001538461538461,
+    "bal_acc_cv": 0.5892307692307692,
+    "auroc_loto": {
+      "cord": 0.10310965630114566,
+      "mix": 0.4017094017094017,
+      "drink": 0.41761363636363635
+    },
+    "auroc_loto_mean": 0.3074775647913946,
+    "null_mean": 0.509626923076923,
+    "null_p95": 0.6049461538461538,
+    "p_perm": 0.009950248756218905
+  },
+  "dsession_null_raw/forensic": {
+    "n_trials": 263,
+    "n_pos": 138,
+    "auroc_cv": 0.7391304347826086,
+    "bal_acc_cv": 0.694695652173913,
+    "auroc_loto": {
+      "doll": 0.6896551724137931,
+      "cord": 0.7020689655172414,
+      "toaster": 0.5,
+      "mix": 0.5505952380952381,
+      "drink": 0.7191558441558442
+    },
+    "auroc_loto_mean": 0.6322950440364233,
+    "null_mean": 0.4854233333333333,
+    "null_p95": 0.5662492753623187,
+    "p_perm": 0.004975124378109453
+  },
+  "dsession_null_paired/forensic": {
+    "n_trials": 263,
+    "n_pos": 138,
+    "auroc_cv": 0.8022608695652175,
+    "bal_acc_cv": 0.7023188405797102,
+    "auroc_loto": {
+      "doll": 0.7701149425287357,
+      "cord": 0.9751724137931035,
+      "toaster": 0.6138888888888889,
+      "mix": 0.5416666666666666,
+      "drink": 0.685064935064935
+    },
+    "auroc_loto_mean": 0.7171815693884659,
+    "null_mean": 0.48774028985507245,
+    "null_p95": 0.5662608695652175,
+    "p_perm": 0.004975124378109453
+  },
+  "matched_view/forensic": {
+    "n_trials": 126,
+    "n_pos": 77,
+    "auroc_cv": 1.0,
+    "bal_acc_cv": 1.0,
+    "auroc_loto": {
+      "cord": 1.0,
+      "mix": 1.0,
+      "drink": 1.0
+    },
+    "auroc_loto_mean": 1.0,
+    "null_mean": 0.4903405777895574,
+    "null_p95": 0.5858600583090379,
+    "p_perm": 0.004975124378109453
+  },
+  "matched_mp4/forensic": {
+    "n_trials": 126,
+    "n_pos": 77,
+    "auroc_cv": 0.8772859793267958,
+    "bal_acc_cv": 0.7782931354359925,
+    "auroc_loto": {
+      "cord": 0.64,
+      "mix": 0.5694444444444444,
+      "drink": 0.45312499999999994
+    },
+    "auroc_loto_mean": 0.5541898148148148,
+    "null_mean": 0.4916969255234562,
+    "null_p95": 0.596103896103896,
+    "p_perm": 0.004975124378109453
+  },
+  "paired_main/resnet": {
+    "n_trials": 600,
+    "n_pos": 300,
+    "auroc_cv": 1.0,
+    "bal_acc_cv": 1.0,
+    "auroc_loto": {
+      "doll": 1.0,
+      "cord": 1.0,
+      "toaster": 1.0,
+      "mix": 1.0,
+      "drink": 1.0
+    },
+    "auroc_loto_mean": 1.0,
+    "null_mean": 0.49846827777777775,
+    "null_p95": 0.5478802777777778,
+    "p_perm": 0.004975124378109453
+  },
+  "raw_main_top/resnet": {
+    "n_trials": 600,
+    "n_pos": 300,
+    "auroc_cv": 1.0,
+    "bal_acc_cv": 1.0,
+    "auroc_loto": {
+      "doll": 1.0,
+      "cord": 0.9980555555555555,
+      "toaster": 1.0,
+      "mix": 1.0,
+      "drink": 1.0
+    },
+    "auroc_loto_mean": 0.999611111111111,
+    "null_mean": 0.4963653611111111,
+    "null_p95": 0.5481911111111112,
+    "p_perm": 0.004975124378109453
+  },
+  "session_null_raw/resnet": {
+    "n_trials": 180,
+    "n_pos": 50,
+    "auroc_cv": 0.9293846153846154,
+    "bal_acc_cv": 0.8469230769230769,
+    "auroc_loto": {
+      "cord": 0.07037643207855973,
+      "mix": 0.4383394383394383,
+      "drink": 0.4914772727272727
+    },
+    "auroc_loto_mean": 0.33339771438175686,
+    "null_mean": 0.5006884615384616,
+    "null_p95": 0.5976615384615385,
+    "p_perm": 0.004975124378109453
+  },
+  "session_null_paired/resnet": {
+    "n_trials": 180,
+    "n_pos": 50,
+    "auroc_cv": 0.8375384615384616,
+    "bal_acc_cv": 0.7238461538461538,
+    "auroc_loto": {
+      "cord": 0.5286415711947627,
+      "mix": 0.5665445665445665,
+      "drink": 0.5213068181818181
+    },
+    "auroc_loto_mean": 0.5388309853070491,
+    "null_mean": 0.5024776923076923,
+    "null_p95": 0.5997384615384616,
+    "p_perm": 0.004975124378109453
+  },
+  "dsession_null_raw/resnet": {
+    "n_trials": 263,
+    "n_pos": 138,
+    "auroc_cv": 0.8584347826086957,
+    "bal_acc_cv": 0.7564347826086957,
+    "auroc_loto": {
+      "doll": 0.5775862068965518,
+      "cord": 0.6662068965517242,
+      "toaster": 0.7833333333333333,
+      "mix": 0.48660714285714285,
+      "drink": 0.6233766233766234
+    },
+    "auroc_loto_mean": 0.627422040603075,
+    "null_mean": 0.48846275362318836,
+    "null_p95": 0.5650028985507246,
+    "p_perm": 0.004975124378109453
+  },
+  "dsession_null_paired/resnet": {
+    "n_trials": 263,
+    "n_pos": 138,
+    "auroc_cv": 0.9057391304347827,
+    "bal_acc_cv": 0.8446666666666667,
+    "auroc_loto": {
+      "doll": 0.375,
+      "cord": 0.3462068965517241,
+      "toaster": 0.5291666666666667,
+      "mix": 0.519345238095238,
+      "drink": 0.5113636363636364
+    },
+    "auroc_loto_mean": 0.456216487535453,
+    "null_mean": 0.49358681159420287,
+    "null_p95": 0.5651420289855071,
+    "p_perm": 0.004975124378109453
+  },
+  "matched_view/resnet": {
+    "n_trials": 126,
+    "n_pos": 77,
+    "auroc_cv": 1.0,
+    "bal_acc_cv": 1.0,
+    "auroc_loto": {
+      "cord": 1.0,
+      "mix": 1.0,
+      "drink": 1.0
+    },
+    "auroc_loto_mean": 1.0,
+    "null_mean": 0.5004757487410549,
+    "null_p95": 0.6151736019082958,
+    "p_perm": 0.004975124378109453
+  },
+  "matched_mp4/resnet": {
+    "n_trials": 126,
+    "n_pos": 77,
+    "auroc_cv": 0.9135966074741584,
+    "bal_acc_cv": 0.862708719851577,
+    "auroc_loto": {
+      "cord": 0.07166666666666668,
+      "mix": 0.34920634920634924,
+      "drink": 0.48883928571428575
+    },
+    "auroc_loto_mean": 0.3032374338624339,
+    "null_mean": 0.49339517625231916,
+    "null_p95": 0.5990326000530082,
+    "p_perm": 0.004975124378109453
+  }
+}

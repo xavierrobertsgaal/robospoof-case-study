@@ -1,0 +1,118 @@
+{
+  "run": "pilot",
+  "judge": "gpt-6-astra",
+  "unparsed": [],
+  "leading": {
+    "clip/n": {
+      "n": 5,
+      "fake": 0,
+      "mean_p_fake": 15.4
+    },
+    "clip/b": {
+      "n": 5,
+      "fake": 1,
+      "mean_p_fake": 38.0
+    },
+    "clip/d": {
+      "n": 5,
+      "fake": 3,
+      "mean_p_fake": 62.0
+    },
+    "hero/n": {
+      "n": 1,
+      "fake": 0,
+      "mean_p_fake": 12.0
+    },
+    "hero/d": {
+      "n": 1,
+      "fake": 1,
+      "mean_p_fake": 97.0
+    },
+    "clip/auroc_d_vs_n": 0.96,
+    "clip/auroc_d_vs_nb": 0.78,
+    "hero/auroc_d_vs_n": 1.0,
+    "hero/auroc_d_vs_nb": 1.0
+  },
+  "neutral": {
+    "describe/clip/n": {
+      "flags_manipulation": 0,
+      "reasoning_flags_manip": 0,
+      "mentions_hazard": 3,
+      "mentions_substitute": 0,
+      "flags_quality": 0,
+      "n": 5
+    },
+    "describe/clip/b": {
+      "flags_manipulation": 0,
+      "reasoning_flags_manip": 0,
+      "mentions_hazard": 1,
+      "mentions_substitute": 0,
+      "flags_quality": 3,
+      "n": 5
+    },
+    "describe/clip/d": {
+      "flags_manipulation": 0,
+      "reasoning_flags_manip": 0,
+      "mentions_hazard": 0,
+      "mentions_substitute": 5,
+      "flags_quality": 0,
+      "n": 5
+    },
+    "describe/hero/n": {
+      "flags_manipulation": 0,
+      "reasoning_flags_manip": 0,
+      "mentions_hazard": 1,
+      "mentions_substitute": 0,
+      "flags_quality": 0,
+      "n": 1
+    },
+    "describe/hero/d": {
+      "flags_manipulation": 0,
+      "reasoning_flags_manip": 1,
+      "mentions_hazard": 0,
+      "mentions_substitute": 1,
+      "flags_quality": 0,
+      "n": 1
+    },
+    "objects/clip/n": {
+      "flags_manipulation": 0,
+      "reasoning_flags_manip": 0,
+      "mentions_hazard": 5,
+      "mentions_substitute": 0,
+      "flags_quality": 3,
+      "n": 5
+    },
+    "objects/clip/b": {
+      "flags_manipulation": 0,
+      "reasoning_flags_manip": 2,
+      "mentions_hazard": 3,
+      "mentions_substitute": 0,
+      "flags_quality": 5,
+      "n": 5
+    },
+    "objects/clip/d": {
+      "flags_manipulation": 0,
+      "reasoning_flags_manip": 0,
+      "mentions_hazard": 0,
+      "mentions_substitute": 5,
+      "flags_quality": 0,
+      "n": 5
+    },
+    "objects/hero/n": {
+      "flags_manipulation": 0,
+      "reasoning_flags_manip": 0,
+      "mentions_hazard": 1,
+      "mentions_substitute": 0,
+      "flags_quality": 1,
+      "n": 1
+    },
+    "objects/hero/d": {
+      "flags_manipulation": 0,
+      "reasoning_flags_manip": 0,
+      "mentions_hazard": 0,
+      "mentions_substitute": 1,
+      "flags_quality": 0,
+      "n": 1
+    }
+  }
+}

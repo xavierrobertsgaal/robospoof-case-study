@@ -1,0 +1,66 @@
+{
+  "fbox_main": {
+    "n_trials": 600,
+    "n_pos": 300,
+    "auroc_cv": 0.9959444444444445,
+    "bal_acc_cv": 0.9683333333333334,
+    "auroc_loto": {
+      "doll": 0.6272222222222221,
+      "cord": 0.9936111111111111,
+      "toaster": 1.0,
+      "mix": 0.5730555555555555,
+      "drink": 0.9747222222222222
+    },
+    "auroc_loto_mean": 0.8337222222222221,
+    "null_mean": 0.49090177777777777,
+    "null_p95": 0.5444555555555555,
+    "p_perm": 0.004975124378109453
+  },
+  "fbox_session": {
+    "n_trials": 600,
+    "n_pos": 300,
+    "auroc_cv": 0.8815777777777778,
+    "bal_acc_cv": 0.815,
+    "auroc_loto": {
+      "doll": 0.7166666666666667,
+      "cord": 0.6122222222222222,
+      "toaster": 0.645,
+      "mix": 0.46194444444444444,
+      "drink": 0.31333333333333335
+    },
+    "auroc_loto_mean": 0.5498333333333333,
+    "null_mean": 0.4877638333333333,
+    "null_p95": 0.545705,
+    "p_perm": 0.004975124378109453
+  },
+  "transfer/global-sunburst": {
+    "auroc": 0.7475,
+    "flagged": 3,
+    "real_flagged": 0,
+    "n": 20
+  },
+  "transfer/global-flare": {
+    "auroc": 0.8025,
+    "flagged": 4,
+    "real_flagged": 0,
+    "n": 20
+  },
+  "transfer/global-mini": {
+    "auroc": 0.5924999999999999,
+    "flagged": 4,
+    "real_flagged": 0,
+    "n": 20
+  },
+  "transfer/local-blend": {
+    "auroc": 0.7849999999999999,
+    "flagged": 5,
+    "real_flagged": 0,
+    "n": 20
+  },
+  "transfer/crude-paste": {
+    "auroc": 0.7725,
+    "flagged": 4,
+    "real_flagged": 0,
+    "n": 20
+  }
+}

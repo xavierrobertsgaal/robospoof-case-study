@@ -1,0 +1,130 @@
+{
+  "box_main/forensic": {
+    "n_trials": 600,
+    "n_pos": 300,
+    "auroc_cv": 0.9852111111111111,
+    "bal_acc_cv": 0.9433333333333334,
+    "auroc_loto": {
+      "doll": 0.7836111111111111,
+      "cord": 0.9991666666666666,
+      "toaster": 1.0,
+      "mix": 0.9777777777777777,
+      "drink": 0.8236111111111112
+    },
+    "auroc_loto_mean": 0.9168333333333333,
+    "null_mean": 0.4867901666666667,
+    "null_p95": 0.5423166666666667,
+    "p_perm": 0.004975124378109453
+  },
+  "box_session/forensic": {
+    "n_trials": 600,
+    "n_pos": 300,
+    "auroc_cv": 0.8916111111111111,
+    "bal_acc_cv": 0.8133333333333334,
+    "auroc_loto": {
+      "doll": 0.5805555555555555,
+      "cord": 0.47055555555555556,
+      "toaster": 0.5341666666666667,
+      "mix": 0.5283333333333333,
+      "drink": 0.6891666666666667
+    },
+    "auroc_loto_mean": 0.5605555555555556,
+    "null_mean": 0.4847600833333333,
+    "null_p95": 0.5380655555555556,
+    "p_perm": 0.004975124378109453
+  },
+  "box_main/resnet": {
+    "n_trials": 600,
+    "n_pos": 300,
+    "auroc_cv": 0.998788888888889,
+    "bal_acc_cv": 0.99,
+    "auroc_loto": {
+      "doll": 0.9972222222222221,
+      "cord": 0.9186111111111112,
+      "toaster": 0.05138888888888889,
+      "mix": 0.7647222222222222,
+      "drink": 0.9344444444444444
+    },
+    "auroc_loto_mean": 0.7332777777777777,
+    "null_mean": 0.49729547222222226,
+    "null_p95": 0.5443822222222222,
+    "p_perm": 0.004975124378109453
+  },
+  "box_session/resnet": {
+    "n_trials": 600,
+    "n_pos": 300,
+    "auroc_cv": 0.9920444444444445,
+    "bal_acc_cv": 0.9683333333333333,
+    "auroc_loto": {
+      "doll": 0.9047222222222222,
+      "cord": 0.6950000000000001,
+      "toaster": 0.9352777777777777,
+      "mix": 0.8975,
+      "drink": 0.9211111111111111
+    },
+    "auroc_loto_mean": 0.8707222222222223,
+    "null_mean": 0.4915748888888889,
+    "null_p95": 0.5348483333333334,
+    "p_perm": 0.004975124378109453
+  },
+  "transfer/forensic/global-sunburst": {
+    "auroc": 0.71,
+    "flagged": 5,
+    "real_flagged": 1,
+    "n": 20
+  },
+  "transfer/forensic/global-flare": {
+    "auroc": 0.8175,
+    "flagged": 5,
+    "real_flagged": 1,
+    "n": 20
+  },
+  "transfer/forensic/global-mini": {
+    "auroc": 0.5675000000000001,
+    "flagged": 5,
+    "real_flagged": 1,
+    "n": 20
+  },
+  "transfer/forensic/local-blend": {
+    "auroc": 0.6525,
+    "flagged": 5,
+    "real_flagged": 1,
+    "n": 20
+  },
+  "transfer/forensic/crude-paste": {
+    "auroc": 0.65,
+    "flagged": 2,
+    "real_flagged": 1,
+    "n": 20
+  },
+  "transfer/resnet/global-sunburst": {
+    "auroc": 0.9974999999999999,
+    "flagged": 18,
+    "real_flagged": 0,
+    "n": 20
+  },
+  "transfer/resnet/global-flare": {
+    "auroc": 0.995,
+    "flagged": 18,
+    "real_flagged": 0,
+    "n": 20
+  },
+  "transfer/resnet/global-mini": {
+    "auroc": 1.0,
+    "flagged": 20,
+    "real_flagged": 0,
+    "n": 20
+  },
+  "transfer/resnet/local-blend": {
+    "auroc": 0.9974999999999999,
+    "flagged": 19,
+    "real_flagged": 0,
+    "n": 20
+  },
+  "transfer/resnet/crude-paste": {
+    "auroc": 1.0,
+    "flagged": 20,
+    "real_flagged": 0,
+    "n": 20
+  }
+}

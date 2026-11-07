@@ -1,0 +1,62 @@
+{
+  "forensic/global-sunburst": {
+    "auroc": 0.9974999999999999,
+    "flagged": 0.75,
+    "real_flagged": 0.0,
+    "n": 20
+  },
+  "forensic/global-flare": {
+    "auroc": 0.995,
+    "flagged": 0.45,
+    "real_flagged": 0.0,
+    "n": 20
+  },
+  "forensic/global-mini": {
+    "auroc": 0.5800000000000001,
+    "flagged": 0.05,
+    "real_flagged": 0.0,
+    "n": 20
+  },
+  "forensic/local-blend": {
+    "auroc": 0.6075,
+    "flagged": 0.0,
+    "real_flagged": 0.0,
+    "n": 20
+  },
+  "forensic/crude-paste": {
+    "auroc": 0.6174999999999999,
+    "flagged": 0.0,
+    "real_flagged": 0.0,
+    "n": 20
+  },
+  "resnet/global-sunburst": {
+    "auroc": 0.9075,
+    "flagged": 0.0,
+    "real_flagged": 0.0,
+    "n": 20
+  },
+  "resnet/global-flare": {
+    "auroc": 0.9624999999999999,
+    "flagged": 0.05,
+    "real_flagged": 0.0,
+    "n": 20
+  },
+  "resnet/global-mini": {
+    "auroc": 0.995,
+    "flagged": 0.7,
+    "real_flagged": 0.0,
+    "n": 20
+  },
+  "resnet/local-blend": {
+    "auroc": 0.855,
+    "flagged": 0.05,
+    "real_flagged": 0.0,
+    "n": 20
+  },
+  "resnet/crude-paste": {
+    "auroc": 0.8999999999999999,
+    "flagged": 0.0,
+    "real_flagged": 0.0,
+    "n": 20
+  }
+}

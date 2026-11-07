@@ -1,0 +1,132 @@
+{
+  "main/forensic": {
+    "n_trials": 600,
+    "n_pos": 300,
+    "auroc_cv": 1.0,
+    "bal_acc_cv": 1.0,
+    "auroc_loto": {
+      "doll": 1.0,
+      "cord": 1.0,
+      "toaster": 1.0,
+      "mix": 1.0,
+      "drink": 1.0
+    },
+    "auroc_loto_mean": 1.0,
+    "null_mean": 0.47981775,
+    "null_p95": 0.53191,
+    "p_perm": 0.004975124378109453
+  },
+  "main_top/forensic": {
+    "n_trials": 600,
+    "n_pos": 300,
+    "auroc_cv": 1.0,
+    "bal_acc_cv": 1.0,
+    "auroc_loto": {
+      "doll": 1.0,
+      "cord": 1.0,
+      "toaster": 1.0,
+      "mix": 1.0,
+      "drink": 1.0
+    },
+    "auroc_loto_mean": 1.0,
+    "null_mean": 0.48441138888888885,
+    "null_p95": 0.5397633333333333,
+    "p_perm": 0.004975124378109453
+  },
+  "session_top/forensic": {
+    "n_trials": 600,
+    "n_pos": 300,
+    "auroc_cv": 0.8590333333333334,
+    "bal_acc_cv": 0.7766666666666666,
+    "auroc_loto": {
+      "doll": 0.5952777777777778,
+      "cord": 0.7866666666666666,
+      "toaster": 0.6441666666666667,
+      "mix": 0.7544444444444445,
+      "drink": 0.5063888888888889
+    },
+    "auroc_loto_mean": 0.657388888888889,
+    "null_mean": 0.48293019444444446,
+    "null_p95": 0.5320488888888889,
+    "p_perm": 0.004975124378109453
+  },
+  "pos_blur/forensic": {
+    "n_trials": 600,
+    "n_pos": 300,
+    "auroc_cv": 1.0,
+    "bal_acc_cv": 1.0,
+    "auroc_loto": {
+      "doll": 1.0,
+      "cord": 1.0,
+      "toaster": 1.0,
+      "mix": 1.0,
+      "drink": 1.0
+    },
+    "auroc_loto_mean": 1.0
+  },
+  "main/resnet": {
+    "n_trials": 600,
+    "n_pos": 300,
+    "auroc_cv": 1.0,
+    "bal_acc_cv": 1.0,
+    "auroc_loto": {
+      "doll": 1.0,
+      "cord": 1.0,
+      "toaster": 1.0,
+      "mix": 1.0,
+      "drink": 1.0
+    },
+    "auroc_loto_mean": 1.0,
+    "null_mean": 0.4888122777777778,
+    "null_p95": 0.5456044444444444,
+    "p_perm": 0.004975124378109453
+  },
+  "main_top/resnet": {
+    "n_trials": 600,
+    "n_pos": 300,
+    "auroc_cv": 1.0,
+    "bal_acc_cv": 1.0,
+    "auroc_loto": {
+      "doll": 1.0,
+      "cord": 0.9980555555555555,
+      "toaster": 1.0,
+      "mix": 1.0,
+      "drink": 1.0
+    },
+    "auroc_loto_mean": 0.999611111111111,
+    "null_mean": 0.49617047222222227,
+    "null_p95": 0.5377566666666667,
+    "p_perm": 0.004975124378109453
+  },
+  "session_top/resnet": {
+    "n_trials": 600,
+    "n_pos": 300,
+    "auroc_cv": 0.9836777777777778,
+    "bal_acc_cv": 0.9366666666666666,
+    "auroc_loto": {
+      "doll": 0.5718055555555556,
+      "cord": 0.69,
+      "toaster": 0.4933333333333333,
+      "mix": 0.6069444444444445,
+      "drink": 0.6411111111111112
+    },
+    "auroc_loto_mean": 0.6006388888888889,
+    "null_mean": 0.49572822222222224,
+    "null_p95": 0.5489288888888888,
+    "p_perm": 0.004975124378109453
+  },
+  "pos_blur/resnet": {
+    "n_trials": 600,
+    "n_pos": 300,
+    "auroc_cv": 1.0,
+    "bal_acc_cv": 1.0,
+    "auroc_loto": {
+      "doll": 1.0,
+      "cord": 1.0,
+      "toaster": 1.0,
+      "mix": 1.0,
+      "drink": 1.0
+    },
+    "auroc_loto_mean": 1.0
+  }
+}
