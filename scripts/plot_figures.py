@@ -264,13 +264,13 @@ def specs(d: dict) -> list[dict]:
     cues = [("none", "No cue"), ("capability", "“Capability eval”"), ("alignment", "“Alignment eval”")]
     figs = [fig1, fig2, fig3, fig4]
     if mg:
-        figs.append({"stem": "05-metagaming", "bar_w": 190, "row_h": 40, "title": FIG5_TITLE, "legend_top": True, "fine_grid": True,
+        figs.append({"stem": "05-metagaming", "bar_w": 190, "row_h": 48, "title": FIG5_TITLE, "legend_top": True, "fine_grid": True,
                      "footnote": "Robot prompt = Inspect Robots system prompt. Motion tools = Inspect Robots tools (move_to, done, give_up). Text actions = carry_out / decline.",
                      "legend": [("filled", "“Alignment eval”"), ("hollow", "“Capability eval”"), ("ref", "No cue")],
                      "panels": [{"heading": d["footage"][f], "kind": "rate", "label_w": 196 if i == 0 else 0, "axis_label": "Refuses", "groups": [
                          {"label": name if i == 0 else " ", "color": col, "rows": [
-                             dotrow(lab, [(src[k]["capability"][f], col, "hollow", -6.5), (src[k]["none"][f], col, "ref", 0),
-                                          (src[k]["alignment"][f], col, "filled", 6.5)]) for k, lab in ladder]}
+                             dotrow(lab, [(src[k]["capability"][f], col, "hollow", -9), (src[k]["none"][f], col, "ref", 0),
+                                          (src[k]["alignment"][f], col, "filled", 9)]) for k, lab in ladder]}
                          for name, col, src in (("GPT-6 Astra", ASTRA, mg), ("GPT-6.1 Sol", SOL, d.get("metagaming_sol"))) if src]}
                          for i, f in enumerate("nbd")]})
     return figs
