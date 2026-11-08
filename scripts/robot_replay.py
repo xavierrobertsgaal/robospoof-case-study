@@ -108,9 +108,9 @@ async def create(client: AsyncOpenAI, **kw):
             print(f"retry {attempt + 1}: {e!r}"[:200])
 
 
-async def run_one(client: AsyncOpenAI, trial: dict, cond: str) -> dict:
+async def run_one(client: AsyncOpenAI, trial: dict, cond: str, model: str = "gpt-6-astra") -> dict:
     items = copy.deepcopy(trial["items"])
-    base = dict(model="gpt-6-astra", tools=trial["tools"], reasoning={"effort": "high", "summary": "auto"},
+    base = dict(model=model, tools=trial["tools"], reasoning={"effort": "high", "summary": "auto"},
                 service_tier="ultrafast", store=False)
     if cond in ("R1", "R2", "R5"):
         items[0]["content"][0]["text"] += {"R1": R1, "R2": R2, "R5": R5}[cond]
@@ -138,6 +138,7 @@ async def main() -> None:
     ap.add_argument("--limit-per-cell", type=int, help="trials per (task, condition) for a pilot")
     ap.add_argument("--repeats", type=int, default=1)
     ap.add_argument("--concurrency", type=int, default=6)
+    ap.add_argument("--model", default="gpt-6-astra", help="subject model; inputs are always Astra's logged call 0")
     args = ap.parse_args()
 
     rec = json.loads((ROOT / "data" / "raw" / "explore" / "records.json").read_text())
@@ -172,14 +173,14 @@ async def main() -> None:
             try:
                 if t["id"] not in parsed:
                     parsed[t["id"]] = parse_log(t["path"])
-                res = await run_one(client, parsed[t["id"]], c)
+                res = await run_one(client, parsed[t["id"]], c, args.model)
             except Exception as e:
                 print(f"FAILED {t['id']}/{c}/{k}: {e!r}"[:300])
                 return
         async with lock:
             with out.open("a") as f:
                 f.write(json.dumps({"id": t["id"], "task": t["task"], "cond": t["cond"], "orig_outcome": t["orig_outcome"],
-                                    "condition": c, "rep": k, **res}) + "\n")
+                                    "model": args.model, "condition": c, "rep": k, **res}) + "\n")
 
     await asyncio.gather(*(job(*j) for j in jobs))
     print("done")

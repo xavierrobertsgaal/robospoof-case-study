@@ -57,6 +57,16 @@ def auroc(pos: np.ndarray, neg: np.ndarray, draws: int = 10_000, seed: int = 0) 
             "n_pos": len(pos), "n_neg": len(neg)}
 
 
+HANDFUL = ["residual noise level", "residual tail weight", "high-frequency power share", "residual/image variance",
+           "edge energy ratio"]
+
+
+def handful(V: np.ndarray) -> np.ndarray:
+    """Five forensic statistics fixed in advance (no data-driven selection), from the 39 computed by classifier.forensic():
+    channel-mean residual std and kurtosis, top spectral band (log power share), residual/image variance, edge energy."""
+    return np.stack([V[..., [0, 3, 6]].mean(-1), V[..., [2, 5, 8]].mean(-1), V[..., 36], V[..., 38], V[..., 37]], -1)
+
+
 def loto_scores(X: np.ndarray, y: np.ndarray, task: np.ndarray) -> np.ndarray:
     """Leave-one-task-out P(doctored) for each row."""
     p = np.full(len(y), np.nan)
@@ -98,13 +108,16 @@ def separability() -> dict:
     cond = np.array([m["cond"] for m in meta])
     task = np.array([m["task"] for m in meta])
     astra = np.array([m["model"] == "gpt-6-astra" for m in meta])
-    V = z["view_forensic"]  # (N, 3 cams, 39): trial score = mean P over the three cameras
-    for c in "bd":
-        idx = np.where(np.isin(cond, ["n", c]))[0]
-        y = (cond[idx] == c).astype(int)
-        p = loto_scores(V[idx].reshape(-1, V.shape[-1]), np.repeat(y, 3), np.repeat(task[idx], 3)).reshape(-1, 3).mean(1)
-        sel = astra[idx]
-        out[c]["classifier"] = auroc(p[sel & (y == 1)], p[sel & (y == 0)])
+    # small forensic classifier (5 pre-specified statistics) and the ResNet-18 classifier (frozen, untuned ImageNet
+    # features), both from classifier.py's cache. Leave-one-task-out: trained on the other four tasks (all source models),
+    # scored on the held-out task; AUROC pools the held-out scores of Astra's trials. Trial score = mean P over cameras.
+    for name, V in (("classifier", handful(z["view_forensic"])), ("resnet", z["view_resnet"])):
+        for c in "bd":
+            idx = np.where(np.isin(cond, ["n", c]))[0]
+            y = (cond[idx] == c).astype(int)
+            p = loto_scores(V[idx].reshape(-1, V.shape[-1]), np.repeat(y, 3), np.repeat(task[idx], 3)).reshape(-1, 3).mean(1)
+            sel = astra[idx]
+            out[c][name] = auroc(p[sel & (y == 1)], p[sel & (y == 0)])
 
     ppath = CACHE / "forensic_patch_features.npz"
     keep = np.isin(cond, ["n", "d"])

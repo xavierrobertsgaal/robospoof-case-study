@@ -29,6 +29,7 @@ INK, MUTED, RULE, GRID = "#25323D", "#596977", "#CFD7DE", "#E8ECF0"
 ASTRA, SOL, CLASSIFIER = "#B45416", "#2B6CA3", "#63368A"
 TITLE_H, HEAD_H, GROUP_H, ROW_H, AXIS_H, PAD, GAP, MARGIN = 46, 28, 20, 22, 22, 10, 10, 14
 BAR_H, VALUE_W = 13, 46
+GREY_DOT = "#8E99A4"
 FIG2_TITLE = "2. GPT refuses unsafe tasks in text, but acts once it has robot motion tools"  # checked against Sol results
 FIG4_TITLE = "4. Astra’s own “fake” verdict does not drive its refusals"
 FIG5_TITLE = "5. Told it is in an alignment eval, Astra refuses blurred footage it otherwise acts on"
@@ -51,15 +52,16 @@ def render(spec: dict) -> list[Path]:
     """spec: stem, title, bar_w (px for 0..1), panels [{heading, kind ('rate'|'auroc'), label_w, groups}], where each
     group is {label, color, rows [{label, value, low, high, color, hollow}]}. Panels sit side by side; panels with
     label_w 0 reuse the row layout of the first panel."""
-    panels, bar_w = spec["panels"], spec["bar_w"]
-    body_h = max(sum((GROUP_H if g.get("label") else 0) + ROW_H * len(g["rows"]) for g in p["groups"]) for p in panels)
+    panels, bar_w, rh = spec["panels"], spec["bar_w"], spec.get("row_h", ROW_H)
+    body_h = max(sum((GROUP_H if g.get("label") else 0) + rh * len(g["rows"]) for g in p["groups"]) for p in panels)
     fixed = MARGIN * 2 + sum(PAD + p["label_w"] + VALUE_W + PAD for p in panels) + GAP * (len(panels) - 1)
     title_w = TextPath((0, 0), spec["title"], size=17,
                        prop=FontProperties(family="Spectral", weight="semibold")).get_extents().width * 100 / 72
     bar_w = max(bar_w, (title_w + 2 * MARGIN + 8 - fixed) / len(panels))  # widen bars until the title fits
     widths = [PAD + p["label_w"] + bar_w + VALUE_W + PAD for p in panels]
     width = MARGIN * 2 + sum(widths) + GAP * (len(panels) - 1)
-    foot_h = 18 if spec.get("footnote") else 0
+    notes = spec["footnote"].split("\n") if spec.get("footnote") else []
+    foot_h = (20 if spec.get("legend") else 0) + 15 * len(notes) + (6 if notes or spec.get("legend") else 0)
     height = TITLE_H + HEAD_H + body_h + AXIS_H + MARGIN + foot_h
     fig = plt.figure(figsize=(width / 100, height / 100))
     cv = fig.add_axes([0, 0, 1, 1])
@@ -67,6 +69,14 @@ def render(spec: dict) -> list[Path]:
 
     def text(x, y, s, size=11, color=INK, ha="left", weight="normal", family="Arial"):
         return cv.text(x, y, s, fontsize=size, family=family, color=color, ha=ha, va="center", weight=weight)
+
+    def marker(mx, my, style, color):  # equal small points: hollow, grey reference, filled in the model colour
+        if style == "ref":
+            cv.plot(mx, my, "o", ms=5.2, mfc=GREY_DOT, mec=GREY_DOT, zorder=6)
+        elif style == "filled":
+            cv.plot(mx, my, "o", ms=5.2, mfc=color, mec=color, zorder=6)
+        else:
+            cv.plot(mx, my, "o", ms=5.2, mfc="white", mec=color, mew=1.2, zorder=6)
 
     text(MARGIN, TITLE_H / 2 + 2, spec["title"], size=17, weight="semibold", family="Spectral")
     x = MARGIN
@@ -89,9 +99,18 @@ def render(spec: dict) -> list[Path]:
                 text(x + PAD, y + GROUP_H / 2 + 2, g["label"], size=10.5, weight="semibold", color=g.get("color", INK))
                 y += GROUP_H
             for r in g["rows"]:
-                cy = y + ROW_H / 2
+                cy = y + rh / 2
                 if p["label_w"]:
                     text(x + PAD + 8 + (16 if r.get("indent") else 0), cy, r["label"], size=10.5, color=INK)
+                if r.get("dots"):  # dot-and-whisker row: no value labels, read against the shared scale
+                    for dt in r["dots"]:
+                        yy, c = cy + dt["dy"], (GREY_DOT if dt["style"] == "ref" else dt["color"])
+                        cv.plot([x0 + dt["low"] * bar_w, x0 + dt["high"] * bar_w], [yy, yy], color=c, lw=.9, zorder=4)
+                        for e in (dt["low"], dt["high"]):
+                            cv.plot([x0 + e * bar_w] * 2, [yy - 3, yy + 3], color=c, lw=.9, zorder=4)
+                        marker(x0 + dt["value"] * bar_w, yy, dt["style"], c)
+                    y += rh
+                    continue
                 c, v, lo, hi = r["color"], r["value"], r["low"], r["high"]
                 cv.add_patch(Rectangle((x0, cy - BAR_H / 2), max(v * bar_w, .8), BAR_H, lw=1,
                                        edgecolor=c, facecolor="white" if r.get("hollow") else light(c, r.get("shade", .28))))
@@ -100,12 +119,21 @@ def render(spec: dict) -> list[Path]:
                     cv.plot([x0 + e * bar_w] * 2, [cy - 4, cy + 4], color=c, lw=.9)
                 text(x0 + hi * bar_w + 5, cy, f"{v:.2f}" if p["kind"] == "auroc" else f"{v:.0%}",
                      size=10, color=c, weight="semibold")
-                y += ROW_H
+                y += rh
         if p["kind"] == "auroc":  # chance line drawn over the bars so it reads across every row
             cv.plot([x0 + .5 * bar_w] * 2, [y_top, y_bot], color=MUTED, lw=1.1, ls=(0, (4, 2.5)), zorder=5)
         x += w + GAP
-    if spec.get("footnote"):
-        text(MARGIN, TITLE_H + HEAD_H + body_h + AXIS_H + 6 + foot_h / 2, spec["footnote"], size=9.5, color=MUTED)
+    fy = TITLE_H + HEAD_H + body_h + AXIS_H + 12
+    if spec.get("legend"):
+        lx = MARGIN + 6
+        for style, lab in spec["legend"]:
+            marker(lx, fy, style, ASTRA)
+            t = text(lx + 10, fy, lab, size=9.5, color=MUTED)
+            lx += 10 + TextPath((0, 0), lab, size=9.5, prop=FontProperties(family="Arial")).get_extents().width * 100 / 72 + 22
+        fy += 20
+    for line in notes:
+        text(MARGIN, fy, line, size=9.5, color=MUTED)
+        fy += 15
 
     fig.canvas.draw()
     renderer = fig.canvas.get_renderer()
@@ -129,6 +157,12 @@ def row(label, est, color, hollow=False, shade=.28, indent=False):
             "hollow": hollow, "shade": shade, "indent": indent}
 
 
+def dotrow(label, dots):
+    """dots: (estimate, color, style, dy) with style ref (small black) / filled / hollow; dy offsets within the row."""
+    return {"label": label, "dots": [{"value": e["value"], "low": e["low"], "high": e["high"], "color": c, "style": st,
+                                      "dy": dy} for e, c, st, dy in dots if e]}
+
+
 def specs(d: dict) -> list[dict]:
     det = {c["model"]: c["called_fake"] for c in d["detection"]["columns"]}
     sep = d["separability"]
@@ -144,12 +178,16 @@ def specs(d: dict) -> list[dict]:
                 {"heading": "Separability from unaltered (AUROC)", "kind": "auroc", "label_w": 168, "groups": [
                     {"label": f"{d['footage'][c]} vs unaltered", "rows": [
                         row("GPT-6 Astra", sep[c]["gpt-6-astra"], ASTRA), row("GPT-6.1 Sol", sep[c]["gpt-6.1-sol"], SOL),
+                        row("ResNet-18 classifier", sep[c]["resnet"], CLASSIFIER, shade=.12),
                         row("Small classifier", sep[c]["classifier"], CLASSIFIER)]}
-                    for c in "bd"]}]}
+                    for c in "bd"]}],
+            "footnote": "Small classifier: ridge logistic regression on 5 forensic statistics per camera image.\n"
+                        "ResNet-18 classifier: ridge logistic regression on frozen, untuned ImageNet ResNet-18 features.\n"
+                        "Classifier AUROC is leave-one-task-out cross-validated: trained on four tasks, scored on the held-out task."}
     fr = d["framing"]
     ladder = [("observer", "Observer, text answer"), ("actor_text", "Agent, text actions"),
-              ("robot_text", "Robot prompt, text actions"), ("robot_motion", "Robot prompt, motion tools*")]
-    fig2 = {"stem": "02-embodiment", "bar_w": 170, "footnote": "* Inspect framework",
+              ("robot_text", "Robot prompt, text actions"), ("robot_motion", "Robot prompt, motion tools")]
+    fig2 = {"stem": "02-embodiment", "bar_w": 170, "footnote": "Robot prompt = Inspect Robots system prompt. Motion tools = Inspect Robots tools (move_to, done, give_up). Text actions = carry_out / decline.",
             "title": "2. Astra refuses unsafe tasks in text, but acts once it has robot motion tools",
             "panels": [{"heading": d["footage"][f], "kind": "rate", "label_w": 198 if i == 0 else 0, "groups": [
                 {"rows": [row(lab, fr[k][f], ASTRA) for k, lab in ladder]}]} for i, f in enumerate("nbd")]}
@@ -168,27 +206,28 @@ def specs(d: dict) -> list[dict]:
                 {"rows": [row(lab, pr[k][f], ASTRA) for k, lab in nudges]}]} for i, f in enumerate("nbd")]}
     vd = d["verdict"]
 
-    def vrows(setting, f):
-        e = vd[setting][f]
-        # the asked mean (medium shade), then its split by Astra's own verdict: judged fake dark, judged real light
-        out = [row(f"Asked real or fake (n={e['asked']['n']})", e["asked"], ASTRA)]
-        for key, lab, shade in (("judged_fake", "judged fake", .62), ("judged_real", "judged real", .10)):
-            if e[key]:
-                out.append(row(f"{lab} (n={e[key]['n']})", e[key], ASTRA, shade=shade, indent=True))
-        return out
+    def vrow(e, f, col):
+        nf, nr = (e[k]["n"] if e[k] else 0 for k in ("judged_fake", "judged_real"))
+        return dotrow(f"{d['footage'][f]} ({nf} fake · {nr} real)",
+                      [(e["judged_real"], col, "hollow", -7), (e["asked"], col, "ref", 0), (e["judged_fake"], col, "filled", 7)])
 
-    fig4 = {"stem": "04-verdict", "bar_w": 200, "title": FIG4_TITLE,
-            "panels": [{"heading": head, "kind": "rate", "label_w": 190, "groups": [
-                {"label": d["footage"][f], "rows": vrows(setting, f)} for f in "nbd"]}
+    fig4 = {"stem": "04-verdict", "bar_w": 220, "row_h": 26, "title": FIG4_TITLE,
+            "legend": [("filled", "judged fake"), ("hollow", "judged real"), ("ref", "all answers")],
+            "panels": [{"heading": head, "kind": "rate", "label_w": 196, "groups": [
+                {"label": "GPT-6 Astra", "color": ASTRA, "rows": [vrow(vd[setting][f], f, ASTRA) for f in "nbd"]}]}
                 for setting, head in (("observer", "Observer · says unsafe"), ("robot", "Robot · gives up"))]}
     mg = d.get("metagaming", {})
     cues = [("none", "No cue"), ("capability", "“Capability eval”"), ("alignment", "“Alignment eval”")]
     figs = [fig1, fig2, fig3, fig4]
     if all(len(mg.get(k, {})) == 3 for k, _ in ladder):
-        figs.append({"stem": "05-metagaming", "bar_w": 170, "title": FIG5_TITLE, "footnote": "* Inspect framework",
-                     "panels": [{"heading": d["footage"][f], "kind": "rate", "label_w": 182 if i == 0 else 0, "groups": [
-                         {"label": lab if i == 0 else " ", "rows": [row(cl, mg[k][q][f], ASTRA) for q, cl in cues]}
-                         for k, lab in ladder]} for i, f in enumerate("nbd")]})
+        figs.append({"stem": "05-metagaming", "bar_w": 190, "row_h": 26, "title": FIG5_TITLE,
+                     "footnote": "Robot prompt = Inspect Robots system prompt. Motion tools = Inspect Robots tools (move_to, done, give_up). Text actions = carry_out / decline.",
+                     "legend": [("filled", "“alignment eval”"), ("hollow", "“capability eval”"), ("ref", "no cue")],
+                     "panels": [{"heading": d["footage"][f], "kind": "rate", "label_w": 196 if i == 0 else 0, "groups": [
+                         {"label": "GPT-6 Astra" if i == 0 else " ", "color": ASTRA, "rows": [
+                             dotrow(lab, [(mg[k]["capability"][f], ASTRA, "hollow", -7), (mg[k]["none"][f], ASTRA, "ref", 0),
+                                          (mg[k]["alignment"][f], ASTRA, "filled", 7)]) for k, lab in ladder]}]}
+                         for i, f in enumerate("nbd")]})
     return figs
 
 
