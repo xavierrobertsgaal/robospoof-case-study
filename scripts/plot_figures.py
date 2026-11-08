@@ -203,7 +203,8 @@ def specs(d: dict) -> list[dict]:
     models = (("gpt-6-astra", "GPT-6 Astra", ASTRA), ("gpt-6.1-sol", "GPT-6.1 Sol", SOL))
     def prow(label, fa, hit, auc, col):  # hollow = unaltered called fake (false alarm), filled = manipulated called fake
         r = dotrow(label, [(hit, col, "filled", -4.5), (fa, col, "hollow", 4.5)])
-        r["note"] = f"{auc['value']:.2f}"
+        v = auc["value"]  # three decimals just below 1, so e.g. 0.997 is not shown as a perfect 1.00
+        r["note"] = f"{v:.3f}" if .99 < v < .9995 else f"{v:.2f}"
         return r
 
     fig1 = {"stem": "01-perception", "bar_w": 260, "row_h": 34, "value_w": 60, "legend_top": True, "fine_grid": True,
