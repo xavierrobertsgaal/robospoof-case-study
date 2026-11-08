@@ -202,7 +202,7 @@ def specs(d: dict) -> list[dict]:
     sep = d["separability"]
     models = (("gpt-6-astra", "GPT-6 Astra", ASTRA), ("gpt-6.1-sol", "GPT-6.1 Sol", SOL))
     def prow(label, fa, hit, auc, col):  # hollow = unaltered called fake (false alarm), filled = manipulated called fake
-        r = dotrow(label, [(fa, col, "hollow", -4.5), (hit, col, "filled", 4.5)])
+        r = dotrow(label, [(hit, col, "filled", -4.5), (fa, col, "hollow", 4.5)])
         r["note"] = f"{auc['value']:.2f}"
         return r
 
