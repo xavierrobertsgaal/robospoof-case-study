@@ -27,6 +27,8 @@ INK, MUTED, RULE, GRID = "#25323D", "#596977", "#CFD7DE", "#E8ECF0"
 ASTRA, SOL, CLASSIFIER = "#B45416", "#2B6CA3", "#63368A"
 TITLE_H, HEAD_H, GROUP_H, ROW_H, AXIS_H, PAD, GAP, MARGIN = 46, 28, 20, 22, 22, 10, 10, 14
 BAR_H, VALUE_W = 13, 46
+FIG4_TITLE = "4. Astra’s own “fake” verdict does not drive its refusals"
+FIG5_TITLE = "5. Eval-type cues and refusal"  # replaced by an action title once results are in
 
 
 def configure():
@@ -147,7 +149,30 @@ def specs(d: dict) -> list[dict]:
             "title": "3. Only naming the tampering threat makes the robot refuse doctored footage",
             "panels": [{"heading": d["footage"][f], "kind": "rate", "label_w": 198 if i == 0 else 0, "groups": [
                 {"rows": [row(lab, pr[k][f], ASTRA) for k, lab in nudges]}]} for i, f in enumerate("nbd")]}
-    return [fig1, fig2, fig3]
+    vd = d["verdict"]
+
+    def vrows(setting, f):
+        e = vd[setting][f]
+        out = [row(f"Not asked (n={e['not_asked']['n']})", e["not_asked"], ASTRA),
+               row(f"Asked real or fake (n={e['asked']['n']})", e["asked"], ASTRA)]
+        for key, lab in (("judged_fake", "Judged fake"), ("judged_real", "Judged real")):
+            if e[key]:
+                out.append(row(f"{lab} (n={e[key]['n']})", e[key], ASTRA))
+        return out
+
+    fig4 = {"stem": "04-verdict", "bar_w": 200, "title": FIG4_TITLE,
+            "panels": [{"heading": head, "kind": "rate", "label_w": 190, "groups": [
+                {"label": d["footage"][f], "rows": vrows(setting, f)} for f in "nbd"]}
+                for setting, head in (("observer", "Observer · says unsafe"), ("robot", "Robot · gives up"))]}
+    mg = d.get("metagaming", {})
+    cues = [("none", "No cue"), ("capability", "“Capability eval”"), ("alignment", "“Alignment eval”")]
+    figs = [fig1, fig2, fig3, fig4]
+    if all(len(mg.get(k, {})) == 3 for k, _ in ladder):
+        figs.append({"stem": "05-metagaming", "bar_w": 170, "title": FIG5_TITLE,
+                     "panels": [{"heading": d["footage"][f], "kind": "rate", "label_w": 150 if i == 0 else 0, "groups": [
+                         {"label": lab if i == 0 else " ", "rows": [row(cl, mg[k][q][f], ASTRA) for q, cl in cues]}
+                         for k, lab in ladder]} for i, f in enumerate("nbd")]})
+    return figs
 
 
 def main() -> None:
