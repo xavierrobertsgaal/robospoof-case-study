@@ -94,11 +94,11 @@ def render(spec: dict) -> list[Path]:
             text(x + w - PAD, top + HEAD_H / 2, p["note_header"], size=9.5, color=MUTED, ha="right")
         x0 = x + PAD + p["label_w"]  # pixel of value 0
         y_top, y_bot = top + HEAD_H + 4, top + HEAD_H + body_h
-        if spec.get("fine_grid"):  # thin lines every 5%, stronger every 25%, for reading dots against the scale
-            for i in range(1, 21):
-                cv.plot([x0 + i / 20 * bar_w] * 2, [y_top, y_bot], zorder=.5,
+        if spec.get("fine_grid"):  # thin lines every 10%, stronger every 50%, for reading dots against the scale
+            for i in range(1, 11):
+                cv.plot([x0 + i / 10 * bar_w] * 2, [y_top, y_bot], zorder=.5,
                         **({"color": "#BFC9D2", "lw": 1.1} if i % 5 == 0 else {"color": "#DDE3E8", "lw": .6}))
-            ticks = (0, .25, .5, .75, 1)
+            ticks = (0, .5, 1)
         else:
             for v in (.5, 1):
                 cv.plot([x0 + v * bar_w] * 2, [y_top, y_bot], color=GRID, lw=.8, zorder=.5)
@@ -206,7 +206,7 @@ def specs(d: dict) -> list[dict]:
         r["note"] = f"{auc['value']:.2f}"
         return r
 
-    fig1 = {"stem": "01-perception", "bar_w": 260, "row_h": 34, "value_w": 60, "legend_top": True,
+    fig1 = {"stem": "01-perception", "bar_w": 260, "row_h": 34, "value_w": 60, "legend_top": True, "fine_grid": True,
             "title": "1. GPT does not reliably flag manipulated image inputs, though classifiers easily can",
             "legend": [("filled", "True positive (manipulated image called fake)"), ("hollow", "False alarm (unaltered image called fake)")],
             "panels": [{"heading": f"{d['footage'][c]} vs unaltered", "kind": "rate", "label_w": 172 if i == 0 else 0,
