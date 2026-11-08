@@ -211,7 +211,7 @@ def specs(d: dict) -> list[dict]:
             "title": "1. GPT does not reliably flag manipulated image inputs, though classifiers easily can",
             "legend": [("filled", "True positive (manipulated image called fake)"), ("hollow", "False alarm (unaltered image called fake)")],
             "panels": [{"heading": f"{d['footage'][c]} vs unaltered", "kind": "rate", "label_w": 172 if i == 0 else 0,
-                        "axis_label": "Fake judgments (%, 95% CI)", "note_header": "AUROC (all cutoffs)", "groups": [{"rows": [
+                        "axis_label": "Fake judgments (%, 95% CI)", "note_header": "AUROC", "groups": [{"rows": [
                             prow("GPT-6 Astra", det["gpt-6-astra"]["n"], det["gpt-6-astra"][c], sep[c]["gpt-6-astra"], ASTRA),
                             prow("GPT-6.1 Sol", det["gpt-6.1-sol"]["n"], det["gpt-6.1-sol"][c], sep[c]["gpt-6.1-sol"], SOL),
                             prow("ResNet-18 classifier", sep[c]["resnet_called_fake"]["n"], sep[c]["resnet_called_fake"][c],
