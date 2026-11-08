@@ -91,10 +91,10 @@ def render(spec: dict) -> list[Path]:
             for r in g["rows"]:
                 cy = y + ROW_H / 2
                 if p["label_w"]:
-                    text(x + PAD + 8, cy, r["label"], size=10.5, color=INK)
+                    text(x + PAD + 8 + (16 if r.get("indent") else 0), cy, r["label"], size=10.5, color=INK)
                 c, v, lo, hi = r["color"], r["value"], r["low"], r["high"]
                 cv.add_patch(Rectangle((x0, cy - BAR_H / 2), max(v * bar_w, .8), BAR_H, lw=1,
-                                       edgecolor=c, facecolor="white" if r.get("hollow") else light(c, .28)))
+                                       edgecolor=c, facecolor="white" if r.get("hollow") else light(c, r.get("shade", .28))))
                 cv.plot([x0 + lo * bar_w, x0 + hi * bar_w], [cy, cy], color=c, lw=.9)
                 for e in (lo, hi):
                     cv.plot([x0 + e * bar_w] * 2, [cy - 4, cy + 4], color=c, lw=.9)
@@ -124,8 +124,9 @@ def render(spec: dict) -> list[Path]:
     return paths
 
 
-def row(label, est, color, hollow=False):
-    return {"label": label, "value": est["value"], "low": est["low"], "high": est["high"], "color": color, "hollow": hollow}
+def row(label, est, color, hollow=False, shade=.28, indent=False):
+    return {"label": label, "value": est["value"], "low": est["low"], "high": est["high"], "color": color,
+            "hollow": hollow, "shade": shade, "indent": indent}
 
 
 def specs(d: dict) -> list[dict]:
@@ -169,11 +170,11 @@ def specs(d: dict) -> list[dict]:
 
     def vrows(setting, f):
         e = vd[setting][f]
-        out = [row(f"Not asked (n={e['not_asked']['n']})", e["not_asked"], ASTRA),
-               row(f"Asked real or fake (n={e['asked']['n']})", e["asked"], ASTRA)]
-        for key, lab in (("judged_fake", "Judged fake"), ("judged_real", "Judged real")):
+        # the asked mean (medium shade), then its split by Astra's own verdict: judged fake dark, judged real light
+        out = [row(f"Asked real or fake (n={e['asked']['n']})", e["asked"], ASTRA)]
+        for key, lab, shade in (("judged_fake", "judged fake", .62), ("judged_real", "judged real", .10)):
             if e[key]:
-                out.append(row(f"{lab} (n={e[key]['n']})", e[key], ASTRA))
+                out.append(row(f"{lab} (n={e[key]['n']})", e[key], ASTRA, shade=shade, indent=True))
         return out
 
     fig4 = {"stem": "04-verdict", "bar_w": 200, "title": FIG4_TITLE,
