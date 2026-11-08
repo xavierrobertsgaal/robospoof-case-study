@@ -62,9 +62,11 @@ def render(spec: dict) -> list[Path]:
     widths = [PAD + p["label_w"] + bar_w + vw + PAD for p in panels]
     width = MARGIN * 2 + sum(widths) + GAP * (len(panels) - 1)
     notes = spec["footnote"].split("\n") if spec.get("footnote") else []
-    foot_h = (20 if spec.get("legend") else 0) + 15 * len(notes) + (6 if notes or spec.get("legend") else 0)
+    leg_bottom = bool(spec.get("legend")) and not spec.get("legend_top")
+    lt = 26 if spec.get("legend") and spec.get("legend_top") else 0  # legend line between the title and the panels
+    foot_h = (22 if leg_bottom else 0) + 15 * len(notes) + (6 if notes or leg_bottom else 0)
     ax_h = AXIS_H + (16 if any(p.get("axis_label") for p in panels) else 0)  # tick labels + optional axis label
-    height = TITLE_H + HEAD_H + body_h + ax_h + MARGIN + foot_h
+    height = TITLE_H + lt + HEAD_H + body_h + ax_h + MARGIN + foot_h
     fig = plt.figure(figsize=(width / 100, height / 100))
     cv = fig.add_axes([0, 0, 1, 1])
     cv.set_xlim(0, width); cv.set_ylim(height, 0); cv.axis("off")
@@ -83,7 +85,7 @@ def render(spec: dict) -> list[Path]:
     text(MARGIN, TITLE_H / 2 + 2, spec["title"], size=17, weight="semibold", family="Spectral")
     x = MARGIN
     for p, w in zip(panels, widths):
-        top = TITLE_H
+        top = TITLE_H + lt
         cv.add_patch(Rectangle((x, top), w, HEAD_H + body_h + ax_h, facecolor="#FCFCFD", edgecolor=RULE, lw=.9))
         cv.add_patch(Rectangle((x, top), w, HEAD_H, facecolor="#EEF2F5", edgecolor="none"))
         text(x + PAD, top + HEAD_H / 2, p["heading"], size=12.5, weight="semibold", family="Spectral")
@@ -141,14 +143,19 @@ def render(spec: dict) -> list[Path]:
         if p["kind"] == "auroc":  # chance line drawn over the bars so it reads across every row
             cv.plot([x0 + .5 * bar_w] * 2, [y_top, y_bot], color=MUTED, lw=1.1, ls=(0, (4, 2.5)), zorder=5)
         x += w + GAP
-    fy = TITLE_H + HEAD_H + body_h + ax_h + 12
-    if spec.get("legend"):
+    def draw_legend(ly):  # shape-only key in dark ink, since colour encodes the model / detector
         lx = MARGIN + 6
         for style, lab in spec["legend"]:
-            marker(lx, fy, style, ASTRA)
-            t = text(lx + 10, fy, lab, size=9.5, color=MUTED)
-            lx += 10 + TextPath((0, 0), lab, size=9.5, prop=FontProperties(family="Arial")).get_extents().width * 100 / 72 + 22
-        fy += 20
+            marker(lx, ly, style, INK)
+            text(lx + 11, ly, lab, size=10.5, color=INK)
+            lx += 11 + TextPath((0, 0), lab, size=10.5, prop=FontProperties(family="Arial")).get_extents().width * 100 / 72 + 28
+
+    if lt:
+        draw_legend(TITLE_H + lt / 2 + 1)
+    fy = TITLE_H + lt + HEAD_H + body_h + ax_h + 12
+    if leg_bottom:
+        draw_legend(fy)
+        fy += 22
     for line in notes:
         text(MARGIN, fy, line, size=9.5, color=MUTED)
         fy += 15
@@ -190,11 +197,11 @@ def specs(d: dict) -> list[dict]:
         r["note"] = f"{auc['value']:.2f}"
         return r
 
-    fig1 = {"stem": "01-perception", "bar_w": 260, "row_h": 34, "value_w": 60,
+    fig1 = {"stem": "01-perception", "bar_w": 260, "row_h": 34, "value_w": 60, "legend_top": True,
             "title": "1. GPT does not reliably flag manipulated image inputs, though classifiers easily can",
             "legend": [("filled", "manipulated snapshot called fake"), ("hollow", "unaltered snapshot called fake (false alarm)")],
             "panels": [{"heading": f"{d['footage'][c]} vs unaltered", "kind": "rate", "label_w": 172 if i == 0 else 0,
-                        "axis_label": "Called fake", "note_header": "AUROC", "groups": [{"rows": [
+                        "axis_label": "% fake judgments", "note_header": "AUROC", "groups": [{"rows": [
                             prow("GPT-6 Astra", det["gpt-6-astra"]["n"], det["gpt-6-astra"][c], sep[c]["gpt-6-astra"], ASTRA),
                             prow("GPT-6.1 Sol", det["gpt-6.1-sol"]["n"], det["gpt-6.1-sol"][c], sep[c]["gpt-6.1-sol"], SOL),
                             prow("ResNet-18 classifier", sep[c]["resnet_called_fake"]["n"], sep[c]["resnet_called_fake"][c],
