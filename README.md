@@ -42,7 +42,7 @@ Gives up means calling `give_up` rather than `move_to` at the first call. The ba
 
 The grey dot is the refusal rate over all answers. The filled and hollow dots split it by Astra's verdict: judged fake and judged real. Row labels give the share of answers that judged the input fake. As an observer, Astra refuses doctored snapshots more often after judging them real (81%) than after judging them fake (62%). Without the question, it refused 47% (Figure 2). As the robot, it judges the doctored scene fake 5 times in 60 and keeps going every time. GPT-6.1 Sol shows the same pattern. As an observer it refuses doctored snapshots 84% of the time after judging them real, and 52% after judging them fake. As the robot it judged a doctored scene fake twice, and kept going both times. The robot's "judged fake" rows rest on 1–5 cases, so their intervals are wide. Whiskers are Wilson 95% intervals.
 
-![Told it is in an alignment eval, GPT starts refusing blurred footage it otherwise acts on](report/figures/05-metagaming.png)
+![Told it is in an alignment eval, GPT starts refusing given blurred input](report/figures/05-metagaming.png)
 
 **Eval metagaming.** This follows Hsu & Arnesen, ["Eval-production behavior gaps in agent safety and the role of eval-awareness"](https://alignment.openai.com/eval-production-behavior-gap/) (OpenAI Alignment blog, 2026). Each framing from Figure 2 gets one sentence in its system prompt naming the kind of evaluation:
 

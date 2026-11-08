@@ -122,7 +122,7 @@ L 541.44 331.2
 " clip-path="url(#p4036e373b5)" style="fill: none; stroke: #b9c3cc; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="text_1">
-    <!-- 5. Told it is in an alignment eval, GPT starts refusing blurred footage it otherwise acts on -->
+    <!-- 5. Told it is in an alignment eval, GPT starts refusing given blurred input -->
     <g style="fill: #25323d" transform="translate(10.08 23.066) scale(0.17 -0.17)">
      <defs>
       <path id="Spectral-SemiBold-4c7" d="M 3046 1453 
@@ -759,90 +759,39 @@ Q 2669 1965 2425 2221
 Q 2182 2477 1862 2477 
 z
 " transform="scale(0.015625)"/>
-      <path id="Spectral-SemiBold-13b" d="M 243 0 
-L 243 102 
-L 659 307 
-L 659 4070 
-L 262 4384 
-L 262 4448 
-L 1338 4800 
-L 1402 4800 
-L 1402 2496 
-L 1427 2496 
-Q 1664 2726 1885 2848 
-Q 2106 2970 2387 2970 
-Q 2771 2970 3017 2774 
-Q 3264 2579 3264 2195 
-L 3264 307 
-L 3680 102 
-L 3680 0 
-L 2144 0 
-L 2144 102 
-L 2522 294 
-L 2522 1920 
-Q 2522 2163 2371 2294 
-Q 2221 2426 1990 2426 
-Q 1843 2426 1676 2374 
-Q 1510 2323 1402 2234 
-L 1402 294 
-L 1779 102 
-L 1779 0 
-L 243 0 
+      <path id="Spectral-SemiBold-143" d="M 243 -1472 
+L 243 -1370 
+L 659 -1165 
+L 659 2214 
+L 262 2528 
+L 262 2592 
+L 1274 2970 
+L 1338 2970 
+L 1389 2579 
+L 1427 2579 
+Q 1670 2784 1891 2877 
+Q 2112 2970 2368 2970 
+Q 2669 2970 2915 2800 
+Q 3162 2630 3309 2320 
+Q 3456 2010 3456 1581 
+Q 3456 1062 3254 694 
+Q 3053 326 2720 131 
+Q 2387 -64 1984 -64 
+Q 1651 -64 1402 0 
+L 1402 -1165 
+L 1882 -1370 
+L 1882 -1472 
+L 243 -1472 
 z
-" transform="scale(0.015625)"/>
-      <path id="Spectral-SemiBold-14a" d="M 1248 0 
-L 218 2618 
-L -192 2803 
-L -192 2906 
-L 1498 2906 
-L 1498 2803 
-L 1024 2611 
-L 1024 2586 
-L 1613 1018 
-L 1645 1018 
-L 2451 2906 
-L 2650 2906 
-L 3475 1024 
-L 3501 1024 
-L 4090 2554 
-L 4090 2586 
-L 3661 2803 
-L 3661 2906 
-L 4922 2906 
-L 4922 2803 
-L 4461 2579 
-L 3360 0 
-L 3162 0 
-L 2317 1882 
-L 1446 0 
-L 1248 0 
-z
-" transform="scale(0.015625)"/>
-      <path id="Spectral-SemiBold-136" d="M 1638 -64 
-Q 1229 -64 921 109 
-Q 614 282 444 592 
-Q 275 902 275 1318 
-Q 275 1805 489 2176 
-Q 704 2547 1075 2758 
-Q 1446 2970 1907 2970 
-Q 2214 2970 2419 2874 
-Q 2624 2778 2729 2656 
-Q 2835 2534 2835 2445 
-Q 2835 2342 2714 2253 
-L 2470 2054 
-L 1926 2694 
-Q 1882 2701 1843 2701 
-Q 1581 2701 1385 2553 
-Q 1190 2406 1088 2163 
-Q 986 1920 986 1619 
-Q 986 1107 1251 822 
-Q 1517 538 1997 538 
-Q 2182 538 2384 592 
-Q 2586 646 2816 762 
-L 2835 762 
-L 2835 672 
-Q 2682 365 2371 150 
-Q 2061 -64 1638 -64 
+M 1914 2477 
+Q 1658 2477 1402 2323 
+L 1402 493 
+Q 1651 262 2042 262 
+Q 2214 262 2368 364 
+Q 2522 467 2621 710 
+Q 2720 954 2720 1382 
+Q 2720 1946 2477 2211 
+Q 2234 2477 1914 2477 
 z
 " transform="scale(0.015625)"/>
      </defs>
@@ -902,42 +851,25 @@ z
      <use xlink:href="#Spectral-SemiBold-141" transform="translate(2277.765625 0)"/>
      <use xlink:href="#Spectral-SemiBold-13a" transform="translate(2337.765625 0)"/>
      <use xlink:href="#Spectral-SemiBold-3" transform="translate(2392.0625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-135" transform="translate(2417.0625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-13f" transform="translate(2474.359375 0)"/>
-     <use xlink:href="#Spectral-SemiBold-148" transform="translate(2505.65625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-145" transform="translate(2563.453125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-145" transform="translate(2604.75 0)"/>
-     <use xlink:href="#Spectral-SemiBold-138" transform="translate(2646.046875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-137" transform="translate(2695.84375 0)"/>
-     <use xlink:href="#Spectral-SemiBold-3" transform="translate(2753.140625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-139" transform="translate(2778.140625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-142" transform="translate(2813.640625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-142" transform="translate(2869.046875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-147" transform="translate(2923.453125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-134" transform="translate(2960.75 0)"/>
-     <use xlink:href="#Spectral-SemiBold-13a" transform="translate(3010.859375 0)"/>
-     <use xlink:href="#Spectral-SemiBold-138" transform="translate(3064.5625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-3" transform="translate(3113.65625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-13c" transform="translate(3138.65625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-147" transform="translate(3171.15625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-3" transform="translate(3208.453125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-142" transform="translate(3233.453125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-147" transform="translate(3287.859375 0)"/>
-     <use xlink:href="#Spectral-SemiBold-13b" transform="translate(3325.15625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-138" transform="translate(3385.453125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-145" transform="translate(3434.546875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-14a" transform="translate(3475.84375 0)"/>
-     <use xlink:href="#Spectral-SemiBold-13c" transform="translate(3549.640625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-146" transform="translate(3582.140625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-138" transform="translate(3625.640625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-3" transform="translate(3674.734375 0)"/>
-     <use xlink:href="#Spectral-SemiBold-134" transform="translate(3699.734375 0)"/>
-     <use xlink:href="#Spectral-SemiBold-136" transform="translate(3750.140625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-147" transform="translate(3798.34375 0)"/>
-     <use xlink:href="#Spectral-SemiBold-146" transform="translate(3835.640625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-3" transform="translate(3879.140625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-142" transform="translate(3904.140625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-141" transform="translate(3958.546875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-13a" transform="translate(2417.0625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-13c" transform="translate(2471.359375 0)"/>
+     <use xlink:href="#Spectral-SemiBold-149" transform="translate(2504.265625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-138" transform="translate(2552.0625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-141" transform="translate(2601.15625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-3" transform="translate(2661.453125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-135" transform="translate(2686.453125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-13f" transform="translate(2743.75 0)"/>
+     <use xlink:href="#Spectral-SemiBold-148" transform="translate(2775.046875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-145" transform="translate(2832.84375 0)"/>
+     <use xlink:href="#Spectral-SemiBold-145" transform="translate(2874.140625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-138" transform="translate(2915.4375 0)"/>
+     <use xlink:href="#Spectral-SemiBold-137" transform="translate(2965.234375 0)"/>
+     <use xlink:href="#Spectral-SemiBold-3" transform="translate(3022.53125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-13c" transform="translate(3047.53125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-141" transform="translate(3080.03125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-143" transform="translate(3140.328125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-148" transform="translate(3198.328125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-147" transform="translate(3256.125 0)"/>
     </g>
    </g>
    <g id="text_2">
@@ -2369,6 +2301,33 @@ Q 3488 781 3677 1174
 Q 3866 1568 3866 2106 
 Q 3866 2912 3434 3392 
 Q 3002 3872 2176 3872 
+z
+" transform="scale(0.015625)"/>
+      <path id="Spectral-SemiBold-136" d="M 1638 -64 
+Q 1229 -64 921 109 
+Q 614 282 444 592 
+Q 275 902 275 1318 
+Q 275 1805 489 2176 
+Q 704 2547 1075 2758 
+Q 1446 2970 1907 2970 
+Q 2214 2970 2419 2874 
+Q 2624 2778 2729 2656 
+Q 2835 2534 2835 2445 
+Q 2835 2342 2714 2253 
+L 2470 2054 
+L 1926 2694 
+Q 1882 2701 1843 2701 
+Q 1581 2701 1385 2553 
+Q 1190 2406 1088 2163 
+Q 986 1920 986 1619 
+Q 986 1107 1251 822 
+Q 1517 538 1997 538 
+Q 2182 538 2384 592 
+Q 2586 646 2816 762 
+L 2835 762 
+L 2835 672 
+Q 2682 365 2371 150 
+Q 2061 -64 1638 -64 
 z
 " transform="scale(0.015625)"/>
      </defs>
