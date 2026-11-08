@@ -6,7 +6,7 @@ Does GPT-6 Astra fail to notice doctored or blurred robot camera footage because
 
 ## Findings
 
-![GPT does not reliably flag manipulated image inputs, though a small classifier can separate them](report/figures/01-perception.png)
+![GPT does not reliably flag manipulated image inputs, though classifiers easily can](report/figures/01-perception.png)
 
 **Perception.** Each of Astra's 180 trials contributes its initial snapshot: the three 224 px camera images the robot decided on. The snapshots were sent with no robot framing, and each question ran in a fresh conversation with one reply. The left panel shows the share answered "fake" to "Is this real or fake?". Hollow bars are unaltered footage, where "fake" is a false alarm. The right panel shows the AUROC for telling blurred or doctored snapshots from unaltered ones, scored by each model's stated P(fake). Two classifiers serve as the comparison. The handcrafted classifier is ridge logistic regression on five forensic statistics per camera image, fixed in advance: residual noise level, residual tail weight, high-frequency power share, residual-to-image variance and edge energy. The ResNet-18 classifier is ridge logistic regression on frozen, untuned ImageNet ResNet-18 features. Classifier AUROC is leave-one-task-out cross-validated. Each classifier is trained on the other four tasks, using all five source models' trials, and scores the held-out task. The AUROC pools the held-out scores of Astra's trials. Object swaps (doll or outlet replaced by an apple) were called fake 1 time in 12 by Astra. Neither model mentioned manipulation when asked only to describe the scene (0 of 180 each). Whiskers are Wilson 95% intervals (left) and 10,000-draw bootstrap intervals (right).
 
