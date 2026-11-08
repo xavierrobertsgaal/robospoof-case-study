@@ -71,8 +71,6 @@ def render(spec: dict) -> list[Path]:
         y_top, y_bot = top + HEAD_H + 4, top + HEAD_H + body_h
         for v in (.5, 1):
             cv.plot([x0 + v * bar_w] * 2, [y_top, y_bot], color=GRID, lw=.8, zorder=0)
-        if p["kind"] == "auroc":
-            cv.plot([x0 + .5 * bar_w] * 2, [y_top, y_bot], color="#9AA7B2", lw=.8, ls=(0, (3, 2)), zorder=0)
         cv.plot([x0, x0], [y_top, y_bot], color="#B9C3CC", lw=.9)
         for v in (0, .5, 1):
             lab = (f"{v:g}" if p["kind"] == "auroc" else f"{v:.0%}") + (" = chance" if p["kind"] == "auroc" and v == .5 else "")
@@ -95,6 +93,8 @@ def render(spec: dict) -> list[Path]:
                 text(x0 + hi * bar_w + 5, cy, f"{v:.2f}" if p["kind"] == "auroc" else f"{v:.0%}",
                      size=10, color=c, weight="semibold")
                 y += ROW_H
+        if p["kind"] == "auroc":  # chance line drawn over the bars so it reads across every row
+            cv.plot([x0 + .5 * bar_w] * 2, [y_top, y_bot], color=MUTED, lw=1.1, ls=(0, (4, 2.5)), zorder=5)
         x += w + GAP
 
     fig.canvas.draw()
