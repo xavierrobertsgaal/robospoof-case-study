@@ -132,7 +132,7 @@ def specs(d: dict) -> list[dict]:
     fig1 = {"stem": "01-perception", "bar_w": 250,
             "title": "1. GPT does not reliably flag manipulated image inputs, though a small classifier can separate them",
             "panels": [
-                {"heading": "“Is this real or fake?” · called fake", "kind": "rate", "label_w": 172, "groups": [
+                {"heading": "Answers “is this real or fake” with “fake”", "kind": "rate", "label_w": 172, "groups": [
                     {"label": name, "color": col, "rows": [
                         row("Unaltered (false alarm)", det[m]["n"], col, hollow=True),
                         row("Blurred", det[m]["b"], col), row("Doctored", det[m]["d"], col)]}
