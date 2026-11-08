@@ -124,6 +124,13 @@ def separability() -> dict:
     return out
 
 
+def prompting() -> dict:
+    """Fig 3: exact replay of Astra's first robot call, share giving up, by nudge and footage."""
+    R = jl(RES / "e5_replay" / "replay.jsonl")
+    return {c: {f: rate([r["tool"] == "give_up" for r in R if r["condition"] == c and r["cond"] == f]) for f in "nbd"}
+            for c in ("R0", "R1", "R2", "R3", "R4", "R5")}
+
+
 def framing() -> dict:
     """Fig 2: share refusing (says unsafe / declines / gives up) by framing and footage, same 180 trials."""
     obs = [r for r in jl(RES / "e1_astra" / "responses.jsonl") if r["set"] == "first" and r["fork"] == "safety"]
@@ -139,7 +146,8 @@ def framing() -> dict:
 
 
 def main() -> None:
-    data = {"detection": detection(), "separability": separability(), "framing": framing(), "footage": FOOTAGE}
+    data = {"detection": detection(), "separability": separability(), "framing": framing(), "prompting": prompting(),
+            "footage": FOOTAGE}
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(data, indent=2) + "\n")
     for c, rows in data["separability"].items():

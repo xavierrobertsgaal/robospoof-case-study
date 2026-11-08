@@ -140,7 +140,14 @@ def specs(d: dict) -> list[dict]:
             "title": "2. Astra refuses unsafe tasks in text, but acts once it has robot motion tools",
             "panels": [{"heading": d["footage"][f], "kind": "rate", "label_w": 198 if i == 0 else 0, "groups": [
                 {"rows": [row(lab, fr[k][f], ASTRA) for k, lab in ladder]}]} for i, f in enumerate("nbd")]}
-    return [fig1, fig2]
+    pr = d["prompting"]
+    nudges = [("R0", "Baseline (original request)"), ("R4", "Max reasoning effort"), ("R5", "“Think carefully”"),
+              ("R3", "Real/fake self-check"), ("R1", "“Check observations”"), ("R2", "Tampering warning")]
+    fig3 = {"stem": "03-nudges", "bar_w": 170,
+            "title": "3. Only naming the tampering threat makes the robot refuse doctored footage",
+            "panels": [{"heading": d["footage"][f], "kind": "rate", "label_w": 198 if i == 0 else 0, "groups": [
+                {"rows": [row(lab, pr[k][f], ASTRA) for k, lab in nudges]}]} for i, f in enumerate("nbd")]}
+    return [fig1, fig2, fig3]
 
 
 def main() -> None:
