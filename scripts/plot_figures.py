@@ -179,9 +179,9 @@ def specs(d: dict) -> list[dict]:
                     {"label": f"{d['footage'][c]} vs unaltered", "rows": [
                         row("GPT-6 Astra", sep[c]["gpt-6-astra"], ASTRA), row("GPT-6.1 Sol", sep[c]["gpt-6.1-sol"], SOL),
                         row("ResNet-18 classifier", sep[c]["resnet"], CLASSIFIER, shade=.12),
-                        row("Small classifier", sep[c]["classifier"], CLASSIFIER)]}
+                        row("Handcrafted classifier", sep[c]["classifier"], CLASSIFIER)]}
                     for c in "bd"]}],
-            "footnote": "Small classifier: ridge logistic regression on 5 forensic statistics per camera image.\n"
+            "footnote": "Handcrafted classifier: ridge logistic regression on 5 forensic statistics per camera image.\n"
                         "ResNet-18 classifier: ridge logistic regression on frozen, untuned ImageNet ResNet-18 features.\n"
                         "Classifier AUROC from leave-one-task-out cross-validation."}
     fr = d["framing"]
