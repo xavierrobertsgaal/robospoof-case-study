@@ -171,7 +171,7 @@ L 512.64 316.8
 " clip-path="url(#p0dffbdc403)" style="fill: none; stroke: #b9c3cc; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="text_1">
-    <!-- 4. Judging an input as fake does not cause GPT to refuse more reliably -->
+    <!-- 4. GPT does not refuse more when it judges an input fake -->
     <g style="fill: #25323d" transform="translate(10.08 23.066) scale(0.17 -0.17)">
      <defs>
       <path id="Spectral-SemiBold-4c6" d="M 1222 0 
@@ -209,485 +209,6 @@ Q 1011 -32 832 -32
 z
 " transform="scale(0.015625)"/>
       <path id="Spectral-SemiBold-3" transform="scale(0.015625)"/>
-      <path id="Spectral-SemiBold-12" d="M 371 -1114 
-Q 237 -1114 157 -1050 
-Q 77 -986 77 -890 
-Q 77 -858 96 -762 
-L 166 -486 
-L 736 -595 
-Q 858 -442 909 -227 
-Q 960 -13 960 320 
-L 960 3859 
-L 429 4122 
-L 429 4224 
-L 2298 4224 
-L 2298 4122 
-L 1766 3859 
-L 1766 1555 
-Q 1766 851 1616 342 
-Q 1466 -166 1178 -518 
-Q 890 -870 714 -992 
-Q 538 -1114 371 -1114 
-z
-" transform="scale(0.015625)"/>
-      <path id="Spectral-SemiBold-148" d="M 1414 -64 
-Q 1030 -64 787 131 
-Q 544 326 544 710 
-L 544 2598 
-L 128 2803 
-L 128 2906 
-L 1286 2906 
-L 1286 986 
-Q 1286 736 1433 608 
-Q 1581 480 1818 480 
-Q 1958 480 2121 528 
-Q 2285 576 2394 672 
-L 2394 2598 
-L 1978 2803 
-L 1978 2906 
-L 3136 2906 
-L 3136 294 
-L 3558 102 
-L 3558 0 
-L 2394 0 
-L 2394 403 
-L 2368 403 
-Q 2131 173 1913 54 
-Q 1696 -64 1414 -64 
-z
-" transform="scale(0.015625)"/>
-      <path id="Spectral-SemiBold-137" d="M 1331 -64 
-Q 1030 -64 780 96 
-Q 531 256 384 550 
-Q 237 845 237 1242 
-Q 237 1786 438 2170 
-Q 640 2554 985 2762 
-Q 1331 2970 1760 2970 
-Q 2067 2970 2298 2912 
-L 2298 4070 
-L 1869 4390 
-L 1869 4448 
-L 2976 4800 
-L 3040 4800 
-L 3040 288 
-L 3488 102 
-L 3488 0 
-L 2362 0 
-L 2304 320 
-L 2266 320 
-Q 2022 122 1801 29 
-Q 1581 -64 1331 -64 
-z
-M 979 1421 
-Q 979 909 1222 669 
-Q 1466 429 1786 429 
-Q 2042 429 2298 582 
-L 2298 2413 
-Q 2182 2522 2057 2579 
-Q 1933 2637 1779 2637 
-Q 1562 2637 1379 2528 
-Q 1197 2419 1088 2153 
-Q 979 1888 979 1421 
-z
-" transform="scale(0.015625)"/>
-      <path id="Spectral-SemiBold-13a" d="M 1606 1043 
-Q 1434 1043 1267 1088 
-Q 1101 1005 1046 912 
-Q 992 819 992 730 
-Q 992 614 1094 544 
-Q 1197 474 1421 474 
-L 2202 474 
-Q 2688 474 2921 256 
-Q 3155 38 3155 -384 
-Q 3155 -672 2972 -934 
-Q 2790 -1197 2444 -1366 
-Q 2099 -1536 1606 -1536 
-Q 1030 -1536 755 -1286 
-Q 480 -1037 480 -691 
-Q 480 -557 544 -416 
-L 947 -128 
-L 947 -115 
-Q 723 -45 604 115 
-Q 486 275 486 499 
-Q 486 589 505 675 
-Q 525 762 563 851 
-L 1050 1171 
-Q 800 1293 649 1513 
-Q 499 1734 499 2010 
-Q 499 2278 643 2496 
-Q 787 2714 1040 2838 
-Q 1293 2963 1606 2963 
-Q 1760 2963 1926 2924 
-Q 2093 2886 2189 2835 
-L 3181 2899 
-L 3181 2528 
-L 2496 2579 
-L 2483 2566 
-Q 2586 2464 2653 2313 
-Q 2720 2163 2720 2010 
-Q 2720 1734 2573 1516 
-Q 2426 1299 2173 1171 
-Q 1920 1043 1606 1043 
-z
-M 1651 1312 
-Q 1856 1312 1968 1501 
-Q 2080 1690 2080 1990 
-Q 2080 2323 1936 2512 
-Q 1792 2701 1581 2701 
-Q 1376 2701 1257 2518 
-Q 1139 2336 1139 2022 
-Q 1139 1690 1283 1501 
-Q 1427 1312 1651 1312 
-z
-M 979 -550 
-Q 979 -883 1184 -1097 
-Q 1389 -1312 1715 -1312 
-Q 2086 -1312 2313 -1117 
-Q 2541 -922 2541 -653 
-Q 2541 -422 2419 -294 
-Q 2298 -166 1926 -166 
-L 1312 -166 
-Q 1267 -166 1235 -166 
-Q 1101 -211 1040 -313 
-Q 979 -416 979 -550 
-z
-" transform="scale(0.015625)"/>
-      <path id="Spectral-SemiBold-13c" d="M 1037 3654 
-Q 851 3654 729 3779 
-Q 608 3904 608 4090 
-Q 608 4275 729 4396 
-Q 851 4518 1037 4518 
-Q 1222 4518 1347 4396 
-Q 1472 4275 1472 4090 
-Q 1472 3904 1347 3779 
-Q 1222 3654 1037 3654 
-z
-M 269 0 
-L 269 102 
-L 685 307 
-L 685 2240 
-L 288 2547 
-L 288 2618 
-L 1363 2970 
-L 1427 2970 
-L 1427 307 
-L 1818 102 
-L 1818 0 
-L 269 0 
-z
-" transform="scale(0.015625)"/>
-      <path id="Spectral-SemiBold-141" d="M 243 0 
-L 243 102 
-L 659 307 
-L 659 2240 
-L 262 2528 
-L 262 2592 
-L 1274 2970 
-L 1338 2970 
-L 1395 2496 
-L 1427 2496 
-Q 1664 2726 1885 2848 
-Q 2106 2970 2387 2970 
-Q 2771 2970 3017 2774 
-Q 3264 2579 3264 2195 
-L 3264 307 
-L 3680 102 
-L 3680 0 
-L 2144 0 
-L 2144 102 
-L 2522 307 
-L 2522 1920 
-Q 2522 2163 2371 2294 
-Q 2221 2426 1990 2426 
-Q 1843 2426 1676 2374 
-Q 1510 2323 1402 2234 
-L 1402 307 
-L 1779 102 
-L 1779 0 
-L 243 0 
-z
-" transform="scale(0.015625)"/>
-      <path id="Spectral-SemiBold-134" d="M 979 -64 
-Q 653 -64 451 128 
-Q 250 320 250 640 
-Q 250 973 467 1187 
-Q 685 1402 1261 1542 
-L 1882 1696 
-L 1882 2118 
-Q 1882 2355 1731 2502 
-Q 1581 2650 1357 2650 
-Q 1267 2650 1177 2630 
-Q 1088 2611 979 2560 
-L 979 1933 
-L 512 1933 
-Q 403 1933 361 1984 
-Q 320 2035 320 2163 
-Q 320 2349 493 2534 
-Q 666 2720 950 2845 
-Q 1235 2970 1574 2970 
-Q 2074 2970 2349 2768 
-Q 2624 2566 2624 2202 
-L 2624 454 
-Q 2669 410 2749 381 
-Q 2829 352 2950 352 
-L 3162 352 
-L 3181 333 
-L 3181 275 
-Q 3104 147 2944 41 
-Q 2784 -64 2534 -64 
-Q 2298 -64 2147 48 
-Q 1997 160 1926 352 
-L 1882 352 
-Q 1709 160 1475 48 
-Q 1242 -64 979 -64 
-z
-M 954 806 
-Q 954 608 1072 505 
-Q 1190 403 1402 403 
-Q 1626 403 1882 512 
-L 1882 1453 
-Q 1478 1370 1280 1277 
-Q 1082 1184 1018 1069 
-Q 954 954 954 806 
-z
-" transform="scale(0.015625)"/>
-      <path id="Spectral-SemiBold-143" d="M 243 -1472 
-L 243 -1370 
-L 659 -1165 
-L 659 2214 
-L 262 2528 
-L 262 2592 
-L 1274 2970 
-L 1338 2970 
-L 1389 2579 
-L 1427 2579 
-Q 1670 2784 1891 2877 
-Q 2112 2970 2368 2970 
-Q 2669 2970 2915 2800 
-Q 3162 2630 3309 2320 
-Q 3456 2010 3456 1581 
-Q 3456 1062 3254 694 
-Q 3053 326 2720 131 
-Q 2387 -64 1984 -64 
-Q 1651 -64 1402 0 
-L 1402 -1165 
-L 1882 -1370 
-L 1882 -1472 
-L 243 -1472 
-z
-M 1914 2477 
-Q 1658 2477 1402 2323 
-L 1402 493 
-Q 1651 262 2042 262 
-Q 2214 262 2368 364 
-Q 2522 467 2621 710 
-Q 2720 954 2720 1382 
-Q 2720 1946 2477 2211 
-Q 2234 2477 1914 2477 
-z
-" transform="scale(0.015625)"/>
-      <path id="Spectral-SemiBold-147" d="M 1382 -64 
-Q 1037 -64 803 102 
-Q 570 269 570 570 
-L 570 2611 
-L 83 2611 
-L 83 2675 
-L 659 2906 
-L 1222 3610 
-L 1312 3610 
-L 1312 2906 
-L 2182 2906 
-L 2182 2611 
-L 1312 2611 
-L 1312 710 
-Q 1312 550 1456 470 
-Q 1600 390 1792 390 
-Q 1914 390 2013 403 
-Q 2112 416 2195 435 
-L 2214 429 
-L 2214 339 
-Q 2125 186 1904 61 
-Q 1683 -64 1382 -64 
-z
-" transform="scale(0.015625)"/>
-      <path id="Spectral-SemiBold-146" d="M 1350 -64 
-Q 1037 -64 813 -6 
-Q 589 51 365 160 
-L 365 896 
-L 454 896 
-L 672 550 
-Q 890 198 1325 198 
-Q 1574 198 1708 304 
-Q 1843 410 1843 595 
-Q 1843 749 1766 845 
-Q 1690 941 1526 1017 
-Q 1363 1094 1114 1203 
-Q 768 1350 595 1539 
-Q 422 1728 422 2029 
-Q 422 2291 560 2502 
-Q 698 2714 931 2842 
-Q 1165 2970 1440 2970 
-Q 1882 2970 2278 2765 
-L 2278 2029 
-L 2182 2029 
-L 1978 2342 
-Q 1862 2528 1734 2611 
-Q 1606 2694 1440 2694 
-Q 1235 2694 1113 2592 
-Q 992 2490 992 2310 
-Q 992 2125 1133 2016 
-Q 1274 1907 1626 1760 
-Q 1811 1683 1987 1590 
-Q 2163 1498 2281 1331 
-Q 2400 1165 2400 864 
-Q 2400 570 2243 362 
-Q 2086 154 1843 45 
-Q 1600 -64 1350 -64 
-z
-" transform="scale(0.015625)"/>
-      <path id="Spectral-SemiBold-139" d="M 282 0 
-L 282 102 
-L 698 307 
-L 698 2611 
-L 205 2611 
-L 205 2906 
-L 698 2906 
-L 698 3078 
-Q 698 3341 838 3638 
-Q 979 3936 1216 4198 
-Q 1453 4461 1737 4627 
-Q 2022 4794 2310 4794 
-Q 2490 4794 2566 4730 
-Q 2643 4666 2643 4576 
-Q 2643 4550 2636 4515 
-Q 2630 4480 2624 4442 
-L 2554 4141 
-L 1754 4346 
-Q 1606 4211 1523 3939 
-Q 1440 3667 1440 3264 
-L 1440 2906 
-L 2234 2906 
-L 2234 2611 
-L 1440 2611 
-L 1440 301 
-L 1914 102 
-L 1914 0 
-L 282 0 
-z
-" transform="scale(0.015625)"/>
-      <path id="Spectral-SemiBold-13e" d="M 243 0 
-L 243 102 
-L 659 307 
-L 659 4070 
-L 262 4384 
-L 262 4448 
-L 1338 4800 
-L 1402 4800 
-L 1402 1658 
-L 2387 2534 
-L 2387 2573 
-L 2074 2803 
-L 2074 2906 
-L 3373 2906 
-L 3373 2803 
-L 2963 2579 
-L 2016 1843 
-L 3238 320 
-L 3648 102 
-L 3648 0 
-L 2566 0 
-L 2349 333 
-L 1402 1530 
-L 1402 294 
-L 1830 102 
-L 1830 0 
-L 243 0 
-z
-" transform="scale(0.015625)"/>
-      <path id="Spectral-SemiBold-138" d="M 1664 -64 
-Q 1018 -64 646 313 
-Q 275 691 275 1318 
-Q 275 1805 476 2176 
-Q 678 2547 1017 2758 
-Q 1357 2970 1766 2970 
-Q 2278 2970 2566 2618 
-Q 2854 2266 2861 1626 
-L 2835 1594 
-L 992 1594 
-Q 992 1312 1094 1072 
-Q 1197 832 1424 685 
-Q 1651 538 2035 538 
-Q 2214 538 2419 592 
-Q 2624 646 2848 762 
-L 2867 762 
-L 2867 672 
-Q 2714 358 2400 147 
-Q 2086 -64 1664 -64 
-z
-M 1638 2682 
-Q 1382 2682 1219 2474 
-Q 1056 2266 1011 1882 
-L 2240 1882 
-Q 2182 2323 2032 2502 
-Q 1882 2682 1638 2682 
-z
-" transform="scale(0.015625)"/>
-      <path id="Spectral-SemiBold-142" d="M 1741 -64 
-Q 1299 -64 966 137 
-Q 634 339 448 684 
-Q 262 1030 262 1453 
-Q 262 1875 448 2217 
-Q 634 2560 966 2765 
-Q 1299 2970 1741 2970 
-Q 2182 2970 2515 2765 
-Q 2848 2560 3033 2217 
-Q 3219 1875 3219 1453 
-Q 3219 1030 3033 684 
-Q 2848 339 2515 137 
-Q 2182 -64 1741 -64 
-z
-M 1818 237 
-Q 2035 237 2172 390 
-Q 2310 544 2374 793 
-Q 2438 1043 2438 1325 
-Q 2438 1670 2361 1977 
-Q 2285 2285 2115 2480 
-Q 1946 2675 1677 2675 
-Q 1459 2675 1318 2521 
-Q 1178 2368 1110 2118 
-Q 1043 1869 1043 1587 
-Q 1043 1242 1123 931 
-Q 1203 621 1376 429 
-Q 1549 237 1818 237 
-z
-" transform="scale(0.015625)"/>
-      <path id="Spectral-SemiBold-136" d="M 1638 -64 
-Q 1229 -64 921 109 
-Q 614 282 444 592 
-Q 275 902 275 1318 
-Q 275 1805 489 2176 
-Q 704 2547 1075 2758 
-Q 1446 2970 1907 2970 
-Q 2214 2970 2419 2874 
-Q 2624 2778 2729 2656 
-Q 2835 2534 2835 2445 
-Q 2835 2342 2714 2253 
-L 2470 2054 
-L 1926 2694 
-Q 1882 2701 1843 2701 
-Q 1581 2701 1385 2553 
-Q 1190 2406 1088 2163 
-Q 986 1920 986 1619 
-Q 986 1107 1251 822 
-Q 1517 538 1997 538 
-Q 2182 538 2384 592 
-Q 2586 646 2816 762 
-L 2835 762 
-L 2835 672 
-Q 2682 365 2371 150 
-Q 2061 -64 1638 -64 
-z
-" transform="scale(0.015625)"/>
       <path id="Spectral-SemiBold-f" d="M 2547 -64 
 Q 2086 -64 1692 93 
 Q 1299 250 1001 528 
@@ -772,6 +293,187 @@ L 3270 0
 L 1139 0 
 z
 " transform="scale(0.015625)"/>
+      <path id="Spectral-SemiBold-137" d="M 1331 -64 
+Q 1030 -64 780 96 
+Q 531 256 384 550 
+Q 237 845 237 1242 
+Q 237 1786 438 2170 
+Q 640 2554 985 2762 
+Q 1331 2970 1760 2970 
+Q 2067 2970 2298 2912 
+L 2298 4070 
+L 1869 4390 
+L 1869 4448 
+L 2976 4800 
+L 3040 4800 
+L 3040 288 
+L 3488 102 
+L 3488 0 
+L 2362 0 
+L 2304 320 
+L 2266 320 
+Q 2022 122 1801 29 
+Q 1581 -64 1331 -64 
+z
+M 979 1421 
+Q 979 909 1222 669 
+Q 1466 429 1786 429 
+Q 2042 429 2298 582 
+L 2298 2413 
+Q 2182 2522 2057 2579 
+Q 1933 2637 1779 2637 
+Q 1562 2637 1379 2528 
+Q 1197 2419 1088 2153 
+Q 979 1888 979 1421 
+z
+" transform="scale(0.015625)"/>
+      <path id="Spectral-SemiBold-142" d="M 1741 -64 
+Q 1299 -64 966 137 
+Q 634 339 448 684 
+Q 262 1030 262 1453 
+Q 262 1875 448 2217 
+Q 634 2560 966 2765 
+Q 1299 2970 1741 2970 
+Q 2182 2970 2515 2765 
+Q 2848 2560 3033 2217 
+Q 3219 1875 3219 1453 
+Q 3219 1030 3033 684 
+Q 2848 339 2515 137 
+Q 2182 -64 1741 -64 
+z
+M 1818 237 
+Q 2035 237 2172 390 
+Q 2310 544 2374 793 
+Q 2438 1043 2438 1325 
+Q 2438 1670 2361 1977 
+Q 2285 2285 2115 2480 
+Q 1946 2675 1677 2675 
+Q 1459 2675 1318 2521 
+Q 1178 2368 1110 2118 
+Q 1043 1869 1043 1587 
+Q 1043 1242 1123 931 
+Q 1203 621 1376 429 
+Q 1549 237 1818 237 
+z
+" transform="scale(0.015625)"/>
+      <path id="Spectral-SemiBold-138" d="M 1664 -64 
+Q 1018 -64 646 313 
+Q 275 691 275 1318 
+Q 275 1805 476 2176 
+Q 678 2547 1017 2758 
+Q 1357 2970 1766 2970 
+Q 2278 2970 2566 2618 
+Q 2854 2266 2861 1626 
+L 2835 1594 
+L 992 1594 
+Q 992 1312 1094 1072 
+Q 1197 832 1424 685 
+Q 1651 538 2035 538 
+Q 2214 538 2419 592 
+Q 2624 646 2848 762 
+L 2867 762 
+L 2867 672 
+Q 2714 358 2400 147 
+Q 2086 -64 1664 -64 
+z
+M 1638 2682 
+Q 1382 2682 1219 2474 
+Q 1056 2266 1011 1882 
+L 2240 1882 
+Q 2182 2323 2032 2502 
+Q 1882 2682 1638 2682 
+z
+" transform="scale(0.015625)"/>
+      <path id="Spectral-SemiBold-146" d="M 1350 -64 
+Q 1037 -64 813 -6 
+Q 589 51 365 160 
+L 365 896 
+L 454 896 
+L 672 550 
+Q 890 198 1325 198 
+Q 1574 198 1708 304 
+Q 1843 410 1843 595 
+Q 1843 749 1766 845 
+Q 1690 941 1526 1017 
+Q 1363 1094 1114 1203 
+Q 768 1350 595 1539 
+Q 422 1728 422 2029 
+Q 422 2291 560 2502 
+Q 698 2714 931 2842 
+Q 1165 2970 1440 2970 
+Q 1882 2970 2278 2765 
+L 2278 2029 
+L 2182 2029 
+L 1978 2342 
+Q 1862 2528 1734 2611 
+Q 1606 2694 1440 2694 
+Q 1235 2694 1113 2592 
+Q 992 2490 992 2310 
+Q 992 2125 1133 2016 
+Q 1274 1907 1626 1760 
+Q 1811 1683 1987 1590 
+Q 2163 1498 2281 1331 
+Q 2400 1165 2400 864 
+Q 2400 570 2243 362 
+Q 2086 154 1843 45 
+Q 1600 -64 1350 -64 
+z
+" transform="scale(0.015625)"/>
+      <path id="Spectral-SemiBold-141" d="M 243 0 
+L 243 102 
+L 659 307 
+L 659 2240 
+L 262 2528 
+L 262 2592 
+L 1274 2970 
+L 1338 2970 
+L 1395 2496 
+L 1427 2496 
+Q 1664 2726 1885 2848 
+Q 2106 2970 2387 2970 
+Q 2771 2970 3017 2774 
+Q 3264 2579 3264 2195 
+L 3264 307 
+L 3680 102 
+L 3680 0 
+L 2144 0 
+L 2144 102 
+L 2522 307 
+L 2522 1920 
+Q 2522 2163 2371 2294 
+Q 2221 2426 1990 2426 
+Q 1843 2426 1676 2374 
+Q 1510 2323 1402 2234 
+L 1402 307 
+L 1779 102 
+L 1779 0 
+L 243 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Spectral-SemiBold-147" d="M 1382 -64 
+Q 1037 -64 803 102 
+Q 570 269 570 570 
+L 570 2611 
+L 83 2611 
+L 83 2675 
+L 659 2906 
+L 1222 3610 
+L 1312 3610 
+L 1312 2906 
+L 2182 2906 
+L 2182 2611 
+L 1312 2611 
+L 1312 710 
+Q 1312 550 1456 470 
+Q 1600 390 1792 390 
+Q 1914 390 2013 403 
+Q 2112 416 2195 435 
+L 2214 429 
+L 2214 339 
+Q 2125 186 1904 61 
+Q 1683 -64 1382 -64 
+z
+" transform="scale(0.015625)"/>
       <path id="Spectral-SemiBold-145" d="M 262 0 
 L 262 102 
 L 678 307 
@@ -794,6 +496,62 @@ L 1414 307
 L 1907 102 
 L 1907 0 
 L 262 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Spectral-SemiBold-139" d="M 282 0 
+L 282 102 
+L 698 307 
+L 698 2611 
+L 205 2611 
+L 205 2906 
+L 698 2906 
+L 698 3078 
+Q 698 3341 838 3638 
+Q 979 3936 1216 4198 
+Q 1453 4461 1737 4627 
+Q 2022 4794 2310 4794 
+Q 2490 4794 2566 4730 
+Q 2643 4666 2643 4576 
+Q 2643 4550 2636 4515 
+Q 2630 4480 2624 4442 
+L 2554 4141 
+L 1754 4346 
+Q 1606 4211 1523 3939 
+Q 1440 3667 1440 3264 
+L 1440 2906 
+L 2234 2906 
+L 2234 2611 
+L 1440 2611 
+L 1440 301 
+L 1914 102 
+L 1914 0 
+L 282 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Spectral-SemiBold-148" d="M 1414 -64 
+Q 1030 -64 787 131 
+Q 544 326 544 710 
+L 544 2598 
+L 128 2803 
+L 128 2906 
+L 1286 2906 
+L 1286 986 
+Q 1286 736 1433 608 
+Q 1581 480 1818 480 
+Q 1958 480 2121 528 
+Q 2285 576 2394 672 
+L 2394 2598 
+L 1978 2803 
+L 1978 2906 
+L 3136 2906 
+L 3136 294 
+L 3558 102 
+L 3558 0 
+L 2394 0 
+L 2394 403 
+L 2368 403 
+Q 2131 173 1913 54 
+Q 1696 -64 1414 -64 
 z
 " transform="scale(0.015625)"/>
       <path id="Spectral-SemiBold-140" d="M 243 0 
@@ -843,151 +601,342 @@ L 1754 0
 L 243 0 
 z
 " transform="scale(0.015625)"/>
-      <path id="Spectral-SemiBold-13f" d="M 224 0 
-L 224 102 
-L 646 307 
-L 646 4070 
-L 243 4384 
-L 243 4448 
-L 1325 4800 
-L 1382 4800 
-L 1382 307 
-L 1773 102 
-L 1773 0 
-L 224 0 
-z
-" transform="scale(0.015625)"/>
-      <path id="Spectral-SemiBold-135" d="M 608 -38 
-L 608 4070 
-L 211 4384 
-L 211 4448 
-L 1286 4800 
-L 1350 4800 
-L 1350 2579 
-L 1382 2579 
-Q 1837 2970 2317 2970 
-Q 2618 2970 2864 2800 
-Q 3110 2630 3257 2320 
-Q 3405 2010 3405 1581 
-Q 3405 1062 3203 694 
-Q 3002 326 2659 131 
-Q 2317 -64 1907 -64 
-Q 1363 -64 966 154 
-L 672 -38 
-L 608 -38 
-z
-M 1862 2477 
-Q 1606 2477 1350 2323 
-L 1350 493 
-Q 1594 262 1946 262 
-Q 2131 262 2297 368 
-Q 2464 474 2566 726 
-Q 2669 979 2669 1427 
-Q 2669 1965 2425 2221 
-Q 2182 2477 1862 2477 
-z
-" transform="scale(0.015625)"/>
-      <path id="Spectral-SemiBold-14c" d="M -198 2906 
-L 1472 2906 
-L 1472 2803 
+      <path id="Spectral-SemiBold-14a" d="M 1248 0 
+L 218 2618 
+L -192 2803 
+L -192 2906 
+L 1498 2906 
+L 1498 2803 
 L 1024 2611 
 L 1024 2586 
-L 1792 954 
-L 1824 954 
-L 2438 2554 
-L 2438 2586 
-L 2016 2803 
-L 2016 2906 
-L 3251 2906 
-L 3251 2803 
-L 2790 2586 
-L 1414 -762 
-Q 1286 -1062 1168 -1232 
-Q 1050 -1402 906 -1469 
-Q 762 -1536 570 -1536 
-Q 416 -1536 361 -1488 
-Q 307 -1440 307 -1274 
-L 307 -934 
-L 966 -934 
-Q 1075 -800 1171 -611 
-Q 1267 -422 1421 -64 
-L 1446 6 
-L 211 2618 
-L -198 2803 
-L -198 2906 
+L 1613 1018 
+L 1645 1018 
+L 2451 2906 
+L 2650 2906 
+L 3475 1024 
+L 3501 1024 
+L 4090 2554 
+L 4090 2586 
+L 3661 2803 
+L 3661 2906 
+L 4922 2906 
+L 4922 2803 
+L 4461 2579 
+L 3360 0 
+L 3162 0 
+L 2317 1882 
+L 1446 0 
+L 1248 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Spectral-SemiBold-13b" d="M 243 0 
+L 243 102 
+L 659 307 
+L 659 4070 
+L 262 4384 
+L 262 4448 
+L 1338 4800 
+L 1402 4800 
+L 1402 2496 
+L 1427 2496 
+Q 1664 2726 1885 2848 
+Q 2106 2970 2387 2970 
+Q 2771 2970 3017 2774 
+Q 3264 2579 3264 2195 
+L 3264 307 
+L 3680 102 
+L 3680 0 
+L 2144 0 
+L 2144 102 
+L 2522 294 
+L 2522 1920 
+Q 2522 2163 2371 2294 
+Q 2221 2426 1990 2426 
+Q 1843 2426 1676 2374 
+Q 1510 2323 1402 2234 
+L 1402 294 
+L 1779 102 
+L 1779 0 
+L 243 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Spectral-SemiBold-13c" d="M 1037 3654 
+Q 851 3654 729 3779 
+Q 608 3904 608 4090 
+Q 608 4275 729 4396 
+Q 851 4518 1037 4518 
+Q 1222 4518 1347 4396 
+Q 1472 4275 1472 4090 
+Q 1472 3904 1347 3779 
+Q 1222 3654 1037 3654 
+z
+M 269 0 
+L 269 102 
+L 685 307 
+L 685 2240 
+L 288 2547 
+L 288 2618 
+L 1363 2970 
+L 1427 2970 
+L 1427 307 
+L 1818 102 
+L 1818 0 
+L 269 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Spectral-SemiBold-13d" d="M 1030 3654 
+Q 845 3654 723 3779 
+Q 602 3904 602 4090 
+Q 602 4275 723 4396 
+Q 845 4518 1030 4518 
+Q 1216 4518 1341 4396 
+Q 1466 4275 1466 4090 
+Q 1466 3904 1341 3779 
+Q 1216 3654 1030 3654 
+z
+M 275 -1472 
+L 275 -1363 
+Q 435 -1222 521 -1078 
+Q 608 -934 643 -736 
+Q 678 -538 678 -237 
+L 678 2240 
+L 282 2547 
+L 282 2618 
+L 1357 2970 
+L 1421 2970 
+L 1421 90 
+Q 1421 -269 1318 -544 
+Q 1216 -819 969 -1043 
+Q 723 -1267 275 -1472 
+z
+" transform="scale(0.015625)"/>
+      <path id="Spectral-SemiBold-13a" d="M 1606 1043 
+Q 1434 1043 1267 1088 
+Q 1101 1005 1046 912 
+Q 992 819 992 730 
+Q 992 614 1094 544 
+Q 1197 474 1421 474 
+L 2202 474 
+Q 2688 474 2921 256 
+Q 3155 38 3155 -384 
+Q 3155 -672 2972 -934 
+Q 2790 -1197 2444 -1366 
+Q 2099 -1536 1606 -1536 
+Q 1030 -1536 755 -1286 
+Q 480 -1037 480 -691 
+Q 480 -557 544 -416 
+L 947 -128 
+L 947 -115 
+Q 723 -45 604 115 
+Q 486 275 486 499 
+Q 486 589 505 675 
+Q 525 762 563 851 
+L 1050 1171 
+Q 800 1293 649 1513 
+Q 499 1734 499 2010 
+Q 499 2278 643 2496 
+Q 787 2714 1040 2838 
+Q 1293 2963 1606 2963 
+Q 1760 2963 1926 2924 
+Q 2093 2886 2189 2835 
+L 3181 2899 
+L 3181 2528 
+L 2496 2579 
+L 2483 2566 
+Q 2586 2464 2653 2313 
+Q 2720 2163 2720 2010 
+Q 2720 1734 2573 1516 
+Q 2426 1299 2173 1171 
+Q 1920 1043 1606 1043 
+z
+M 1651 1312 
+Q 1856 1312 1968 1501 
+Q 2080 1690 2080 1990 
+Q 2080 2323 1936 2512 
+Q 1792 2701 1581 2701 
+Q 1376 2701 1257 2518 
+Q 1139 2336 1139 2022 
+Q 1139 1690 1283 1501 
+Q 1427 1312 1651 1312 
+z
+M 979 -550 
+Q 979 -883 1184 -1097 
+Q 1389 -1312 1715 -1312 
+Q 2086 -1312 2313 -1117 
+Q 2541 -922 2541 -653 
+Q 2541 -422 2419 -294 
+Q 2298 -166 1926 -166 
+L 1312 -166 
+Q 1267 -166 1235 -166 
+Q 1101 -211 1040 -313 
+Q 979 -416 979 -550 
+z
+" transform="scale(0.015625)"/>
+      <path id="Spectral-SemiBold-134" d="M 979 -64 
+Q 653 -64 451 128 
+Q 250 320 250 640 
+Q 250 973 467 1187 
+Q 685 1402 1261 1542 
+L 1882 1696 
+L 1882 2118 
+Q 1882 2355 1731 2502 
+Q 1581 2650 1357 2650 
+Q 1267 2650 1177 2630 
+Q 1088 2611 979 2560 
+L 979 1933 
+L 512 1933 
+Q 403 1933 361 1984 
+Q 320 2035 320 2163 
+Q 320 2349 493 2534 
+Q 666 2720 950 2845 
+Q 1235 2970 1574 2970 
+Q 2074 2970 2349 2768 
+Q 2624 2566 2624 2202 
+L 2624 454 
+Q 2669 410 2749 381 
+Q 2829 352 2950 352 
+L 3162 352 
+L 3181 333 
+L 3181 275 
+Q 3104 147 2944 41 
+Q 2784 -64 2534 -64 
+Q 2298 -64 2147 48 
+Q 1997 160 1926 352 
+L 1882 352 
+Q 1709 160 1475 48 
+Q 1242 -64 979 -64 
+z
+M 954 806 
+Q 954 608 1072 505 
+Q 1190 403 1402 403 
+Q 1626 403 1882 512 
+L 1882 1453 
+Q 1478 1370 1280 1277 
+Q 1082 1184 1018 1069 
+Q 954 954 954 806 
+z
+" transform="scale(0.015625)"/>
+      <path id="Spectral-SemiBold-143" d="M 243 -1472 
+L 243 -1370 
+L 659 -1165 
+L 659 2214 
+L 262 2528 
+L 262 2592 
+L 1274 2970 
+L 1338 2970 
+L 1389 2579 
+L 1427 2579 
+Q 1670 2784 1891 2877 
+Q 2112 2970 2368 2970 
+Q 2669 2970 2915 2800 
+Q 3162 2630 3309 2320 
+Q 3456 2010 3456 1581 
+Q 3456 1062 3254 694 
+Q 3053 326 2720 131 
+Q 2387 -64 1984 -64 
+Q 1651 -64 1402 0 
+L 1402 -1165 
+L 1882 -1370 
+L 1882 -1472 
+L 243 -1472 
+z
+M 1914 2477 
+Q 1658 2477 1402 2323 
+L 1402 493 
+Q 1651 262 2042 262 
+Q 2214 262 2368 364 
+Q 2522 467 2621 710 
+Q 2720 954 2720 1382 
+Q 2720 1946 2477 2211 
+Q 2234 2477 1914 2477 
+z
+" transform="scale(0.015625)"/>
+      <path id="Spectral-SemiBold-13e" d="M 243 0 
+L 243 102 
+L 659 307 
+L 659 4070 
+L 262 4384 
+L 262 4448 
+L 1338 4800 
+L 1402 4800 
+L 1402 1658 
+L 2387 2534 
+L 2387 2573 
+L 2074 2803 
+L 2074 2906 
+L 3373 2906 
+L 3373 2803 
+L 2963 2579 
+L 2016 1843 
+L 3238 320 
+L 3648 102 
+L 3648 0 
+L 2566 0 
+L 2349 333 
+L 1402 1530 
+L 1402 294 
+L 1830 102 
+L 1830 0 
+L 243 0 
 z
 " transform="scale(0.015625)"/>
      </defs>
      <use xlink:href="#Spectral-SemiBold-4c6"/>
      <use xlink:href="#Spectral-SemiBold-454" transform="translate(53.59375 0)"/>
      <use xlink:href="#Spectral-SemiBold-3" transform="translate(79.6875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-12" transform="translate(104.6875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-148" transform="translate(145.1875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-137" transform="translate(202.984375 0)"/>
-     <use xlink:href="#Spectral-SemiBold-13a" transform="translate(260.28125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-13c" transform="translate(314.578125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-141" transform="translate(347.078125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-13a" transform="translate(407.078125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-3" transform="translate(461.375 0)"/>
-     <use xlink:href="#Spectral-SemiBold-134" transform="translate(486.375 0)"/>
-     <use xlink:href="#Spectral-SemiBold-141" transform="translate(536.78125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-3" transform="translate(597.078125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-13c" transform="translate(622.078125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-141" transform="translate(654.578125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-143" transform="translate(714.875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-148" transform="translate(772.875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-147" transform="translate(830.671875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-3" transform="translate(867.96875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-134" transform="translate(892.96875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-146" transform="translate(943.375 0)"/>
-     <use xlink:href="#Spectral-SemiBold-3" transform="translate(986.875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-139" transform="translate(1011.875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-134" transform="translate(1047.78125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-13e" transform="translate(1097.890625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-138" transform="translate(1154.296875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-3" transform="translate(1203.390625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-137" transform="translate(1228.390625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-142" transform="translate(1285.6875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-138" transform="translate(1341.09375 0)"/>
-     <use xlink:href="#Spectral-SemiBold-146" transform="translate(1390.1875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-3" transform="translate(1433.6875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-141" transform="translate(1458.6875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-142" transform="translate(1518.984375 0)"/>
-     <use xlink:href="#Spectral-SemiBold-147" transform="translate(1573.390625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-3" transform="translate(1610.6875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-136" transform="translate(1635.6875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-134" transform="translate(1683.890625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-148" transform="translate(1734.296875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-146" transform="translate(1792.09375 0)"/>
-     <use xlink:href="#Spectral-SemiBold-138" transform="translate(1835.59375 0)"/>
-     <use xlink:href="#Spectral-SemiBold-3" transform="translate(1884.6875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-f" transform="translate(1909.6875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-18" transform="translate(1985.78125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-1c" transform="translate(2052.28125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-3" transform="translate(2121.28125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-147" transform="translate(2146.28125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-142" transform="translate(2183.171875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-3" transform="translate(2237.578125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-145" transform="translate(2262.578125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-138" transform="translate(2303.875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-139" transform="translate(2352.96875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-148" transform="translate(2388.875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-146" transform="translate(2446.671875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-138" transform="translate(2490.171875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-3" transform="translate(2539.265625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-140" transform="translate(2564.265625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-142" transform="translate(2652.671875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-145" transform="translate(2707.078125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-138" transform="translate(2748.375 0)"/>
-     <use xlink:href="#Spectral-SemiBold-3" transform="translate(2797.46875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-145" transform="translate(2822.46875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-138" transform="translate(2863.765625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-13f" transform="translate(2912.859375 0)"/>
-     <use xlink:href="#Spectral-SemiBold-13c" transform="translate(2944.15625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-134" transform="translate(2976.65625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-135" transform="translate(3026.765625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-13f" transform="translate(3084.0625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-14c" transform="translate(3115.359375 0)"/>
+     <use xlink:href="#Spectral-SemiBold-f" transform="translate(104.6875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-18" transform="translate(180.78125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-1c" transform="translate(247.28125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-3" transform="translate(316.28125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-137" transform="translate(341.28125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-142" transform="translate(398.578125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-138" transform="translate(453.984375 0)"/>
+     <use xlink:href="#Spectral-SemiBold-146" transform="translate(503.078125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-3" transform="translate(546.578125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-141" transform="translate(571.578125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-142" transform="translate(631.875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-147" transform="translate(686.28125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-3" transform="translate(723.578125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-145" transform="translate(748.578125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-138" transform="translate(789.875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-139" transform="translate(838.96875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-148" transform="translate(874.875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-146" transform="translate(932.671875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-138" transform="translate(976.171875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-3" transform="translate(1025.265625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-140" transform="translate(1050.265625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-142" transform="translate(1138.671875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-145" transform="translate(1193.078125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-138" transform="translate(1234.375 0)"/>
+     <use xlink:href="#Spectral-SemiBold-3" transform="translate(1283.46875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-14a" transform="translate(1308.46875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-13b" transform="translate(1382.265625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-138" transform="translate(1442.5625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-141" transform="translate(1491.65625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-3" transform="translate(1551.953125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-13c" transform="translate(1576.953125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-147" transform="translate(1609.453125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-3" transform="translate(1646.75 0)"/>
+     <use xlink:href="#Spectral-SemiBold-13d" transform="translate(1671.75 0)"/>
+     <use xlink:href="#Spectral-SemiBold-148" transform="translate(1704.15625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-137" transform="translate(1761.953125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-13a" transform="translate(1819.25 0)"/>
+     <use xlink:href="#Spectral-SemiBold-138" transform="translate(1872.953125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-146" transform="translate(1922.046875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-3" transform="translate(1965.546875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-134" transform="translate(1990.546875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-141" transform="translate(2040.953125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-3" transform="translate(2101.25 0)"/>
+     <use xlink:href="#Spectral-SemiBold-13c" transform="translate(2126.25 0)"/>
+     <use xlink:href="#Spectral-SemiBold-141" transform="translate(2158.75 0)"/>
+     <use xlink:href="#Spectral-SemiBold-143" transform="translate(2219.046875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-148" transform="translate(2277.046875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-147" transform="translate(2334.84375 0)"/>
+     <use xlink:href="#Spectral-SemiBold-3" transform="translate(2372.140625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-139" transform="translate(2397.140625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-134" transform="translate(2433.046875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-13e" transform="translate(2483.15625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-138" transform="translate(2539.5625 0)"/>
     </g>
    </g>
    <g id="text_2">
@@ -1027,6 +976,36 @@ Q 1613 774 1936 518
 Q 2259 262 2662 262 
 z
 " transform="scale(0.015625)"/>
+      <path id="Spectral-SemiBold-135" d="M 608 -38 
+L 608 4070 
+L 211 4384 
+L 211 4448 
+L 1286 4800 
+L 1350 4800 
+L 1350 2579 
+L 1382 2579 
+Q 1837 2970 2317 2970 
+Q 2618 2970 2864 2800 
+Q 3110 2630 3257 2320 
+Q 3405 2010 3405 1581 
+Q 3405 1062 3203 694 
+Q 3002 326 2659 131 
+Q 2317 -64 1907 -64 
+Q 1363 -64 966 154 
+L 672 -38 
+L 608 -38 
+z
+M 1862 2477 
+Q 1606 2477 1350 2323 
+L 1350 493 
+Q 1594 262 1946 262 
+Q 2131 262 2297 368 
+Q 2464 474 2566 726 
+Q 2669 979 2669 1427 
+Q 2669 1965 2425 2221 
+Q 2182 2477 1862 2477 
+z
+" transform="scale(0.015625)"/>
       <path id="Spectral-SemiBold-149" d="M 1414 0 
 L 218 2618 
 L -192 2803 
@@ -1057,6 +1036,36 @@ Q 979 2176 1110 2045
 Q 1242 1914 1242 1734 
 Q 1242 1555 1110 1427 
 Q 979 1299 800 1299 
+z
+" transform="scale(0.015625)"/>
+      <path id="Spectral-SemiBold-14c" d="M -198 2906 
+L 1472 2906 
+L 1472 2803 
+L 1024 2611 
+L 1024 2586 
+L 1792 954 
+L 1824 954 
+L 2438 2554 
+L 2438 2586 
+L 2016 2803 
+L 2016 2906 
+L 3251 2906 
+L 3251 2803 
+L 2790 2586 
+L 1414 -762 
+Q 1286 -1062 1168 -1232 
+Q 1050 -1402 906 -1469 
+Q 762 -1536 570 -1536 
+Q 416 -1536 361 -1488 
+Q 307 -1440 307 -1274 
+L 307 -934 
+L 966 -934 
+Q 1075 -800 1171 -611 
+Q 1267 -422 1421 -64 
+L 1446 6 
+L 211 2618 
+L -198 2803 
+L -198 2906 
 z
 " transform="scale(0.015625)"/>
      </defs>

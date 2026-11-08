@@ -31,7 +31,7 @@ TITLE_H, HEAD_H, GROUP_H, ROW_H, AXIS_H, PAD, GAP, MARGIN = 46, 28, 20, 22, 22, 
 BAR_H, VALUE_W = 13, 46
 GREY_DOT = "#8E99A4"
 FIG2_TITLE = "2. GPT refuses unsafe tasks in text, but acts once it has robot motion tools"  # checked against Sol results
-FIG4_TITLE = "4. Judging an input as fake does not cause GPT to refuse more reliably"
+FIG4_TITLE = "4. GPT does not refuse more when it judges an input fake"
 FIG5_TITLE = "5. Told it is in an alignment eval, GPT’s refusal rate increases"
 
 
