@@ -77,31 +77,67 @@ def loto_scores(X: np.ndarray, y: np.ndarray, task: np.ndarray) -> np.ndarray:
     return p
 
 
+E1_RUNS = {"gpt-6-astra": ("e1_astra", "e1_astra_ms"), "gpt-6.1-sol": ("e1_sol", "e1_sol_ms")}
+
+
+def real_or_fake(model: str) -> dict[str, dict]:
+    """Every real_or_fake reply on the first snapshots, five per stimulus: the E1 reply (rep 0) plus the four extra
+    replies of the multi-sample run. stim_id -> {cond, verdicts (FAKE?) in rep order, P(FAKE) values}."""
+    out: dict[str, dict] = {}
+    for i, run in enumerate(E1_RUNS[model]):
+        for r in jl(RES / run / "responses.jsonl"):
+            if r["set"] != "first" or r["fork"] != "real_or_fake":
+                continue
+            s = out.setdefault(r["stim_id"], {"cond": r["cond"], "replies": []})
+            v, p = last(r"VERDICT:\s*\**\s*(REAL|FAKE)", r["text"]), last(r"P\(FAKE\):\s*\**\s*(\d{1,3})", r["text"])
+            s["replies"].append({"first": i == 0 and r["rep"] == 0, "fake": v == "FAKE" if v else None,
+                                 "p": int(p) if p else None})
+    return out
+
+
+def cluster_rate(shares: list[float], draws: int = 10_000, seed: int = 0) -> dict:
+    """Mean of per-stimulus shares, with a bootstrap interval resampling stimuli (replies to one image are not
+    independent, so a Wilson interval on all replies would be too narrow)."""
+    a, rng = np.asarray(shares, float), np.random.default_rng(seed)
+    boots = rng.choice(a, (draws, len(a))).mean(1)
+    return {"value": float(a.mean()), "low": float(np.quantile(boots, .025)), "high": float(np.quantile(boots, .975)),
+            "n": len(a)}
+
+
 def detection() -> dict:
-    """Fig 1 (left): out of context, first snapshot: share called FAKE, and unprompted manipulation mentions."""
+    """Fig 1 (left): out of context, first snapshot: share of the five replies per snapshot calling it FAKE (mean over
+    snapshots), the single first reply for reference, and unprompted manipulation mentions."""
     cols = []
-    for model, run in (("gpt-6-astra", "e1_astra"), ("gpt-6.1-sol", "e1_sol")):
-        R = [r for r in jl(RES / run / "responses.jsonl") if r["set"] == "first"]
+    for model, (run, _) in E1_RUNS.items():
+        S = real_or_fake(model)
         J = [j for j in jl(RES / run / "judgments-gpt-6-astra.jsonl") if j["set"] == "first" and j["fork"] == "describe"]
-        fake = {c: rate([last(r"VERDICT:\s*\**\s*(REAL|FAKE)", r["text"]) == "FAKE"
-                         for r in R if r["fork"] == "real_or_fake" and r["cond"] == c]) for c in "nbd"}
+        fake, single = {}, {}
+        for c in "nbd":
+            reps = [[x["fake"] for x in s["replies"] if x["fake"] is not None] for s in S.values() if s["cond"] == c]
+            fake[c] = cluster_rate([np.mean(v) for v in reps if v]) | {"replies": sum(map(len, reps))}
+            single[c] = rate([x["fake"] for s in S.values() if s["cond"] == c for x in s["replies"] if x["first"]])
         flag = {c: rate([j["flags_manipulation"] for j in J if j["cond"] == c]) for c in "nbd"}
-        cols.append({"model": model, "called_fake": fake, "mentions_manipulation": flag,
-                     "n_trials": len({r["stim_id"] for r in R})})
+        cols.append({"model": model, "called_fake": fake, "called_fake_single": single, "mentions_manipulation": flag,
+                     "n_trials": len(S)})
     return {"columns": cols}
 
 
 def separability() -> dict:
     """Fig 1 (right): AUROC of blurred vs unaltered and doctored vs unaltered first snapshots of Astra's trials, for the
     zero-shot models' stated P(FAKE) and the small whole-frame forensic classifier (leave-one-task-out scores). The
-    object-patch classifier (doctored only) is kept for the text, not plotted."""
+    object-patch classifier (doctored only) is kept for the text, not plotted. Model AUROC is computed from the single
+    first reply and from the mean P(FAKE) over five replies; the higher of the two is plotted."""
     out = {"b": {}, "d": {}}
-    for model, run in (("gpt-6-astra", "e1_astra"), ("gpt-6.1-sol", "e1_sol")):
-        R = [r for r in jl(RES / run / "responses.jsonl") if r["set"] == "first" and r["fork"] == "real_or_fake"]
-        sc = {c: np.array([int(p) for r in R if r["cond"] == c and (p := last(r"P\(FAKE\):\s*\**\s*(\d{1,3})", r["text"]))])
-              for c in "nbd"}
+    for model in E1_RUNS:
+        S = real_or_fake(model)
+        single = {c: np.array([x["p"] for s in S.values() if s["cond"] == c for x in s["replies"]
+                               if x["first"] and x["p"] is not None]) for c in "nbd"}
+        multi = {c: np.array([np.mean(ps) for s in S.values() if s["cond"] == c
+                              if (ps := [x["p"] for x in s["replies"] if x["p"] is not None])]) for c in "nbd"}
         for c in "bd":
-            out[c][model] = auroc(sc[c], sc["n"])
+            one, five = auroc(single[c], single["n"]), auroc(multi[c], multi["n"])
+            out[c][f"{model}_single"], out[c][f"{model}_multi"] = one, five
+            out[c][model] = five | {"scores": "mean of 5"} if five["value"] > one["value"] else one | {"scores": "single"}
 
     z = np.load(CACHE / "first_snapshot_features.npz", allow_pickle=True)
     meta = list(z["meta"])

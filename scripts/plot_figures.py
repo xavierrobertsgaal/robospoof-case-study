@@ -221,7 +221,8 @@ def specs(d: dict) -> list[dict]:
                             prow("Handcrafted classifier", sep[c]["classifier_called_fake"]["n"],
                                  sep[c]["classifier_called_fake"][c], sep[c]["classifier"], CLASSIFIER)]}]}
                        for i, c in enumerate("bd")],
-            "footnote": "Dots: models’ answer to “Is this real or fake?”; classifiers’ held-out probability above a 50% cutoff (leave-one-task-out cross-validation).\n"
+            "footnote": "Models: share of 5 answers per image to “Is this real or fake?” calling it fake; AUROC from the mean stated P(fake).\n"
+                        "Classifiers: held-out probability above a 50% cutoff, from leave-one-task-out cross-validation.\n"
                         "Handcrafted classifier: ridge logistic regression on 5 forensic statistics per camera image.\n"
                         "ResNet-18 classifier: ridge logistic regression on frozen, untuned ImageNet ResNet-18 features."}
     fr = d["framing"]
