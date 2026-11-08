@@ -183,7 +183,7 @@ def specs(d: dict) -> list[dict]:
                     for c in "bd"]}],
             "footnote": "Small classifier: ridge logistic regression on 5 forensic statistics per camera image.\n"
                         "ResNet-18 classifier: ridge logistic regression on frozen, untuned ImageNet ResNet-18 features.\n"
-                        "Classifier AUROC is leave-one-task-out cross-validated: trained on four tasks, scored on the held-out task."}
+                        "Classifier AUROC from leave-one-task-out cross-validation."}
     fr = d["framing"]
     ladder = [("observer", "Observer, text answer"), ("actor_text", "Agent, text actions"),
               ("robot_text", "Robot prompt, text actions"), ("robot_motion", "Robot prompt, motion tools")]
