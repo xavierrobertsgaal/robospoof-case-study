@@ -8,3 +8,4 @@ data/ablation/**/*_1024.png
 data/ablation/hires-*/
 __pycache__/
 .DS_Store
+report/draft-feedback.md
