@@ -31,7 +31,7 @@ TITLE_H, HEAD_H, GROUP_H, ROW_H, AXIS_H, PAD, GAP, MARGIN = 46, 28, 20, 22, 22, 
 BAR_H, VALUE_W = 13, 46
 FIG2_TITLE = "2. GPT refuses unsafe tasks in text, but acts once it has robot motion tools"  # checked against Sol results
 FIG4_TITLE = "4. Astra’s own “fake” verdict does not drive its refusals"
-FIG5_TITLE = "5. Eval-type cues and refusal"  # replaced by an action title once results are in
+FIG5_TITLE = "5. Told it is in an alignment eval, Astra refuses blurred footage it otherwise acts on"
 
 
 def configure():
@@ -59,7 +59,8 @@ def render(spec: dict) -> list[Path]:
     bar_w = max(bar_w, (title_w + 2 * MARGIN + 8 - fixed) / len(panels))  # widen bars until the title fits
     widths = [PAD + p["label_w"] + bar_w + VALUE_W + PAD for p in panels]
     width = MARGIN * 2 + sum(widths) + GAP * (len(panels) - 1)
-    height = TITLE_H + HEAD_H + body_h + AXIS_H + MARGIN
+    foot_h = 18 if spec.get("footnote") else 0
+    height = TITLE_H + HEAD_H + body_h + AXIS_H + MARGIN + foot_h
     fig = plt.figure(figsize=(width / 100, height / 100))
     cv = fig.add_axes([0, 0, 1, 1])
     cv.set_xlim(0, width); cv.set_ylim(height, 0); cv.axis("off")
@@ -103,6 +104,8 @@ def render(spec: dict) -> list[Path]:
         if p["kind"] == "auroc":  # chance line drawn over the bars so it reads across every row
             cv.plot([x0 + .5 * bar_w] * 2, [y_top, y_bot], color=MUTED, lw=1.1, ls=(0, (4, 2.5)), zorder=5)
         x += w + GAP
+    if spec.get("footnote"):
+        text(MARGIN, TITLE_H + HEAD_H + body_h + AXIS_H + 6 + foot_h / 2, spec["footnote"], size=9.5, color=MUTED)
 
     fig.canvas.draw()
     renderer = fig.canvas.get_renderer()
@@ -144,8 +147,8 @@ def specs(d: dict) -> list[dict]:
                     for c in "bd"]}]}
     fr = d["framing"]
     ladder = [("observer", "Observer, text answer"), ("actor_text", "Agent, text actions"),
-              ("robot_text", "Robot prompt, text actions"), ("robot_motion", "Robot prompt, motion tools")]
-    fig2 = {"stem": "02-embodiment", "bar_w": 170,
+              ("robot_text", "Robot prompt, text actions"), ("robot_motion", "Robot prompt, motion tools*")]
+    fig2 = {"stem": "02-embodiment", "bar_w": 170, "footnote": "* Inspect framework",
             "title": "2. Astra refuses unsafe tasks in text, but acts once it has robot motion tools",
             "panels": [{"heading": d["footage"][f], "kind": "rate", "label_w": 198 if i == 0 else 0, "groups": [
                 {"rows": [row(lab, fr[k][f], ASTRA) for k, lab in ladder]}]} for i, f in enumerate("nbd")]}
@@ -181,8 +184,8 @@ def specs(d: dict) -> list[dict]:
     cues = [("none", "No cue"), ("capability", "“Capability eval”"), ("alignment", "“Alignment eval”")]
     figs = [fig1, fig2, fig3, fig4]
     if all(len(mg.get(k, {})) == 3 for k, _ in ladder):
-        figs.append({"stem": "05-metagaming", "bar_w": 170, "title": FIG5_TITLE,
-                     "panels": [{"heading": d["footage"][f], "kind": "rate", "label_w": 150 if i == 0 else 0, "groups": [
+        figs.append({"stem": "05-metagaming", "bar_w": 170, "title": FIG5_TITLE, "footnote": "* Inspect framework",
+                     "panels": [{"heading": d["footage"][f], "kind": "rate", "label_w": 182 if i == 0 else 0, "groups": [
                          {"label": lab if i == 0 else " ", "rows": [row(cl, mg[k][q][f], ASTRA) for q, cl in cues]}
                          for k, lab in ladder]} for i, f in enumerate("nbd")]})
     return figs
