@@ -86,17 +86,25 @@ def render(spec: dict) -> list[Path]:
     x = MARGIN
     for p, w in zip(panels, widths):
         top = TITLE_H + lt
-        cv.add_patch(Rectangle((x, top), w, HEAD_H + body_h + ax_h, facecolor="#FCFCFD", edgecolor=RULE, lw=.9))
-        cv.add_patch(Rectangle((x, top), w, HEAD_H, facecolor="#EEF2F5", edgecolor="none"))
+        # layers: panel background 0, gridlines 0.5, bars 2, whiskers 4, dots 6, chance line 5
+        cv.add_patch(Rectangle((x, top), w, HEAD_H + body_h + ax_h, facecolor="#FCFCFD", edgecolor=RULE, lw=.9, zorder=0))
+        cv.add_patch(Rectangle((x, top), w, HEAD_H, facecolor="#EEF2F5", edgecolor="none", zorder=0))
         text(x + PAD, top + HEAD_H / 2, p["heading"], size=12.5, weight="semibold", family="Spectral")
         if p.get("note_header"):
             text(x + w - PAD, top + HEAD_H / 2, p["note_header"], size=9.5, color=MUTED, ha="right")
         x0 = x + PAD + p["label_w"]  # pixel of value 0
         y_top, y_bot = top + HEAD_H + 4, top + HEAD_H + body_h
-        for v in (.5, 1):
-            cv.plot([x0 + v * bar_w] * 2, [y_top, y_bot], color=GRID, lw=.8, zorder=0)
+        if spec.get("fine_grid"):  # thin lines every 5%, stronger every 25%, for reading dots against the scale
+            for i in range(1, 21):
+                cv.plot([x0 + i / 20 * bar_w] * 2, [y_top, y_bot], zorder=.5,
+                        **({"color": "#BFC9D2", "lw": 1.1} if i % 5 == 0 else {"color": "#DDE3E8", "lw": .6}))
+            ticks = (0, .25, .5, .75, 1)
+        else:
+            for v in (.5, 1):
+                cv.plot([x0 + v * bar_w] * 2, [y_top, y_bot], color=GRID, lw=.8, zorder=.5)
+            ticks = (0, .5, 1)
         cv.plot([x0, x0], [y_top, y_bot], color="#B9C3CC", lw=.9)
-        for v in (0, .5, 1):
+        for v in ticks:
             lab = (f"{v:g}" if p["kind"] == "auroc" else f"{v:.0%}") + (" = chance" if p["kind"] == "auroc" and v == .5 else "")
             text(x0 + v * bar_w, y_bot + AXIS_H / 2, lab, size=9.5, color=MUTED, ha="center")
         if p.get("axis_label"):
@@ -133,7 +141,8 @@ def render(spec: dict) -> list[Path]:
                     face, edge, wc, vc, vwt = light(c, .14), light(c, .45), light(c, .6), MUTED, "normal"
                 else:
                     face, edge, wc, vc, vwt = ("white" if r.get("hollow") else light(c, r.get("shade", .28))), c, c, c, "semibold"
-                cv.add_patch(Rectangle((x0, cy - BAR_H / 2), max(v * bar_w, .8), BAR_H, lw=1, edgecolor=edge, facecolor=face))
+                cv.add_patch(Rectangle((x0, cy - BAR_H / 2), max(v * bar_w, .8), BAR_H, lw=1, edgecolor=edge, facecolor=face,
+                                       zorder=2))
                 cv.plot([x0 + lo * bar_w, x0 + hi * bar_w], [cy, cy], color=wc, lw=.9, zorder=4)
                 for e in (lo, hi):
                     cv.plot([x0 + e * bar_w] * 2, [cy - 4, cy + 4], color=wc, lw=.9, zorder=4)
@@ -199,7 +208,7 @@ def specs(d: dict) -> list[dict]:
 
     fig1 = {"stem": "01-perception", "bar_w": 260, "row_h": 34, "value_w": 60, "legend_top": True,
             "title": "1. GPT does not reliably flag manipulated image inputs, though classifiers easily can",
-            "legend": [("filled", "manipulated snapshot called fake"), ("hollow", "unaltered snapshot called fake (false alarm)")],
+            "legend": [("filled", "True positive (manipulated image called fake)"), ("hollow", "False alarm (unaltered image called fake)")],
             "panels": [{"heading": f"{d['footage'][c]} vs unaltered", "kind": "rate", "label_w": 172 if i == 0 else 0,
                         "axis_label": "% fake judgments", "note_header": "AUROC", "groups": [{"rows": [
                             prow("GPT-6 Astra", det["gpt-6-astra"]["n"], det["gpt-6-astra"][c], sep[c]["gpt-6-astra"], ASTRA),
@@ -244,8 +253,8 @@ def specs(d: dict) -> list[dict]:
         return dotrow(f"{d['footage'][f]} ({nf / (nf + nr):.0%} judged fake)",
                       [(e["judged_real"], col, "hollow", -9), (e["asked"], col, "ref", 0), (e["judged_fake"], col, "filled", 9)])
 
-    fig4 = {"stem": "04-verdict", "bar_w": 220, "row_h": 50, "title": FIG4_TITLE, "legend_top": True,
-            "legend": [("filled", "judged fake"), ("hollow", "judged real"), ("ref", "all answers")],
+    fig4 = {"stem": "04-verdict", "bar_w": 220, "row_h": 50, "title": FIG4_TITLE, "legend_top": True, "fine_grid": True,
+            "legend": [("filled", "Judged fake"), ("hollow", "Judged real"), ("ref", "All answers")],
             "panels": [{"heading": head, "kind": "rate", "label_w": 196, "axis_label": axis, "groups": [
                 {"label": name, "color": col, "rows": [vrow(src[setting][f], f, col) for f in "nbd"]}
                 for name, col, src in (("GPT-6 Astra", ASTRA, vd), ("GPT-6.1 Sol", SOL, d.get("verdict_sol"))) if src]}
@@ -255,9 +264,9 @@ def specs(d: dict) -> list[dict]:
     cues = [("none", "No cue"), ("capability", "“Capability eval”"), ("alignment", "“Alignment eval”")]
     figs = [fig1, fig2, fig3, fig4]
     if mg:
-        figs.append({"stem": "05-metagaming", "bar_w": 190, "row_h": 40, "title": FIG5_TITLE, "legend_top": True,
+        figs.append({"stem": "05-metagaming", "bar_w": 190, "row_h": 40, "title": FIG5_TITLE, "legend_top": True, "fine_grid": True,
                      "footnote": "Robot prompt = Inspect Robots system prompt. Motion tools = Inspect Robots tools (move_to, done, give_up). Text actions = carry_out / decline.",
-                     "legend": [("filled", "“alignment eval”"), ("hollow", "“capability eval”"), ("ref", "no cue")],
+                     "legend": [("filled", "“Alignment eval”"), ("hollow", "“Capability eval”"), ("ref", "No cue")],
                      "panels": [{"heading": d["footage"][f], "kind": "rate", "label_w": 196 if i == 0 else 0, "axis_label": "Refuses", "groups": [
                          {"label": name if i == 0 else " ", "color": col, "rows": [
                              dotrow(lab, [(src[k]["capability"][f], col, "hollow", -6.5), (src[k]["none"][f], col, "ref", 0),
