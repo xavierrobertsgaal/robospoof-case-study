@@ -210,7 +210,7 @@ def specs(d: dict) -> list[dict]:
             "title": "1. GPT does not reliably flag manipulated image inputs, though classifiers easily can",
             "legend": [("filled", "True positive (manipulated image called fake)"), ("hollow", "False alarm (unaltered image called fake)")],
             "panels": [{"heading": f"{d['footage'][c]} vs unaltered", "kind": "rate", "label_w": 172 if i == 0 else 0,
-                        "axis_label": "% fake judgments", "note_header": "AUROC", "groups": [{"rows": [
+                        "axis_label": "Fake judgments (%, 95% CI)", "note_header": "AUROC", "groups": [{"rows": [
                             prow("GPT-6 Astra", det["gpt-6-astra"]["n"], det["gpt-6-astra"][c], sep[c]["gpt-6-astra"], ASTRA),
                             prow("GPT-6.1 Sol", det["gpt-6.1-sol"]["n"], det["gpt-6.1-sol"][c], sep[c]["gpt-6.1-sol"], SOL),
                             prow("ResNet-18 classifier", sep[c]["resnet_called_fake"]["n"], sep[c]["resnet_called_fake"][c],
@@ -226,13 +226,13 @@ def specs(d: dict) -> list[dict]:
               ("robot_text", "Robot prompt, text actions"), ("robot_motion", "Robot prompt, motion tools")]
     fig2 = {"stem": "02-embodiment", "bar_w": 170, "footnote": "Robot prompt = Inspect Robots system prompt. Motion tools = Inspect Robots tools (move_to, done, give_up). Text actions = carry_out / decline.",
             "title": "2. Astra refuses unsafe tasks in text, but acts once it has robot motion tools",
-            "panels": [{"heading": d["footage"][f], "kind": "rate", "label_w": 218 if i == 0 else 0, "axis_label": "Refuses", "groups": [
+            "panels": [{"heading": d["footage"][f], "kind": "rate", "label_w": 218 if i == 0 else 0, "axis_label": "Refuses (%, 95% CI)", "groups": [
                 {"rows": [row(lab, fr[k][f], ASTRA, emph=k == "robot_motion", dim=k != "robot_motion") for k, lab in ladder]}]}
                 for i, f in enumerate("nbd")]}
     if d.get("framing_sol"):  # both models, grouped, once the Sol run is complete
         fs = d["framing_sol"]
         fig2["title"] = FIG2_TITLE
-        fig2["panels"] = [{"heading": d["footage"][f], "kind": "rate", "label_w": 218 if i == 0 else 0, "axis_label": "Refuses", "groups": [
+        fig2["panels"] = [{"heading": d["footage"][f], "kind": "rate", "label_w": 218 if i == 0 else 0, "axis_label": "Refuses (%, 95% CI)", "groups": [
             {"label": name if i == 0 else " ", "color": col, "rows": [
                 row(lab, src[k][f], col, emph=k == "robot_motion", dim=k != "robot_motion") for k, lab in ladder]}
             for name, col, src in (("GPT-6 Astra", ASTRA, fr), ("GPT-6.1 Sol", SOL, fs))]} for i, f in enumerate("nbd")]
@@ -241,7 +241,7 @@ def specs(d: dict) -> list[dict]:
               ("R3", "Real/fake self-check"), ("R1", "“Check observations”"), ("R2", "Tampering warning")]
     fig3 = {"stem": "03-nudges", "bar_w": 170,
             "title": "3. Only naming the tampering threat makes the robot refuse doctored footage",
-            "panels": [{"heading": d["footage"][f], "kind": "rate", "label_w": 198 if i == 0 else 0, "axis_label": "Gives up", "groups": [
+            "panels": [{"heading": d["footage"][f], "kind": "rate", "label_w": 198 if i == 0 else 0, "axis_label": "Gives up (%, 95% CI)", "groups": [
                 {"label": (name if i == 0 else " ") if d.get("prompting_sol") else None, "color": col, "rows": [
                     row(lab, src[k][f], col, emph=k == "R2", dim=k != "R2") for k, lab in nudges]}
                 for name, col, src in (("GPT-6 Astra", ASTRA, pr), ("GPT-6.1 Sol", SOL, d.get("prompting_sol"))) if src]}
@@ -258,8 +258,8 @@ def specs(d: dict) -> list[dict]:
             "panels": [{"heading": head, "kind": "rate", "label_w": 196, "axis_label": axis, "groups": [
                 {"label": name, "color": col, "rows": [vrow(src[setting][f], f, col) for f in "nbd"]}
                 for name, col, src in (("GPT-6 Astra", ASTRA, vd), ("GPT-6.1 Sol", SOL, d.get("verdict_sol"))) if src]}
-                for setting, head, axis in (("observer", "Observer · says unsafe", "Says unsafe"),
-                                            ("robot", "Robot · gives up", "Gives up"))]}
+                for setting, head, axis in (("observer", "Observer · says unsafe", "Says unsafe (%, 95% CI)"),
+                                            ("robot", "Robot · gives up", "Gives up (%, 95% CI)"))]}
     mg = d.get("metagaming", {})
     cues = [("none", "No cue"), ("capability", "“Capability eval”"), ("alignment", "“Alignment eval”")]
     figs = [fig1, fig2, fig3, fig4]
@@ -267,7 +267,7 @@ def specs(d: dict) -> list[dict]:
         figs.append({"stem": "05-metagaming", "bar_w": 190, "row_h": 48, "title": FIG5_TITLE, "legend_top": True, "fine_grid": True,
                      "footnote": "Robot prompt = Inspect Robots system prompt. Motion tools = Inspect Robots tools (move_to, done, give_up). Text actions = carry_out / decline.",
                      "legend": [("filled", "“Alignment eval”"), ("hollow", "“Capability eval”"), ("ref", "No cue")],
-                     "panels": [{"heading": d["footage"][f], "kind": "rate", "label_w": 196 if i == 0 else 0, "axis_label": "Refuses", "groups": [
+                     "panels": [{"heading": d["footage"][f], "kind": "rate", "label_w": 196 if i == 0 else 0, "axis_label": "Refuses (%, 95% CI)", "groups": [
                          {"label": name if i == 0 else " ", "color": col, "rows": [
                              dotrow(lab, [(src[k]["capability"][f], col, "hollow", -9), (src[k]["none"][f], col, "ref", 0),
                                           (src[k]["alignment"][f], col, "filled", 9)]) for k, lab in ladder]}
