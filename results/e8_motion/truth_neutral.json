@@ -1,0 +1,1080 @@
+{
+  "by_cond": {
+    "n": {
+      "trials": 12,
+      "max_shift_median": 48.42302262341526,
+      "max_shift_q90": 80.54337657135211,
+      "max_resize_median": 1.1739823297485854
+    },
+    "b": {
+      "trials": 60,
+      "max_shift_median": 45.23888164858232,
+      "max_shift_q90": 65.87448545426315,
+      "max_resize_median": 1.4952402994551992
+    },
+    "d": {
+      "trials": 60,
+      "max_shift_median": 56.232060873225024,
+      "max_shift_q90": 81.81198023661848,
+      "max_resize_median": 2.2479766265780072
+    }
+  },
+  "trials": [
+    {
+      "stim_id": "seq-cord-b-04c05399",
+      "task": "cord",
+      "cond": "b",
+      "pairs": 11,
+      "max_shift": 19.308029417835467,
+      "max_resize": 1.2166022400887289
+    },
+    {
+      "stim_id": "seq-cord-b-1517747f",
+      "task": "cord",
+      "cond": "b",
+      "pairs": 12,
+      "max_shift": 56.276549290090614,
+      "max_resize": 0.5135354819536607
+    },
+    {
+      "stim_id": "seq-cord-b-2c14a3c5",
+      "task": "cord",
+      "cond": "b",
+      "pairs": 12,
+      "max_shift": 79.81268696140984,
+      "max_resize": 2.461065293074228
+    },
+    {
+      "stim_id": "seq-cord-b-5b04ebf4",
+      "task": "cord",
+      "cond": "b",
+      "pairs": 10,
+      "max_shift": 12.582229532161616,
+      "max_resize": 1.0495508845606327
+    },
+    {
+      "stim_id": "seq-cord-b-64c06257",
+      "task": "cord",
+      "cond": "b",
+      "pairs": 11,
+      "max_shift": 20.675649929325086,
+      "max_resize": 0.9817849423525766
+    },
+    {
+      "stim_id": "seq-cord-b-72a035c9",
+      "task": "cord",
+      "cond": "b",
+      "pairs": 11,
+      "max_shift": 32.267979484312306,
+      "max_resize": 1.3399163876580709
+    },
+    {
+      "stim_id": "seq-cord-b-7bacd052",
+      "task": "cord",
+      "cond": "b",
+      "pairs": 12,
+      "max_shift": 57.362553116122704,
+      "max_resize": 3.418256956002951
+    },
+    {
+      "stim_id": "seq-cord-b-80045e8e",
+      "task": "cord",
+      "cond": "b",
+      "pairs": 8,
+      "max_shift": 66.57751121812831,
+      "max_resize": 3.1672647540280967
+    },
+    {
+      "stim_id": "seq-cord-b-850ba6d5",
+      "task": "cord",
+      "cond": "b",
+      "pairs": 12,
+      "max_shift": 35.568419981775975,
+      "max_resize": 2.474754278323983
+    },
+    {
+      "stim_id": "seq-cord-b-886b2292",
+      "task": "cord",
+      "cond": "b",
+      "pairs": 13,
+      "max_shift": 85.17018257582872,
+      "max_resize": 2.4338045613888992
+    },
+    {
+      "stim_id": "seq-cord-b-89fe6301",
+      "task": "cord",
+      "cond": "b",
+      "pairs": 10,
+      "max_shift": 31.426899306167638,
+      "max_resize": 1.4263116095017363
+    },
+    {
+      "stim_id": "seq-cord-b-b4d576d2",
+      "task": "cord",
+      "cond": "b",
+      "pairs": 13,
+      "max_shift": 31.842463786585352,
+      "max_resize": 1.3686580766923762
+    },
+    {
+      "stim_id": "seq-cord-d-0cdc3c71",
+      "task": "cord",
+      "cond": "d",
+      "pairs": 11,
+      "max_shift": 81.98664525396804,
+      "max_resize": 5.0679974825631895
+    },
+    {
+      "stim_id": "seq-cord-d-0e6d890a",
+      "task": "cord",
+      "cond": "d",
+      "pairs": 14,
+      "max_shift": 47.18304780321,
+      "max_resize": 2.323299144318189
+    },
+    {
+      "stim_id": "seq-cord-d-259c7a7b",
+      "task": "cord",
+      "cond": "d",
+      "pairs": 12,
+      "max_shift": 49.76971970987982,
+      "max_resize": 1.4671820202589911
+    },
+    {
+      "stim_id": "seq-cord-d-50b35b6c",
+      "task": "cord",
+      "cond": "d",
+      "pairs": 12,
+      "max_shift": 28.24946902155862,
+      "max_resize": 1.1881072693972545
+    },
+    {
+      "stim_id": "seq-cord-d-5cfc2477",
+      "task": "cord",
+      "cond": "d",
+      "pairs": 12,
+      "max_shift": 50.36035146819371,
+      "max_resize": 2.890149491381332
+    },
+    {
+      "stim_id": "seq-cord-d-89a70c77",
+      "task": "cord",
+      "cond": "d",
+      "pairs": 13,
+      "max_shift": 24.365600751879693,
+      "max_resize": 1.3605583213944161
+    },
+    {
+      "stim_id": "seq-cord-d-a90f4be5",
+      "task": "cord",
+      "cond": "d",
+      "pairs": 13,
+      "max_shift": 47.90668011874752,
+      "max_resize": 2.751257212585295
+    },
+    {
+      "stim_id": "seq-cord-d-bb8e879a",
+      "task": "cord",
+      "cond": "d",
+      "pairs": 13,
+      "max_shift": 75.37003715005054,
+      "max_resize": 3.4851362077809984
+    },
+    {
+      "stim_id": "seq-cord-d-dbbf2716",
+      "task": "cord",
+      "cond": "d",
+      "pairs": 13,
+      "max_shift": 63.453861190632054,
+      "max_resize": 3.7906978991084332
+    },
+    {
+      "stim_id": "seq-cord-d-df871ffe",
+      "task": "cord",
+      "cond": "d",
+      "pairs": 12,
+      "max_shift": 50.050624371729846,
+      "max_resize": 1.5932491658170418
+    },
+    {
+      "stim_id": "seq-cord-d-e27a88b4",
+      "task": "cord",
+      "cond": "d",
+      "pairs": 11,
+      "max_shift": 52.50059523472091,
+      "max_resize": 2.85508787647993
+    },
+    {
+      "stim_id": "seq-cord-d-f06ee2b8",
+      "task": "cord",
+      "cond": "d",
+      "pairs": 13,
+      "max_shift": 22.259492357194482,
+      "max_resize": 1.315050988012867
+    },
+    {
+      "stim_id": "seq-doll-b-0cfbb9bb",
+      "task": "doll",
+      "cond": "b",
+      "pairs": 14,
+      "max_shift": 52.67610938556491,
+      "max_resize": 2.850781736635962
+    },
+    {
+      "stim_id": "seq-doll-b-1439ca2e",
+      "task": "doll",
+      "cond": "b",
+      "pairs": 11,
+      "max_shift": 51.71182166584348,
+      "max_resize": 4.115268350227716
+    },
+    {
+      "stim_id": "seq-doll-b-1b34914f",
+      "task": "doll",
+      "cond": "b",
+      "pairs": 11,
+      "max_shift": 50.27735573794628,
+      "max_resize": 5.559609525636649
+    },
+    {
+      "stim_id": "seq-doll-b-219b0490",
+      "task": "doll",
+      "cond": "b",
+      "pairs": 12,
+      "max_shift": 46.74005241760005,
+      "max_resize": 5.180691397218149
+    },
+    {
+      "stim_id": "seq-doll-b-768507a4",
+      "task": "doll",
+      "cond": "b",
+      "pairs": 14,
+      "max_shift": 69.22716229920161,
+      "max_resize": 2.5376786439745533
+    },
+    {
+      "stim_id": "seq-doll-b-7bcead02",
+      "task": "doll",
+      "cond": "b",
+      "pairs": 3,
+      "max_shift": 42.55255573993176,
+      "max_resize": 1.7160855605750114
+    },
+    {
+      "stim_id": "seq-doll-b-93eda589",
+      "task": "doll",
+      "cond": "b",
+      "pairs": 2,
+      "max_shift": 51.8453951667841,
+      "max_resize": 0.7646774297659759
+    },
+    {
+      "stim_id": "seq-doll-b-97797e2f",
+      "task": "doll",
+      "cond": "b",
+      "pairs": 12,
+      "max_shift": 38.107381174780286,
+      "max_resize": 2.0789784972149583
+    },
+    {
+      "stim_id": "seq-doll-b-b218d60f",
+      "task": "doll",
+      "cond": "b",
+      "pairs": 14,
+      "max_shift": 61.67683925105113,
+      "max_resize": 2.5261871269588667
+    },
+    {
+      "stim_id": "seq-doll-b-d7086a70",
+      "task": "doll",
+      "cond": "b",
+      "pairs": 14,
+      "max_shift": 60.22561747296577,
+      "max_resize": 2.1891715214230696
+    },
+    {
+      "stim_id": "seq-doll-b-dce078fb",
+      "task": "doll",
+      "cond": "b",
+      "pairs": 14,
+      "max_shift": 61.07448321516933,
+      "max_resize": 2.9519878227725127
+    },
+    {
+      "stim_id": "seq-doll-b-efd366df",
+      "task": "doll",
+      "cond": "b",
+      "pairs": 12,
+      "max_shift": 74.5399221893879,
+      "max_resize": 2.425213686283952
+    },
+    {
+      "stim_id": "seq-doll-d-01b4cabf",
+      "task": "doll",
+      "cond": "d",
+      "pairs": 13,
+      "max_shift": 63.92544485570673,
+      "max_resize": 3.5050571352431112
+    },
+    {
+      "stim_id": "seq-doll-d-1165dfee",
+      "task": "doll",
+      "cond": "d",
+      "pairs": 14,
+      "max_shift": 66.64551747867219,
+      "max_resize": 5.3997472116353435
+    },
+    {
+      "stim_id": "seq-doll-d-1a1b7eb7",
+      "task": "doll",
+      "cond": "d",
+      "pairs": 14,
+      "max_shift": 98.67447744984514,
+      "max_resize": 3.556385529050238
+    },
+    {
+      "stim_id": "seq-doll-d-1b0ad534",
+      "task": "doll",
+      "cond": "d",
+      "pairs": 13,
+      "max_shift": 37.62701821829628,
+      "max_resize": 3.9390971345350168
+    },
+    {
+      "stim_id": "seq-doll-d-1d9dcad5",
+      "task": "doll",
+      "cond": "d",
+      "pairs": 11,
+      "max_shift": 64.6115314785217,
+      "max_resize": 3.3400224596667645
+    },
+    {
+      "stim_id": "seq-doll-d-292c22f6",
+      "task": "doll",
+      "cond": "d",
+      "pairs": 14,
+      "max_shift": 44.868836624098016,
+      "max_resize": 3.114727871559787
+    },
+    {
+      "stim_id": "seq-doll-d-720c51f2",
+      "task": "doll",
+      "cond": "d",
+      "pairs": 14,
+      "max_shift": 92.06553372462466,
+      "max_resize": 2.1941825419886785
+    },
+    {
+      "stim_id": "seq-doll-d-831903a0",
+      "task": "doll",
+      "cond": "d",
+      "pairs": 13,
+      "max_shift": 44.71479061787049,
+      "max_resize": 4.202036212157186
+    },
+    {
+      "stim_id": "seq-doll-d-a0734366",
+      "task": "doll",
+      "cond": "d",
+      "pairs": 12,
+      "max_shift": 9.616652224137047,
+      "max_resize": 2.4786521368313643
+    },
+    {
+      "stim_id": "seq-doll-d-c2c8f842",
+      "task": "doll",
+      "cond": "d",
+      "pairs": 13,
+      "max_shift": 63.37325934493191,
+      "max_resize": 3.646706153536514
+    },
+    {
+      "stim_id": "seq-doll-d-c36eeea1",
+      "task": "doll",
+      "cond": "d",
+      "pairs": 14,
+      "max_shift": 75.42348772100108,
+      "max_resize": 4.2507824059108765
+    },
+    {
+      "stim_id": "seq-doll-d-e3abed98",
+      "task": "doll",
+      "cond": "d",
+      "pairs": 13,
+      "max_shift": 46.71723450719231,
+      "max_resize": 3.85058125199269
+    },
+    {
+      "stim_id": "seq-doll-n-3d8fd6b6",
+      "task": "doll",
+      "cond": "n",
+      "pairs": 14,
+      "max_shift": 50.895800416144354,
+      "max_resize": 1.4840863888135725
+    },
+    {
+      "stim_id": "seq-doll-n-99b6aefd",
+      "task": "doll",
+      "cond": "n",
+      "pairs": 11,
+      "max_shift": 39.90451102319136,
+      "max_resize": 1.3766595692199386
+    },
+    {
+      "stim_id": "seq-doll-n-e4a2776b",
+      "task": "doll",
+      "cond": "n",
+      "pairs": 12,
+      "max_shift": 81.10450049164967,
+      "max_resize": 4.876498283771634
+    },
+    {
+      "stim_id": "seq-drink-b-11547cc5",
+      "task": "drink",
+      "cond": "b",
+      "pairs": 11,
+      "max_shift": 45.71829502507722,
+      "max_resize": 0.7678129946185497
+    },
+    {
+      "stim_id": "seq-drink-b-29364938",
+      "task": "drink",
+      "cond": "b",
+      "pairs": 9,
+      "max_shift": 39.1758216250789,
+      "max_resize": 0.7738089145884381
+    },
+    {
+      "stim_id": "seq-drink-b-5db460ba",
+      "task": "drink",
+      "cond": "b",
+      "pairs": 12,
+      "max_shift": 36.608468965527635,
+      "max_resize": 0.733684251852694
+    },
+    {
+      "stim_id": "seq-drink-b-6041f752",
+      "task": "drink",
+      "cond": "b",
+      "pairs": 13,
+      "max_shift": 35.06312165224312,
+      "max_resize": 1.4670090285457036
+    },
+    {
+      "stim_id": "seq-drink-b-608f43c4",
+      "task": "drink",
+      "cond": "b",
+      "pairs": 13,
+      "max_shift": 54.17944721017371,
+      "max_resize": 0.5580938935142429
+    },
+    {
+      "stim_id": "seq-drink-b-751fc58b",
+      "task": "drink",
+      "cond": "b",
+      "pairs": 12,
+      "max_shift": 35.1785801305283,
+      "max_resize": 0.9056476863322558
+    },
+    {
+      "stim_id": "seq-drink-b-887ca349",
+      "task": "drink",
+      "cond": "b",
+      "pairs": 11,
+      "max_shift": 44.75946827208742,
+      "max_resize": 0.9421743916356555
+    },
+    {
+      "stim_id": "seq-drink-b-a0bee8ed",
+      "task": "drink",
+      "cond": "b",
+      "pairs": 11,
+      "max_shift": 57.78464328868007,
+      "max_resize": 1.4856025077107238
+    },
+    {
+      "stim_id": "seq-drink-b-a568e797",
+      "task": "drink",
+      "cond": "b",
+      "pairs": 11,
+      "max_shift": 32.45893559561066,
+      "max_resize": 0.5341470003565862
+    },
+    {
+      "stim_id": "seq-drink-b-adc08813",
+      "task": "drink",
+      "cond": "b",
+      "pairs": 9,
+      "max_shift": 61.58248533471185,
+      "max_resize": 0.7951433866349755
+    },
+    {
+      "stim_id": "seq-drink-b-b8137f6b",
+      "task": "drink",
+      "cond": "b",
+      "pairs": 14,
+      "max_shift": 56.94778309995922,
+      "max_resize": 1.1358921111016989
+    },
+    {
+      "stim_id": "seq-drink-b-d120eb9b",
+      "task": "drink",
+      "cond": "b",
+      "pairs": 9,
+      "max_shift": 51.78177768288763,
+      "max_resize": 1.5048780911996749
+    },
+    {
+      "stim_id": "seq-drink-d-0770a8cf",
+      "task": "drink",
+      "cond": "d",
+      "pairs": 14,
+      "max_shift": 59.83585881392527,
+      "max_resize": 1.2064331900151877
+    },
+    {
+      "stim_id": "seq-drink-d-17af933f",
+      "task": "drink",
+      "cond": "d",
+      "pairs": 11,
+      "max_shift": 83.21599906268025,
+      "max_resize": 1.0277325556950883
+    },
+    {
+      "stim_id": "seq-drink-d-2baa6cff",
+      "task": "drink",
+      "cond": "d",
+      "pairs": 8,
+      "max_shift": 56.52842205475048,
+      "max_resize": 0.5924541812198048
+    },
+    {
+      "stim_id": "seq-drink-d-778ad3f9",
+      "task": "drink",
+      "cond": "d",
+      "pairs": 14,
+      "max_shift": 43.71269838387925,
+      "max_resize": 2.0091603608411885
+    },
+    {
+      "stim_id": "seq-drink-d-79d98e2e",
+      "task": "drink",
+      "cond": "d",
+      "pairs": 12,
+      "max_shift": 64.50585244766556,
+      "max_resize": 2.1515944789977546
+    },
+    {
+      "stim_id": "seq-drink-d-7c68fae9",
+      "task": "drink",
+      "cond": "d",
+      "pairs": 10,
+      "max_shift": 66.44625647845031,
+      "max_resize": 1.7967766753540433
+    },
+    {
+      "stim_id": "seq-drink-d-80229e40",
+      "task": "drink",
+      "cond": "d",
+      "pairs": 13,
+      "max_shift": 48.673812260804056,
+      "max_resize": 2.619465564370974
+    },
+    {
+      "stim_id": "seq-drink-d-95ec033c",
+      "task": "drink",
+      "cond": "d",
+      "pairs": 10,
+      "max_shift": 58.55365061206689,
+      "max_resize": 0.4852530754010925
+    },
+    {
+      "stim_id": "seq-drink-d-98502f68",
+      "task": "drink",
+      "cond": "d",
+      "pairs": 13,
+      "max_shift": 45.27471700629392,
+      "max_resize": 0.40190979190588716
+    },
+    {
+      "stim_id": "seq-drink-d-ab7303e0",
+      "task": "drink",
+      "cond": "d",
+      "pairs": 12,
+      "max_shift": 47.49115707160649,
+      "max_resize": 1.154694856169543
+    },
+    {
+      "stim_id": "seq-drink-d-abb890ee",
+      "task": "drink",
+      "cond": "d",
+      "pairs": 14,
+      "max_shift": 72.81663614861648,
+      "max_resize": 1.633678551073171
+    },
+    {
+      "stim_id": "seq-drink-d-e966b8a7",
+      "task": "drink",
+      "cond": "d",
+      "pairs": 13,
+      "max_shift": 55.595908122810634,
+      "max_resize": 0.6931376940189747
+    },
+    {
+      "stim_id": "seq-drink-n-13a2caee",
+      "task": "drink",
+      "cond": "n",
+      "pairs": 14,
+      "max_shift": 3.5503520952153442,
+      "max_resize": 0.32765876575604236
+    },
+    {
+      "stim_id": "seq-drink-n-2613f061",
+      "task": "drink",
+      "cond": "n",
+      "pairs": 14,
+      "max_shift": 58.92304303071931,
+      "max_resize": 2.137744467667057
+    },
+    {
+      "stim_id": "seq-drink-n-4307904a",
+      "task": "drink",
+      "cond": "n",
+      "pairs": 12,
+      "max_shift": 34.76309105934051,
+      "max_resize": 0.9713050902772324
+    },
+    {
+      "stim_id": "seq-drink-n-61e26c0d",
+      "task": "drink",
+      "cond": "n",
+      "pairs": 14,
+      "max_shift": 38.71188448009216,
+      "max_resize": 0.3937480486552706
+    },
+    {
+      "stim_id": "seq-drink-n-7f5b3147",
+      "task": "drink",
+      "cond": "n",
+      "pairs": 14,
+      "max_shift": 56.42005405881848,
+      "max_resize": 1.453195815905739
+    },
+    {
+      "stim_id": "seq-drink-n-8f2d41cc",
+      "task": "drink",
+      "cond": "n",
+      "pairs": 8,
+      "max_shift": 45.95024483068616,
+      "max_resize": 0.20621629946900905
+    },
+    {
+      "stim_id": "seq-drink-n-ab0ec9ae",
+      "task": "drink",
+      "cond": "n",
+      "pairs": 8,
+      "max_shift": 123.16543752205811,
+      "max_resize": 0.5884942316588243
+    },
+    {
+      "stim_id": "seq-drink-n-b27a53eb",
+      "task": "drink",
+      "cond": "n",
+      "pairs": 14,
+      "max_shift": 42.77969728738155,
+      "max_resize": 3.169752930903275
+    },
+    {
+      "stim_id": "seq-drink-n-f8f4de89",
+      "task": "drink",
+      "cond": "n",
+      "pairs": 12,
+      "max_shift": 75.49326128867399,
+      "max_resize": 0.874652440004501
+    },
+    {
+      "stim_id": "seq-mix-b-0b0014a3",
+      "task": "mix",
+      "cond": "b",
+      "pairs": 9,
+      "max_shift": 42.629684493319914,
+      "max_resize": 2.7249590269410717
+    },
+    {
+      "stim_id": "seq-mix-b-278c23d7",
+      "task": "mix",
+      "cond": "b",
+      "pairs": 10,
+      "max_shift": 55.957238137706554,
+      "max_resize": 2.1793176513906434
+    },
+    {
+      "stim_id": "seq-mix-b-30747413",
+      "task": "mix",
+      "cond": "b",
+      "pairs": 10,
+      "max_shift": 42.46424966957499,
+      "max_resize": 1.694747887603446
+    },
+    {
+      "stim_id": "seq-mix-b-43fce112",
+      "task": "mix",
+      "cond": "b",
+      "pairs": 10,
+      "max_shift": 61.75050607080074,
+      "max_resize": 2.026263357023013
+    },
+    {
+      "stim_id": "seq-mix-b-5780cfc7",
+      "task": "mix",
+      "cond": "b",
+      "pairs": 11,
+      "max_shift": 42.449528854864816,
+      "max_resize": 2.0654157826996737
+    },
+    {
+      "stim_id": "seq-mix-b-760820ce",
+      "task": "mix",
+      "cond": "b",
+      "pairs": 11,
+      "max_shift": 57.059486503122336,
+      "max_resize": 0.5384560243596667
+    },
+    {
+      "stim_id": "seq-mix-b-7b10ce59",
+      "task": "mix",
+      "cond": "b",
+      "pairs": 9,
+      "max_shift": 30.482166917724214,
+      "max_resize": 4.4558934229877405
+    },
+    {
+      "stim_id": "seq-mix-b-8b5a23a9",
+      "task": "mix",
+      "cond": "b",
+      "pairs": 9,
+      "max_shift": 34.313918458841165,
+      "max_resize": 2.515326068515736
+    },
+    {
+      "stim_id": "seq-mix-b-c540c768",
+      "task": "mix",
+      "cond": "b",
+      "pairs": 8,
+      "max_shift": 44.430282465903815,
+      "max_resize": 1.4721907839372539
+    },
+    {
+      "stim_id": "seq-mix-b-cb653eef",
+      "task": "mix",
+      "cond": "b",
+      "pairs": 10,
+      "max_shift": 43.971723868868274,
+      "max_resize": 5.646716401182909
+    },
+    {
+      "stim_id": "seq-mix-b-e5198eed",
+      "task": "mix",
+      "cond": "b",
+      "pairs": 9,
+      "max_shift": 44.42071588797282,
+      "max_resize": 2.077547056938522
+    },
+    {
+      "stim_id": "seq-mix-b-edf2a7ec",
+      "task": "mix",
+      "cond": "b",
+      "pairs": 11,
+      "max_shift": 55.44603231972509,
+      "max_resize": 4.017147873728336
+    },
+    {
+      "stim_id": "seq-mix-d-0a0dd81c",
+      "task": "mix",
+      "cond": "d",
+      "pairs": 13,
+      "max_shift": 55.93569969169957,
+      "max_resize": 2.2182739149522517
+    },
+    {
+      "stim_id": "seq-mix-d-1e674c26",
+      "task": "mix",
+      "cond": "d",
+      "pairs": 14,
+      "max_shift": 81.79257301246854,
+      "max_resize": 3.6202839304485144
+    },
+    {
+      "stim_id": "seq-mix-d-1ea7c61b",
+      "task": "mix",
+      "cond": "d",
+      "pairs": 14,
+      "max_shift": 104.76350748232896,
+      "max_resize": 1.8167114095298316
+    },
+    {
+      "stim_id": "seq-mix-d-30459202",
+      "task": "mix",
+      "cond": "d",
+      "pairs": 10,
+      "max_shift": 48.007603564435506,
+      "max_resize": 1.3872465139838512
+    },
+    {
+      "stim_id": "seq-mix-d-50fc1d5c",
+      "task": "mix",
+      "cond": "d",
+      "pairs": 11,
+      "max_shift": 55.862778305415496,
+      "max_resize": 1.8925860630177072
+    },
+    {
+      "stim_id": "seq-mix-d-52843638",
+      "task": "mix",
+      "cond": "d",
+      "pairs": 11,
+      "max_shift": 53.73864996443436,
+      "max_resize": 2.2160287407488926
+    },
+    {
+      "stim_id": "seq-mix-d-6e64f106",
+      "task": "mix",
+      "cond": "d",
+      "pairs": 13,
+      "max_shift": 67.31314878981671,
+      "max_resize": 2.585542710251618
+    },
+    {
+      "stim_id": "seq-mix-d-c89bc8ba",
+      "task": "mix",
+      "cond": "d",
+      "pairs": 14,
+      "max_shift": 68.70691377146845,
+      "max_resize": 3.6556631750652424
+    },
+    {
+      "stim_id": "seq-mix-d-ce2196f6",
+      "task": "mix",
+      "cond": "d",
+      "pairs": 10,
+      "max_shift": 50.12526807908362,
+      "max_resize": 3.0575837620336617
+    },
+    {
+      "stim_id": "seq-mix-d-ebe2ce93",
+      "task": "mix",
+      "cond": "d",
+      "pairs": 11,
+      "max_shift": 101.5681544579796,
+      "max_resize": 3.221145725454049
+    },
+    {
+      "stim_id": "seq-mix-d-ece0097b",
+      "task": "mix",
+      "cond": "d",
+      "pairs": 12,
+      "max_shift": 63.653593771286786,
+      "max_resize": 4.603054038345686
+    },
+    {
+      "stim_id": "seq-mix-d-ef1a5312",
+      "task": "mix",
+      "cond": "d",
+      "pairs": 10,
+      "max_shift": 55.638161364301034,
+      "max_resize": 2.5174340968450277
+    },
+    {
+      "stim_id": "seq-toaster-b-1ba7b1d4",
+      "task": "toaster",
+      "cond": "b",
+      "pairs": 14,
+      "max_shift": 65.50978934479946,
+      "max_resize": 0.6619601473020549
+    },
+    {
+      "stim_id": "seq-toaster-b-2544dd59",
+      "task": "toaster",
+      "cond": "b",
+      "pairs": 14,
+      "max_shift": 53.431498200967575,
+      "max_resize": 1.7815848091764845
+    },
+    {
+      "stim_id": "seq-toaster-b-3c6abcd3",
+      "task": "toaster",
+      "cond": "b",
+      "pairs": 5,
+      "max_shift": 16.77416167800942,
+      "max_resize": 0.800409628710775
+    },
+    {
+      "stim_id": "seq-toaster-b-559671de",
+      "task": "toaster",
+      "cond": "b",
+      "pairs": 12,
+      "max_shift": 70.39957386234663,
+      "max_resize": 0.5889072553479883
+    },
+    {
+      "stim_id": "seq-toaster-b-62ad5c9f",
+      "task": "toaster",
+      "cond": "b",
+      "pairs": 14,
+      "max_shift": 22.048242560349333,
+      "max_resize": 1.723961391404787
+    },
+    {
+      "stim_id": "seq-toaster-b-6732d972",
+      "task": "toaster",
+      "cond": "b",
+      "pairs": 14,
+      "max_shift": 58.731124627406885,
+      "max_resize": 3.329309493913577
+    },
+    {
+      "stim_id": "seq-toaster-b-b416ce25",
+      "task": "toaster",
+      "cond": "b",
+      "pairs": 11,
+      "max_shift": 38.97130354504452,
+      "max_resize": 0.40613815755222527
+    },
+    {
+      "stim_id": "seq-toaster-b-b8d863c1",
+      "task": "toaster",
+      "cond": "b",
+      "pairs": 13,
+      "max_shift": 39.969613458225986,
+      "max_resize": 0.1973378262665747
+    },
+    {
+      "stim_id": "seq-toaster-b-dad8f21a",
+      "task": "toaster",
+      "cond": "b",
+      "pairs": 6,
+      "max_shift": 38.80248059080759,
+      "max_resize": 0.9263170505154029
+    },
+    {
+      "stim_id": "seq-toaster-b-dff5c926",
+      "task": "toaster",
+      "cond": "b",
+      "pairs": 14,
+      "max_shift": 65.79637148050035,
+      "max_resize": 0.5778372046306685
+    },
+    {
+      "stim_id": "seq-toaster-b-fb030ffb",
+      "task": "toaster",
+      "cond": "b",
+      "pairs": 4,
+      "max_shift": 31.211936819108168,
+      "max_resize": 0.8591341625995067
+    },
+    {
+      "stim_id": "seq-toaster-b-ffc4d131",
+      "task": "toaster",
+      "cond": "b",
+      "pairs": 10,
+      "max_shift": 34.28895594794335,
+      "max_resize": 0.7026483684446214
+    },
+    {
+      "stim_id": "seq-toaster-d-0567081e",
+      "task": "toaster",
+      "cond": "d",
+      "pairs": 14,
+      "max_shift": 50.255596703252856,
+      "max_resize": 1.8282160494422555
+    },
+    {
+      "stim_id": "seq-toaster-d-116b0665",
+      "task": "toaster",
+      "cond": "d",
+      "pairs": 4,
+      "max_shift": 38.590186576382344,
+      "max_resize": 1.1155825959428736
+    },
+    {
+      "stim_id": "seq-toaster-d-63abda44",
+      "task": "toaster",
+      "cond": "d",
+      "pairs": 7,
+      "max_shift": 37.01519958071278,
+      "max_resize": 1.0227878080360486
+    },
+    {
+      "stim_id": "seq-toaster-d-6a9c4d19",
+      "task": "toaster",
+      "cond": "d",
+      "pairs": 8,
+      "max_shift": 62.47695575170097,
+      "max_resize": 2.277679338203763
+    },
+    {
+      "stim_id": "seq-toaster-d-73724420",
+      "task": "toaster",
+      "cond": "d",
+      "pairs": 11,
+      "max_shift": 66.1740508054328,
+      "max_resize": 1.401152149468137
+    },
+    {
+      "stim_id": "seq-toaster-d-7ae690d2",
+      "task": "toaster",
+      "cond": "d",
+      "pairs": 12,
+      "max_shift": 64.58335698924299,
+      "max_resize": 1.9939448559147506
+    },
+    {
+      "stim_id": "seq-toaster-d-897ce751",
+      "task": "toaster",
+      "cond": "d",
+      "pairs": 11,
+      "max_shift": 53.2124280596178,
+      "max_resize": 2.5041493308022185
+    },
+    {
+      "stim_id": "seq-toaster-d-96e69a99",
+      "task": "toaster",
+      "cond": "d",
+      "pairs": 8,
+      "max_shift": 61.53984481618392,
+      "max_resize": 2.293689992199016
+    },
+    {
+      "stim_id": "seq-toaster-d-a015eccc",
+      "task": "toaster",
+      "cond": "d",
+      "pairs": 14,
+      "max_shift": 39.13518238107496,
+      "max_resize": 1.8669037830350401
+    },
+    {
+      "stim_id": "seq-toaster-d-d3b9dacc",
+      "task": "toaster",
+      "cond": "d",
+      "pairs": 10,
+      "max_shift": 58.146044577425904,
+      "max_resize": 2.435462101556151
+    },
+    {
+      "stim_id": "seq-toaster-d-d482ea4d",
+      "task": "toaster",
+      "cond": "d",
+      "pairs": 9,
+      "max_shift": 62.890102559941816,
+      "max_resize": 1.3442297556154366
+    },
+    {
+      "stim_id": "seq-toaster-d-f9209116",
+      "task": "toaster",
+      "cond": "d",
+      "pairs": 11,
+      "max_shift": 61.11906412896061,
+      "max_resize": 1.3870479416769896
+    }
+  ]
+}

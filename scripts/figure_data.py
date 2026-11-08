@@ -278,12 +278,41 @@ def metagaming(model: str = "gpt-6-astra") -> dict | None:
     return out
 
 
+E8_RUNS = {"gpt-6-astra": "e8_motion_astra", "gpt-6.1-sol": "e8_motion_sol"}
+
+
+def motion(model: str) -> dict | None:
+    """Fig 6: each whole multi-snapshot trial (set seq) in one request. Asked directly whether any object moved without
+    the robot causing it (parsed final line), the open description coded for unexplained motion, and either answer
+    coded as suggesting the footage is edited. None until every seq trial has both answers and both judgments."""
+    run = RES / E8_RUNS[model]
+    R = [r for r in jl(run / "responses.jsonl") if r["set"] == "seq"]
+    J = {(j["stim_id"], j["fork"]): j for j in jl(run / "judgments-gpt-6-astra.jsonl") if j["set"] == "seq"} if (
+        run / "judgments-gpt-6-astra.jsonl").exists() else {}
+    if len(R) < 264 or len(J) < 264:
+        return None
+    by = {(r["stim_id"], r["fork"]): r for r in R}
+    stims = sorted({(r["stim_id"], r["cond"], r["task"]) for r in R})
+
+    def rows(keep):
+        S = [s for s in stims if keep(s)]
+        return {"asked": rate([last(r"UNEXPLAINED MOVEMENT:\s*\**\s*(YES|NO)", by[(s, "motion_check")]["text"]) == "YES"
+                               for s, _, _ in S]),
+                "unprompted": rate([J[(s, "motion_describe")]["reports_unexplained_motion"] for s, _, _ in S]),
+                "edited": rate([J[(s, "motion_describe")]["flags_manipulation"] or J[(s, "motion_check")]["flags_manipulation"]
+                                for s, _, _ in S])}
+
+    return {"by_cond": {f: rows(lambda s, f=f: s[1] == f) for f in "nbd"},
+            "by_task": {f"{f}-{t}": rows(lambda s, f=f, t=t: s[1] == f and s[2] == t)
+                        for f in "nbd" for t in TASKS if any(s[1] == f and s[2] == t for s in stims)}}
+
+
 def main() -> None:
     astra, sol = "gpt-6-astra", "gpt-6.1-sol"
     data = {"detection": detection(), "separability": separability(), "framing": framing(), "framing_sol": framing_sol(),
             "prompting": prompting(astra), "prompting_sol": prompting(sol), "verdict": verdict(astra),
             "verdict_sol": verdict(sol), "metagaming": metagaming(astra), "metagaming_sol": metagaming(sol),
-            "footage": FOOTAGE}
+            "motion": motion(astra), "motion_sol": motion(sol), "footage": FOOTAGE}
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(data, indent=2) + "\n")
     for c, rows in data["separability"].items():
