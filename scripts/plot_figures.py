@@ -86,9 +86,11 @@ def render(spec: dict) -> list[Path]:
     x = MARGIN
     for p, w in zip(panels, widths):
         top = TITLE_H + lt
-        # layers: panel background 0, gridlines 0.5, bars 2, whiskers 4, dots 6, chance line 5
-        cv.add_patch(Rectangle((x, top), w, HEAD_H + body_h + ax_h, facecolor="#FCFCFD", edgecolor=RULE, lw=.9, zorder=0))
-        cv.add_patch(Rectangle((x, top), w, HEAD_H, facecolor="#EEF2F5", edgecolor="none", zorder=0))
+        # layers: panel background 0, header band 0.1, gridlines 0.5, bars 2, whiskers 4, chance line 5, dots 6, outline 7.
+        # The outline is drawn last so the header band cannot paint over half of the border stroke.
+        cv.add_patch(Rectangle((x, top), w, HEAD_H + body_h + ax_h, facecolor="#FCFCFD", edgecolor="none", zorder=0))
+        cv.add_patch(Rectangle((x, top), w, HEAD_H, facecolor="#EEF2F5", edgecolor="none", zorder=.1))
+        cv.add_patch(Rectangle((x, top), w, HEAD_H + body_h + ax_h, facecolor="none", edgecolor=RULE, lw=.9, zorder=7))
         text(x + PAD, top + HEAD_H / 2, p["heading"], size=12.5, weight="semibold", family="Spectral")
         if p.get("note_header"):
             text(x + w - PAD, top + HEAD_H / 2, p["note_header"], size=9.5, color=MUTED, ha="right")

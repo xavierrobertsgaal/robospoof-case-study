@@ -34,9 +34,25 @@ L 322.56 33.12
 L 322.56 299.52 
 L 10.08 299.52 
 z
-" clip-path="url(#pc31cb828bb)" style="fill: #fcfcfd; stroke: #cfd7de; stroke-width: 0.9; stroke-linejoin: miter"/>
+" clip-path="url(#pc31cb828bb)" style="fill: #fcfcfd"/>
    </g>
    <g id="patch_3">
+    <path d="M 329.76 33.12 
+L 499.68 33.12 
+L 499.68 299.52 
+L 329.76 299.52 
+z
+" clip-path="url(#pc31cb828bb)" style="fill: #fcfcfd"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 506.88 33.12 
+L 676.8 33.12 
+L 676.8 299.52 
+L 506.88 299.52 
+z
+" clip-path="url(#pc31cb828bb)" style="fill: #fcfcfd"/>
+   </g>
+   <g id="patch_5">
     <path d="M 10.08 33.12 
 L 322.56 33.12 
 L 322.56 53.28 
@@ -44,29 +60,13 @@ L 10.08 53.28
 z
 " clip-path="url(#pc31cb828bb)" style="fill: #eef2f5"/>
    </g>
-   <g id="patch_4">
-    <path d="M 329.76 33.12 
-L 499.68 33.12 
-L 499.68 299.52 
-L 329.76 299.52 
-z
-" clip-path="url(#pc31cb828bb)" style="fill: #fcfcfd; stroke: #cfd7de; stroke-width: 0.9; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_5">
+   <g id="patch_6">
     <path d="M 329.76 33.12 
 L 499.68 33.12 
 L 499.68 53.28 
 L 329.76 53.28 
 z
 " clip-path="url(#pc31cb828bb)" style="fill: #eef2f5"/>
-   </g>
-   <g id="patch_6">
-    <path d="M 506.88 33.12 
-L 676.8 33.12 
-L 676.8 299.52 
-L 506.88 299.52 
-z
-" clip-path="url(#pc31cb828bb)" style="fill: #fcfcfd; stroke: #cfd7de; stroke-width: 0.9; stroke-linejoin: miter"/>
    </g>
    <g id="patch_7">
     <path d="M 506.88 33.12 
@@ -4529,6 +4529,33 @@ L 528.557949 267.12
     <path d="M 552.981224 261.36 
 L 552.981224 267.12 
 " clip-path="url(#pc31cb828bb)" style="fill: none; stroke: #25323d; stroke-width: 0.9; stroke-linecap: square"/>
+   </g>
+   <g id="patch_44">
+    <path d="M 10.08 33.12 
+L 322.56 33.12 
+L 322.56 299.52 
+L 10.08 299.52 
+L 10.08 33.12 
+z
+" clip-path="url(#pc31cb828bb)" style="fill: none; stroke: #cfd7de; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_45">
+    <path d="M 329.76 33.12 
+L 499.68 33.12 
+L 499.68 299.52 
+L 329.76 299.52 
+L 329.76 33.12 
+z
+" clip-path="url(#pc31cb828bb)" style="fill: none; stroke: #cfd7de; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_46">
+    <path d="M 506.88 33.12 
+L 676.8 33.12 
+L 676.8 299.52 
+L 506.88 299.52 
+L 506.88 33.12 
+z
+" clip-path="url(#pc31cb828bb)" style="fill: none; stroke: #cfd7de; stroke-width: 0.9; stroke-linejoin: miter"/>
    </g>
   </g>
  </g>
