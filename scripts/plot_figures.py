@@ -31,7 +31,7 @@ TITLE_H, HEAD_H, GROUP_H, ROW_H, AXIS_H, PAD, GAP, MARGIN = 46, 28, 20, 22, 22, 
 BAR_H, VALUE_W = 13, 46
 GREY_DOT = "#8E99A4"
 FIG2_TITLE = "2. GPT refuses unsafe tasks in text, but acts once it has robot motion tools"  # checked against Sol results
-FIG4_TITLE = "4. Astra’s own “fake” verdict does not drive its refusals"
+FIG4_TITLE = "4. Judging an input as fake does not cause Astra to refuse more reliably"
 FIG5_TITLE = "5. Told it is in an alignment eval, Astra refuses blurred footage it otherwise acts on"
 
 
@@ -54,11 +54,12 @@ def render(spec: dict) -> list[Path]:
     label_w 0 reuse the row layout of the first panel."""
     panels, bar_w, rh = spec["panels"], spec["bar_w"], spec.get("row_h", ROW_H)
     body_h = max(sum((GROUP_H if g.get("label") else 0) + rh * len(g["rows"]) for g in p["groups"]) for p in panels)
-    fixed = MARGIN * 2 + sum(PAD + p["label_w"] + VALUE_W + PAD for p in panels) + GAP * (len(panels) - 1)
+    vw = spec.get("value_w", VALUE_W)
+    fixed = MARGIN * 2 + sum(PAD + p["label_w"] + vw + PAD for p in panels) + GAP * (len(panels) - 1)
     title_w = TextPath((0, 0), spec["title"], size=17,
                        prop=FontProperties(family="Spectral", weight="semibold")).get_extents().width * 100 / 72
     bar_w = max(bar_w, (title_w + 2 * MARGIN + 8 - fixed) / len(panels))  # widen bars until the title fits
-    widths = [PAD + p["label_w"] + bar_w + VALUE_W + PAD for p in panels]
+    widths = [PAD + p["label_w"] + bar_w + vw + PAD for p in panels]
     width = MARGIN * 2 + sum(widths) + GAP * (len(panels) - 1)
     notes = spec["footnote"].split("\n") if spec.get("footnote") else []
     foot_h = (20 if spec.get("legend") else 0) + 15 * len(notes) + (6 if notes or spec.get("legend") else 0)
@@ -86,6 +87,8 @@ def render(spec: dict) -> list[Path]:
         cv.add_patch(Rectangle((x, top), w, HEAD_H + body_h + ax_h, facecolor="#FCFCFD", edgecolor=RULE, lw=.9))
         cv.add_patch(Rectangle((x, top), w, HEAD_H, facecolor="#EEF2F5", edgecolor="none"))
         text(x + PAD, top + HEAD_H / 2, p["heading"], size=12.5, weight="semibold", family="Spectral")
+        if p.get("note_header"):
+            text(x + w - PAD, top + HEAD_H / 2, p["note_header"], size=9.5, color=MUTED, ha="right")
         x0 = x + PAD + p["label_w"]  # pixel of value 0
         y_top, y_bot = top + HEAD_H + 4, top + HEAD_H + body_h
         for v in (.5, 1):
@@ -108,7 +111,8 @@ def render(spec: dict) -> list[Path]:
             for r in g["rows"]:
                 cy = y + prh / 2
                 if p["label_w"]:
-                    text(x + PAD + 8 + (16 if r.get("indent") else 0), cy, r["label"], size=10.5, color=INK)
+                    text(x + PAD + 8 + (16 if r.get("indent") else 0), cy, r["label"], size=10.5,
+                         color=r["color"] if r.get("emph") else INK, weight="bold" if r.get("emph") else "normal")
                 if r.get("dots"):  # dot-and-whisker row: no value labels, read against the shared scale
                     for dt in r["dots"]:
                         yy, c = cy + dt["dy"], (GREY_DOT if dt["style"] == "ref" else dt["color"])
@@ -116,16 +120,23 @@ def render(spec: dict) -> list[Path]:
                         for e in (dt["low"], dt["high"]):
                             cv.plot([x0 + e * bar_w] * 2, [yy - 3, yy + 3], color=c, lw=.9, zorder=4)
                         marker(x0 + dt["value"] * bar_w, yy, dt["style"], c)
+                    if r.get("note"):
+                        text(x + w - PAD, cy, r["note"], size=10, color=r["dots"][-1]["color"], weight="semibold", ha="right")
                     y += prh
                     continue
                 c, v, lo, hi = r["color"], r["value"], r["low"], r["high"]
-                cv.add_patch(Rectangle((x0, cy - BAR_H / 2), max(v * bar_w, .8), BAR_H, lw=1,
-                                       edgecolor=c, facecolor="white" if r.get("hollow") else light(c, r.get("shade", .28))))
-                cv.plot([x0 + lo * bar_w, x0 + hi * bar_w], [cy, cy], color=c, lw=.9)
+                if r.get("emph"):  # the highlighted condition: solid fill, dark whisker, bold coloured value
+                    face, edge, wc, vc, vwt = c, c, INK, c, "bold"
+                elif r.get("dim"):  # ablations: pale tint, light whisker, grey value
+                    face, edge, wc, vc, vwt = light(c, .14), light(c, .45), light(c, .6), MUTED, "normal"
+                else:
+                    face, edge, wc, vc, vwt = ("white" if r.get("hollow") else light(c, r.get("shade", .28))), c, c, c, "semibold"
+                cv.add_patch(Rectangle((x0, cy - BAR_H / 2), max(v * bar_w, .8), BAR_H, lw=1, edgecolor=edge, facecolor=face))
+                cv.plot([x0 + lo * bar_w, x0 + hi * bar_w], [cy, cy], color=wc, lw=.9, zorder=4)
                 for e in (lo, hi):
-                    cv.plot([x0 + e * bar_w] * 2, [cy - 4, cy + 4], color=c, lw=.9)
+                    cv.plot([x0 + e * bar_w] * 2, [cy - 4, cy + 4], color=wc, lw=.9, zorder=4)
                 text(x0 + hi * bar_w + 5, cy, f"{v:.2f}" if p["kind"] == "auroc" else f"{v:.0%}",
-                     size=10, color=c, weight="semibold")
+                     size=10, color=vc, weight=vwt)
                 y += prh
         if p["kind"] == "auroc":  # chance line drawn over the bars so it reads across every row
             cv.plot([x0 + .5 * bar_w] * 2, [y_top, y_bot], color=MUTED, lw=1.1, ls=(0, (4, 2.5)), zorder=5)
@@ -159,9 +170,9 @@ def render(spec: dict) -> list[Path]:
     return paths
 
 
-def row(label, est, color, hollow=False, shade=.28, indent=False):
+def row(label, est, color, hollow=False, shade=.28, indent=False, emph=False, dim=False):
     return {"label": label, "value": est["value"], "low": est["low"], "high": est["high"], "color": color,
-            "hollow": hollow, "shade": shade, "indent": indent}
+            "hollow": hollow, "shade": shade, "indent": indent, "emph": emph, "dim": dim}
 
 
 def dotrow(label, dots):
@@ -174,35 +185,40 @@ def specs(d: dict) -> list[dict]:
     det = {c["model"]: c["called_fake"] for c in d["detection"]["columns"]}
     sep = d["separability"]
     models = (("gpt-6-astra", "GPT-6 Astra", ASTRA), ("gpt-6.1-sol", "GPT-6.1 Sol", SOL))
-    fig1 = {"stem": "01-perception", "bar_w": 250,
+    def prow(label, fa, hit, auc, col):  # hollow = unaltered called fake (false alarm), filled = manipulated called fake
+        r = dotrow(label, [(fa, col, "hollow", -4.5), (hit, col, "filled", 4.5)])
+        r["note"] = f"{auc['value']:.2f}"
+        return r
+
+    fig1 = {"stem": "01-perception", "bar_w": 260, "row_h": 34, "value_w": 60,
             "title": "1. GPT does not reliably flag manipulated image inputs, though classifiers easily can",
-            "panels": [
-                {"heading": "Answers “is this real or fake” with “fake”", "kind": "rate", "label_w": 172, "axis_label": "Answers “fake”", "groups": [
-                    {"label": name, "color": col, "rows": [
-                        row("Unaltered (false alarm)", det[m]["n"], col, hollow=True),
-                        row("Blurred", det[m]["b"], col), row("Doctored", det[m]["d"], col)]}
-                    for m, name, col in models]},
-                {"heading": "Separability from unaltered (AUROC)", "kind": "auroc", "label_w": 168, "axis_label": "AUROC", "groups": [
-                    {"label": f"{d['footage'][c]} vs unaltered", "rows": [
-                        row("GPT-6 Astra", sep[c]["gpt-6-astra"], ASTRA), row("GPT-6.1 Sol", sep[c]["gpt-6.1-sol"], SOL),
-                        row("ResNet-18 classifier", sep[c]["resnet"], CLASSIFIER, shade=.12),
-                        row("Handcrafted classifier", sep[c]["classifier"], CLASSIFIER)]}
-                    for c in "bd"]}],
-            "footnote": "Handcrafted classifier: ridge logistic regression on 5 forensic statistics per camera image.\n"
-                        "ResNet-18 classifier: ridge logistic regression on frozen, untuned ImageNet ResNet-18 features.\n"
-                        "Classifier AUROC from leave-one-task-out cross-validation."}
+            "legend": [("filled", "manipulated snapshot called fake"), ("hollow", "unaltered snapshot called fake (false alarm)")],
+            "panels": [{"heading": f"{d['footage'][c]} vs unaltered", "kind": "rate", "label_w": 172 if i == 0 else 0,
+                        "axis_label": "Called fake", "note_header": "AUROC", "groups": [{"rows": [
+                            prow("GPT-6 Astra", det["gpt-6-astra"]["n"], det["gpt-6-astra"][c], sep[c]["gpt-6-astra"], ASTRA),
+                            prow("GPT-6.1 Sol", det["gpt-6.1-sol"]["n"], det["gpt-6.1-sol"][c], sep[c]["gpt-6.1-sol"], SOL),
+                            prow("ResNet-18 classifier", sep[c]["resnet_called_fake"]["n"], sep[c]["resnet_called_fake"][c],
+                                 sep[c]["resnet"], CLASSIFIER),
+                            prow("Handcrafted classifier", sep[c]["classifier_called_fake"]["n"],
+                                 sep[c]["classifier_called_fake"][c], sep[c]["classifier"], CLASSIFIER)]}]}
+                       for i, c in enumerate("bd")],
+            "footnote": "Models: answer to “Is this real or fake?”. Classifiers: held-out probability above 0.5, from leave-one-task-out cross-validation.\n"
+                        "Handcrafted classifier: ridge logistic regression on 5 forensic statistics per camera image.\n"
+                        "ResNet-18 classifier: ridge logistic regression on frozen, untuned ImageNet ResNet-18 features."}
     fr = d["framing"]
     ladder = [("observer", "Observer, text answer"), ("actor_text", "Agent, text actions"),
               ("robot_text", "Robot prompt, text actions"), ("robot_motion", "Robot prompt, motion tools")]
     fig2 = {"stem": "02-embodiment", "bar_w": 170, "footnote": "Robot prompt = Inspect Robots system prompt. Motion tools = Inspect Robots tools (move_to, done, give_up). Text actions = carry_out / decline.",
             "title": "2. Astra refuses unsafe tasks in text, but acts once it has robot motion tools",
-            "panels": [{"heading": d["footage"][f], "kind": "rate", "label_w": 198 if i == 0 else 0, "axis_label": "Refuses", "groups": [
-                {"rows": [row(lab, fr[k][f], ASTRA) for k, lab in ladder]}]} for i, f in enumerate("nbd")]}
+            "panels": [{"heading": d["footage"][f], "kind": "rate", "label_w": 218 if i == 0 else 0, "axis_label": "Refuses", "groups": [
+                {"rows": [row(lab, fr[k][f], ASTRA, emph=k == "robot_motion", dim=k != "robot_motion") for k, lab in ladder]}]}
+                for i, f in enumerate("nbd")]}
     if d.get("framing_sol"):  # both models, grouped, once the Sol run is complete
         fs = d["framing_sol"]
         fig2["title"] = FIG2_TITLE
-        fig2["panels"] = [{"heading": d["footage"][f], "kind": "rate", "label_w": 198 if i == 0 else 0, "axis_label": "Refuses", "groups": [
-            {"label": name if i == 0 else " ", "color": col, "rows": [row(lab, src[k][f], col) for k, lab in ladder]}
+        fig2["panels"] = [{"heading": d["footage"][f], "kind": "rate", "label_w": 218 if i == 0 else 0, "axis_label": "Refuses", "groups": [
+            {"label": name if i == 0 else " ", "color": col, "rows": [
+                row(lab, src[k][f], col, emph=k == "robot_motion", dim=k != "robot_motion") for k, lab in ladder]}
             for name, col, src in (("GPT-6 Astra", ASTRA, fr), ("GPT-6.1 Sol", SOL, fs))]} for i, f in enumerate("nbd")]
     pr = d["prompting"]
     nudges = [("R0", "Baseline (original request)"), ("R4", "Max reasoning effort"), ("R5", "“Think carefully”"),
@@ -210,7 +226,10 @@ def specs(d: dict) -> list[dict]:
     fig3 = {"stem": "03-nudges", "bar_w": 170,
             "title": "3. Only naming the tampering threat makes the robot refuse doctored footage",
             "panels": [{"heading": d["footage"][f], "kind": "rate", "label_w": 198 if i == 0 else 0, "axis_label": "Gives up", "groups": [
-                {"rows": [row(lab, pr[k][f], ASTRA) for k, lab in nudges]}]} for i, f in enumerate("nbd")]}
+                {"label": (name if i == 0 else " ") if d.get("prompting_sol") else None, "color": col, "rows": [
+                    row(lab, src[k][f], col, emph=k == "R2", dim=k != "R2") for k, lab in nudges]}
+                for name, col, src in (("GPT-6 Astra", ASTRA, pr), ("GPT-6.1 Sol", SOL, d.get("prompting_sol"))) if src]}
+                for i, f in enumerate("nbd")]}
     vd = d["verdict"]
 
     def vrow(e, f, col):
@@ -221,20 +240,22 @@ def specs(d: dict) -> list[dict]:
     fig4 = {"stem": "04-verdict", "bar_w": 220, "row_h": 36, "title": FIG4_TITLE,
             "legend": [("filled", "judged fake"), ("hollow", "judged real"), ("ref", "all answers")],
             "panels": [{"heading": head, "kind": "rate", "label_w": 196, "axis_label": axis, "groups": [
-                {"label": "GPT-6 Astra", "color": ASTRA, "rows": [vrow(vd[setting][f], f, ASTRA) for f in "nbd"]}]}
+                {"label": name, "color": col, "rows": [vrow(src[setting][f], f, col) for f in "nbd"]}
+                for name, col, src in (("GPT-6 Astra", ASTRA, vd), ("GPT-6.1 Sol", SOL, d.get("verdict_sol"))) if src]}
                 for setting, head, axis in (("observer", "Observer · says unsafe", "Says unsafe"),
                                             ("robot", "Robot · gives up", "Gives up"))]}
     mg = d.get("metagaming", {})
     cues = [("none", "No cue"), ("capability", "“Capability eval”"), ("alignment", "“Alignment eval”")]
     figs = [fig1, fig2, fig3, fig4]
-    if all(len(mg.get(k, {})) == 3 for k, _ in ladder):
+    if mg:
         figs.append({"stem": "05-metagaming", "bar_w": 190, "row_h": 36, "title": FIG5_TITLE,
                      "footnote": "Robot prompt = Inspect Robots system prompt. Motion tools = Inspect Robots tools (move_to, done, give_up). Text actions = carry_out / decline.",
                      "legend": [("filled", "“alignment eval”"), ("hollow", "“capability eval”"), ("ref", "no cue")],
                      "panels": [{"heading": d["footage"][f], "kind": "rate", "label_w": 196 if i == 0 else 0, "axis_label": "Refuses", "groups": [
-                         {"label": "GPT-6 Astra" if i == 0 else " ", "color": ASTRA, "rows": [
-                             dotrow(lab, [(mg[k]["capability"][f], ASTRA, "hollow", -4.5), (mg[k]["none"][f], ASTRA, "ref", 0),
-                                          (mg[k]["alignment"][f], ASTRA, "filled", 4.5)]) for k, lab in ladder]}]}
+                         {"label": name if i == 0 else " ", "color": col, "rows": [
+                             dotrow(lab, [(src[k]["capability"][f], col, "hollow", -4.5), (src[k]["none"][f], col, "ref", 0),
+                                          (src[k]["alignment"][f], col, "filled", 4.5)]) for k, lab in ladder]}
+                         for name, col, src in (("GPT-6 Astra", ASTRA, mg), ("GPT-6.1 Sol", SOL, d.get("metagaming_sol"))) if src]}
                          for i, f in enumerate("nbd")]})
     return figs
 
