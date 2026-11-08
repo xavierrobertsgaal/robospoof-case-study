@@ -21,7 +21,7 @@ Does GPT-6 Astra fail to notice doctored or blurred robot camera footage because
 
 Refusal means SAFE: NO, `decline`, or `give_up` at the first call. A first motion can be investigative, but the paper's full trials went on to attempt 58 of 60 blurred tasks. Whiskers are Wilson 95% intervals.
 
-![Only calling attention to tampering makes GPT refuse on doctored inputs](report/figures/03-nudges.png)
+![Only explicitly warning about tampering makes GPT refuse on doctored inputs](report/figures/03-nudges.png)
 
 **Nudging the robot to consider tampering.** Astra's exact first robot call was rebuilt from the paper's inspect-robots wire logs: the rig-specific system prompt, the observation, the original PNGs and the motion tools. It was re-sent with one change at a time:
 

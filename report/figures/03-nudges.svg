@@ -410,7 +410,7 @@ z
 " clip-path="url(#pc31cb828bb)" style="fill: #2b6ca3; stroke: #2b6ca3; stroke-linejoin: miter"/>
    </g>
    <g id="text_1">
-    <!-- 3. Only calling attention to tampering makes GPT refuse on doctored inputs -->
+    <!-- 3. Only explicitly warning about tampering makes GPT refuse on doctored inputs -->
     <g style="fill: #25323d" transform="translate(10.08 23.066) scale(0.17 -0.17)">
      <defs>
       <path id="Spectral-SemiBold-4c5" d="M 1651 -64 
@@ -574,6 +574,128 @@ L -198 2803
 L -198 2906 
 z
 " transform="scale(0.015625)"/>
+      <path id="Spectral-SemiBold-138" d="M 1664 -64 
+Q 1018 -64 646 313 
+Q 275 691 275 1318 
+Q 275 1805 476 2176 
+Q 678 2547 1017 2758 
+Q 1357 2970 1766 2970 
+Q 2278 2970 2566 2618 
+Q 2854 2266 2861 1626 
+L 2835 1594 
+L 992 1594 
+Q 992 1312 1094 1072 
+Q 1197 832 1424 685 
+Q 1651 538 2035 538 
+Q 2214 538 2419 592 
+Q 2624 646 2848 762 
+L 2867 762 
+L 2867 672 
+Q 2714 358 2400 147 
+Q 2086 -64 1664 -64 
+z
+M 1638 2682 
+Q 1382 2682 1219 2474 
+Q 1056 2266 1011 1882 
+L 2240 1882 
+Q 2182 2323 2032 2502 
+Q 1882 2682 1638 2682 
+z
+" transform="scale(0.015625)"/>
+      <path id="Spectral-SemiBold-14b" d="M 134 0 
+L 134 102 
+L 474 314 
+L 1338 1376 
+L 442 2618 
+L 154 2803 
+L 154 2906 
+L 1715 2906 
+L 1715 2803 
+L 1331 2624 
+L 1331 2586 
+L 1856 1850 
+L 2368 2547 
+L 2368 2586 
+L 2029 2803 
+L 2029 2906 
+L 3136 2906 
+L 3136 2803 
+L 2797 2592 
+L 2016 1632 
+L 2982 288 
+L 3245 102 
+L 3245 0 
+L 1734 0 
+L 1734 102 
+L 2099 282 
+L 2099 320 
+L 1498 1152 
+L 922 358 
+L 922 320 
+L 1293 102 
+L 1293 0 
+L 134 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Spectral-SemiBold-143" d="M 243 -1472 
+L 243 -1370 
+L 659 -1165 
+L 659 2214 
+L 262 2528 
+L 262 2592 
+L 1274 2970 
+L 1338 2970 
+L 1389 2579 
+L 1427 2579 
+Q 1670 2784 1891 2877 
+Q 2112 2970 2368 2970 
+Q 2669 2970 2915 2800 
+Q 3162 2630 3309 2320 
+Q 3456 2010 3456 1581 
+Q 3456 1062 3254 694 
+Q 3053 326 2720 131 
+Q 2387 -64 1984 -64 
+Q 1651 -64 1402 0 
+L 1402 -1165 
+L 1882 -1370 
+L 1882 -1472 
+L 243 -1472 
+z
+M 1914 2477 
+Q 1658 2477 1402 2323 
+L 1402 493 
+Q 1651 262 2042 262 
+Q 2214 262 2368 364 
+Q 2522 467 2621 710 
+Q 2720 954 2720 1382 
+Q 2720 1946 2477 2211 
+Q 2234 2477 1914 2477 
+z
+" transform="scale(0.015625)"/>
+      <path id="Spectral-SemiBold-13c" d="M 1037 3654 
+Q 851 3654 729 3779 
+Q 608 3904 608 4090 
+Q 608 4275 729 4396 
+Q 851 4518 1037 4518 
+Q 1222 4518 1347 4396 
+Q 1472 4275 1472 4090 
+Q 1472 3904 1347 3779 
+Q 1222 3654 1037 3654 
+z
+M 269 0 
+L 269 102 
+L 685 307 
+L 685 2240 
+L 288 2547 
+L 288 2618 
+L 1363 2970 
+L 1427 2970 
+L 1427 307 
+L 1818 102 
+L 1818 0 
+L 269 0 
+z
+" transform="scale(0.015625)"/>
       <path id="Spectral-SemiBold-136" d="M 1638 -64 
 Q 1229 -64 921 109 
 Q 614 282 444 592 
@@ -599,6 +721,58 @@ L 2835 762
 L 2835 672 
 Q 2682 365 2371 150 
 Q 2061 -64 1638 -64 
+z
+" transform="scale(0.015625)"/>
+      <path id="Spectral-SemiBold-147" d="M 1382 -64 
+Q 1037 -64 803 102 
+Q 570 269 570 570 
+L 570 2611 
+L 83 2611 
+L 83 2675 
+L 659 2906 
+L 1222 3610 
+L 1312 3610 
+L 1312 2906 
+L 2182 2906 
+L 2182 2611 
+L 1312 2611 
+L 1312 710 
+Q 1312 550 1456 470 
+Q 1600 390 1792 390 
+Q 1914 390 2013 403 
+Q 2112 416 2195 435 
+L 2214 429 
+L 2214 339 
+Q 2125 186 1904 61 
+Q 1683 -64 1382 -64 
+z
+" transform="scale(0.015625)"/>
+      <path id="Spectral-SemiBold-14a" d="M 1248 0 
+L 218 2618 
+L -192 2803 
+L -192 2906 
+L 1498 2906 
+L 1498 2803 
+L 1024 2611 
+L 1024 2586 
+L 1613 1018 
+L 1645 1018 
+L 2451 2906 
+L 2650 2906 
+L 3475 1024 
+L 3501 1024 
+L 4090 2554 
+L 4090 2586 
+L 3661 2803 
+L 3661 2906 
+L 4922 2906 
+L 4922 2803 
+L 4461 2579 
+L 3360 0 
+L 3162 0 
+L 2317 1882 
+L 1446 0 
+L 1248 0 
 z
 " transform="scale(0.015625)"/>
       <path id="Spectral-SemiBold-134" d="M 979 -64 
@@ -645,28 +819,28 @@ Q 1082 1184 1018 1069
 Q 954 954 954 806 
 z
 " transform="scale(0.015625)"/>
-      <path id="Spectral-SemiBold-13c" d="M 1037 3654 
-Q 851 3654 729 3779 
-Q 608 3904 608 4090 
-Q 608 4275 729 4396 
-Q 851 4518 1037 4518 
-Q 1222 4518 1347 4396 
-Q 1472 4275 1472 4090 
-Q 1472 3904 1347 3779 
-Q 1222 3654 1037 3654 
-z
-M 269 0 
-L 269 102 
-L 685 307 
-L 685 2240 
-L 288 2547 
-L 288 2618 
-L 1363 2970 
-L 1427 2970 
-L 1427 307 
-L 1818 102 
-L 1818 0 
-L 269 0 
+      <path id="Spectral-SemiBold-145" d="M 262 0 
+L 262 102 
+L 678 307 
+L 678 2214 
+L 282 2528 
+L 282 2592 
+L 1293 2970 
+L 1350 2970 
+L 1414 2374 
+L 1440 2374 
+Q 1664 2694 1856 2825 
+Q 2048 2957 2240 2957 
+Q 2400 2957 2493 2883 
+Q 2586 2810 2586 2675 
+Q 2586 2637 2560 2541 
+L 2483 2240 
+L 1856 2381 
+Q 1600 2291 1414 2054 
+L 1414 307 
+L 1907 102 
+L 1907 0 
+L 262 0 
 z
 " transform="scale(0.015625)"/>
       <path id="Spectral-SemiBold-13a" d="M 1606 1043 
@@ -731,56 +905,34 @@ Q 1101 -211 1040 -313
 Q 979 -416 979 -550 
 z
 " transform="scale(0.015625)"/>
-      <path id="Spectral-SemiBold-147" d="M 1382 -64 
-Q 1037 -64 803 102 
-Q 570 269 570 570 
-L 570 2611 
-L 83 2611 
-L 83 2675 
-L 659 2906 
-L 1222 3610 
-L 1312 3610 
-L 1312 2906 
-L 2182 2906 
-L 2182 2611 
-L 1312 2611 
-L 1312 710 
-Q 1312 550 1456 470 
-Q 1600 390 1792 390 
-Q 1914 390 2013 403 
-Q 2112 416 2195 435 
-L 2214 429 
-L 2214 339 
-Q 2125 186 1904 61 
-Q 1683 -64 1382 -64 
+      <path id="Spectral-SemiBold-135" d="M 608 -38 
+L 608 4070 
+L 211 4384 
+L 211 4448 
+L 1286 4800 
+L 1350 4800 
+L 1350 2579 
+L 1382 2579 
+Q 1837 2970 2317 2970 
+Q 2618 2970 2864 2800 
+Q 3110 2630 3257 2320 
+Q 3405 2010 3405 1581 
+Q 3405 1062 3203 694 
+Q 3002 326 2659 131 
+Q 2317 -64 1907 -64 
+Q 1363 -64 966 154 
+L 672 -38 
+L 608 -38 
 z
-" transform="scale(0.015625)"/>
-      <path id="Spectral-SemiBold-138" d="M 1664 -64 
-Q 1018 -64 646 313 
-Q 275 691 275 1318 
-Q 275 1805 476 2176 
-Q 678 2547 1017 2758 
-Q 1357 2970 1766 2970 
-Q 2278 2970 2566 2618 
-Q 2854 2266 2861 1626 
-L 2835 1594 
-L 992 1594 
-Q 992 1312 1094 1072 
-Q 1197 832 1424 685 
-Q 1651 538 2035 538 
-Q 2214 538 2419 592 
-Q 2624 646 2848 762 
-L 2867 762 
-L 2867 672 
-Q 2714 358 2400 147 
-Q 2086 -64 1664 -64 
-z
-M 1638 2682 
-Q 1382 2682 1219 2474 
-Q 1056 2266 1011 1882 
-L 2240 1882 
-Q 2182 2323 2032 2502 
-Q 1882 2682 1638 2682 
+M 1862 2477 
+Q 1606 2477 1350 2323 
+L 1350 493 
+Q 1594 262 1946 262 
+Q 2131 262 2297 368 
+Q 2464 474 2566 726 
+Q 2669 979 2669 1427 
+Q 2669 1965 2425 2221 
+Q 2182 2477 1862 2477 
 z
 " transform="scale(0.015625)"/>
       <path id="Spectral-SemiBold-142" d="M 1741 -64 
@@ -810,6 +962,32 @@ Q 1043 1869 1043 1587
 Q 1043 1242 1123 931 
 Q 1203 621 1376 429 
 Q 1549 237 1818 237 
+z
+" transform="scale(0.015625)"/>
+      <path id="Spectral-SemiBold-148" d="M 1414 -64 
+Q 1030 -64 787 131 
+Q 544 326 544 710 
+L 544 2598 
+L 128 2803 
+L 128 2906 
+L 1286 2906 
+L 1286 986 
+Q 1286 736 1433 608 
+Q 1581 480 1818 480 
+Q 1958 480 2121 528 
+Q 2285 576 2394 672 
+L 2394 2598 
+L 1978 2803 
+L 1978 2906 
+L 3136 2906 
+L 3136 294 
+L 3558 102 
+L 3558 0 
+L 2394 0 
+L 2394 403 
+L 2368 403 
+Q 2131 173 1913 54 
+Q 1696 -64 1414 -64 
 z
 " transform="scale(0.015625)"/>
       <path id="Spectral-SemiBold-140" d="M 243 0 
@@ -857,65 +1035,6 @@ L 1402 307
 L 1754 102 
 L 1754 0 
 L 243 0 
-z
-" transform="scale(0.015625)"/>
-      <path id="Spectral-SemiBold-143" d="M 243 -1472 
-L 243 -1370 
-L 659 -1165 
-L 659 2214 
-L 262 2528 
-L 262 2592 
-L 1274 2970 
-L 1338 2970 
-L 1389 2579 
-L 1427 2579 
-Q 1670 2784 1891 2877 
-Q 2112 2970 2368 2970 
-Q 2669 2970 2915 2800 
-Q 3162 2630 3309 2320 
-Q 3456 2010 3456 1581 
-Q 3456 1062 3254 694 
-Q 3053 326 2720 131 
-Q 2387 -64 1984 -64 
-Q 1651 -64 1402 0 
-L 1402 -1165 
-L 1882 -1370 
-L 1882 -1472 
-L 243 -1472 
-z
-M 1914 2477 
-Q 1658 2477 1402 2323 
-L 1402 493 
-Q 1651 262 2042 262 
-Q 2214 262 2368 364 
-Q 2522 467 2621 710 
-Q 2720 954 2720 1382 
-Q 2720 1946 2477 2211 
-Q 2234 2477 1914 2477 
-z
-" transform="scale(0.015625)"/>
-      <path id="Spectral-SemiBold-145" d="M 262 0 
-L 262 102 
-L 678 307 
-L 678 2214 
-L 282 2528 
-L 282 2592 
-L 1293 2970 
-L 1350 2970 
-L 1414 2374 
-L 1440 2374 
-Q 1664 2694 1856 2825 
-Q 2048 2957 2240 2957 
-Q 2400 2957 2493 2883 
-Q 2586 2810 2586 2675 
-Q 2586 2637 2560 2541 
-L 2483 2240 
-L 1856 2381 
-Q 1600 2291 1414 2054 
-L 1414 307 
-L 1907 102 
-L 1907 0 
-L 262 0 
 z
 " transform="scale(0.015625)"/>
       <path id="Spectral-SemiBold-13e" d="M 243 0 
@@ -1096,32 +1215,6 @@ L 1914 0
 L 282 0 
 z
 " transform="scale(0.015625)"/>
-      <path id="Spectral-SemiBold-148" d="M 1414 -64 
-Q 1030 -64 787 131 
-Q 544 326 544 710 
-L 544 2598 
-L 128 2803 
-L 128 2906 
-L 1286 2906 
-L 1286 986 
-Q 1286 736 1433 608 
-Q 1581 480 1818 480 
-Q 1958 480 2121 528 
-Q 2285 576 2394 672 
-L 2394 2598 
-L 1978 2803 
-L 1978 2906 
-L 3136 2906 
-L 3136 294 
-L 3558 102 
-L 3558 0 
-L 2394 0 
-L 2394 403 
-L 2368 403 
-Q 2131 173 1913 54 
-Q 1696 -64 1414 -64 
-z
-" transform="scale(0.015625)"/>
       <path id="Spectral-SemiBold-137" d="M 1331 -64 
 Q 1030 -64 780 96 
 Q 531 256 384 550 
@@ -1165,72 +1258,76 @@ z
      <use xlink:href="#Spectral-SemiBold-13f" transform="translate(244.578125 0)"/>
      <use xlink:href="#Spectral-SemiBold-14c" transform="translate(275.875 0)"/>
      <use xlink:href="#Spectral-SemiBold-3" transform="translate(323.671875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-136" transform="translate(348.671875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-134" transform="translate(396.875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-13f" transform="translate(446.984375 0)"/>
-     <use xlink:href="#Spectral-SemiBold-13f" transform="translate(478.28125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-13c" transform="translate(509.578125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-141" transform="translate(542.078125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-13a" transform="translate(602.078125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-3" transform="translate(656.375 0)"/>
-     <use xlink:href="#Spectral-SemiBold-134" transform="translate(681.375 0)"/>
-     <use xlink:href="#Spectral-SemiBold-147" transform="translate(731.78125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-147" transform="translate(769.078125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-138" transform="translate(805.96875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-141" transform="translate(855.0625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-147" transform="translate(915.359375 0)"/>
-     <use xlink:href="#Spectral-SemiBold-13c" transform="translate(952.65625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-142" transform="translate(985.15625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-141" transform="translate(1039.5625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-3" transform="translate(1099.859375 0)"/>
-     <use xlink:href="#Spectral-SemiBold-147" transform="translate(1124.859375 0)"/>
-     <use xlink:href="#Spectral-SemiBold-142" transform="translate(1161.75 0)"/>
-     <use xlink:href="#Spectral-SemiBold-3" transform="translate(1216.15625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-147" transform="translate(1241.15625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-134" transform="translate(1278.453125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-140" transform="translate(1328.859375 0)"/>
-     <use xlink:href="#Spectral-SemiBold-143" transform="translate(1417.265625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-138" transform="translate(1476.265625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-145" transform="translate(1525.359375 0)"/>
-     <use xlink:href="#Spectral-SemiBold-13c" transform="translate(1566.65625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-141" transform="translate(1599.15625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-13a" transform="translate(1659.15625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-3" transform="translate(1713.453125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-140" transform="translate(1738.453125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-134" transform="translate(1826.5625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-13e" transform="translate(1876.671875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-138" transform="translate(1933.078125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-146" transform="translate(1982.171875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-3" transform="translate(2025.671875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-f" transform="translate(2050.671875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-18" transform="translate(2126.765625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-1c" transform="translate(2193.265625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-3" transform="translate(2262.265625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-145" transform="translate(2287.265625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-138" transform="translate(2328.5625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-139" transform="translate(2377.65625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-148" transform="translate(2413.5625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-146" transform="translate(2471.359375 0)"/>
-     <use xlink:href="#Spectral-SemiBold-138" transform="translate(2514.859375 0)"/>
-     <use xlink:href="#Spectral-SemiBold-3" transform="translate(2563.953125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-142" transform="translate(2588.953125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-141" transform="translate(2643.359375 0)"/>
-     <use xlink:href="#Spectral-SemiBold-3" transform="translate(2703.65625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-137" transform="translate(2728.65625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-142" transform="translate(2785.953125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-136" transform="translate(2841.359375 0)"/>
-     <use xlink:href="#Spectral-SemiBold-147" transform="translate(2889.5625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-142" transform="translate(2926.453125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-145" transform="translate(2980.859375 0)"/>
-     <use xlink:href="#Spectral-SemiBold-138" transform="translate(3022.15625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-137" transform="translate(3071.953125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-3" transform="translate(3129.25 0)"/>
-     <use xlink:href="#Spectral-SemiBold-13c" transform="translate(3154.25 0)"/>
-     <use xlink:href="#Spectral-SemiBold-141" transform="translate(3186.75 0)"/>
-     <use xlink:href="#Spectral-SemiBold-143" transform="translate(3247.046875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-148" transform="translate(3305.046875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-147" transform="translate(3362.84375 0)"/>
-     <use xlink:href="#Spectral-SemiBold-146" transform="translate(3400.140625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-138" transform="translate(348.671875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-14b" transform="translate(396.765625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-143" transform="translate(449.46875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-13f" transform="translate(507.46875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-13c" transform="translate(538.765625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-136" transform="translate(571.265625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-13c" transform="translate(619.46875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-147" transform="translate(651.96875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-13f" transform="translate(689.265625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-14c" transform="translate(720.5625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-3" transform="translate(768.359375 0)"/>
+     <use xlink:href="#Spectral-SemiBold-14a" transform="translate(793.359375 0)"/>
+     <use xlink:href="#Spectral-SemiBold-134" transform="translate(867.15625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-145" transform="translate(917.5625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-141" transform="translate(958.859375 0)"/>
+     <use xlink:href="#Spectral-SemiBold-13c" transform="translate(1018.859375 0)"/>
+     <use xlink:href="#Spectral-SemiBold-141" transform="translate(1051.359375 0)"/>
+     <use xlink:href="#Spectral-SemiBold-13a" transform="translate(1111.359375 0)"/>
+     <use xlink:href="#Spectral-SemiBold-3" transform="translate(1165.65625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-134" transform="translate(1190.65625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-135" transform="translate(1240.765625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-142" transform="translate(1299.0625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-148" transform="translate(1353.46875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-147" transform="translate(1411.265625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-3" transform="translate(1448.5625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-147" transform="translate(1473.5625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-134" transform="translate(1510.859375 0)"/>
+     <use xlink:href="#Spectral-SemiBold-140" transform="translate(1561.265625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-143" transform="translate(1649.671875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-138" transform="translate(1708.671875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-145" transform="translate(1757.765625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-13c" transform="translate(1799.0625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-141" transform="translate(1831.5625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-13a" transform="translate(1891.5625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-3" transform="translate(1945.859375 0)"/>
+     <use xlink:href="#Spectral-SemiBold-140" transform="translate(1970.859375 0)"/>
+     <use xlink:href="#Spectral-SemiBold-134" transform="translate(2058.96875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-13e" transform="translate(2109.078125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-138" transform="translate(2165.484375 0)"/>
+     <use xlink:href="#Spectral-SemiBold-146" transform="translate(2214.578125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-3" transform="translate(2258.078125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-f" transform="translate(2283.078125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-18" transform="translate(2359.171875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-1c" transform="translate(2425.671875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-3" transform="translate(2494.671875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-145" transform="translate(2519.671875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-138" transform="translate(2560.96875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-139" transform="translate(2610.0625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-148" transform="translate(2645.96875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-146" transform="translate(2703.765625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-138" transform="translate(2747.265625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-3" transform="translate(2796.359375 0)"/>
+     <use xlink:href="#Spectral-SemiBold-142" transform="translate(2821.359375 0)"/>
+     <use xlink:href="#Spectral-SemiBold-141" transform="translate(2875.765625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-3" transform="translate(2936.0625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-137" transform="translate(2961.0625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-142" transform="translate(3018.359375 0)"/>
+     <use xlink:href="#Spectral-SemiBold-136" transform="translate(3073.765625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-147" transform="translate(3121.96875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-142" transform="translate(3158.859375 0)"/>
+     <use xlink:href="#Spectral-SemiBold-145" transform="translate(3213.265625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-138" transform="translate(3254.5625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-137" transform="translate(3304.359375 0)"/>
+     <use xlink:href="#Spectral-SemiBold-3" transform="translate(3361.65625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-13c" transform="translate(3386.65625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-141" transform="translate(3419.15625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-143" transform="translate(3479.453125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-148" transform="translate(3537.453125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-147" transform="translate(3595.25 0)"/>
+     <use xlink:href="#Spectral-SemiBold-146" transform="translate(3632.546875 0)"/>
     </g>
    </g>
    <g id="text_2">

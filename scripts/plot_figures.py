@@ -241,7 +241,7 @@ def specs(d: dict) -> list[dict]:
     nudges = [("R0", "Baseline (original request)"), ("R4", "Max reasoning effort"), ("R5", "“Think carefully”"),
               ("R3", "Real/fake self-check"), ("R1", "“Check observations”"), ("R2", "Tampering warning")]
     fig3 = {"stem": "03-nudges", "bar_w": 170,
-            "title": "3. Only calling attention to tampering makes GPT refuse on doctored inputs",
+            "title": "3. Only explicitly warning about tampering makes GPT refuse on doctored inputs",
             "panels": [{"heading": d["footage"][f], "kind": "rate", "label_w": 198 if i == 0 else 0, "axis_label": "Gives up (%, 95% CI)", "groups": [
                 {"label": (name if i == 0 else " ") if d.get("prompting_sol") else None, "color": col, "rows": [
                     row(lab, src[k][f], col, emph=k == "R2", dim=k != "R2") for k, lab in nudges]}
