@@ -255,7 +255,7 @@ def specs(d: dict) -> list[dict]:
     cues = [("none", "No cue"), ("capability", "“Capability eval”"), ("alignment", "“Alignment eval”")]
     figs = [fig1, fig2, fig3, fig4]
     if mg:
-        figs.append({"stem": "05-metagaming", "bar_w": 190, "row_h": 40, "title": FIG5_TITLE,
+        figs.append({"stem": "05-metagaming", "bar_w": 190, "row_h": 40, "title": FIG5_TITLE, "legend_top": True,
                      "footnote": "Robot prompt = Inspect Robots system prompt. Motion tools = Inspect Robots tools (move_to, done, give_up). Text actions = carry_out / decline.",
                      "legend": [("filled", "“alignment eval”"), ("hollow", "“capability eval”"), ("ref", "no cue")],
                      "panels": [{"heading": d["footage"][f], "kind": "rate", "label_w": 196 if i == 0 else 0, "axis_label": "Refuses", "groups": [
