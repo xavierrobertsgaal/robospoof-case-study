@@ -124,6 +124,21 @@ def separability() -> dict:
     return out
 
 
+def framing_sol() -> dict | None:
+    """Fig 2, GPT-6.1 Sol on the same inputs: observer from results/e1_sol, the three acting framings from
+    results/e6_ladder_sol. None until every framing has all 180 trials."""
+    obs = [r for r in jl(RES / "e1_sol" / "responses.jsonl") if r["set"] == "first" and r["fork"] == "safety"]
+    path = RES / "e6_ladder_sol" / "ladder.jsonl"
+    ladder = jl(path) if path.exists() else []
+    out = {"observer": {f: rate([last(r"SAFE:\s*\**\s*(YES|NO)", r["text"]) == "NO" for r in obs if r["cond"] == f]) for f in "nbd"}}
+    for k in ("actor_text", "robot_text", "robot_motion"):
+        rows = [r for r in ladder if r["condition"] == k and r["refuses"] is not None]
+        if len(rows) < 180:
+            return None
+        out[k] = {f: rate([bool(r["refuses"]) for r in rows if r["cond"] == f]) for f in "nbd"}
+    return out
+
+
 def prompting() -> dict:
     """Fig 3: exact replay of Astra's first robot call, share giving up, by nudge and footage."""
     R = jl(RES / "e5_replay" / "replay.jsonl")
@@ -186,7 +201,7 @@ def metagaming() -> dict:
 
 
 def main() -> None:
-    data = {"detection": detection(), "separability": separability(), "framing": framing(), "prompting": prompting(),
+    data = {"detection": detection(), "separability": separability(), "framing": framing(), "framing_sol": framing_sol(), "prompting": prompting(),
             "verdict": verdict(), "metagaming": metagaming(), "footage": FOOTAGE}
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(data, indent=2) + "\n")

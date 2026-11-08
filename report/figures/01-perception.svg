@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="727.2pt" height="203.04pt" viewBox="0 0 727.2 203.04" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="788.308906pt" height="203.04pt" viewBox="0 0 788.308906 203.04" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
@@ -21,353 +21,353 @@
  <g id="figure_1">
   <g id="patch_1">
    <path d="M 0 203.04 
-L 727.2 203.04 
-L 727.2 0 
+L 788.308906 203.04 
+L 788.308906 0 
 L 0 0 
 z
 " style="fill: #ffffff"/>
   </g>
   <g id="axes_1">
    <g id="line2d_1">
-    <path d="M 231.12 56.16 
-L 231.12 177.12 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #e8ecf0; stroke-width: 0.8; stroke-linecap: square"/>
+    <path d="M 246.397227 56.16 
+L 246.397227 177.12 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #e8ecf0; stroke-width: 0.8; stroke-linecap: square"/>
    </g>
    <g id="line2d_2">
-    <path d="M 321.12 56.16 
-L 321.12 177.12 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #e8ecf0; stroke-width: 0.8; stroke-linecap: square"/>
+    <path d="M 351.674453 56.16 
+L 351.674453 177.12 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #e8ecf0; stroke-width: 0.8; stroke-linecap: square"/>
    </g>
    <g id="line2d_3">
-    <path d="M 586.8 56.16 
-L 586.8 177.12 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #e8ecf0; stroke-width: 0.8; stroke-linecap: square"/>
+    <path d="M 632.63168 56.16 
+L 632.63168 177.12 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #e8ecf0; stroke-width: 0.8; stroke-linecap: square"/>
    </g>
    <g id="line2d_4">
-    <path d="M 676.8 56.16 
-L 676.8 177.12 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #e8ecf0; stroke-width: 0.8; stroke-linecap: square"/>
+    <path d="M 737.908906 56.16 
+L 737.908906 177.12 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #e8ecf0; stroke-width: 0.8; stroke-linecap: square"/>
    </g>
    <g id="patch_2">
     <path d="M 10.08 33.12 
-L 361.44 33.12 
-L 361.44 192.96 
+L 391.994453 33.12 
+L 391.994453 192.96 
 L 10.08 192.96 
 z
-" clip-path="url(#p16b96a11fe)" style="fill: #fcfcfd; stroke: #cfd7de; stroke-width: 0.9; stroke-linejoin: miter"/>
+" clip-path="url(#p3566d4a079)" style="fill: #fcfcfd; stroke: #cfd7de; stroke-width: 0.9; stroke-linejoin: miter"/>
    </g>
    <g id="patch_3">
     <path d="M 10.08 33.12 
-L 361.44 33.12 
-L 361.44 53.28 
+L 391.994453 33.12 
+L 391.994453 53.28 
 L 10.08 53.28 
 z
-" clip-path="url(#p16b96a11fe)" style="fill: #eef2f5"/>
+" clip-path="url(#p3566d4a079)" style="fill: #eef2f5"/>
    </g>
    <g id="patch_4">
     <path d="M 141.12 70.92 
-L 177.12 70.92 
-L 177.12 80.28 
+L 183.230891 70.92 
+L 183.230891 80.28 
 L 141.12 80.28 
 z
-" clip-path="url(#p16b96a11fe)" style="fill: #ffffff; stroke: #b45416; stroke-linejoin: miter"/>
+" clip-path="url(#p3566d4a079)" style="fill: #ffffff; stroke: #b45416; stroke-linejoin: miter"/>
    </g>
    <g id="patch_5">
     <path d="M 141.12 86.76 
-L 255.12 86.76 
-L 255.12 96.12 
+L 274.471154 86.76 
+L 274.471154 96.12 
 L 141.12 96.12 
 z
-" clip-path="url(#p16b96a11fe)" style="fill: #eacfbe; stroke: #b45416; stroke-linejoin: miter"/>
+" clip-path="url(#p3566d4a079)" style="fill: #eacfbe; stroke: #b45416; stroke-linejoin: miter"/>
    </g>
    <g id="patch_6">
     <path d="M 141.12 102.6 
-L 213.12 102.6 
-L 213.12 111.96 
+L 225.341781 102.6 
+L 225.341781 111.96 
 L 141.12 111.96 
 z
-" clip-path="url(#p16b96a11fe)" style="fill: #eacfbe; stroke: #b45416; stroke-linejoin: miter"/>
+" clip-path="url(#p3566d4a079)" style="fill: #eacfbe; stroke: #b45416; stroke-linejoin: miter"/>
    </g>
    <g id="patch_7">
     <path d="M 141.12 132.84 
-L 183.12 132.84 
-L 183.12 142.2 
+L 190.249372 132.84 
+L 190.249372 142.2 
 L 141.12 142.2 
 z
-" clip-path="url(#p16b96a11fe)" style="fill: #ffffff; stroke: #2b6ca3; stroke-linejoin: miter"/>
+" clip-path="url(#p3566d4a079)" style="fill: #ffffff; stroke: #2b6ca3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_8">
     <path d="M 141.12 148.68 
-L 228.12 148.68 
-L 228.12 158.04 
+L 242.887986 148.68 
+L 242.887986 158.04 
 L 141.12 158.04 
 z
-" clip-path="url(#p16b96a11fe)" style="fill: #c4d6e5; stroke: #2b6ca3; stroke-linejoin: miter"/>
+" clip-path="url(#p3566d4a079)" style="fill: #c4d6e5; stroke: #2b6ca3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_9">
     <path d="M 141.12 164.52 
-L 228.12 164.52 
-L 228.12 173.88 
+L 242.887986 164.52 
+L 242.887986 173.88 
 L 141.12 173.88 
 z
-" clip-path="url(#p16b96a11fe)" style="fill: #c4d6e5; stroke: #2b6ca3; stroke-linejoin: miter"/>
+" clip-path="url(#p3566d4a079)" style="fill: #c4d6e5; stroke: #2b6ca3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_10">
-    <path d="M 368.64 33.12 
-L 717.12 33.12 
-L 717.12 192.96 
-L 368.64 192.96 
+    <path d="M 399.194453 33.12 
+L 778.228906 33.12 
+L 778.228906 192.96 
+L 399.194453 192.96 
 z
-" clip-path="url(#p16b96a11fe)" style="fill: #fcfcfd; stroke: #cfd7de; stroke-width: 0.9; stroke-linejoin: miter"/>
+" clip-path="url(#p3566d4a079)" style="fill: #fcfcfd; stroke: #cfd7de; stroke-width: 0.9; stroke-linejoin: miter"/>
    </g>
    <g id="patch_11">
-    <path d="M 368.64 33.12 
-L 717.12 33.12 
-L 717.12 53.28 
-L 368.64 53.28 
+    <path d="M 399.194453 33.12 
+L 778.228906 33.12 
+L 778.228906 53.28 
+L 399.194453 53.28 
 z
-" clip-path="url(#p16b96a11fe)" style="fill: #eef2f5"/>
+" clip-path="url(#p3566d4a079)" style="fill: #eef2f5"/>
    </g>
    <g id="patch_12">
-    <path d="M 496.8 70.92 
-L 641.575 70.92 
-L 641.575 80.28 
-L 496.8 80.28 
+    <path d="M 527.354453 70.92 
+L 696.70457 70.92 
+L 696.70457 80.28 
+L 527.354453 80.28 
 z
-" clip-path="url(#p16b96a11fe)" style="fill: #eacfbe; stroke: #b45416; stroke-linejoin: miter"/>
+" clip-path="url(#p3566d4a079)" style="fill: #eacfbe; stroke: #b45416; stroke-linejoin: miter"/>
    </g>
    <g id="patch_13">
-    <path d="M 496.8 86.76 
-L 634.85 86.76 
-L 634.85 96.12 
-L 496.8 96.12 
+    <path d="M 527.354453 86.76 
+L 688.838021 86.76 
+L 688.838021 96.12 
+L 527.354453 96.12 
 z
-" clip-path="url(#p16b96a11fe)" style="fill: #c4d6e5; stroke: #2b6ca3; stroke-linejoin: miter"/>
+" clip-path="url(#p3566d4a079)" style="fill: #c4d6e5; stroke: #2b6ca3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_14">
-    <path d="M 496.8 102.6 
-L 676.8 102.6 
-L 676.8 111.96 
-L 496.8 111.96 
+    <path d="M 527.354453 102.6 
+L 737.908906 102.6 
+L 737.908906 111.96 
+L 527.354453 111.96 
 z
-" clip-path="url(#p16b96a11fe)" style="fill: #d3c7de; stroke: #63368a; stroke-linejoin: miter"/>
+" clip-path="url(#p3566d4a079)" style="fill: #d3c7de; stroke: #63368a; stroke-linejoin: miter"/>
    </g>
    <g id="patch_15">
-    <path d="M 496.8 132.84 
-L 619.113559 132.84 
-L 619.113559 142.2 
-L 496.8 142.2 
+    <path d="M 527.354453 132.84 
+L 670.430368 132.84 
+L 670.430368 142.2 
+L 527.354453 142.2 
 z
-" clip-path="url(#p16b96a11fe)" style="fill: #eacfbe; stroke: #b45416; stroke-linejoin: miter"/>
+" clip-path="url(#p3566d4a079)" style="fill: #eacfbe; stroke: #b45416; stroke-linejoin: miter"/>
    </g>
    <g id="patch_16">
-    <path d="M 496.8 148.68 
-L 620 148.68 
-L 620 158.04 
-L 496.8 158.04 
+    <path d="M 527.354453 148.68 
+L 671.467279 148.68 
+L 671.467279 158.04 
+L 527.354453 158.04 
 z
-" clip-path="url(#p16b96a11fe)" style="fill: #c4d6e5; stroke: #2b6ca3; stroke-linejoin: miter"/>
+" clip-path="url(#p3566d4a079)" style="fill: #c4d6e5; stroke: #2b6ca3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_17">
-    <path d="M 496.8 164.52 
-L 676.8 164.52 
-L 676.8 173.88 
-L 496.8 173.88 
+    <path d="M 527.354453 164.52 
+L 737.908906 164.52 
+L 737.908906 173.88 
+L 527.354453 173.88 
 z
-" clip-path="url(#p16b96a11fe)" style="fill: #d3c7de; stroke: #63368a; stroke-linejoin: miter"/>
+" clip-path="url(#p3566d4a079)" style="fill: #d3c7de; stroke: #63368a; stroke-linejoin: miter"/>
    </g>
    <g id="line2d_5">
     <path d="M 141.12 56.16 
 L 141.12 177.12 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #b9c3cc; stroke-width: 0.9; stroke-linecap: square"/>
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #b9c3cc; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="line2d_6">
-    <path d="M 162.411102 75.6 
-L 198.327683 75.6 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #b45416; stroke-width: 0.9; stroke-linecap: square"/>
+    <path d="M 166.025201 75.6 
+L 208.038513 75.6 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #b45416; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="line2d_7">
-    <path d="M 162.411102 72.72 
-L 162.411102 78.48 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #b45416; stroke-width: 0.9; stroke-linecap: square"/>
+    <path d="M 166.025201 72.72 
+L 166.025201 78.48 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #b45416; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="line2d_8">
-    <path d="M 198.327683 72.72 
-L 198.327683 78.48 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #b45416; stroke-width: 0.9; stroke-linecap: square"/>
+    <path d="M 208.038513 72.72 
+L 208.038513 78.48 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #b45416; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="line2d_9">
-    <path d="M 232.348981 91.44 
-L 275.00267 91.44 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #b45416; stroke-width: 0.9; stroke-linecap: square"/>
+    <path d="M 247.834824 91.44 
+L 297.728847 91.44 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #b45416; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="line2d_10">
-    <path d="M 232.348981 88.56 
-L 232.348981 94.32 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #b45416; stroke-width: 0.9; stroke-linecap: square"/>
+    <path d="M 247.834824 88.56 
+L 247.834824 94.32 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #b45416; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="line2d_11">
-    <path d="M 275.00267 88.56 
-L 275.00267 94.32 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #b45416; stroke-width: 0.9; stroke-linecap: square"/>
+    <path d="M 297.728847 88.56 
+L 297.728847 94.32 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #b45416; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="line2d_12">
-    <path d="M 192.544745 107.28 
-L 235.861516 107.28 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #b45416; stroke-width: 0.9; stroke-linecap: square"/>
+    <path d="M 201.27394 107.28 
+L 251.943601 107.28 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #b45416; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="line2d_13">
-    <path d="M 192.544745 104.4 
-L 192.544745 110.16 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #b45416; stroke-width: 0.9; stroke-linecap: square"/>
+    <path d="M 201.27394 104.4 
+L 201.27394 110.16 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #b45416; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="line2d_14">
-    <path d="M 235.861516 104.4 
-L 235.861516 110.16 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #b45416; stroke-width: 0.9; stroke-linecap: square"/>
+    <path d="M 251.943601 104.4 
+L 251.943601 110.16 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #b45416; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="line2d_15">
-    <path d="M 167.110977 137.52 
-L 204.90572 137.52 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #2b6ca3; stroke-width: 0.9; stroke-linecap: square"/>
+    <path d="M 171.522866 137.52 
+L 215.733153 137.52 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #2b6ca3; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="line2d_16">
-    <path d="M 167.110977 134.64 
-L 167.110977 140.4 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #2b6ca3; stroke-width: 0.9; stroke-linecap: square"/>
+    <path d="M 171.522866 134.64 
+L 171.522866 140.4 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #2b6ca3; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="line2d_17">
-    <path d="M 204.90572 134.64 
-L 204.90572 140.4 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #2b6ca3; stroke-width: 0.9; stroke-linecap: square"/>
+    <path d="M 215.733153 134.64 
+L 215.733153 140.4 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #2b6ca3; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="line2d_18">
-    <path d="M 206.234714 153.36 
-L 250.366329 153.36 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #2b6ca3; stroke-width: 0.9; stroke-linecap: square"/>
+    <path d="M 217.287739 153.36 
+L 268.910562 153.36 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #2b6ca3; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="line2d_19">
-    <path d="M 206.234714 150.48 
-L 206.234714 156.24 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #2b6ca3; stroke-width: 0.9; stroke-linecap: square"/>
+    <path d="M 217.287739 150.48 
+L 217.287739 156.24 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #2b6ca3; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="line2d_20">
-    <path d="M 250.366329 150.48 
-L 250.366329 156.24 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #2b6ca3; stroke-width: 0.9; stroke-linecap: square"/>
+    <path d="M 268.910562 150.48 
+L 268.910562 156.24 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #2b6ca3; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="line2d_21">
-    <path d="M 206.234714 169.2 
-L 250.366329 169.2 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #2b6ca3; stroke-width: 0.9; stroke-linecap: square"/>
+    <path d="M 217.287739 169.2 
+L 268.910562 169.2 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #2b6ca3; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="line2d_22">
-    <path d="M 206.234714 166.32 
-L 206.234714 172.08 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #2b6ca3; stroke-width: 0.9; stroke-linecap: square"/>
+    <path d="M 217.287739 166.32 
+L 217.287739 172.08 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #2b6ca3; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="line2d_23">
-    <path d="M 250.366329 166.32 
-L 250.366329 172.08 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #2b6ca3; stroke-width: 0.9; stroke-linecap: square"/>
+    <path d="M 268.910562 166.32 
+L 268.910562 172.08 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #2b6ca3; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="line2d_24">
-    <path d="M 496.8 56.16 
-L 496.8 177.12 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #b9c3cc; stroke-width: 0.9; stroke-linecap: square"/>
+    <path d="M 527.354453 56.16 
+L 527.354453 177.12 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #b9c3cc; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="line2d_25">
-    <path d="M 623.25 75.6 
-L 658.900625 75.6 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #b45416; stroke-width: 0.9; stroke-linecap: square"/>
+    <path d="M 675.268956 75.6 
+L 716.971167 75.6 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #b45416; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="line2d_26">
-    <path d="M 623.25 72.72 
-L 623.25 78.48 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #b45416; stroke-width: 0.9; stroke-linecap: square"/>
+    <path d="M 675.268956 72.72 
+L 675.268956 78.48 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #b45416; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="line2d_27">
-    <path d="M 658.900625 72.72 
-L 658.900625 78.48 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #b45416; stroke-width: 0.9; stroke-linecap: square"/>
+    <path d="M 716.971167 72.72 
+L 716.971167 78.48 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #b45416; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="line2d_28">
-    <path d="M 614.875 91.44 
-L 652.825 91.44 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #2b6ca3; stroke-width: 0.9; stroke-linecap: square"/>
+    <path d="M 665.472326 91.44 
+L 709.864223 91.44 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #2b6ca3; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="line2d_29">
-    <path d="M 614.875 88.56 
-L 614.875 94.32 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #2b6ca3; stroke-width: 0.9; stroke-linecap: square"/>
+    <path d="M 665.472326 88.56 
+L 665.472326 94.32 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #2b6ca3; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="line2d_30">
-    <path d="M 652.825 88.56 
-L 652.825 94.32 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #2b6ca3; stroke-width: 0.9; stroke-linecap: square"/>
+    <path d="M 709.864223 88.56 
+L 709.864223 94.32 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #2b6ca3; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="line2d_31">
-    <path d="M 676.8 107.28 
-L 676.8 107.28 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #63368a; stroke-width: 0.9; stroke-linecap: square"/>
+    <path d="M 737.908906 107.28 
+L 737.908906 107.28 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #63368a; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="line2d_32">
-    <path d="M 676.8 104.4 
-L 676.8 110.16 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #63368a; stroke-width: 0.9; stroke-linecap: square"/>
+    <path d="M 737.908906 104.4 
+L 737.908906 110.16 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #63368a; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="line2d_33">
-    <path d="M 676.8 104.4 
-L 676.8 110.16 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #63368a; stroke-width: 0.9; stroke-linecap: square"/>
+    <path d="M 737.908906 104.4 
+L 737.908906 110.16 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #63368a; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="line2d_34">
-    <path d="M 601.138983 137.52 
-L 635.689831 137.52 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #b45416; stroke-width: 0.9; stroke-linecap: square"/>
+    <path d="M 649.404662 137.52 
+L 689.82041 137.52 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #b45416; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="line2d_35">
-    <path d="M 601.138983 134.64 
-L 601.138983 140.4 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #b45416; stroke-width: 0.9; stroke-linecap: square"/>
+    <path d="M 649.404662 134.64 
+L 649.404662 140.4 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #b45416; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="line2d_36">
-    <path d="M 635.689831 134.64 
-L 635.689831 140.4 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #b45416; stroke-width: 0.9; stroke-linecap: square"/>
+    <path d="M 689.82041 134.64 
+L 689.82041 140.4 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #b45416; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="line2d_37">
-    <path d="M 602.52375 153.36 
-L 635.925 153.36 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #2b6ca3; stroke-width: 0.9; stroke-linecap: square"/>
+    <path d="M 651.024488 153.36 
+L 690.095499 153.36 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #2b6ca3; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="line2d_38">
-    <path d="M 602.52375 150.48 
-L 602.52375 156.24 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #2b6ca3; stroke-width: 0.9; stroke-linecap: square"/>
+    <path d="M 651.024488 150.48 
+L 651.024488 156.24 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #2b6ca3; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="line2d_39">
-    <path d="M 635.925 150.48 
-L 635.925 156.24 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #2b6ca3; stroke-width: 0.9; stroke-linecap: square"/>
+    <path d="M 690.095499 150.48 
+L 690.095499 156.24 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #2b6ca3; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="line2d_40">
-    <path d="M 676.8 169.2 
-L 676.8 169.2 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #63368a; stroke-width: 0.9; stroke-linecap: square"/>
+    <path d="M 737.908906 169.2 
+L 737.908906 169.2 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #63368a; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="line2d_41">
-    <path d="M 676.8 166.32 
-L 676.8 172.08 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #63368a; stroke-width: 0.9; stroke-linecap: square"/>
+    <path d="M 737.908906 166.32 
+L 737.908906 172.08 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #63368a; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="line2d_42">
-    <path d="M 676.8 166.32 
-L 676.8 172.08 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke: #63368a; stroke-width: 0.9; stroke-linecap: square"/>
+    <path d="M 737.908906 166.32 
+L 737.908906 172.08 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke: #63368a; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="text_1">
-    <!-- 1. GPT barely flags manipulated snapshots, though a small classifier separates them -->
+    <!-- 1. GPT does not reliably flag manipulated image inputs, though a small classifier can separate them -->
     <g style="fill: #25323d" transform="translate(10.08 23.066) scale(0.17 -0.17)">
      <defs>
       <path id="Spectral-SemiBold-4c3" d="M 960 0 
@@ -480,34 +480,247 @@ L 3270 0
 L 1139 0 
 z
 " transform="scale(0.015625)"/>
-      <path id="Spectral-SemiBold-135" d="M 608 -38 
-L 608 4070 
-L 211 4384 
-L 211 4448 
-L 1286 4800 
-L 1350 4800 
-L 1350 2579 
-L 1382 2579 
-Q 1837 2970 2317 2970 
-Q 2618 2970 2864 2800 
-Q 3110 2630 3257 2320 
-Q 3405 2010 3405 1581 
-Q 3405 1062 3203 694 
-Q 3002 326 2659 131 
-Q 2317 -64 1907 -64 
-Q 1363 -64 966 154 
-L 672 -38 
-L 608 -38 
+      <path id="Spectral-SemiBold-137" d="M 1331 -64 
+Q 1030 -64 780 96 
+Q 531 256 384 550 
+Q 237 845 237 1242 
+Q 237 1786 438 2170 
+Q 640 2554 985 2762 
+Q 1331 2970 1760 2970 
+Q 2067 2970 2298 2912 
+L 2298 4070 
+L 1869 4390 
+L 1869 4448 
+L 2976 4800 
+L 3040 4800 
+L 3040 288 
+L 3488 102 
+L 3488 0 
+L 2362 0 
+L 2304 320 
+L 2266 320 
+Q 2022 122 1801 29 
+Q 1581 -64 1331 -64 
 z
-M 1862 2477 
-Q 1606 2477 1350 2323 
-L 1350 493 
-Q 1594 262 1946 262 
-Q 2131 262 2297 368 
-Q 2464 474 2566 726 
-Q 2669 979 2669 1427 
-Q 2669 1965 2425 2221 
-Q 2182 2477 1862 2477 
+M 979 1421 
+Q 979 909 1222 669 
+Q 1466 429 1786 429 
+Q 2042 429 2298 582 
+L 2298 2413 
+Q 2182 2522 2057 2579 
+Q 1933 2637 1779 2637 
+Q 1562 2637 1379 2528 
+Q 1197 2419 1088 2153 
+Q 979 1888 979 1421 
+z
+" transform="scale(0.015625)"/>
+      <path id="Spectral-SemiBold-142" d="M 1741 -64 
+Q 1299 -64 966 137 
+Q 634 339 448 684 
+Q 262 1030 262 1453 
+Q 262 1875 448 2217 
+Q 634 2560 966 2765 
+Q 1299 2970 1741 2970 
+Q 2182 2970 2515 2765 
+Q 2848 2560 3033 2217 
+Q 3219 1875 3219 1453 
+Q 3219 1030 3033 684 
+Q 2848 339 2515 137 
+Q 2182 -64 1741 -64 
+z
+M 1818 237 
+Q 2035 237 2172 390 
+Q 2310 544 2374 793 
+Q 2438 1043 2438 1325 
+Q 2438 1670 2361 1977 
+Q 2285 2285 2115 2480 
+Q 1946 2675 1677 2675 
+Q 1459 2675 1318 2521 
+Q 1178 2368 1110 2118 
+Q 1043 1869 1043 1587 
+Q 1043 1242 1123 931 
+Q 1203 621 1376 429 
+Q 1549 237 1818 237 
+z
+" transform="scale(0.015625)"/>
+      <path id="Spectral-SemiBold-138" d="M 1664 -64 
+Q 1018 -64 646 313 
+Q 275 691 275 1318 
+Q 275 1805 476 2176 
+Q 678 2547 1017 2758 
+Q 1357 2970 1766 2970 
+Q 2278 2970 2566 2618 
+Q 2854 2266 2861 1626 
+L 2835 1594 
+L 992 1594 
+Q 992 1312 1094 1072 
+Q 1197 832 1424 685 
+Q 1651 538 2035 538 
+Q 2214 538 2419 592 
+Q 2624 646 2848 762 
+L 2867 762 
+L 2867 672 
+Q 2714 358 2400 147 
+Q 2086 -64 1664 -64 
+z
+M 1638 2682 
+Q 1382 2682 1219 2474 
+Q 1056 2266 1011 1882 
+L 2240 1882 
+Q 2182 2323 2032 2502 
+Q 1882 2682 1638 2682 
+z
+" transform="scale(0.015625)"/>
+      <path id="Spectral-SemiBold-146" d="M 1350 -64 
+Q 1037 -64 813 -6 
+Q 589 51 365 160 
+L 365 896 
+L 454 896 
+L 672 550 
+Q 890 198 1325 198 
+Q 1574 198 1708 304 
+Q 1843 410 1843 595 
+Q 1843 749 1766 845 
+Q 1690 941 1526 1017 
+Q 1363 1094 1114 1203 
+Q 768 1350 595 1539 
+Q 422 1728 422 2029 
+Q 422 2291 560 2502 
+Q 698 2714 931 2842 
+Q 1165 2970 1440 2970 
+Q 1882 2970 2278 2765 
+L 2278 2029 
+L 2182 2029 
+L 1978 2342 
+Q 1862 2528 1734 2611 
+Q 1606 2694 1440 2694 
+Q 1235 2694 1113 2592 
+Q 992 2490 992 2310 
+Q 992 2125 1133 2016 
+Q 1274 1907 1626 1760 
+Q 1811 1683 1987 1590 
+Q 2163 1498 2281 1331 
+Q 2400 1165 2400 864 
+Q 2400 570 2243 362 
+Q 2086 154 1843 45 
+Q 1600 -64 1350 -64 
+z
+" transform="scale(0.015625)"/>
+      <path id="Spectral-SemiBold-141" d="M 243 0 
+L 243 102 
+L 659 307 
+L 659 2240 
+L 262 2528 
+L 262 2592 
+L 1274 2970 
+L 1338 2970 
+L 1395 2496 
+L 1427 2496 
+Q 1664 2726 1885 2848 
+Q 2106 2970 2387 2970 
+Q 2771 2970 3017 2774 
+Q 3264 2579 3264 2195 
+L 3264 307 
+L 3680 102 
+L 3680 0 
+L 2144 0 
+L 2144 102 
+L 2522 307 
+L 2522 1920 
+Q 2522 2163 2371 2294 
+Q 2221 2426 1990 2426 
+Q 1843 2426 1676 2374 
+Q 1510 2323 1402 2234 
+L 1402 307 
+L 1779 102 
+L 1779 0 
+L 243 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Spectral-SemiBold-147" d="M 1382 -64 
+Q 1037 -64 803 102 
+Q 570 269 570 570 
+L 570 2611 
+L 83 2611 
+L 83 2675 
+L 659 2906 
+L 1222 3610 
+L 1312 3610 
+L 1312 2906 
+L 2182 2906 
+L 2182 2611 
+L 1312 2611 
+L 1312 710 
+Q 1312 550 1456 470 
+Q 1600 390 1792 390 
+Q 1914 390 2013 403 
+Q 2112 416 2195 435 
+L 2214 429 
+L 2214 339 
+Q 2125 186 1904 61 
+Q 1683 -64 1382 -64 
+z
+" transform="scale(0.015625)"/>
+      <path id="Spectral-SemiBold-145" d="M 262 0 
+L 262 102 
+L 678 307 
+L 678 2214 
+L 282 2528 
+L 282 2592 
+L 1293 2970 
+L 1350 2970 
+L 1414 2374 
+L 1440 2374 
+Q 1664 2694 1856 2825 
+Q 2048 2957 2240 2957 
+Q 2400 2957 2493 2883 
+Q 2586 2810 2586 2675 
+Q 2586 2637 2560 2541 
+L 2483 2240 
+L 1856 2381 
+Q 1600 2291 1414 2054 
+L 1414 307 
+L 1907 102 
+L 1907 0 
+L 262 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Spectral-SemiBold-13f" d="M 224 0 
+L 224 102 
+L 646 307 
+L 646 4070 
+L 243 4384 
+L 243 4448 
+L 1325 4800 
+L 1382 4800 
+L 1382 307 
+L 1773 102 
+L 1773 0 
+L 224 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="Spectral-SemiBold-13c" d="M 1037 3654 
+Q 851 3654 729 3779 
+Q 608 3904 608 4090 
+Q 608 4275 729 4396 
+Q 851 4518 1037 4518 
+Q 1222 4518 1347 4396 
+Q 1472 4275 1472 4090 
+Q 1472 3904 1347 3779 
+Q 1222 3654 1037 3654 
+z
+M 269 0 
+L 269 102 
+L 685 307 
+L 685 2240 
+L 288 2547 
+L 288 2618 
+L 1363 2970 
+L 1427 2970 
+L 1427 307 
+L 1818 102 
+L 1818 0 
+L 269 0 
 z
 " transform="scale(0.015625)"/>
       <path id="Spectral-SemiBold-134" d="M 979 -64 
@@ -554,70 +767,34 @@ Q 1082 1184 1018 1069
 Q 954 954 954 806 
 z
 " transform="scale(0.015625)"/>
-      <path id="Spectral-SemiBold-145" d="M 262 0 
-L 262 102 
-L 678 307 
-L 678 2214 
-L 282 2528 
-L 282 2592 
-L 1293 2970 
-L 1350 2970 
-L 1414 2374 
-L 1440 2374 
-Q 1664 2694 1856 2825 
-Q 2048 2957 2240 2957 
-Q 2400 2957 2493 2883 
-Q 2586 2810 2586 2675 
-Q 2586 2637 2560 2541 
-L 2483 2240 
-L 1856 2381 
-Q 1600 2291 1414 2054 
-L 1414 307 
-L 1907 102 
-L 1907 0 
-L 262 0 
+      <path id="Spectral-SemiBold-135" d="M 608 -38 
+L 608 4070 
+L 211 4384 
+L 211 4448 
+L 1286 4800 
+L 1350 4800 
+L 1350 2579 
+L 1382 2579 
+Q 1837 2970 2317 2970 
+Q 2618 2970 2864 2800 
+Q 3110 2630 3257 2320 
+Q 3405 2010 3405 1581 
+Q 3405 1062 3203 694 
+Q 3002 326 2659 131 
+Q 2317 -64 1907 -64 
+Q 1363 -64 966 154 
+L 672 -38 
+L 608 -38 
 z
-" transform="scale(0.015625)"/>
-      <path id="Spectral-SemiBold-138" d="M 1664 -64 
-Q 1018 -64 646 313 
-Q 275 691 275 1318 
-Q 275 1805 476 2176 
-Q 678 2547 1017 2758 
-Q 1357 2970 1766 2970 
-Q 2278 2970 2566 2618 
-Q 2854 2266 2861 1626 
-L 2835 1594 
-L 992 1594 
-Q 992 1312 1094 1072 
-Q 1197 832 1424 685 
-Q 1651 538 2035 538 
-Q 2214 538 2419 592 
-Q 2624 646 2848 762 
-L 2867 762 
-L 2867 672 
-Q 2714 358 2400 147 
-Q 2086 -64 1664 -64 
-z
-M 1638 2682 
-Q 1382 2682 1219 2474 
-Q 1056 2266 1011 1882 
-L 2240 1882 
-Q 2182 2323 2032 2502 
-Q 1882 2682 1638 2682 
-z
-" transform="scale(0.015625)"/>
-      <path id="Spectral-SemiBold-13f" d="M 224 0 
-L 224 102 
-L 646 307 
-L 646 4070 
-L 243 4384 
-L 243 4448 
-L 1325 4800 
-L 1382 4800 
-L 1382 307 
-L 1773 102 
-L 1773 0 
-L 224 0 
+M 1862 2477 
+Q 1606 2477 1350 2323 
+L 1350 493 
+Q 1594 262 1946 262 
+Q 2131 262 2297 368 
+Q 2464 474 2566 726 
+Q 2669 979 2669 1427 
+Q 2669 1965 2425 2221 
+Q 2182 2477 1862 2477 
 z
 " transform="scale(0.015625)"/>
       <path id="Spectral-SemiBold-14c" d="M -198 2906 
@@ -754,41 +931,6 @@ Q 1101 -211 1040 -313
 Q 979 -416 979 -550 
 z
 " transform="scale(0.015625)"/>
-      <path id="Spectral-SemiBold-146" d="M 1350 -64 
-Q 1037 -64 813 -6 
-Q 589 51 365 160 
-L 365 896 
-L 454 896 
-L 672 550 
-Q 890 198 1325 198 
-Q 1574 198 1708 304 
-Q 1843 410 1843 595 
-Q 1843 749 1766 845 
-Q 1690 941 1526 1017 
-Q 1363 1094 1114 1203 
-Q 768 1350 595 1539 
-Q 422 1728 422 2029 
-Q 422 2291 560 2502 
-Q 698 2714 931 2842 
-Q 1165 2970 1440 2970 
-Q 1882 2970 2278 2765 
-L 2278 2029 
-L 2182 2029 
-L 1978 2342 
-Q 1862 2528 1734 2611 
-Q 1606 2694 1440 2694 
-Q 1235 2694 1113 2592 
-Q 992 2490 992 2310 
-Q 992 2125 1133 2016 
-Q 1274 1907 1626 1760 
-Q 1811 1683 1987 1590 
-Q 2163 1498 2281 1331 
-Q 2400 1165 2400 864 
-Q 2400 570 2243 362 
-Q 2086 154 1843 45 
-Q 1600 -64 1350 -64 
-z
-" transform="scale(0.015625)"/>
       <path id="Spectral-SemiBold-140" d="M 243 0 
 L 243 102 
 L 659 307 
@@ -834,61 +976,6 @@ L 1402 307
 L 1754 102 
 L 1754 0 
 L 243 0 
-z
-" transform="scale(0.015625)"/>
-      <path id="Spectral-SemiBold-141" d="M 243 0 
-L 243 102 
-L 659 307 
-L 659 2240 
-L 262 2528 
-L 262 2592 
-L 1274 2970 
-L 1338 2970 
-L 1395 2496 
-L 1427 2496 
-Q 1664 2726 1885 2848 
-Q 2106 2970 2387 2970 
-Q 2771 2970 3017 2774 
-Q 3264 2579 3264 2195 
-L 3264 307 
-L 3680 102 
-L 3680 0 
-L 2144 0 
-L 2144 102 
-L 2522 307 
-L 2522 1920 
-Q 2522 2163 2371 2294 
-Q 2221 2426 1990 2426 
-Q 1843 2426 1676 2374 
-Q 1510 2323 1402 2234 
-L 1402 307 
-L 1779 102 
-L 1779 0 
-L 243 0 
-z
-" transform="scale(0.015625)"/>
-      <path id="Spectral-SemiBold-13c" d="M 1037 3654 
-Q 851 3654 729 3779 
-Q 608 3904 608 4090 
-Q 608 4275 729 4396 
-Q 851 4518 1037 4518 
-Q 1222 4518 1347 4396 
-Q 1472 4275 1472 4090 
-Q 1472 3904 1347 3779 
-Q 1222 3654 1037 3654 
-z
-M 269 0 
-L 269 102 
-L 685 307 
-L 685 2240 
-L 288 2547 
-L 288 2618 
-L 1363 2970 
-L 1427 2970 
-L 1427 307 
-L 1818 102 
-L 1818 0 
-L 269 0 
 z
 " transform="scale(0.015625)"/>
       <path id="Spectral-SemiBold-143" d="M 243 -1472 
@@ -952,62 +1039,12 @@ Q 2131 173 1913 54
 Q 1696 -64 1414 -64 
 z
 " transform="scale(0.015625)"/>
-      <path id="Spectral-SemiBold-147" d="M 1382 -64 
-Q 1037 -64 803 102 
-Q 570 269 570 570 
-L 570 2611 
-L 83 2611 
-L 83 2675 
-L 659 2906 
-L 1222 3610 
-L 1312 3610 
-L 1312 2906 
-L 2182 2906 
-L 2182 2611 
-L 1312 2611 
-L 1312 710 
-Q 1312 550 1456 470 
-Q 1600 390 1792 390 
-Q 1914 390 2013 403 
-Q 2112 416 2195 435 
-L 2214 429 
-L 2214 339 
-Q 2125 186 1904 61 
-Q 1683 -64 1382 -64 
-z
-" transform="scale(0.015625)"/>
-      <path id="Spectral-SemiBold-137" d="M 1331 -64 
-Q 1030 -64 780 96 
-Q 531 256 384 550 
-Q 237 845 237 1242 
-Q 237 1786 438 2170 
-Q 640 2554 985 2762 
-Q 1331 2970 1760 2970 
-Q 2067 2970 2298 2912 
-L 2298 4070 
-L 1869 4390 
-L 1869 4448 
-L 2976 4800 
-L 3040 4800 
-L 3040 288 
-L 3488 102 
-L 3488 0 
-L 2362 0 
-L 2304 320 
-L 2266 320 
-Q 2022 122 1801 29 
-Q 1581 -64 1331 -64 
-z
-M 979 1421 
-Q 979 909 1222 669 
-Q 1466 429 1786 429 
-Q 2042 429 2298 582 
-L 2298 2413 
-Q 2182 2522 2057 2579 
-Q 1933 2637 1779 2637 
-Q 1562 2637 1379 2528 
-Q 1197 2419 1088 2153 
-Q 979 1888 979 1421 
+      <path id="Spectral-SemiBold-451" d="M 186 -1261 
+L 557 691 
+L 1350 691 
+L 1350 582 
+L 320 -1261 
+L 186 -1261 
 z
 " transform="scale(0.015625)"/>
       <path id="Spectral-SemiBold-13b" d="M 243 0 
@@ -1039,43 +1076,6 @@ L 1402 294
 L 1779 102 
 L 1779 0 
 L 243 0 
-z
-" transform="scale(0.015625)"/>
-      <path id="Spectral-SemiBold-142" d="M 1741 -64 
-Q 1299 -64 966 137 
-Q 634 339 448 684 
-Q 262 1030 262 1453 
-Q 262 1875 448 2217 
-Q 634 2560 966 2765 
-Q 1299 2970 1741 2970 
-Q 2182 2970 2515 2765 
-Q 2848 2560 3033 2217 
-Q 3219 1875 3219 1453 
-Q 3219 1030 3033 684 
-Q 2848 339 2515 137 
-Q 2182 -64 1741 -64 
-z
-M 1818 237 
-Q 2035 237 2172 390 
-Q 2310 544 2374 793 
-Q 2438 1043 2438 1325 
-Q 2438 1670 2361 1977 
-Q 2285 2285 2115 2480 
-Q 1946 2675 1677 2675 
-Q 1459 2675 1318 2521 
-Q 1178 2368 1110 2118 
-Q 1043 1869 1043 1587 
-Q 1043 1242 1123 931 
-Q 1203 621 1376 429 
-Q 1549 237 1818 237 
-z
-" transform="scale(0.015625)"/>
-      <path id="Spectral-SemiBold-451" d="M 186 -1261 
-L 557 691 
-L 1350 691 
-L 1350 582 
-L 320 -1261 
-L 186 -1261 
 z
 " transform="scale(0.015625)"/>
       <path id="Spectral-SemiBold-136" d="M 1638 -64 
@@ -1158,80 +1158,96 @@ z
      <use xlink:href="#Spectral-SemiBold-18" transform="translate(180.78125 0)"/>
      <use xlink:href="#Spectral-SemiBold-1c" transform="translate(247.28125 0)"/>
      <use xlink:href="#Spectral-SemiBold-3" transform="translate(316.28125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-135" transform="translate(341.28125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-134" transform="translate(398.875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-145" transform="translate(449.28125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-138" transform="translate(490.578125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-13f" transform="translate(539.671875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-14c" transform="translate(570.96875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-3" transform="translate(618.765625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-592" transform="translate(643.765625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-134" transform="translate(710.859375 0)"/>
-     <use xlink:href="#Spectral-SemiBold-13a" transform="translate(760.96875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-146" transform="translate(814.671875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-3" transform="translate(858.171875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-140" transform="translate(883.171875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-134" transform="translate(971.28125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-141" transform="translate(1021.6875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-13c" transform="translate(1081.6875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-143" transform="translate(1114.1875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-148" transform="translate(1172.1875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-13f" transform="translate(1229.984375 0)"/>
-     <use xlink:href="#Spectral-SemiBold-134" transform="translate(1261.28125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-147" transform="translate(1311.6875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-138" transform="translate(1348.578125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-137" transform="translate(1398.375 0)"/>
-     <use xlink:href="#Spectral-SemiBold-3" transform="translate(1455.671875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-146" transform="translate(1480.671875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-141" transform="translate(1524.171875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-134" transform="translate(1584.171875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-143" transform="translate(1634.578125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-146" transform="translate(1692.578125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-13b" transform="translate(1736.078125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-142" transform="translate(1796.375 0)"/>
-     <use xlink:href="#Spectral-SemiBold-147" transform="translate(1850.78125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-146" transform="translate(1888.078125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-451" transform="translate(1930.578125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-3" transform="translate(1956.671875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-147" transform="translate(1981.671875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-13b" transform="translate(2018.96875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-142" transform="translate(2079.265625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-148" transform="translate(2133.671875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-13a" transform="translate(2191.46875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-13b" transform="translate(2244.765625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-3" transform="translate(2305.0625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-134" transform="translate(2330.0625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-3" transform="translate(2380.46875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-146" transform="translate(2405.46875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-140" transform="translate(2448.96875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-134" transform="translate(2537.078125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-13f" transform="translate(2587.1875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-13f" transform="translate(2618.484375 0)"/>
-     <use xlink:href="#Spectral-SemiBold-3" transform="translate(2649.78125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-136" transform="translate(2674.78125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-13f" transform="translate(2722.578125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-134" transform="translate(2753.875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-146" transform="translate(2804.28125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-146" transform="translate(2846.78125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-13c" transform="translate(2890.28125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-58c" transform="translate(2922.78125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-138" transform="translate(2991.1875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-145" transform="translate(3040.28125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-3" transform="translate(3081.578125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-146" transform="translate(3106.578125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-138" transform="translate(3150.078125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-143" transform="translate(3199.171875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-134" transform="translate(3257.46875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-145" transform="translate(3307.875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-134" transform="translate(3349.765625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-147" transform="translate(3400.171875 0)"/>
-     <use xlink:href="#Spectral-SemiBold-138" transform="translate(3437.0625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-146" transform="translate(3486.15625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-3" transform="translate(3529.65625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-147" transform="translate(3554.65625 0)"/>
-     <use xlink:href="#Spectral-SemiBold-13b" transform="translate(3591.953125 0)"/>
-     <use xlink:href="#Spectral-SemiBold-138" transform="translate(3652.25 0)"/>
-     <use xlink:href="#Spectral-SemiBold-140" transform="translate(3701.34375 0)"/>
+     <use xlink:href="#Spectral-SemiBold-137" transform="translate(341.28125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-142" transform="translate(398.578125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-138" transform="translate(453.984375 0)"/>
+     <use xlink:href="#Spectral-SemiBold-146" transform="translate(503.078125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-3" transform="translate(546.578125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-141" transform="translate(571.578125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-142" transform="translate(631.875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-147" transform="translate(686.28125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-3" transform="translate(723.578125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-145" transform="translate(748.578125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-138" transform="translate(789.875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-13f" transform="translate(838.96875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-13c" transform="translate(870.265625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-134" transform="translate(902.765625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-135" transform="translate(952.875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-13f" transform="translate(1010.171875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-14c" transform="translate(1041.46875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-3" transform="translate(1089.265625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-592" transform="translate(1114.265625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-134" transform="translate(1181.359375 0)"/>
+     <use xlink:href="#Spectral-SemiBold-13a" transform="translate(1231.46875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-3" transform="translate(1285.765625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-140" transform="translate(1310.765625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-134" transform="translate(1398.875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-141" transform="translate(1449.28125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-13c" transform="translate(1509.28125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-143" transform="translate(1541.78125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-148" transform="translate(1599.78125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-13f" transform="translate(1657.578125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-134" transform="translate(1688.875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-147" transform="translate(1739.28125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-138" transform="translate(1776.171875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-137" transform="translate(1825.96875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-3" transform="translate(1883.265625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-13c" transform="translate(1908.265625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-140" transform="translate(1940.765625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-134" transform="translate(2028.875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-13a" transform="translate(2078.984375 0)"/>
+     <use xlink:href="#Spectral-SemiBold-138" transform="translate(2132.6875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-3" transform="translate(2181.78125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-13c" transform="translate(2206.78125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-141" transform="translate(2239.28125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-143" transform="translate(2299.578125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-148" transform="translate(2357.578125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-147" transform="translate(2415.375 0)"/>
+     <use xlink:href="#Spectral-SemiBold-146" transform="translate(2452.671875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-451" transform="translate(2495.171875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-3" transform="translate(2521.265625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-147" transform="translate(2546.265625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-13b" transform="translate(2583.5625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-142" transform="translate(2643.859375 0)"/>
+     <use xlink:href="#Spectral-SemiBold-148" transform="translate(2698.265625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-13a" transform="translate(2756.0625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-13b" transform="translate(2809.359375 0)"/>
+     <use xlink:href="#Spectral-SemiBold-3" transform="translate(2869.65625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-134" transform="translate(2894.65625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-3" transform="translate(2945.0625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-146" transform="translate(2970.0625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-140" transform="translate(3013.5625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-134" transform="translate(3101.671875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-13f" transform="translate(3151.78125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-13f" transform="translate(3183.078125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-3" transform="translate(3214.375 0)"/>
+     <use xlink:href="#Spectral-SemiBold-136" transform="translate(3239.375 0)"/>
+     <use xlink:href="#Spectral-SemiBold-13f" transform="translate(3287.171875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-134" transform="translate(3318.46875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-146" transform="translate(3368.875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-146" transform="translate(3411.375 0)"/>
+     <use xlink:href="#Spectral-SemiBold-13c" transform="translate(3454.875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-58c" transform="translate(3487.375 0)"/>
+     <use xlink:href="#Spectral-SemiBold-138" transform="translate(3555.78125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-145" transform="translate(3604.875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-3" transform="translate(3646.171875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-136" transform="translate(3671.171875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-134" transform="translate(3719.375 0)"/>
+     <use xlink:href="#Spectral-SemiBold-141" transform="translate(3769.78125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-3" transform="translate(3830.078125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-146" transform="translate(3855.078125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-138" transform="translate(3898.578125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-143" transform="translate(3947.671875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-134" transform="translate(4005.96875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-145" transform="translate(4056.375 0)"/>
+     <use xlink:href="#Spectral-SemiBold-134" transform="translate(4098.265625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-147" transform="translate(4148.671875 0)"/>
+     <use xlink:href="#Spectral-SemiBold-138" transform="translate(4185.5625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-3" transform="translate(4234.65625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-147" transform="translate(4259.65625 0)"/>
+     <use xlink:href="#Spectral-SemiBold-13b" transform="translate(4296.953125 0)"/>
+     <use xlink:href="#Spectral-SemiBold-138" transform="translate(4357.25 0)"/>
+     <use xlink:href="#Spectral-SemiBold-140" transform="translate(4406.34375 0)"/>
     </g>
    </g>
    <g id="text_2">
@@ -1510,7 +1526,7 @@ z
    </g>
    <g id="text_4">
     <!-- 50% -->
-    <g style="fill: #596977" transform="translate(221.61332 187.498496) scale(0.095 -0.095)">
+    <g style="fill: #596977" transform="translate(236.890547 187.498496) scale(0.095 -0.095)">
      <defs>
       <path id="ArialMT-18" d="M 266 1200 
 L 856 1250 
@@ -1545,7 +1561,7 @@ z
    </g>
    <g id="text_5">
     <!-- 100% -->
-    <g style="fill: #596977" transform="translate(308.971875 187.498496) scale(0.095 -0.095)">
+    <g style="fill: #596977" transform="translate(339.526328 187.498496) scale(0.095 -0.095)">
      <defs>
       <path id="ArialMT-14" d="M 2384 0 
 L 1822 0 
@@ -2138,7 +2154,7 @@ z
    </g>
    <g id="text_8">
     <!-- 20% -->
-    <g style="fill: #b45416" transform="translate(201.927683 78.187891) scale(0.1 -0.1)">
+    <g style="fill: #b45416" transform="translate(211.638513 78.187891) scale(0.1 -0.1)">
      <defs>
       <path id="Arial-BoldMT-15" d="M 3238 816 
 L 3238 0 
@@ -2320,7 +2336,7 @@ z
    </g>
    <g id="text_10">
     <!-- 63% -->
-    <g style="fill: #b45416" transform="translate(278.60267 94.027891) scale(0.1 -0.1)">
+    <g style="fill: #b45416" transform="translate(301.328847 94.027891) scale(0.1 -0.1)">
      <defs>
       <path id="Arial-BoldMT-16" d="M 241 1216 
 L 1091 1319 
@@ -2447,7 +2463,7 @@ z
    </g>
    <g id="text_12">
     <!-- 40% -->
-    <g style="fill: #b45416" transform="translate(239.461516 109.867891) scale(0.1 -0.1)">
+    <g style="fill: #b45416" transform="translate(255.543601 109.867891) scale(0.1 -0.1)">
      <defs>
       <path id="Arial-BoldMT-17" d="M 1994 0 
 L 1994 922 
@@ -2603,7 +2619,7 @@ z
    </g>
    <g id="text_15">
     <!-- 23% -->
-    <g style="fill: #2b6ca3" transform="translate(208.50572 140.107891) scale(0.1 -0.1)">
+    <g style="fill: #2b6ca3" transform="translate(219.333153 140.107891) scale(0.1 -0.1)">
      <use xlink:href="#Arial-BoldMT-15"/>
      <use xlink:href="#Arial-BoldMT-16" transform="translate(55.609375 0)"/>
      <use xlink:href="#Arial-BoldMT-8" transform="translate(111.21875 0)"/>
@@ -2623,7 +2639,7 @@ z
    </g>
    <g id="text_17">
     <!-- 48% -->
-    <g style="fill: #2b6ca3" transform="translate(253.966329 155.947891) scale(0.1 -0.1)">
+    <g style="fill: #2b6ca3" transform="translate(272.510562 155.947891) scale(0.1 -0.1)">
      <defs>
       <path id="Arial-BoldMT-1b" d="M 1025 2472 
 Q 684 2616 529 2867 
@@ -2685,7 +2701,7 @@ z
    </g>
    <g id="text_19">
     <!-- 48% -->
-    <g style="fill: #2b6ca3" transform="translate(253.966329 171.787891) scale(0.1 -0.1)">
+    <g style="fill: #2b6ca3" transform="translate(272.510562 171.787891) scale(0.1 -0.1)">
      <use xlink:href="#Arial-BoldMT-17"/>
      <use xlink:href="#Arial-BoldMT-1b" transform="translate(55.609375 0)"/>
      <use xlink:href="#Arial-BoldMT-8" transform="translate(111.21875 0)"/>
@@ -2693,7 +2709,7 @@ z
    </g>
    <g id="text_20">
     <!-- Separability from unaltered (AUROC) -->
-    <g style="fill: #25323d" transform="translate(375.84 46.925) scale(0.125 -0.125)">
+    <g style="fill: #25323d" transform="translate(406.394453 46.925) scale(0.125 -0.125)">
      <defs>
       <path id="Spectral-SemiBold-1b" d="M 1715 -64 
 Q 1306 -64 1005 16 
@@ -2954,13 +2970,13 @@ z
    </g>
    <g id="text_21">
     <!-- 0 -->
-    <g style="fill: #596977" transform="translate(494.158555 187.498496) scale(0.095 -0.095)">
+    <g style="fill: #596977" transform="translate(524.713008 187.498496) scale(0.095 -0.095)">
      <use xlink:href="#ArialMT-13"/>
     </g>
    </g>
    <g id="text_22">
     <!-- 0.5 = chance -->
-    <g style="fill: #596977" transform="translate(559.468203 187.498496) scale(0.095 -0.095)">
+    <g style="fill: #596977" transform="translate(605.299883 187.498496) scale(0.095 -0.095)">
      <defs>
       <path id="ArialMT-11" d="M 581 0 
 L 581 641 
@@ -3019,13 +3035,13 @@ z
    </g>
    <g id="text_23">
     <!-- 1 -->
-    <g style="fill: #596977" transform="translate(674.158555 187.498496) scale(0.095 -0.095)">
+    <g style="fill: #596977" transform="translate(735.267461 187.498496) scale(0.095 -0.095)">
      <use xlink:href="#ArialMT-14"/>
     </g>
    </g>
    <g id="text_24">
     <!-- Blurred vs unaltered -->
-    <g style="fill: #25323d" transform="translate(375.84 64.637285) scale(0.105 -0.105)">
+    <g style="fill: #25323d" transform="translate(406.394453 64.637285) scale(0.105 -0.105)">
      <defs>
       <path id="Arial-BoldMT-25" d="M 469 4581 
 L 2300 4581 
@@ -3198,7 +3214,7 @@ z
    </g>
    <g id="text_25">
     <!-- GPT-6 Astra -->
-    <g style="fill: #25323d" transform="translate(381.6 78.317285) scale(0.105 -0.105)">
+    <g style="fill: #25323d" transform="translate(412.154453 78.317285) scale(0.105 -0.105)">
      <defs>
       <path id="ArialMT-2a" d="M 2638 1797 
 L 2638 2334 
@@ -3341,7 +3357,7 @@ z
    </g>
    <g id="text_26">
     <!-- 0.80 -->
-    <g style="fill: #b45416" transform="translate(662.500625 78.187891) scale(0.1 -0.1)">
+    <g style="fill: #b45416" transform="translate(720.571167 78.187891) scale(0.1 -0.1)">
      <use xlink:href="#Arial-BoldMT-13"/>
      <use xlink:href="#Arial-BoldMT-11" transform="translate(55.609375 0)"/>
      <use xlink:href="#Arial-BoldMT-1b" transform="translate(83.390625 0)"/>
@@ -3350,7 +3366,7 @@ z
    </g>
    <g id="text_27">
     <!-- GPT-6.1 Sol -->
-    <g style="fill: #25323d" transform="translate(381.6 94.157285) scale(0.105 -0.105)">
+    <g style="fill: #25323d" transform="translate(412.154453 94.157285) scale(0.105 -0.105)">
      <defs>
       <path id="ArialMT-36" d="M 288 1472 
 L 859 1522 
@@ -3406,7 +3422,7 @@ z
    </g>
    <g id="text_28">
     <!-- 0.77 -->
-    <g style="fill: #2b6ca3" transform="translate(656.425 94.027891) scale(0.1 -0.1)">
+    <g style="fill: #2b6ca3" transform="translate(713.464223 94.027891) scale(0.1 -0.1)">
      <defs>
       <path id="Arial-BoldMT-1a" d="M 272 3703 
 L 272 4519 
@@ -3430,7 +3446,7 @@ z
    </g>
    <g id="text_29">
     <!-- Small classifier -->
-    <g style="fill: #25323d" transform="translate(381.6 109.997285) scale(0.105 -0.105)">
+    <g style="fill: #25323d" transform="translate(412.154453 109.997285) scale(0.105 -0.105)">
      <defs>
       <path id="ArialMT-4c" d="M 425 3934 
 L 425 4581 
@@ -3466,7 +3482,7 @@ z
    </g>
    <g id="text_30">
     <!-- 1.00 -->
-    <g style="fill: #63368a" transform="translate(680.4 109.867891) scale(0.1 -0.1)">
+    <g style="fill: #63368a" transform="translate(741.508906 109.867891) scale(0.1 -0.1)">
      <use xlink:href="#Arial-BoldMT-14"/>
      <use xlink:href="#Arial-BoldMT-11" transform="translate(55.609375 0)"/>
      <use xlink:href="#Arial-BoldMT-13" transform="translate(83.390625 0)"/>
@@ -3475,7 +3491,7 @@ z
    </g>
    <g id="text_31">
     <!-- Doctored vs unaltered -->
-    <g style="fill: #25323d" transform="translate(375.84 126.557285) scale(0.105 -0.105)">
+    <g style="fill: #25323d" transform="translate(406.394453 126.557285) scale(0.105 -0.105)">
      <defs>
       <path id="Arial-BoldMT-27" d="M 463 4581 
 L 2153 4581 
@@ -3551,7 +3567,7 @@ z
    </g>
    <g id="text_32">
     <!-- GPT-6 Astra -->
-    <g style="fill: #25323d" transform="translate(381.6 140.237285) scale(0.105 -0.105)">
+    <g style="fill: #25323d" transform="translate(412.154453 140.237285) scale(0.105 -0.105)">
      <use xlink:href="#ArialMT-2a"/>
      <use xlink:href="#ArialMT-33" transform="translate(77.78125 0)"/>
      <use xlink:href="#ArialMT-37" transform="translate(144.484375 0)"/>
@@ -3567,7 +3583,7 @@ z
    </g>
    <g id="text_33">
     <!-- 0.68 -->
-    <g style="fill: #b45416" transform="translate(639.289831 140.107891) scale(0.1 -0.1)">
+    <g style="fill: #b45416" transform="translate(693.42041 140.107891) scale(0.1 -0.1)">
      <use xlink:href="#Arial-BoldMT-13"/>
      <use xlink:href="#Arial-BoldMT-11" transform="translate(55.609375 0)"/>
      <use xlink:href="#Arial-BoldMT-19" transform="translate(83.390625 0)"/>
@@ -3576,7 +3592,7 @@ z
    </g>
    <g id="text_34">
     <!-- GPT-6.1 Sol -->
-    <g style="fill: #25323d" transform="translate(381.6 156.077285) scale(0.105 -0.105)">
+    <g style="fill: #25323d" transform="translate(412.154453 156.077285) scale(0.105 -0.105)">
      <use xlink:href="#ArialMT-2a"/>
      <use xlink:href="#ArialMT-33" transform="translate(77.78125 0)"/>
      <use xlink:href="#ArialMT-37" transform="translate(144.484375 0)"/>
@@ -3592,7 +3608,7 @@ z
    </g>
    <g id="text_35">
     <!-- 0.68 -->
-    <g style="fill: #2b6ca3" transform="translate(639.525 155.947891) scale(0.1 -0.1)">
+    <g style="fill: #2b6ca3" transform="translate(693.695499 155.947891) scale(0.1 -0.1)">
      <use xlink:href="#Arial-BoldMT-13"/>
      <use xlink:href="#Arial-BoldMT-11" transform="translate(55.609375 0)"/>
      <use xlink:href="#Arial-BoldMT-19" transform="translate(83.390625 0)"/>
@@ -3601,7 +3617,7 @@ z
    </g>
    <g id="text_36">
     <!-- Small classifier -->
-    <g style="fill: #25323d" transform="translate(381.6 171.917285) scale(0.105 -0.105)">
+    <g style="fill: #25323d" transform="translate(412.154453 171.917285) scale(0.105 -0.105)">
      <use xlink:href="#ArialMT-36"/>
      <use xlink:href="#ArialMT-50" transform="translate(66.703125 0)"/>
      <use xlink:href="#ArialMT-44" transform="translate(150 0)"/>
@@ -3622,7 +3638,7 @@ z
    </g>
    <g id="text_37">
     <!-- 1.00 -->
-    <g style="fill: #63368a" transform="translate(680.4 171.787891) scale(0.1 -0.1)">
+    <g style="fill: #63368a" transform="translate(741.508906 171.787891) scale(0.1 -0.1)">
      <use xlink:href="#Arial-BoldMT-14"/>
      <use xlink:href="#Arial-BoldMT-11" transform="translate(55.609375 0)"/>
      <use xlink:href="#Arial-BoldMT-13" transform="translate(83.390625 0)"/>
@@ -3630,15 +3646,15 @@ z
     </g>
    </g>
    <g id="line2d_43">
-    <path d="M 586.8 56.16 
-L 586.8 177.12 
-" clip-path="url(#p16b96a11fe)" style="fill: none; stroke-dasharray: 4.4,2.75; stroke-dashoffset: 0; stroke: #596977; stroke-width: 1.1"/>
+    <path d="M 632.63168 56.16 
+L 632.63168 177.12 
+" clip-path="url(#p3566d4a079)" style="fill: none; stroke-dasharray: 4.4,2.75; stroke-dashoffset: 0; stroke: #596977; stroke-width: 1.1"/>
    </g>
   </g>
  </g>
  <defs>
-  <clipPath id="p16b96a11fe">
-   <rect x="0" y="0" width="727.2" height="203.04"/>
+  <clipPath id="p3566d4a079">
+   <rect x="0" y="0" width="788.308906" height="203.04"/>
   </clipPath>
  </defs>
 </svg>

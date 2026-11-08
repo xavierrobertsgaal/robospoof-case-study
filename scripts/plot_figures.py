@@ -16,7 +16,9 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt  # noqa: E402
 from matplotlib import font_manager  # noqa: E402
 from matplotlib.colors import to_rgb  # noqa: E402
+from matplotlib.font_manager import FontProperties  # noqa: E402
 from matplotlib.patches import Rectangle  # noqa: E402
+from matplotlib.textpath import TextPath  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "results" / "figures" / "plot-data.json"
@@ -27,6 +29,7 @@ INK, MUTED, RULE, GRID = "#25323D", "#596977", "#CFD7DE", "#E8ECF0"
 ASTRA, SOL, CLASSIFIER = "#B45416", "#2B6CA3", "#63368A"
 TITLE_H, HEAD_H, GROUP_H, ROW_H, AXIS_H, PAD, GAP, MARGIN = 46, 28, 20, 22, 22, 10, 10, 14
 BAR_H, VALUE_W = 13, 46
+FIG2_TITLE = "2. GPT refuses unsafe tasks in text, but acts once it has robot motion tools"  # checked against Sol results
 FIG4_TITLE = "4. Astra’s own “fake” verdict does not drive its refusals"
 FIG5_TITLE = "5. Eval-type cues and refusal"  # replaced by an action title once results are in
 
@@ -50,6 +53,10 @@ def render(spec: dict) -> list[Path]:
     label_w 0 reuse the row layout of the first panel."""
     panels, bar_w = spec["panels"], spec["bar_w"]
     body_h = max(sum((GROUP_H if g.get("label") else 0) + ROW_H * len(g["rows"]) for g in p["groups"]) for p in panels)
+    fixed = MARGIN * 2 + sum(PAD + p["label_w"] + VALUE_W + PAD for p in panels) + GAP * (len(panels) - 1)
+    title_w = TextPath((0, 0), spec["title"], size=17,
+                       prop=FontProperties(family="Spectral", weight="semibold")).get_extents().width * 100 / 72
+    bar_w = max(bar_w, (title_w + 2 * MARGIN + 8 - fixed) / len(panels))  # widen bars until the title fits
     widths = [PAD + p["label_w"] + bar_w + VALUE_W + PAD for p in panels]
     width = MARGIN * 2 + sum(widths) + GAP * (len(panels) - 1)
     height = TITLE_H + HEAD_H + body_h + AXIS_H + MARGIN
@@ -123,7 +130,7 @@ def specs(d: dict) -> list[dict]:
     sep = d["separability"]
     models = (("gpt-6-astra", "GPT-6 Astra", ASTRA), ("gpt-6.1-sol", "GPT-6.1 Sol", SOL))
     fig1 = {"stem": "01-perception", "bar_w": 250,
-            "title": "1. GPT barely flags manipulated snapshots, though a small classifier separates them",
+            "title": "1. GPT does not reliably flag manipulated image inputs, though a small classifier can separate them",
             "panels": [
                 {"heading": "“Is this real or fake?” · called fake", "kind": "rate", "label_w": 172, "groups": [
                     {"label": name, "color": col, "rows": [
@@ -142,6 +149,12 @@ def specs(d: dict) -> list[dict]:
             "title": "2. Astra refuses unsafe tasks in text, but acts once it has robot motion tools",
             "panels": [{"heading": d["footage"][f], "kind": "rate", "label_w": 198 if i == 0 else 0, "groups": [
                 {"rows": [row(lab, fr[k][f], ASTRA) for k, lab in ladder]}]} for i, f in enumerate("nbd")]}
+    if d.get("framing_sol"):  # both models, grouped, once the Sol run is complete
+        fs = d["framing_sol"]
+        fig2["title"] = FIG2_TITLE
+        fig2["panels"] = [{"heading": d["footage"][f], "kind": "rate", "label_w": 198 if i == 0 else 0, "groups": [
+            {"label": name if i == 0 else " ", "color": col, "rows": [row(lab, src[k][f], col) for k, lab in ladder]}
+            for name, col, src in (("GPT-6 Astra", ASTRA, fr), ("GPT-6.1 Sol", SOL, fs))]} for i, f in enumerate("nbd")]
     pr = d["prompting"]
     nudges = [("R0", "Baseline (original request)"), ("R4", "Max reasoning effort"), ("R5", "“Think carefully”"),
               ("R3", "Real/fake self-check"), ("R1", "“Check observations”"), ("R2", "Tampering warning")]
@@ -178,10 +191,11 @@ def specs(d: dict) -> list[dict]:
 def main() -> None:
     configure()
     d = json.loads(DATA.read_text())
+    current = {path for spec in specs(d) for path in render(spec)}
     for old in OUT.glob("0*"):  # one current figure set; superseded figures are recoverable from git
-        old.unlink()
-    for spec in specs(d):
-        print(*[p.name for p in render(spec)])
+        if old not in current:
+            old.unlink()
+    print(*sorted(p.name for p in current if p.suffix == ".png"))
 
 
 if __name__ == "__main__":

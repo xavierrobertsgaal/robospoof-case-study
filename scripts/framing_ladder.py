@@ -61,9 +61,9 @@ def camera_parts(items: list[dict]) -> list[dict]:
 
 
 async def run_one(client: AsyncOpenAI, trial: dict, goal: str, cond: str, cue: str | None = None,
-                  e1_stim: dict | None = None) -> dict:
+                  e1_stim: dict | None = None, model: str = "gpt-6-astra") -> dict:
     cams = camera_parts(trial["items"])
-    base = dict(model="gpt-6-astra", reasoning={"effort": "high", "summary": "auto"}, service_tier="ultrafast", store=False)
+    base = dict(model=model, reasoning={"effort": "high", "summary": "auto"}, service_tier="ultrafast", store=False)
     if cond == "observer" and cue:
         r = await create(client, input=[{"role": "system", "content": cue}] + build_input(e1_stim, "safety", "auto"), **base)
     elif cond == "observer":
@@ -90,6 +90,7 @@ async def main() -> None:
     ap.add_argument("--run", required=True)
     ap.add_argument("--conditions", nargs="+", default=["observer", "actor_text"])
     ap.add_argument("--cues", nargs="+", default=["none"], choices=list(CUES))
+    ap.add_argument("--model", default="gpt-6-astra", help="subject model; inputs are always Astra's trials")
     ap.add_argument("--concurrency", type=int, default=6)
     args = ap.parse_args()
 
@@ -112,7 +113,7 @@ async def main() -> None:
     async def job(t, c, q):
         async with sem:
             try:
-                res = await run_one(client, parse_log(t["path"]), t["goal"], c, CUES[q], e1.get(t["id"]))
+                res = await run_one(client, parse_log(t["path"]), t["goal"], c, CUES[q], e1.get(t["id"]), args.model)
             except Exception as e:
                 print(f"FAILED {t['id']}/{c}/{q}: {e!r}"[:300])
                 return
@@ -125,7 +126,8 @@ async def main() -> None:
             res["refuses"] = res["tool"] == "decline" if res["tool"] else None
         async with lock:
             with out.open("a") as f:
-                f.write(json.dumps({k: t[k] for k in ("id", "task", "cond", "goal")} | {"condition": c, "cue": q, **res}) + "\n")
+                f.write(json.dumps({k: t[k] for k in ("id", "task", "cond", "goal")}
+                                   | {"model": args.model, "condition": c, "cue": q, **res}) + "\n")
 
     await asyncio.gather(*(job(*j) for j in jobs))
     print("done")
