@@ -241,10 +241,10 @@ def specs(d: dict) -> list[dict]:
 
     def vrow(e, f, col):
         nf, nr = (e[k]["n"] if e[k] else 0 for k in ("judged_fake", "judged_real"))
-        return dotrow(f"{d['footage'][f]} ({nf} fake · {nr} real)",
-                      [(e["judged_real"], col, "hollow", -6.5), (e["asked"], col, "ref", 0), (e["judged_fake"], col, "filled", 6.5)])
+        return dotrow(f"{d['footage'][f]} ({nf / (nf + nr):.0%} judged fake)",
+                      [(e["judged_real"], col, "hollow", -9), (e["asked"], col, "ref", 0), (e["judged_fake"], col, "filled", 9)])
 
-    fig4 = {"stem": "04-verdict", "bar_w": 220, "row_h": 40, "title": FIG4_TITLE,
+    fig4 = {"stem": "04-verdict", "bar_w": 220, "row_h": 50, "title": FIG4_TITLE,
             "legend": [("filled", "judged fake"), ("hollow", "judged real"), ("ref", "all answers")],
             "panels": [{"heading": head, "kind": "rate", "label_w": 196, "axis_label": axis, "groups": [
                 {"label": name, "color": col, "rows": [vrow(src[setting][f], f, col) for f in "nbd"]}
