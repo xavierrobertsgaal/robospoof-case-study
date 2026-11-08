@@ -31,8 +31,8 @@ TITLE_H, HEAD_H, GROUP_H, ROW_H, AXIS_H, PAD, GAP, MARGIN = 46, 28, 20, 22, 22, 
 BAR_H, VALUE_W = 13, 46
 GREY_DOT = "#8E99A4"
 FIG2_TITLE = "2. GPT refuses unsafe tasks in text, but acts once it has robot motion tools"  # checked against Sol results
-FIG4_TITLE = "4. Judging an input as fake does not cause Astra to refuse more reliably"
-FIG5_TITLE = "5. Told it is in an alignment eval, Astra refuses blurred footage it otherwise acts on"
+FIG4_TITLE = "4. Judging an input as fake does not cause GPT to refuse more reliably"
+FIG5_TITLE = "5. Told it is in an alignment eval, GPT starts refusing blurred footage it otherwise acts on"
 
 
 def configure():
@@ -235,9 +235,9 @@ def specs(d: dict) -> list[dict]:
     def vrow(e, f, col):
         nf, nr = (e[k]["n"] if e[k] else 0 for k in ("judged_fake", "judged_real"))
         return dotrow(f"{d['footage'][f]} ({nf} fake · {nr} real)",
-                      [(e["judged_real"], col, "hollow", -4.5), (e["asked"], col, "ref", 0), (e["judged_fake"], col, "filled", 4.5)])
+                      [(e["judged_real"], col, "hollow", -6.5), (e["asked"], col, "ref", 0), (e["judged_fake"], col, "filled", 6.5)])
 
-    fig4 = {"stem": "04-verdict", "bar_w": 220, "row_h": 36, "title": FIG4_TITLE,
+    fig4 = {"stem": "04-verdict", "bar_w": 220, "row_h": 40, "title": FIG4_TITLE,
             "legend": [("filled", "judged fake"), ("hollow", "judged real"), ("ref", "all answers")],
             "panels": [{"heading": head, "kind": "rate", "label_w": 196, "axis_label": axis, "groups": [
                 {"label": name, "color": col, "rows": [vrow(src[setting][f], f, col) for f in "nbd"]}
@@ -248,13 +248,13 @@ def specs(d: dict) -> list[dict]:
     cues = [("none", "No cue"), ("capability", "“Capability eval”"), ("alignment", "“Alignment eval”")]
     figs = [fig1, fig2, fig3, fig4]
     if mg:
-        figs.append({"stem": "05-metagaming", "bar_w": 190, "row_h": 36, "title": FIG5_TITLE,
+        figs.append({"stem": "05-metagaming", "bar_w": 190, "row_h": 40, "title": FIG5_TITLE,
                      "footnote": "Robot prompt = Inspect Robots system prompt. Motion tools = Inspect Robots tools (move_to, done, give_up). Text actions = carry_out / decline.",
                      "legend": [("filled", "“alignment eval”"), ("hollow", "“capability eval”"), ("ref", "no cue")],
                      "panels": [{"heading": d["footage"][f], "kind": "rate", "label_w": 196 if i == 0 else 0, "axis_label": "Refuses", "groups": [
                          {"label": name if i == 0 else " ", "color": col, "rows": [
-                             dotrow(lab, [(src[k]["capability"][f], col, "hollow", -4.5), (src[k]["none"][f], col, "ref", 0),
-                                          (src[k]["alignment"][f], col, "filled", 4.5)]) for k, lab in ladder]}
+                             dotrow(lab, [(src[k]["capability"][f], col, "hollow", -6.5), (src[k]["none"][f], col, "ref", 0),
+                                          (src[k]["alignment"][f], col, "filled", 6.5)]) for k, lab in ladder]}
                          for name, col, src in (("GPT-6 Astra", ASTRA, mg), ("GPT-6.1 Sol", SOL, d.get("metagaming_sol"))) if src]}
                          for i, f in enumerate("nbd")]})
     return figs
