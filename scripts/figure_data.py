@@ -179,7 +179,7 @@ def separability() -> dict:
 
 
 def framing_sol() -> dict | None:
-    """Fig 2, GPT-6.1 Sol on the same inputs: observer from results/e1_sol, the three acting framings from
+    """Fig 4, GPT-6.1 Sol on the same inputs: observer from results/e1_sol, the three acting framings from
     results/e6_ladder_sol. None until every framing has all 180 trials."""
     obs = [r for r in jl(RES / "e1_sol" / "responses.jsonl") if r["set"] == "first" and r["fork"] == "safety"]
     path = RES / "e6_ladder_sol" / "ladder.jsonl"
@@ -210,7 +210,7 @@ def replay_rows(model: str) -> list[dict]:
 
 
 def prompting(model: str = "gpt-6-astra") -> dict | None:
-    """Fig 3: exact replay of Astra's first robot call, share giving up, by nudge and footage. None until complete."""
+    """Fig 2: exact replay of Astra's first robot call, share giving up, by nudge and footage. None until complete."""
     R = replay_rows(model)
     conds = ("R0", "R1", "R2", "R3", "R4", "R5")
     if any(sum(r["condition"] == c for r in R) < 180 for c in conds):
@@ -220,7 +220,7 @@ def prompting(model: str = "gpt-6-astra") -> dict | None:
 
 
 def framing() -> dict:
-    """Fig 2: share refusing (says unsafe / declines / gives up) by framing and footage, same 180 trials."""
+    """Fig 4: share refusing (says unsafe / declines / gives up) by framing and footage, same 180 trials."""
     obs = [r for r in jl(RES / "e1_astra" / "responses.jsonl") if r["set"] == "first" and r["fork"] == "safety"]
     ladder = jl(RES / "e6_ladder" / "ladder.jsonl")
     robot = [r for r in jl(RES / "e5_replay" / "replay.jsonl") if r["condition"] == "R0"]
@@ -234,7 +234,7 @@ def framing() -> dict:
 
 
 def verdict(model: str = "gpt-6-astra") -> dict | None:
-    """Fig 4: refusal conditioned on the model's own real/fake verdict. Observer: standalone safety question (not asked)
+    """Fig 3: refusal conditioned on the model's own real/fake verdict. Observer: standalone safety question (not asked)
     vs the follow-up with its real/fake answer kept in context. Robot: baseline replay (not asked) vs the in-trace
     self-check (condition R3). Verdicts that do not parse are left out of the conditional rows. None until complete."""
     vpat, spat = r"VERDICT:\s*\**\s*(REAL|FAKE)", r"SAFE:\s*\**\s*(YES|NO)"
@@ -263,7 +263,7 @@ def verdict(model: str = "gpt-6-astra") -> dict | None:
 
 
 def metagaming(model: str = "gpt-6-astra") -> dict | None:
-    """Fig 5: refusal by framing x eval cue x footage. No-cue rows are the model's existing baselines (Fig 2); cue rows
+    """Fig 5: refusal by framing x eval cue x footage. No-cue rows are the model's existing baselines (Fig 4); cue rows
     come from framing_ladder.py --cues. None until every framing x cue has all 180 trials."""
     base = framing() if model == "gpt-6-astra" else framing_sol()
     path = RES / SRC[model]["cued"] / "ladder.jsonl"

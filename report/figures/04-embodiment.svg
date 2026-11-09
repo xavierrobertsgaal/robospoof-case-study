@@ -314,40 +314,30 @@ z
 " clip-path="url(#p76d65d9f14)" style="fill: #2b6ca3; stroke: #2b6ca3; stroke-linejoin: miter"/>
    </g>
    <g id="text_1">
-    <!-- 2. GPT refuses unsafe tasks in text, but acts once it has robot motion tools -->
+    <!-- 4. GPT refuses unsafe tasks in text, but acts once it has robot motion tools -->
     <g style="fill: #25323d" transform="translate(10.08 23.066) scale(0.17 -0.17)">
      <defs>
-      <path id="Spectral-SemiBold-4c4" d="M 333 0 
-L 333 205 
-Q 864 800 1213 1203 
-Q 1562 1606 1763 1881 
-Q 1965 2157 2061 2361 
-Q 2157 2566 2182 2761 
-Q 2208 2957 2208 3200 
-Q 2208 3552 2038 3744 
-Q 1869 3936 1562 3936 
-Q 1203 3936 934 3731 
-L 934 2989 
-L 467 2989 
-Q 352 2989 304 3033 
-Q 256 3078 256 3226 
-Q 256 3405 377 3593 
-Q 499 3782 713 3939 
-Q 928 4096 1203 4192 
-Q 1478 4288 1786 4288 
-Q 2163 4288 2451 4137 
-Q 2739 3987 2899 3731 
-Q 3059 3475 3059 3155 
-Q 3059 2950 3011 2777 
-Q 2963 2605 2841 2419 
-Q 2720 2234 2499 1997 
-Q 2278 1760 1936 1430 
-Q 1594 1101 1107 640 
-L 2733 640 
-L 3085 1267 
-L 3187 1267 
+      <path id="Spectral-SemiBold-4c6" d="M 1222 0 
+L 1222 102 
+L 1818 339 
+L 1818 1165 
+L 77 1165 
+L 77 1331 
+L 2298 4224 
+L 2586 4224 
+L 2586 1638 
+L 3347 1638 
+L 3347 1165 
+L 2586 1165 
+L 2586 339 
+L 3123 102 
 L 3123 0 
-L 333 0 
+L 1222 0 
+z
+M 698 1638 
+L 1818 1638 
+L 1818 3142 
+L 698 1638 
 z
 " transform="scale(0.015625)"/>
       <path id="Spectral-SemiBold-454" d="M 832 -32 
@@ -963,7 +953,7 @@ L 224 0
 z
 " transform="scale(0.015625)"/>
      </defs>
-     <use xlink:href="#Spectral-SemiBold-4c4"/>
+     <use xlink:href="#Spectral-SemiBold-4c6"/>
      <use xlink:href="#Spectral-SemiBold-454" transform="translate(53.59375 0)"/>
      <use xlink:href="#Spectral-SemiBold-3" transform="translate(79.6875 0)"/>
      <use xlink:href="#Spectral-SemiBold-f" transform="translate(104.6875 0)"/>
