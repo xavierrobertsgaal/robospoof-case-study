@@ -93,4 +93,4 @@ There is a ground-truth check. On unaltered trials, the mp4 frame at the trial s
 
 To reproduce, run `uv run python scripts/download.py`, then `scripts/build_stimuli.py`, then the scripts above (each documents its own usage). The robot replay and framing ladder need the Astra trial logs: `data/raw/logs/astra_urls.txt`, fetched with curl. Set `OPENAI_API_KEY` in your environment. gpt-6-astra currently allows 100 input images per minute, which paces every run. The figures use Spectral (SIL OFL, `scripts/fonts/spectral/`) and the system Arial.
 
-Superseded runs are kept but unused: `results/pilot`, `results/matched_partial` (length-matched design, dropped in favour of zero-shot on natural inputs), `results/videowording_partial` (snapshots mislabelled as video frames) and `results/e5_replay_pilot`.
+Superseded runs are kept in `unused/`: `unused/results/pilot`, `unused/results/matched_partial` (length-matched design, dropped in favour of zero-shot on natural inputs), `unused/results/videowording_partial` (snapshots mislabelled as video frames) and `unused/results/e5_replay_pilot`.

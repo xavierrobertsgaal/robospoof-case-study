@@ -203,8 +203,8 @@ Their cue text is unpublished, so this wording is ours.
 
 ## Superseded runs
 
-These are kept but not used:
-- `results/pilot`;
-- `results/matched_partial`: a length-matched design, dropped in favour of zero-shot questions on natural inputs;
-- `results/videowording_partial`: snapshots wrongly described to the model as video frames;
-- `results/e5_replay_pilot`.
+These are kept in `unused/` and not used:
+- `unused/results/pilot`;
+- `unused/results/matched_partial`: a length-matched design, dropped in favour of zero-shot questions on natural inputs;
+- `unused/results/videowording_partial`: snapshots wrongly described to the model as video frames;
+- `unused/results/e5_replay_pilot`.
