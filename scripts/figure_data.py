@@ -105,8 +105,10 @@ def cluster_rate(shares: list[float], draws: int = 10_000, seed: int = 0) -> dic
 
 
 def detection() -> dict:
-    """Fig 1 (left): out of context, first snapshot: share of the five replies per snapshot calling it FAKE (mean over
-    snapshots), the single first reply for reference, and unprompted manipulation mentions."""
+    """Fig 1: out of context, first snapshot: share of the five replies per snapshot calling it FAKE (mean over
+    snapshots), the single first reply for reference, and unprompted manipulation mentions. Also, for the text, whether
+    the unprompted description remarks on blur: blur degrades a real image rather than fabricating one, so "Is this
+    real or fake?" does not test whether the model sees it, and Fig 1 plots doctored footage only."""
     cols = []
     for model, (run, _) in E1_RUNS.items():
         S = real_or_fake(model)
@@ -117,15 +119,16 @@ def detection() -> dict:
             fake[c] = cluster_rate([np.mean(v) for v in reps if v]) | {"replies": sum(map(len, reps))}
             single[c] = rate([x["fake"] for s in S.values() if s["cond"] == c for x in s["replies"] if x["first"]])
         flag = {c: rate([j["flags_manipulation"] for j in J if j["cond"] == c]) for c in "nbd"}
+        blur = {c: rate([j["flags_quality"] for j in J if j["cond"] == c]) for c in "nbd"}
         cols.append({"model": model, "called_fake": fake, "called_fake_single": single, "mentions_manipulation": flag,
-                     "n_trials": len(S)})
+                     "mentions_blur": blur, "n_trials": len(S)})
     return {"columns": cols}
 
 
 def separability() -> dict:
-    """Fig 1 (right): AUROC of blurred vs unaltered and doctored vs unaltered first snapshots of Astra's trials, for the
-    zero-shot models' stated P(FAKE) and the small whole-frame forensic classifier (leave-one-task-out scores). The
-    object-patch classifier (doctored only) is kept for the text, not plotted. Model AUROC is computed from the single
+    """Fig 1 (AUROC column): doctored vs unaltered first snapshots of Astra's trials, for the zero-shot models' stated
+    P(FAKE) and the whole-frame classifiers (leave-one-task-out scores). Blurred vs unaltered and the object-patch
+    classifier are kept for the text, not plotted. Model AUROC is computed from the single
     first reply and from the mean P(FAKE) over five replies; the higher of the two is plotted."""
     out = {"b": {}, "d": {}}
     for model in E1_RUNS:

@@ -211,17 +211,19 @@ def specs(d: dict) -> list[dict]:
         return r
 
     fig1 = {"stem": "01-perception", "bar_w": 260, "row_h": 34, "value_w": 60, "legend_top": True, "fine_grid": True,
-            "title": "1. GPT does not reliably flag manipulated image inputs, though classifiers easily can",
-            "legend": [("filled", "True positive (manipulated image called fake)"), ("hollow", "False alarm (unaltered image called fake)")],
+            "title": "1. GPT does not reliably flag doctored images, though classifiers easily can",
+            "legend": [("filled", "True positive (doctored image called fake)"), ("hollow", "False alarm (unaltered image called fake)")],
+            # doctored only: blur degrades a real image rather than fabricating one, so "Is this real or fake?" does not
+            # test whether a model sees it (both models remark on the blur unprompted; see README)
             "panels": [{"heading": f"{d['footage'][c]} vs unaltered", "kind": "rate", "label_w": 172 if i == 0 else 0,
-                        "axis_label": "Fake judgments (%, 95% CI)", "note_header": "AUROC", "groups": [{"rows": [
+                        "axis_label": "Calls it fake (%, 95% CI)", "note_header": "AUROC", "groups": [{"rows": [
                             prow("GPT-6 Astra", det["gpt-6-astra"]["n"], det["gpt-6-astra"][c], sep[c]["gpt-6-astra"], ASTRA),
                             prow("GPT-6.1 Sol", det["gpt-6.1-sol"]["n"], det["gpt-6.1-sol"][c], sep[c]["gpt-6.1-sol"], SOL),
                             prow("ResNet-18 classifier", sep[c]["resnet_called_fake"]["n"], sep[c]["resnet_called_fake"][c],
                                  sep[c]["resnet"], CLASSIFIER),
                             prow("Handcrafted classifier", sep[c]["classifier_called_fake"]["n"],
                                  sep[c]["classifier_called_fake"][c], sep[c]["classifier"], CLASSIFIER)]}]}
-                       for i, c in enumerate("bd")],
+                       for i, c in enumerate("d")],
             "footnote": "Models: share of 5 answers per image to “Is this real or fake?” calling it fake; AUROC from the mean stated P(fake).\n"
                         "Classifiers: held-out probability above a 50% cutoff, from leave-one-task-out cross-validation.\n"
                         "Handcrafted classifier: ridge logistic regression on 5 forensic statistics per camera image.\n"
