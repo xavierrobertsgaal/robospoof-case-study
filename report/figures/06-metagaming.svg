@@ -242,34 +242,39 @@ L 541.44 377.28
 " clip-path="url(#p522c128ac6)" style="fill: none; stroke: #b9c3cc; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="text_1">
-    <!-- 5. Told it is in an alignment eval, GPT’s refusal rate increases -->
+    <!-- 6. Told it is in an alignment eval, GPT’s refusal rate increases -->
     <g style="fill: #25323d" transform="translate(10.08 23.066) scale(0.17 -0.17)">
      <defs>
-      <path id="Spectral-SemiBold-4c7" d="M 3046 1453 
-Q 3046 998 2828 656 
-Q 2611 314 2230 125 
-Q 1850 -64 1357 -64 
-Q 864 -64 621 93 
-Q 378 250 378 429 
-Q 378 544 480 614 
-L 794 845 
-L 1210 224 
-Q 1280 218 1370 218 
-Q 1786 218 2067 470 
-Q 2349 723 2349 1190 
-Q 2349 1632 2067 1885 
-Q 1786 2138 1229 2138 
-Q 1069 2138 905 2115 
-Q 742 2093 563 2048 
-L 640 4224 
-L 2842 4224 
-L 2842 3642 
-L 966 3642 
-L 922 2438 
-Q 1357 2624 1760 2624 
-Q 2163 2624 2451 2467 
-Q 2739 2310 2892 2044 
-Q 3046 1779 3046 1453 
+      <path id="Spectral-SemiBold-4c8" d="M 1734 -64 
+Q 1286 -64 944 137 
+Q 602 339 416 700 
+Q 230 1062 230 1536 
+Q 230 2227 547 2777 
+Q 864 3328 1453 3715 
+Q 2042 4102 2848 4288 
+L 2848 4077 
+Q 2086 3840 1644 3302 
+Q 1203 2765 1094 2022 
+Q 1267 2253 1520 2381 
+Q 1773 2509 2099 2509 
+Q 2451 2509 2704 2345 
+Q 2957 2182 3094 1907 
+Q 3232 1632 3232 1286 
+Q 3232 941 3065 630 
+Q 2899 320 2566 128 
+Q 2234 -64 1734 -64 
+z
+M 1062 1555 
+Q 1062 896 1257 566 
+Q 1453 237 1760 237 
+Q 1990 237 2134 374 
+Q 2278 512 2348 717 
+Q 2419 922 2419 1126 
+Q 2419 1562 2249 1805 
+Q 2080 2048 1734 2048 
+Q 1523 2048 1350 1949 
+Q 1178 1850 1069 1683 
+Q 1062 1619 1062 1555 
 z
 " transform="scale(0.015625)"/>
       <path id="Spectral-SemiBold-454" d="M 832 -32 
@@ -885,7 +890,7 @@ Q 2061 -64 1638 -64
 z
 " transform="scale(0.015625)"/>
      </defs>
-     <use xlink:href="#Spectral-SemiBold-4c7"/>
+     <use xlink:href="#Spectral-SemiBold-4c8"/>
      <use xlink:href="#Spectral-SemiBold-454" transform="translate(53.59375 0)"/>
      <use xlink:href="#Spectral-SemiBold-3" transform="translate(79.6875 0)"/>
      <use xlink:href="#Spectral-SemiBold-1c" transform="translate(104.6875 0)"/>

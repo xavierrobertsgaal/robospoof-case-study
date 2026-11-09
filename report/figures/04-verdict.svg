@@ -171,48 +171,30 @@ L 512.64 316.8
 " clip-path="url(#p0dffbdc403)" style="fill: none; stroke: #b9c3cc; stroke-width: 0.9; stroke-linecap: square"/>
    </g>
    <g id="text_1">
-    <!-- 3. GPT does not refuse more when it judges an input fake -->
+    <!-- 4. GPT does not refuse more when it judges an input fake -->
     <g style="fill: #25323d" transform="translate(10.08 23.066) scale(0.17 -0.17)">
      <defs>
-      <path id="Spectral-SemiBold-4c5" d="M 1651 -64 
-Q 1242 -64 918 57 
-Q 595 179 412 377 
-Q 230 576 230 794 
-Q 230 934 275 982 
-Q 320 1030 435 1030 
-L 909 1030 
-L 909 410 
-Q 1165 250 1587 250 
-Q 1965 250 2176 486 
-Q 2387 723 2387 1101 
-Q 2387 1542 2156 1792 
-Q 1926 2042 1357 2042 
-L 1005 2042 
-L 1005 2336 
-L 1261 2336 
-Q 1651 2336 1910 2573 
-Q 2170 2810 2170 3251 
-Q 2170 3635 2013 3804 
-Q 1856 3974 1568 3974 
-Q 1446 3974 1302 3942 
-Q 1158 3910 1018 3814 
-L 1018 3104 
-L 544 3104 
-Q 422 3104 377 3152 
-Q 333 3200 333 3334 
-Q 333 3571 528 3788 
-Q 723 4006 1049 4147 
-Q 1376 4288 1773 4288 
-Q 2157 4288 2435 4153 
-Q 2714 4019 2867 3792 
-Q 3021 3565 3021 3283 
-Q 3021 2957 2752 2681 
-Q 2483 2406 1984 2298 
-Q 2637 2214 2941 1907 
-Q 3245 1600 3245 1146 
-Q 3245 832 3037 553 
-Q 2829 275 2467 105 
-Q 2106 -64 1651 -64 
+      <path id="Spectral-SemiBold-4c6" d="M 1222 0 
+L 1222 102 
+L 1818 339 
+L 1818 1165 
+L 77 1165 
+L 77 1331 
+L 2298 4224 
+L 2586 4224 
+L 2586 1638 
+L 3347 1638 
+L 3347 1165 
+L 2586 1165 
+L 2586 339 
+L 3123 102 
+L 3123 0 
+L 1222 0 
+z
+M 698 1638 
+L 1818 1638 
+L 1818 3142 
+L 698 1638 
 z
 " transform="scale(0.015625)"/>
       <path id="Spectral-SemiBold-454" d="M 832 -32 
@@ -899,7 +881,7 @@ L 243 0
 z
 " transform="scale(0.015625)"/>
      </defs>
-     <use xlink:href="#Spectral-SemiBold-4c5"/>
+     <use xlink:href="#Spectral-SemiBold-4c6"/>
      <use xlink:href="#Spectral-SemiBold-454" transform="translate(53.59375 0)"/>
      <use xlink:href="#Spectral-SemiBold-3" transform="translate(79.6875 0)"/>
      <use xlink:href="#Spectral-SemiBold-f" transform="translate(104.6875 0)"/>
