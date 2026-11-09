@@ -3,9 +3,9 @@ data/raw/
 data/stimuli/
 .venv/
 *.log
-# raw 1024 px editor outputs and their high-res copies (regenerable with scripts/edit_ablation.py; ~240 MB)
-data/ablation/**/*_1024.png
-data/ablation/hires-*/
+# raw 1024 px editor outputs and their high-res copies (regenerable with unused/scripts/edit_ablation.py; ~240 MB)
+unused/data/ablation/**/*_1024.png
+unused/data/ablation/hires-*/
 __pycache__/
 .DS_Store
 report/draft-feedback.md

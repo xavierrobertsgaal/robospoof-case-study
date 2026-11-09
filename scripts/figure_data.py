@@ -1,7 +1,8 @@
 """Compute every plotted estimate and interval for the report figures; plot_figures.py only renders this table.
 
 Rates are k/n with Wilson 95% intervals (one reply or action per trial). Separability is AUROC with 10,000-draw
-bootstrap intervals, resampling trials within each class. Classifier scores are leave-one-task-out predictions (trained
+bootstrap intervals, resampling trials within each class, plus the true-positive rate at a 5% false-alarm
+rate (TPR at FPR <= 5%) from the same draws. Classifier scores are leave-one-task-out predictions (trained
 on the other four tasks, all five source models), evaluated on the same 120 Astra trials (unaltered vs doctored first
 snapshots) that the zero-shot models were asked about.
 
@@ -16,13 +17,12 @@ from pathlib import Path
 
 import numpy as np
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import roc_auc_score
+from sklearn.metrics import roc_auc_score, roc_curve
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from classifier import CACHE, TASKS, load_images  # noqa: E402
-from classifier_forensic_box import patch_features, centre  # noqa: E402
+from classifier import CACHE, TASKS  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 RES = ROOT / "results"
@@ -48,13 +48,25 @@ def rate(hits: list[bool]) -> dict:
     return {"value": p, "low": max(0.0, c - h), "high": min(1.0, c + h), "k": k, "n": n}
 
 
+def tpr_at(pos: np.ndarray, neg: np.ndarray, fpr: float = .05) -> float:
+    """Share of positives caught by the best threshold that flags at most `fpr` of negatives (ties not split)."""
+    f, t, _ = roc_curve(np.r_[np.ones(len(pos)), np.zeros(len(neg))], np.r_[pos, neg])
+    return float(t[f <= fpr + 1e-12].max())
+
+
 def auroc(pos: np.ndarray, neg: np.ndarray, draws: int = 10_000, seed: int = 0) -> dict:
     rng = np.random.default_rng(seed)
     y = np.r_[np.ones(len(pos)), np.zeros(len(neg))]
     est = roc_auc_score(y, np.r_[pos, neg])
-    boots = [roc_auc_score(y, np.r_[rng.choice(pos, len(pos)), rng.choice(neg, len(neg))]) for _ in range(draws)]
+    boots, tprs = [], []
+    for _ in range(draws):
+        bp, bn = rng.choice(pos, len(pos)), rng.choice(neg, len(neg))
+        boots.append(roc_auc_score(y, np.r_[bp, bn]))
+        tprs.append(tpr_at(bp, bn))
     return {"value": float(est), "low": float(np.quantile(boots, .025)), "high": float(np.quantile(boots, .975)),
-            "n_pos": len(pos), "n_neg": len(neg)}
+            "n_pos": len(pos), "n_neg": len(neg),
+            "tpr_at_5pct_fpr": {"value": tpr_at(pos, neg), "low": float(np.quantile(tprs, .025)),
+                                "high": float(np.quantile(tprs, .975))}}
 
 
 HANDFUL = ["residual noise level", "residual tail weight", "high-frequency power share", "residual/image variance",
@@ -127,8 +139,8 @@ def detection() -> dict:
 
 def separability() -> dict:
     """Fig 1 (AUROC column): doctored vs unaltered first snapshots of Astra's trials, for the zero-shot models' stated
-    P(FAKE) and the whole-frame classifiers (leave-one-task-out scores). Blurred vs unaltered and the object-patch
-    classifier are kept for the text, not plotted. Model AUROC is computed from the single
+    P(FAKE) and the whole-frame classifiers (leave-one-task-out scores). Blurred vs unaltered is kept for the text, not
+    plotted. Model AUROC is computed from the single
     first reply and from the mean P(FAKE) over five replies; the higher of the two is plotted."""
     out = {"b": {}, "d": {}}
     for model in E1_RUNS:
@@ -160,21 +172,6 @@ def separability() -> dict:
             # "called fake" at the default threshold P > 0.5, for plotting alongside the models' verdicts
             out[c][f"{name}_called_fake"] = {"n": rate(list(p[sel & (y == 0)] > .5)), c: rate(list(p[sel & (y == 1)] > .5))}
 
-    ppath = CACHE / "forensic_patch_features.npz"
-    keep = np.isin(cond, ["n", "d"])
-    if ppath.exists():
-        P = np.load(ppath)["X"]
-    else:
-        boxes = json.loads((CACHE / "boxes_top.json").read_text())
-        _, views, _ = load_images()
-        P = np.stack([patch_features(views[i, 0], *centre(boxes[meta[i]["id"]])) if keep[i] else np.zeros(77, np.float32)
-                      for i in range(len(meta))])
-        np.savez(ppath, X=P)
-    idx = np.where(keep)[0]
-    y = (cond[idx] == "d").astype(int)
-    p = loto_scores(P[idx], y, task[idx])
-    sel = astra[idx]
-    out["d"]["patch_classifier"] = auroc(p[sel & (y == 1)], p[sel & (y == 0)])
     return out
 
 
