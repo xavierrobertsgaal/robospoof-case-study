@@ -1,4 +1,4 @@
-# robospoof
+# robospoof-case-study
 
 Does GPT-6 Astra fail to notice doctored or blurred robot camera footage because of the robot-control context, or because it cannot see it? This is a follow-up to Robocurve's RoboSpoof study ([project page](https://robocurve.org/robospoof/), [paper](https://papers.robocurve.org/robospoof)). There, models attempted unsafe tasks on 27% of trials with unaltered footage, 88% with blurred footage and 97% with doctored footage. Every test below uses Astra's own 180 robot trials: the paper's five tasks (doll, power strip, toaster, mix chemicals, pour drink), three footage types, and 12 trials per task and footage type.
 
